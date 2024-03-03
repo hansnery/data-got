@@ -6,7 +6,7 @@ CommandButton Command_StannisFakeLeadershipButton
   SpecialPower     = SpecialAbilityFakeLeadership
   Options					 = NONPRESSABLE
   TextLabel        = CONTROLBAR:StannisLeadership
-  ButtonImage      = StannisLeadershipButton
+  ButtonImage      = BAStannisLeadershipButton
   RadiusCursorType = TrainingRadiusCursor
   ButtonBorderType = ACTION
   DescriptLabel    = CONTROLBAR:ToolTipStannisLeadership
@@ -18,7 +18,7 @@ CommandButton Command_SpecialAbilityStannisRoyalFleet
 	SpecialPower	 	 = SpecialAbilityStoreObjectsForLevel2TeleportHaldir
 	Options			 		 = CONTEXTMODE_COMMAND NEED_TARGET_POS
 	TextLabel		 		 = CONTROLBAR:StannisRoyalFleet
-	ButtonImage		 	 = StannisRoyalFleetButton
+	ButtonImage		 	 = BAStannisRoyalFleetButton
 	ButtonBorderType = ACTION
 	DescriptLabel	 	 = CONTROLBAR:TooltipStannisRoyalFleet
 	InPalantir		 	 = Yes
@@ -31,7 +31,7 @@ CommandButton Command_SpecialAbilityStannisProvenCommander
   SpecialPower      = SpecialAbilityKingsFavor
   Options           = NEED_TARGET_POS CONTEXTMODE_COMMAND
   TextLabel         = CONTROLBAR:StannisProvenCommander
-  ButtonImage       = StannisProvenCommanderButton
+  ButtonImage       = BAStannisProvenCommanderButton
   CursorName        = Bombard
   RadiusCursorType  = RhllorRadiusCursor
   InvalidCursorName = GenericInvalid
@@ -44,7 +44,7 @@ CommandButton Command_SpecialAbilityStannisLightbringer
   Command                 = SPECIAL_POWER
   SpecialPower            = SpecialAbilityAragornBladeMaster
   TextLabel               = CONTROLBAR:StannisLightbringer
-  ButtonImage             = StannisLightbringerButton
+  ButtonImage             = BAStannisLightbringerButton
   ButtonBorderType        = ACTION
   DescriptLabel           = CONTROLBAR:TooltipStannisLightbringer
   InPalantir              = Yes
@@ -60,7 +60,7 @@ CommandButton Command_SpecialAbilityStannisOnlyForward
 	SpecialPower			= SpecialAbilityStannisWarCry
 	Options						= NEED_TARGET_POS
 	TextLabel					= CONTROLBAR:StannisOnlyForward
-	ButtonImage				= StannisOnlyForwardButton
+	ButtonImage				= BAStannisOnlyForwardButton
 	CursorName				= Bombard
 	RadiusCursorType	= RhllorRadiusCursor
 	InvalidCursorName	= GenericInvalid
@@ -75,7 +75,7 @@ CommandButton Command_DavosStannisBonus
   SpecialPower      = SpecialAbilityFakeLeadership2
   Options				  	= NONPRESSABLE
   TextLabel         = CONTROLBAR:DavosLoyalService
-  ButtonImage       = DavosLoyalService
+  ButtonImage       = BADavosLoyalService
   RadiusCursorType  = TrainingRadiusCursor
   ButtonBorderType  = ACTION
   DescriptLabel     = CONTROLBAR:TooltipDavosLoyalService
@@ -86,7 +86,7 @@ CommandButton Command_SpecialAbilityDavosOnionBarrels
  	Command						= SPECIAL_POWER
  	SpecialPower			= SpecialAbilityOnionBarrel
  	TextLabel					= CONTROLBAR:OnionKnight
- 	ButtonImage				= DavosOnionKnight
+ 	ButtonImage				= BADavosOnionKnight
  	Options						= NEED_TARGET_POS CONTEXTMODE_COMMAND
  	CursorName				= Bombard
  	InvalidCursorName	= GenericInvalid
@@ -102,7 +102,7 @@ CommandButton Command_SpecialAbilityDavosHonestAccounting
   SpecialPower			= SpecialAbilityHonestAccounting
   Options						= NEED_TARGET_ALLY_OBJECT NEED_TARGET_ENEMY_OBJECT NEED_TARGET_NEUTRAL_OBJECT
   TextLabel					= CONTROLBAR:DavosHonestAccounting
-  ButtonImage				= DavosHonestAccounting
+  ButtonImage				= BADavosHonestAccounting
   CursorName				= Bombard
   ButtonBorderType	= ACTION
   DescriptLabel			= CONTROLBAR:TooltipDavosHonestAccounting
@@ -117,7 +117,7 @@ CommandButton Command_Davos_SpecialAbilityTeleportLevel2
 	SpecialPower	 	 = SpecialAbilityStoreObjectsForLevel2TeleportDavos
 	Options			 		 = CONTEXTMODE_COMMAND NEED_TARGET_POS
 	TextLabel		 		 = CONTROLBAR:DavosSmugglersTricks
-	ButtonImage		 	 = DavosSmugglersTricks
+	ButtonImage		 	 = BADavosSmugglersTricks
 	ButtonBorderType = ACTION
 	DescriptLabel	 	 = CONTROLBAR:TooltipDavosTeleport
 	InPalantir		 	 = Yes
@@ -137,7 +137,7 @@ CommandButton Command_DavosUpjumpedSmuggler
   SpecialPower			= SpecialAbilityDavosUpjumpedSmuggler
   Options						= NEED_TARGET_ALLY_OBJECT
   TextLabel					= CONTROLBAR:DavosUpjumpedSmuggler
-  ButtonImage				= DavosUpjumpedSmuggler
+  ButtonImage				= BADavosUpjumpedSmuggler
   CursorName				= Bombard
   ButtonBorderType	= ACTION
   DescriptLabel			= CONTROLBAR:TooltipDavosUpjumpedSmuggler
@@ -153,7 +153,7 @@ CommandButton Command_SpecialAbilityGendryOfFleaBottom
 	SpecialPower	   	= SpecialAbilityGendryOfFleaBottom
 	Options						= NEED_TARGET_POS
 	TextLabel					= CONTROLBAR:GendryOfFleaBottom
-	ButtonImage				= GendryOfFleaBottom
+	ButtonImage				= BAGendryOfFleaBottom
 	ButtonBorderType  = ACTION
 	CursorName				= Bombard
 	InvalidCursorName = GenericInvalid
@@ -166,7 +166,7 @@ CommandButton Command_SpecialAbilityGendryOfStormsEnd
   SpecialPower     = SpecialAbilityFakeLeadership
   Options					 = NONPRESSABLE
   TextLabel        = CONTROLBAR:GendryOfStormsEnd
-  ButtonImage      = LordGendryOfStormsEnd
+  ButtonImage      = BALordGendryOfStormsEnd
   RadiusCursorType = TrainingRadiusCursor
   ButtonBorderType = ACTION
   DescriptLabel    = CONTROLBAR:TooltipGendryOfStormsEnd
@@ -178,7 +178,7 @@ CommandButton Command_SpecialAbilityGendryLeapLevel1
   SpecialPower		 = SpecialAbilityGendryLeapLevel1
   Options					 = NEED_TARGET_POS CONTEXTMODE_COMMAND
   TextLabel				 = CONTROLBAR:GendryLeap
-  ButtonImage			 = LordGendryLeap
+  ButtonImage			 = BALordGendryLeap
   RadiusCursorType = LeapRadiusCursor
   CursorName			 = Bombard
   ButtonBorderType = ACTION
@@ -192,7 +192,7 @@ CommandButton Command_SpecialAbilityGendryLeapLevel3
   SpecialPower		 = SpecialAbilityGendryLeapLevel3
   Options					 = NEED_TARGET_POS CONTEXTMODE_COMMAND
   TextLabel				 = CONTROLBAR:GendryLeap
-  ButtonImage			 = LordGendryLeap
+  ButtonImage			 = BALordGendryLeap
   RadiusCursorType = LeapRadiusCursor
   CursorName			 = Bombard
   ButtonBorderType = ACTION
@@ -206,7 +206,7 @@ CommandButton Command_SpecialAbilityGendryLeapLevel5
   SpecialPower		 = SpecialAbilityGendryLeapLevel5
   Options					 = NEED_TARGET_POS CONTEXTMODE_COMMAND
   TextLabel				 = CONTROLBAR:GendryLeap
-  ButtonImage			 = LordGendryLeap
+  ButtonImage			 = BALordGendryLeap
   RadiusCursorType = LeapRadiusCursor
   CursorName			 = Bombard
   ButtonBorderType = ACTION
@@ -220,7 +220,7 @@ CommandButton Command_SpecialAbilityGendryLeapLevel8
   SpecialPower		 = SpecialAbilityGendryLeapLevel8
   Options					 = NEED_TARGET_POS CONTEXTMODE_COMMAND
   TextLabel				 = CONTROLBAR:GendryLeap
-  ButtonImage			 = LordGendryLeap
+  ButtonImage			 = BALordGendryLeap
   RadiusCursorType = LeapRadiusCursor
   CursorName			 = Bombard
   ButtonBorderType = ACTION
@@ -234,7 +234,7 @@ CommandButton Command_SpecialAbilityGendrySkilledSmithLevel1
 	SpecialPower            = SpecialAbilityGendrySkilledSmithLevel1
 	Options                 = NEED_TARGET_POS CONTEXTMODE_COMMAND
 	TextLabel               = CONTROLBAR:GendrySkilledSmith
-	ButtonImage             = GendrySkilledSmith
+	ButtonImage             = BAGendrySkilledSmith
 	CursorName              = Bombard
 	DisableOnModelCondition = WEAPONSET_TOGGLE_1 USER_4
 	RadiusCursorType        = EyeOfSauronRadiusCursor
@@ -251,7 +251,7 @@ CommandButton Command_SpecialAbilityGendrySkilledSmithLevel3
 	SpecialPower            = SpecialAbilityGendrySkilledSmithLevel3
 	Options                 = NEED_TARGET_POS CONTEXTMODE_COMMAND
 	TextLabel               = CONTROLBAR:GendrySkilledSmith
-	ButtonImage             = GendrySkilledSmith
+	ButtonImage             = BAGendrySkilledSmith
 	CursorName              = Bombard
 	DisableOnModelCondition = WEAPONSET_TOGGLE_1 USER_4
 	RadiusCursorType        = EyeOfSauronRadiusCursor
@@ -268,7 +268,7 @@ CommandButton Command_SpecialAbilityGendrySkilledSmithLevel5
 	SpecialPower            = SpecialAbilityGendrySkilledSmithLevel5
 	Options                 = NEED_TARGET_POS CONTEXTMODE_COMMAND
 	TextLabel               = CONTROLBAR:GendrySkilledSmith
-	ButtonImage             = GendrySkilledSmith
+	ButtonImage             = BAGendrySkilledSmith
 	CursorName              = Bombard
 	DisableOnModelCondition = WEAPONSET_TOGGLE_1 USER_4
 	RadiusCursorType        = EyeOfSauronRadiusCursor
@@ -285,7 +285,7 @@ CommandButton Command_SpecialAbilityGendrySkilledSmithLevel8
 	SpecialPower            = SpecialAbilityGendrySkilledSmithLevel8
 	Options                 = NEED_TARGET_POS CONTEXTMODE_COMMAND
 	TextLabel               = CONTROLBAR:GendrySkilledSmith
-	ButtonImage             = GendrySkilledSmith
+	ButtonImage             = BAGendrySkilledSmith
 	CursorName              = Bombard
 	DisableOnModelCondition = WEAPONSET_TOGGLE_1 USER_4
 	RadiusCursorType        = EyeOfSauronRadiusCursor
@@ -301,7 +301,7 @@ CommandButton Command_SpecialAbilityGendryStrongSeed
 	Command					  = SPECIAL_POWER
 	SpecialPower		  = SpecialAbilityGimliHeroMode
 	TextLabel				  = CONTROLBAR:GendryStrongSeed
-	ButtonImage			  = GendryStrongSeed
+	ButtonImage			  = BAGendryStrongSeed
 	ButtonBorderType  = ACTION
 	DescriptLabel		  = CONTROLBAR:ToolTipGendryStrongSeed
 	UnitSpecificSound	= GendryStrongSeed
@@ -313,7 +313,7 @@ CommandButton Command_SpecialAbilityGendryTheBull
   Command           = SPECIAL_POWER
   SpecialPower      = SpecialAbilityGendryTheBullCharge
   TextLabel         = CONTROLBAR:GendryTheBull
-  ButtonImage       = GendryTheBull
+  ButtonImage       = BAGendryTheBull
   RadiusCursorType  = TrainingRadiusCursor
   ButtonBorderType  = ACTION
   DescriptLabel     = CONTROLBAR:ToolTipGendryTheBull
@@ -328,9 +328,114 @@ CommandButton Command_SpecialAbilityGendryKnightOfTheHollowHill
 	Options					 = NONPRESSABLE NEED_UPGRADE
 	NeededUpgrade		 = Upgrade_ObjectLevel8
 	TextLabel        = CONTROLBAR:GendryKnightOfTheHollowHill
-	ButtonImage      = GendryKnightOfTheHollowHill
+	ButtonImage      = BAGendryKnightOfTheHollowHill
 	RadiusCursorType = TrainingRadiusCursor
 	ButtonBorderType = ACTION
 	DescriptLabel    = CONTROLBAR:ToolTipKnightOfTheHollowHill
 	InPalantir				= Yes
+End
+
+CommandButton Command_SpecialPowerMelisandreLvl3
+  Command          = OBJECT_UPGRADE
+	Options			  	 = CANCELABLE
+  Upgrade          = Upgrade_DenethorLevel3
+  TextLabel        = CONTROLBAR:PristessOfAsshai
+  ButtonImage      = BAMelisandrePriestessOfAsshai
+  ButtonBorderType = UPGRADE
+  DescriptLabel    = CONTROLBAR:ToolTipPristessOfAsshaiLvl3
+  InPalantir       = Yes
+End
+
+CommandButton Command_SpecialPowerMelisandreLvl6
+  Command          = OBJECT_UPGRADE
+	Options			  	 = CANCELABLE
+  Upgrade          = Upgrade_DenethorLevel6
+  TextLabel        = CONTROLBAR:PristessOfAsshai
+  ButtonImage      = BAMelisandrePriestessOfAsshai
+  ButtonBorderType = UPGRADE
+  DescriptLabel    = CONTROLBAR:ToolTipPristessOfAsshaiLvl3
+  InPalantir       = Yes
+End
+
+CommandButton Command_SpecialPowerMelisandreLvl10
+  Command          = OBJECT_UPGRADE
+	Options			  	 = CANCELABLE
+  Upgrade          = Upgrade_ArwenLevel10
+  TextLabel        = CONTROLBAR:PristessOfAsshai
+  ButtonImage      = BAMelisandrePriestessOfAsshai
+  ButtonBorderType = UPGRADE
+  DescriptLabel    = CONTROLBAR:ToolTipPristessOfAsshaiLvl3
+  InPalantir       = Yes
+End
+
+CommandButton Command_SpecialPowerMelisandreLvl10Final
+  Command          = SPECIAL_POWER
+  SpecialPower     = SpecialAbilityFakeLeadership
+  Options					 = NONPRESSABLE
+  TextLabel        = CONTROLBAR:PristessOfAsshai
+  ButtonImage      = BAMelisandrePriestessOfAsshai
+  RadiusCursorType = TrainingRadiusCursor
+  ButtonBorderType = ACTION
+  DescriptLabel    = CONTROLBAR:ToolTipPristessOfAsshaiLvl10
+  InPalantir		   = Yes
+End
+
+CommandButton Command_SpecialAbilityMelisandreHealingFire
+  Command           = SPECIAL_POWER 
+  SpecialPower      = SpecialAbility202ElvenGrace
+  TextLabel         = CONTROLBAR:MelisandreHealingFire
+  ButtonImage       = BAMelisandreHealingFire
+  ButtonBorderType  = ACTION 
+  DescriptLabel     = CONTROLBAR:TooltipMelisandreHealingFire
+  InPalantir				= Yes
+  AutoAbility				= Yes
+  PresetRange			  = 175.0
+  NeedDamagedTarget	= Yes
+  UnitSpecificSound = MelisandreInnerFire
+End
+
+CommandButton Command_SpecialAbilityTheNightIsDarkAndFullOfTerrors
+  Command						= SPECIAL_POWER 
+  SpecialPower			= SpecialAbilityMelisandreTheNightIsDarkAndFullOfTerrors
+  Options						= NEED_TARGET_POS NEED_UPGRADE
+	NeededUpgrade			= Upgrade_ObjectLevel6
+  TextLabel					= CONTROLBAR:MelisandreTheNightIsDarkAndFullOfTerrors
+  ButtonImage				= BAMelisandreTheNightIsDarkAndFullOfTerrors
+  CursorName				= Bombard
+  RadiusCursorType	= EyeOfSauronRadiusCursor
+  InvalidCursorName	= GenericInvalid
+  ButtonBorderType	= ACTION 
+  DescriptLabel			= CONTROLBAR:ToolTipMelisandreTheNightIsDarkAndFullOfTerrors
+  InPalantir				= Yes
+  AutoAbility				= Yes
+End
+
+CommandButton Command_SpecialAbilityMelisandreDeadlySeduction
+  Command						= SPECIAL_POWER 
+  SpecialPower			= SpecialAbilityMelisandreDeadlySeduction
+  Options						= NEED_TARGET_ALLY_OBJECT NEED_TARGET_ENEMY_OBJECT NEED_TARGET_NEUTRAL_OBJECT
+  TextLabel					= CONTROLBAR:MelisandreDeadlySeduction
+  ButtonImage				= BAMelisandreSeduction
+  CursorName				= Bombard
+  ButtonBorderType	= ACTION
+  DescriptLabel			= CONTROLBAR:ToolTipMelisandreDeadlySeduction
+  InvalidCursorName	= GenericInvalid
+  InPalantir				= Yes
+  AutoAbility				= Yes
+  PresetRange				= 200.0
+End
+
+CommandButton Command_SpecialAbilityMelisandreShadowbinder
+  Command           = SPECIAL_POWER
+  SpecialPower      = SpecialAbilityMelisandreShadowbinder
+	NeededUpgrade		  = Upgrade_Shadowbinder Upgrade_ObjectLevel10
+  Options           = NEED_TARGET_ENEMY_OBJECT NEED_UPGRADE
+  TextLabel         = CONTROLBAR:MelisandreShadowbinder
+  CursorName        = EvilAbilityObj
+  InvalidCursorName = GenericInvalid
+  ButtonImage       = BAMelisandreShadowbinder
+  ButtonBorderType  = ACTION
+  DescriptLabel     = CONTROLBAR:ToolTipMelisandreShadowbinder
+  InPalantir				= Yes
+  AutoAbility				= Yes
 End

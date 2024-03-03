@@ -3099,4 +3099,9 @@ Inherit="InfantryFunctions">
 		<!-- This contains events specific to the IsengardFighter. Kris -->
         <EventHandler EventName="OnCreated"				ScriptFunctionName="OnWargPackCreated" DebugSingleStep="false"/>
     </EventList>
+
+    <EventList Name="MelisandreTerrorEggFunctions" Inherit="BaseScriptFunctions">
+		<EventHandler EventName="OnCreated"			ScriptFunctionName="MelisandreTerror"			DebugSingleStep="false"/>
+		<EventHandler EventName="BeScary"			ScriptFunctionName="RadiateTerrorEx"			DebugSingleStep="false"/>		
+    </EventList>
 </SageLuaScriptSection>

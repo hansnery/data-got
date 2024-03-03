@@ -82,7 +82,7 @@ End
 
 AudioEvent MelisandreInnerFire
   Sounds = melisandre_fire_burns_them_all_away
-  Volume = 100
+  Volume = 300
   Type = world everyone
   Priority = critical
   Control = interrupt
@@ -92,7 +92,7 @@ End
 
 AudioEvent TheNightIsDarkAndFullOfTerrors
   Sounds = melisandre_night_is_dark melisandre_night_is_dark3
-  Volume = 100
+  Volume = 300
   Type = world everyone
   Priority = critical
   Control = interrupt
@@ -102,7 +102,7 @@ End
 
 AudioEvent MelisandreSeduction
   Sounds = melisandre_you_must_give_yourself_to_the_lord_of_light melisandre_you_want_to_see_whats_beneath_this_robe melisandre_and_none_have_seen_the_blade melisandre_are_you_a_virgin
-  Volume = 100
+  Volume = 300
   Type = world everyone
   Priority = critical
   Control = interrupt
@@ -112,7 +112,7 @@ End
 
 AudioEvent MelisandreGivingBirth
   Sounds = melisandre_giving_birth ;melisandre_shadowbaby
-  Volume = 100
+  Volume = 250
   Type = world everyone
   Priority = critical
   Control = interrupt
@@ -122,7 +122,7 @@ End
 
 AudioEvent ShadowbabyBorn
   Sounds = shadowbaby_born
-  Volume = 100
+  Volume = 250
   Type = world everyone
   Priority = critical
   Control = interrupt
@@ -132,7 +132,7 @@ End
 
 AudioEvent ShadowbabyMoves
   Sounds = shadowbaby
-  Volume = 100
+  Volume = 250
   Type = world everyone
   Priority = critical
   Control = interrupt
@@ -152,7 +152,7 @@ End
 
 AudioEvent DavosOnionsBarrel
   Sounds = davos_and_potatoes davos_first_bite
-  Volume = 250
+  Volume = 300
   Type = world everyone
   Priority = critical
   Control = interrupt

@@ -149,6 +149,7 @@ ExperienceLevel	Tier7HeroesLevel9
 	ExperienceAward		 = TIER_7_LVL9_EXP_AWARD
 	LevelUpFx					 = FX:GoodLevelUpFX
 	Rank							 = 9
+	Upgrades					 = Upgrade_ObjectLevel9
 	AttributeModifiers = HeroLevelUpDamage8
 	SelectionDecal
 		Texture					 = decal_hero_good
@@ -326,6 +327,7 @@ ExperienceLevel	Tier6HeroesLevel9
 	ExperienceAward		 = TIER_6_LVL9_EXP_AWARD
 	LevelUpFx					 = FX:GoodLevelUpFX
 	Rank							 = 9
+	Upgrades					 = Upgrade_ObjectLevel9
 	AttributeModifiers = HeroLevelUpDamage8
 	SelectionDecal
 		Texture					 = decal_hero_good
@@ -503,6 +505,7 @@ ExperienceLevel	Tier5HeroesLevel9
 	ExperienceAward		 = TIER_5_LVL9_EXP_AWARD
 	LevelUpFx					 = FX:GoodLevelUpFX
 	Rank							 = 9
+	Upgrades					 = Upgrade_ObjectLevel9
 	AttributeModifiers = HeroLevelUpDamage8
 	SelectionDecal
 		Texture					 = decal_hero_good
@@ -680,6 +683,7 @@ ExperienceLevel	Tier4HeroesLevel9
 	ExperienceAward		 = TIER_4_LVL9_EXP_AWARD
 	LevelUpFx					 = FX:GoodLevelUpFX
 	Rank							 = 9
+	Upgrades					 = Upgrade_ObjectLevel9
 	AttributeModifiers = HeroLevelUpDamage8
 	SelectionDecal
 		Texture					 = decal_hero_good
@@ -857,6 +861,7 @@ ExperienceLevel	Tier3HeroesLevel9
 	ExperienceAward		 = TIER_3_LVL9_EXP_AWARD
 	LevelUpFx					 = FX:GoodLevelUpFX
 	Rank							 = 9
+	Upgrades					 = Upgrade_ObjectLevel9
 	AttributeModifiers = HeroLevelUpDamage8
 	SelectionDecal
 		Texture					 = decal_hero_good
@@ -1034,6 +1039,7 @@ ExperienceLevel	Tier2HeroesLevel9
 	ExperienceAward		 = TIER_2_LVL9_EXP_AWARD
 	LevelUpFx					 = FX:GoodLevelUpFX
 	Rank							 = 9
+	Upgrades					 = Upgrade_ObjectLevel9
 	AttributeModifiers = HeroLevelUpDamage8
 	SelectionDecal
 		Texture					 = decal_hero_good
@@ -1211,6 +1217,7 @@ ExperienceLevel	Tier1HeroesLevel9
 	ExperienceAward		 = TIER_1_LVL9_EXP_AWARD
 	LevelUpFx					 = FX:GoodLevelUpFX
 	Rank							 = 9
+	Upgrades					 = Upgrade_ObjectLevel9
 	AttributeModifiers = HeroLevelUpDamage8
 	SelectionDecal
 		Texture					 = decal_hero_good
@@ -1237,6 +1244,182 @@ ExperienceLevel	Tier1HeroesLevel10
 		OpacityMax			 = 100%
 		MinRadius				 = 40
 		MaxRadius				 = 200
+		MaxSelectedUnits = 40
+	End
+End
+ExperienceLevel	PurchaseableLevel1
+	TargetNames				 = PURCHASEABLE_LEVELS_HEROES
+	RequiredExperience = 1
+	ExperienceAward		 = ARWEN_LVL1_EXP_AWARD
+	Rank							 = 1
+	Upgrades					 = Upgrade_ObjectLevel1
+	SelectionDecal
+		Texture		 = decal_hero_good
+		Style			 = SHADOW_ALPHA_DECAL
+		OpacityMin = 50%
+		OpacityMax = 100%
+		MinRadius	 = 40
+		MaxRadius	 = 200
+		MaxSelectedUnits = 40
+	End
+End
+ExperienceLevel	PurchaseableLevel2
+	TargetNames				 = PURCHASEABLE_LEVELS_HEROES
+	RequiredExperience = 1000000
+	ExperienceAward		 = ARWEN_LVL2_EXP_AWARD
+	LevelUpFx					 = FX:GoodLevelUpFX
+	Rank							 = 2
+	AttributeModifiers = HeroLevelUpDamage1
+	Upgrades					 = Upgrade_ObjectLevel2
+	SelectionDecal
+		Texture		 = decal_hero_good
+		Style			 = SHADOW_ALPHA_DECAL
+		OpacityMin = 50%
+		OpacityMax = 100%
+		MinRadius	 = 40
+		MaxRadius	 = 200
+		MaxSelectedUnits = 40
+	End
+End
+ExperienceLevel	PurchaseableLevel3
+	TargetNames				 = PURCHASEABLE_LEVELS_HEROES
+	RequiredExperience = 2000000
+	ExperienceAward		 = ARWEN_LVL3_EXP_AWARD
+	LevelUpFx					 = FX:GoodLevelUpFX
+	Rank							 = 3
+	AttributeModifiers = HeroLevelUpDamage2
+	Upgrades					 = Upgrade_ObjectLevel3
+	SelectionDecal
+		Texture		 = decal_hero_good
+		Style			 = SHADOW_ALPHA_DECAL
+		OpacityMin = 50%
+		OpacityMax = 100%
+		MinRadius	 = 40
+		MaxRadius	 = 200
+		MaxSelectedUnits = 40
+	End
+End
+ExperienceLevel	PurchaseableLevel4
+	TargetNames				 = PURCHASEABLE_LEVELS_HEROES
+	RequiredExperience = 3000000 ;ARWEN_LVL4_EXP_NEEDED
+	ExperienceAward		 = ARWEN_LVL4_EXP_AWARD
+	LevelUpFx					 = FX:GoodLevelUpFX
+	Rank							 = 4
+	AttributeModifiers = HeroLevelUpDamage3
+	Upgrades					 = Upgrade_ObjectLevel4
+	SelectionDecal
+		Texture		 = decal_hero_good
+		Style			 = SHADOW_ALPHA_DECAL
+		OpacityMin = 50%
+		OpacityMax = 100%
+		MinRadius	 = 40
+		MaxRadius	 = 200
+		MaxSelectedUnits = 40
+	End
+End
+ExperienceLevel	PurchaseableLevel5
+	TargetNames				 = PURCHASEABLE_LEVELS_HEROES
+	RequiredExperience = 4000000
+	ExperienceAward		 = ARWEN_LVL5_EXP_AWARD
+	LevelUpFx					 = FX:GoodLevelUpFX
+	Rank							 = 5
+	AttributeModifiers = HeroLevelUpDamage4
+	Upgrades					 = Upgrade_ObjectLevel5
+	SelectionDecal
+		Texture		 = decal_hero_good
+		Style			 = SHADOW_ALPHA_DECAL
+		OpacityMin = 50%
+		OpacityMax = 100%
+		MinRadius	 = 40
+		MaxRadius	 = 200
+		MaxSelectedUnits = 40
+	End
+End
+ExperienceLevel	PurchaseableLevel6
+	TargetNames				 = PURCHASEABLE_LEVELS_HEROES
+	RequiredExperience = 5000000
+	ExperienceAward		 = ARWEN_LVL6_EXP_AWARD
+	LevelUpFx					 = FX:GoodLevelUpFX
+	Rank							 = 6
+	AttributeModifiers = HeroLevelUpDamage5
+	Upgrades					 = Upgrade_ObjectLevel6
+	SelectionDecal
+		Texture		 = decal_hero_good
+		Style			 = SHADOW_ALPHA_DECAL
+		OpacityMin = 50%
+		OpacityMax = 100%
+		MinRadius	 = 40
+		MaxRadius	 = 200
+		MaxSelectedUnits = 40
+	End
+End
+ExperienceLevel	PurchaseableLevel7
+	TargetNames				 = PURCHASEABLE_LEVELS_HEROES
+	RequiredExperience = 6000000
+	ExperienceAward		 = ARWEN_LVL7_EXP_AWARD
+	LevelUpFx					 = FX:GoodLevelUpFX
+	Rank							 = 7
+	AttributeModifiers = HeroLevelUpDamage6
+	SelectionDecal
+		Texture		 = decal_hero_good
+		Style			 = SHADOW_ALPHA_DECAL
+		OpacityMin = 50%
+		OpacityMax = 100%
+		MinRadius	 = 40
+		MaxRadius	 = 200
+		MaxSelectedUnits = 40
+	End
+End
+ExperienceLevel	PurchaseableLevel8
+	TargetNames				 = PURCHASEABLE_LEVELS_HEROES
+	RequiredExperience = 7000000
+	ExperienceAward		 = ARWEN_LVL8_EXP_AWARD
+	LevelUpFx					 = FX:GoodLevelUpFX
+	Rank							 = 8
+	AttributeModifiers = HeroLevelUpDamage7
+	Upgrades					 = Upgrade_ObjectLevel8
+	SelectionDecal
+		Texture		 = decal_hero_good
+		Style			 = SHADOW_ALPHA_DECAL
+		OpacityMin = 50%
+		OpacityMax = 100%
+		MinRadius	 = 40
+		MaxRadius	 = 200
+		MaxSelectedUnits = 40
+	End
+End
+ExperienceLevel	PurchaseableLevel9
+	TargetNames				 = PURCHASEABLE_LEVELS_HEROES
+	RequiredExperience = 8000000
+	ExperienceAward		 = ARWEN_LVL9_EXP_AWARD
+	LevelUpFx					 = FX:GoodLevelUpFX
+	Rank							 = 9
+	AttributeModifiers = HeroLevelUpDamage8
+	SelectionDecal
+		Texture		 = decal_hero_good
+		Style			 = SHADOW_ALPHA_DECAL
+		OpacityMin = 50%
+		OpacityMax = 100%
+		MinRadius	 = 40
+		MaxRadius	 = 200
+		MaxSelectedUnits = 40
+	End
+End
+ExperienceLevel	PurchaseableLevel10
+	TargetNames				 = PURCHASEABLE_LEVELS_HEROES
+	RequiredExperience = 9000000
+	ExperienceAward		 = ARWEN_LVL10_EXP_AWARD
+	LevelUpFx					 = FX:GoodLevelUpFX
+	Rank							 = 10
+	Upgrades					 = Upgrade_ObjectLevel10
+	AttributeModifiers = HeroLevelUpDamage9
+	SelectionDecal
+		Texture		 = decal_hero_good
+		Style			 = SHADOW_ALPHA_DECAL
+		OpacityMin = 50%
+		OpacityMax = 100%
+		MinRadius	 = 40
+		MaxRadius	 = 200
 		MaxSelectedUnits = 40
 	End
 End

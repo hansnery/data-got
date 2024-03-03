@@ -17,6 +17,66 @@ CommandSet BaratheonStannisCommandSet
 	19 = Command_ToggleBeregondWeapon
 End
 
+CommandSet MelisandreCommandSet
+	1  = Command_ToggleStance
+	2  = Command_SpecialPowerMelisandreLvl3
+	3  = Command_SpecialAbilityMelisandreHealingFire
+	4  = Command_SpecialAbilityTheNightIsDarkAndFullOfTerrors
+	5  = Command_SpecialAbilityMelisandreDeadlySeduction
+	6  = Command_SpecialAbilityMelisandreShadowbinder
+	12 = Command_CaptureBuilding
+	13 = Command_AttackMove
+	14 = Command_Stop
+	16 = Command_SetStanceBattle
+	17 = Command_SetStanceAggressive
+	18 = Command_SetStanceHoldGround
+End
+
+CommandSet MelisandreCommandSet_Lvl3
+	1  = Command_ToggleStance
+	2  = Command_SpecialPowerMelisandreLvl6
+	3  = Command_SpecialAbilityMelisandreHealingFire
+	4  = Command_SpecialAbilityTheNightIsDarkAndFullOfTerrors
+	5  = Command_SpecialAbilityMelisandreDeadlySeduction
+	6  = Command_SpecialAbilityMelisandreShadowbinder	
+	12 = Command_CaptureBuilding
+	13 = Command_AttackMove
+	14 = Command_Stop
+	16 = Command_SetStanceBattle
+	17 = Command_SetStanceAggressive
+	18 = Command_SetStanceHoldGround
+End
+
+CommandSet MelisandreCommandSet_Lvl6
+	1  = Command_ToggleStance
+	2  = Command_SpecialPowerMelisandreLvl10
+	3  = Command_SpecialAbilityMelisandreHealingFire
+	4  = Command_SpecialAbilityTheNightIsDarkAndFullOfTerrors
+	5  = Command_SpecialAbilityMelisandreDeadlySeduction
+	6  = Command_SpecialAbilityMelisandreShadowbinder
+	12 = Command_CaptureBuilding
+	13 = Command_AttackMove
+	14 = Command_Stop
+	16 = Command_SetStanceBattle
+	17 = Command_SetStanceAggressive
+	18 = Command_SetStanceHoldGround
+End
+
+CommandSet MelisandreCommandSet_Lvl10
+	1  = Command_ToggleStance
+	2  = Command_SpecialPowerMelisandreLvl10Final
+	3  = Command_SpecialAbilityMelisandreHealingFire
+	4  = Command_SpecialAbilityTheNightIsDarkAndFullOfTerrors
+	5  = Command_SpecialAbilityMelisandreDeadlySeduction
+	6  = Command_SpecialAbilityMelisandreShadowbinder
+	12 = Command_CaptureBuilding
+	13 = Command_AttackMove
+	14 = Command_Stop
+	16 = Command_SetStanceBattle
+	17 = Command_SetStanceAggressive
+	18 = Command_SetStanceHoldGround
+End
+
 CommandSet BaratheonDavosCommandSet
 	1	 = Command_ToggleStance
 	2	 = Command_DavosStannisBonus

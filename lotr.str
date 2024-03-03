@@ -91869,6 +91869,66 @@ CONTROLBAR:ToolTipStannisOnlyForward
 "Requires Level 10 \n Modifier Type: Spell \n Stannis and nearby allies gain resistance to knockback, +75% damage and +20% speed for 30 seconds\nStannis can crush enemies\n Enemies in wide radius around Stannis are stunned in fear for 15 seconds\nLeft click to activate"
 END
 
+OBJECT:BaratheonMelisandre
+"Melisandre"
+END
+
+CONTROLBAR:BaratheonMelisandreRecruit
+"Recruit the Priestess of Asshai \n\n 'The night is dark and full of terrors.'"
+END
+
+CONTROLBAR:BaratheonMelisandreRevive
+"Revive the fallen Priestess, Melisandre"
+END
+
+CONTROLBAR:BaratheonMelisandreHotkey
+"Melisandre (&S)"
+END
+
+CONTROLBAR:PristessOfAsshai
+"&Priestess of Asshai"
+END
+
+CONTROLBAR:ToolTipPristessOfAsshaiLvl3
+"Allows Melisandre to rank up \n Left click to purchase upgrade \n\n Modifier Type: Leadership \n Always: Davos Seaworth suffers -33% Experience \n Rank 1: Dragonstone units near Melisandre gain +33% Damage \n Rank 3: Dragonstone units near Melisandre gain +33% Damage and +33% Armor \n Rank 6: Dragonstone units near Melisandre gain +33% Damage, +33% Armor, and earn +33% Experience \n Stacks with Buffs and Spells \n Passive ability"
+End
+
+CONTROLBAR:ToolTipPristessOfAsshaiLvl10
+"Allows Melisandre to rank up \n Left click to purchase upgrade \n\n Modifier Type: Leadership \n Always: Davos Seaworth suffers -33% Experience \n Rank 1: Dragonstone units near Melisandre gain +33% Damage \n Rank 3: Dragonstone units near Melisandre gain +33% Damage and +33% Armor \n Rank 6: Dragonstone units near Melisandre gain +33% Damage, +33% Armor, and earn +33% Experience \n Stacks with Buffs and Spells \n Passive ability"
+End
+
+CONTROLBAR:MelisandreHealingFire
+"Inner Fire (&R)"
+END
+
+CONTROLBAR:TooltipMelisandreHealingFire
+"Requires Level 3 \n Heals nearby friendly Heroes \n Left click to activate"
+END
+
+CONTROLBAR:MelisandreTheNightIsDarkAndFullOfTerrors
+"The Night is Dark and Full of Terrors (&T)"
+END
+
+CONTROLBAR:ToolTipMelisandreTheNightIsDarkAndFullOfTerrors
+"Requires Level 6 \n Targeted enemy units flee \n Left click on icon then left click on target units"
+END
+
+CONTROLBAR:MelisandreDeadlySeduction
+"Deadly Seduction (&C)"
+END
+
+CONTROLBAR:ToolTipMelisandreDeadlySeduction
+"Requires Level 10 \n When cast on a friendly hero, increases damage output at the cost of armor \n When cast on an enemy hero, causes the hero to temporarily be stunned and lose armor \n Left click on icon then left click on target hero"
+END
+
+CONTROLBAR:MelisandreShadowbinder
+"Shadowbinder (&V)"
+END
+
+CONTROLBAR:ToolTipMelisandreShadowbinder
+"Requires Level 10 \n Requires Shadowbinder Spellbook Power \n Assassinates targeted enemy hero"
+END
+
 OBJECT:BaratheonDavos
 "Davos Seaworth"
 END

@@ -16116,3 +16116,214 @@ function OnWargPackCreated(self)
         ObjectHideSubObjectPermanently( self, "WARGFURB", false )
     end
 end
+-- GAME OF THRONES SUBMOD
+function OnBaratheonRenlysVanguardFunctionsCreated(self)
+
+    ObjectHideSubObjectPermanently( self, "FireArowTip", true )
+      ObjectHideSubObjectPermanently( self, "FORGED_BLADE", true )
+      ObjectHideSubObjectPermanently( self, "ARROWUP", true )
+      ObjectHideSubObjectPermanently( self, "QUIVARROWUP", true )
+      
+      ;------------------------HEADS
+      ObjectHideSubObjectPermanently( self, "HEAD01", true )
+      ObjectHideSubObjectPermanently( self, "HEAD02", true )
+      ObjectHideSubObjectPermanently( self, "HEAD03", true )
+      ObjectHideSubObjectPermanently( self, "HEAD04", true )
+      ;------------------------HORSE
+      ObjectHideSubObjectPermanently( self, "HORSE01", true )
+      ObjectHideSubObjectPermanently( self, "HORSE02", true )
+      ObjectHideSubObjectPermanently( self, "HORSE03", true )
+      ObjectHideSubObjectPermanently( self, "HORSE04", true )
+      
+      local head	   =    GetRandomNumber()
+      local horse	   =    GetRandomNumber()
+      
+      if head <= 0.25 then
+          ObjectHideSubObjectPermanently( self, "HEAD01", false )
+      elseif head <= 0.50 then
+          ObjectHideSubObjectPermanently( self, "HEAD02", false )
+      elseif head <= 0.75 then
+          ObjectHideSubObjectPermanently( self, "HEAD03", false )  		
+      else
+          ObjectHideSubObjectPermanently( self, "HEAD04", false )
+      end
+      
+      if horse <= 0.25 then
+          ObjectHideSubObjectPermanently( self, "HORSE01", false )
+      elseif horse <= 0.50 then
+          ObjectHideSubObjectPermanently( self, "HORSE02", false )
+      elseif horse <= 0.75 then
+          ObjectHideSubObjectPermanently( self, "HORSE03", false )  		
+      else
+          ObjectHideSubObjectPermanently( self, "HORSE04", false )
+      end
+  end
+  
+  function OnBaratheonKnightFunctionsCreated(self)
+  
+    ObjectHideSubObjectPermanently( self, "FireArowTip", true )
+      ObjectHideSubObjectPermanently( self, "FORGED_BLADE", true )
+      ObjectHideSubObjectPermanently( self, "ARROWUP", true )
+      ObjectHideSubObjectPermanently( self, "QUIVARROWUP", true )
+      
+      ;------------------------HEADS
+      ObjectHideSubObjectPermanently( self, "HEAD01", true )
+      ObjectHideSubObjectPermanently( self, "HEAD02", true )
+      ObjectHideSubObjectPermanently( self, "HEAD03", true )
+      ObjectHideSubObjectPermanently( self, "HEAD04", true )
+      ;------------------------BODY
+      ObjectHideSubObjectPermanently( self, "BODY01", true )
+      ObjectHideSubObjectPermanently( self, "BODY02", true )
+      ObjectHideSubObjectPermanently( self, "BODY03", true )
+      ObjectHideSubObjectPermanently( self, "BODY04", true )
+      ;------------------------HORSE
+      ObjectHideSubObjectPermanently( self, "HORSE01", true )
+      ObjectHideSubObjectPermanently( self, "HORSE02", true )
+      ObjectHideSubObjectPermanently( self, "HORSE03", true )
+      ObjectHideSubObjectPermanently( self, "HORSE04", true )
+      ;------------------------HORSE
+      ObjectHideSubObjectPermanently( self, "BAG", true )
+      ObjectHideSubObjectPermanently( self, "BEDROLL", true )
+      ObjectHideSubObjectPermanently( self, "QUIVER", true )
+      ObjectHideSubObjectPermanently( self, "SATCHEL", true )
+      
+      local head	   =    GetRandomNumber()
+      local horse	   =    GetRandomNumber()
+    local body    =    GetRandomNumber()
+      
+      local bag    =    GetRandomNumber()
+      local bedroll    =    GetRandomNumber()
+      local satchel    =    GetRandomNumber()
+      
+      if bag <= 0.50 then
+          ObjectHideSubObjectPermanently( self, "BAG", false )
+      else
+          ObjectHideSubObjectPermanently( self, "NOTHING", false )
+      end
+      if bedroll <= 0.50 then
+          ObjectHideSubObjectPermanently( self, "BEDROLL", false )
+      else
+          ObjectHideSubObjectPermanently( self, "NOTHING", false )
+      end
+      if satchel <= 0.50 then
+          ObjectHideSubObjectPermanently( self, "SATCHEL", false )
+      else
+          ObjectHideSubObjectPermanently( self, "NOTHING", false )
+      end
+      
+      if head <= 0.25 then
+          ObjectHideSubObjectPermanently( self, "HEAD01", false )
+      elseif head <= 0.50 then
+          ObjectHideSubObjectPermanently( self, "HEAD02", false )
+      elseif head <= 0.75 then
+          ObjectHideSubObjectPermanently( self, "HEAD03", false )  		
+      else
+          ObjectHideSubObjectPermanently( self, "HEAD04", false )
+      end
+      
+      if horse <= 0.25 then
+          ObjectHideSubObjectPermanently( self, "HORSE01", false )
+      elseif horse <= 0.50 then
+          ObjectHideSubObjectPermanently( self, "HORSE02", false )
+      elseif horse <= 0.75 then
+          ObjectHideSubObjectPermanently( self, "HORSE03", false )  		
+      else
+          ObjectHideSubObjectPermanently( self, "HORSE04", false )
+      end
+      
+      if body <= 0.25 then
+          ObjectHideSubObjectPermanently( self, "BODY01", false )
+      elseif body <= 0.50 then
+          ObjectHideSubObjectPermanently( self, "BODY02", false )
+      elseif body <= 0.75 then
+          ObjectHideSubObjectPermanently( self, "BODY03", false )  		
+      else
+          ObjectHideSubObjectPermanently( self, "BODY04", false )
+      end
+  end
+  
+  function OnBaratheonRoyalGuardFunctionsCreated(self)
+  
+      ObjectHideSubObjectPermanently( self, "FireArowTip", true )
+      ObjectHideSubObjectPermanently( self, "FORGED_BLADE", true )
+      ObjectHideSubObjectPermanently( self, "ARROWUP", true )
+      ObjectHideSubObjectPermanently( self, "QUIVARROWUP", true )
+  
+      ;------------------------HEADS
+      ObjectHideSubObjectPermanently( self, "HEAD01", true )
+      ObjectHideSubObjectPermanently( self, "HEAD02", true )
+      ObjectHideSubObjectPermanently( self, "HEAD03", true )
+      ObjectHideSubObjectPermanently( self, "HEAD04", true )
+      ;------------------------BODY
+      ObjectHideSubObjectPermanently( self, "BODY01", true )
+      ObjectHideSubObjectPermanently( self, "BODY02", true )
+      ObjectHideSubObjectPermanently( self, "BODY03", true )
+      ObjectHideSubObjectPermanently( self, "BODY04", true )
+      ;------------------------HORSE
+      ObjectHideSubObjectPermanently( self, "HORSE01", true )
+      ObjectHideSubObjectPermanently( self, "HORSE02", true )
+      ObjectHideSubObjectPermanently( self, "HORSE03", true )
+      ObjectHideSubObjectPermanently( self, "HORSE04", true )
+      ;------------------------HORSE
+      ObjectHideSubObjectPermanently( self, "BAG", true )
+      ObjectHideSubObjectPermanently( self, "BEDROLL", true )
+      ObjectHideSubObjectPermanently( self, "SATCHEL", true )
+          
+      local head	   =    GetRandomNumber()
+      local horse	   =    GetRandomNumber()
+      local body    =    GetRandomNumber()
+  
+      local bag    =    GetRandomNumber()
+      local bedroll    =    GetRandomNumber()
+      local satchel    =    GetRandomNumber()
+  
+      if bag <= 0.50 then
+                  ObjectHideSubObjectPermanently( self, "BAG", false )
+          else
+                  ObjectHideSubObjectPermanently( self, "NOTHING", false )
+          end
+      if bedroll <= 0.50 then
+                  ObjectHideSubObjectPermanently( self, "BEDROLL", false )
+          else
+                  ObjectHideSubObjectPermanently( self, "NOTHING", false )
+          end
+      if satchel <= 0.50 then
+                  ObjectHideSubObjectPermanently( self, "SATCHEL", false )
+          else
+                  ObjectHideSubObjectPermanently( self, "NOTHING", false )
+          end
+  
+      if head <= 0.25 then
+                  ObjectHideSubObjectPermanently( self, "HEAD01", false )
+          elseif head <= 0.50 then
+                  ObjectHideSubObjectPermanently( self, "HEAD02", false )
+          elseif head <= 0.75 then
+                  ObjectHideSubObjectPermanently( self, "HEAD03", false )  		
+          else
+                  ObjectHideSubObjectPermanently( self, "HEAD04", false )
+          end
+  
+      if horse <= 0.25 then
+                  ObjectHideSubObjectPermanently( self, "HORSE01", false )
+          elseif horse <= 0.50 then
+                  ObjectHideSubObjectPermanently( self, "HORSE02", false )
+          elseif horse <= 0.75 then
+                  ObjectHideSubObjectPermanently( self, "HORSE03", false )  		
+          else
+                  ObjectHideSubObjectPermanently( self, "HORSE04", false )
+          end
+  
+      if body <= 0.25 then
+                  ObjectHideSubObjectPermanently( self, "BODY01", false )
+          elseif body <= 0.50 then
+                  ObjectHideSubObjectPermanently( self, "BODY02", false )
+          elseif body <= 0.75 then
+                  ObjectHideSubObjectPermanently( self, "BODY03", false )  		
+          else
+                  ObjectHideSubObjectPermanently( self, "BODY04", false )
+          end
+  end
+  
+  function MelisandreTerror(self)
+    ObjectDoSpecialPower(self, "SpecialAbilityScreech")
+  end
