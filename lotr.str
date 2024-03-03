@@ -91994,7 +91994,7 @@ OBJECT:BaratheonGendry
 END
 
 CONTROLBAR:BaratheonGendryRecruit
-"Requires King's Blood Power or Lawful Son upgrade \n Recruit the bastard son of Robert Baratheon \n\n 'The Baratheon look was stamped on his face, in his jaw, his eyes, that black hair.' \n \—thoughts of Eddard Stark"
+"Requires King's Blood Power or Lawful Son upgrade \n Recruit the bastard son of Robert Baratheon \n\n 'The Baratheon look was stamped on his face, in his jaw, his eyes, that black hair.'"
 END
 
 CONTROLBAR:BaratheonGendryRecruitWithoutRequirements

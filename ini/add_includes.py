@@ -29,6 +29,7 @@ files_directives_and_lines = [
     ('commandset.ini', '#include', '\n#include "\\got\\commandset_got.inc"\n'),
     ('commandbutton.ini', '#include', '\n#include "\\got\\commandbutton_got.inc"\n'),
     ('soundeffects.ini', '#define', '\n#include "\\got\\soundeffects_got.inc"\n'),
+    ('upgrade.ini', '#include', '\n#include "\\got\\upgrade_got.inc"\n'),
     # Add more (file_path, directive, line_to_add) tuples as needed
 ]
 

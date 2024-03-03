@@ -112,7 +112,7 @@ End
 
 AudioEvent MelisandreGivingBirth
   Sounds = melisandre_giving_birth ;melisandre_shadowbaby
-  Volume = 250
+  Volume = 300
   Type = world everyone
   Priority = critical
   Control = interrupt
@@ -122,7 +122,7 @@ End
 
 AudioEvent ShadowbabyBorn
   Sounds = shadowbaby_born
-  Volume = 250
+  Volume = 300
   Type = world everyone
   Priority = critical
   Control = interrupt
@@ -132,7 +132,7 @@ End
 
 AudioEvent ShadowbabyMoves
   Sounds = shadowbaby
-  Volume = 250
+  Volume = 300
   Type = world everyone
   Priority = critical
   Control = interrupt
