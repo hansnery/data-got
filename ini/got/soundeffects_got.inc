@@ -200,7 +200,7 @@ End
 
 AudioEvent GendrySkilledSmith
   Sounds = gendry_proper_forge gendry_nothing_tricky_about_it gendry_make_a_few_thousand_of_these gendry_just_need_decent_steel
-  Volume = 100
+  Volume = 300
   Type = world everyone
   Priority = critical
   Control = interrupt
@@ -210,7 +210,7 @@ End
 
 AudioEvent GendryTheBull
   Sounds = gendry_im_a_fighter
-  Volume = 100
+  Volume = 300
   Type = world everyone
   Priority = critical
   Control = interrupt
@@ -220,7 +220,7 @@ End
 
 AudioEvent GendryStrongSeed
   Sounds = gendry_i_dont_know_much_about_swinging_swords
-  Volume = 100
+  Volume = 300
   Type = world everyone
   Priority = critical
   Control = interrupt

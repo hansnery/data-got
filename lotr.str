@@ -91929,4 +91929,96 @@ CONTROLBAR:TooltipDavosUpjumpedSmuggler
 "Requires Level 8 \n Modifier Type: Leadership \n Stormlander units gain \n +33% Damage, +33% Armor, \n and earn +33% Experience near Davos Seaworth \n Passive ability \n Does not stack \n\n Modifier Type: Spell \n Davos Seaworth’s hard truths fully refreshes \n the special ability timers of a friendly hero \n Cannot cast on Melisandre \n Stacks with Leadership and Spells \n Left click icon then left click on target hero"
 End
 
+OBJECT:BaratheonGendry
+"Gendry"
+END
+
+CONTROLBAR:BaratheonGendryRecruit
+"Requires King's Blood Power or Lawful Son upgrade \n Recruit the bastard son of Robert Baratheon \n\n 'The Baratheon look was stamped on his face, in his jaw, his eyes, that black hair.' \n \—thoughts of Eddard Stark"
+END
+
+CONTROLBAR:BaratheonGendryRecruitWithoutRequirements
+"Recruit the bastard son of Robert Baratheon \n\n 'The Baratheon look was stamped on his face, in his jaw, his eyes, that black hair.' \n —thoughts of Eddard Stark"
+END
+
+CONTROLBAR:BaratheonGendryRevive
+"Revive the fallen Hero, Gendry"
+END
+
+CONTROLBAR:BaratheonGendryHotkey
+"Gendry (&T)"
+END
+
+OBJECT:BaratheonGendryBaratheon
+"Gendry Baratheon"
+END
+
+CONTROLBAR:BaratheonGendryBaratheonRecruit
+"Recruit the lawful son of Robert Baratheon \n\n 'The Baratheon look was stamped on his face, in his jaw, his eyes, that black hair.' \n —thoughts of Eddard Stark"
+END
+
+CONTROLBAR:BaratheonGendryBaratheonRevive
+"Revive the fallen Hero, Gendry Baratheon"
+END
+
+CONTROLBAR:BaratheonGendryBaratheonHotkey
+"Gendry Baratheon (&T)"
+END
+
+CONTROLBAR:GendryOfFleaBottom
+"Gendry of Flea Bottom (&W)"
+END
+
+CONTROLBAR:TooltipGendryOfFleaBottom
+"Growing up on the streets of King's Landing made Gendry grow an instinct for survival Gendry teleports to the target area \n Left click icon then left click on pathable location"
+END
+
+CONTROLBAR:GendrySkilledSmith
+"Skilled Smith (&R)"
+END
+
+CONTROLBAR:ToolTipGendrySkilledSmith
+"Gendry was apprentice of Master Tobho Mott of the Street of Steel in King's Landing \n Grants Castle-Forged Steel to units in radius \n Increased radius at levels 3, 5 and 8 \n Stacks with Leaderships, Buffs, and Spells \n Left click on icon then left click on target own units"
+END
+
+CONTROLBAR:GendryStrongSeed
+"Strong Seed (&T)"
+END
+
+CONTROLBAR:ToolTipGendryStrongSeed
+"Requires Level 3 \n Gendry has an innate strength and talent for fighting \n He temporarily gains increased damage and knockback radius \n -45% speed for the duration of the power \n Left click to activate"
+END
+
+CONTROLBAR:GendryTheBull
+"The Bull (&C)"
+END
+
+CONTROLBAR:ToolTipGendryTheBull
+"Requires Level 5 \n Modifier Type: Spell \n Gendry dons his bull helmet and can crush enemies by running towards them \n He gains +75% Armor and +45% Speed for a short time \n Stacks with Leadership and Spells \n Left click to activate"
+END
+
+CONTROLBAR:GendryOfStormsEnd
+"Gendry of Storm's End"
+END
+
+CONTROLBAR:TooltipGendryOfStormsEnd
+"Allies near Gendry are inspired to fight beside the son of Robert Baratheon \n	Modifier type: Leadership \n Allies near Gendry gain +33% Damage, Armor, and gain +33% Experience \n Stacks with buffs and spells \n Passive"
+END
+
+CONTROLBAR:GendryLeap
+"Demon's Son (&R)"
+END
+
+CONTROLBAR:ToolTipGendryLeap
+"Gendry emulates the deeds of his father, the Demon of the Trident \n He jumps to a location causing area-effect damage \n Increased knockback radius at levels 3, 5 and 8 \n Left click icon then left click on target area"
+END
+
+CONTROLBAR:GendryKnightOfTheHollowHill
+"Knight of The Hollow Hill"
+END
+
+CONTROLBAR:ToolTipKnightOfTheHollowHill
+"Requires Level 8 \n Gendry is knighted and begins to worship the Lord of Light \n He gains permanent splash damage \n Passive ability"
+END
+
 END

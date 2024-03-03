@@ -147,3 +147,190 @@ CommandButton Command_DavosUpjumpedSmuggler
   PresetRange				= 200.0
 	; UnitSpecificSound	= DavosUpjumpedSmuggler
 End
+
+CommandButton Command_SpecialAbilityGendryOfFleaBottom
+	Command						= SPECIAL_POWER
+	SpecialPower	   	= SpecialAbilityGendryOfFleaBottom
+	Options						= NEED_TARGET_POS
+	TextLabel					= CONTROLBAR:GendryOfFleaBottom
+	ButtonImage				= GendryOfFleaBottom
+	ButtonBorderType  = ACTION
+	CursorName				= Bombard
+	InvalidCursorName = GenericInvalid
+	DescriptLabel	   	= CONTROLBAR:TooltipGendryOfFleaBottom
+	InPalantir				= Yes   //	 To	be hidden by default
+End
+
+CommandButton Command_SpecialAbilityGendryOfStormsEnd
+  Command          = SPECIAL_POWER
+  SpecialPower     = SpecialAbilityFakeLeadership
+  Options					 = NONPRESSABLE
+  TextLabel        = CONTROLBAR:GendryOfStormsEnd
+  ButtonImage      = LordGendryOfStormsEnd
+  RadiusCursorType = TrainingRadiusCursor
+  ButtonBorderType = ACTION
+  DescriptLabel    = CONTROLBAR:TooltipGendryOfStormsEnd
+  InPalantir		   = Yes
+End
+
+CommandButton Command_SpecialAbilityGendryLeapLevel1
+  Command					 = SPECIAL_POWER
+  SpecialPower		 = SpecialAbilityGendryLeapLevel1
+  Options					 = NEED_TARGET_POS CONTEXTMODE_COMMAND
+  TextLabel				 = CONTROLBAR:GendryLeap
+  ButtonImage			 = LordGendryLeap
+  RadiusCursorType = LeapRadiusCursor
+  CursorName			 = Bombard
+  ButtonBorderType = ACTION
+  DescriptLabel		 = CONTROLBAR:ToolTipGendryLeap
+  InPalantir			 = Yes
+  AutoAbility			 = Yes
+End
+
+CommandButton Command_SpecialAbilityGendryLeapLevel3
+  Command					 = SPECIAL_POWER
+  SpecialPower		 = SpecialAbilityGendryLeapLevel3
+  Options					 = NEED_TARGET_POS CONTEXTMODE_COMMAND
+  TextLabel				 = CONTROLBAR:GendryLeap
+  ButtonImage			 = LordGendryLeap
+  RadiusCursorType = LeapRadiusCursor
+  CursorName			 = Bombard
+  ButtonBorderType = ACTION
+  DescriptLabel		 = CONTROLBAR:ToolTipGendryLeap
+  InPalantir			 = Yes
+  AutoAbility			 = Yes
+End
+
+CommandButton Command_SpecialAbilityGendryLeapLevel5
+  Command					 = SPECIAL_POWER
+  SpecialPower		 = SpecialAbilityGendryLeapLevel5
+  Options					 = NEED_TARGET_POS CONTEXTMODE_COMMAND
+  TextLabel				 = CONTROLBAR:GendryLeap
+  ButtonImage			 = LordGendryLeap
+  RadiusCursorType = LeapRadiusCursor
+  CursorName			 = Bombard
+  ButtonBorderType = ACTION
+  DescriptLabel		 = CONTROLBAR:ToolTipGendryLeap
+  InPalantir			 = Yes
+  AutoAbility			 = Yes
+End
+
+CommandButton Command_SpecialAbilityGendryLeapLevel8
+  Command					 = SPECIAL_POWER
+  SpecialPower		 = SpecialAbilityGendryLeapLevel8
+  Options					 = NEED_TARGET_POS CONTEXTMODE_COMMAND
+  TextLabel				 = CONTROLBAR:GendryLeap
+  ButtonImage			 = LordGendryLeap
+  RadiusCursorType = LeapRadiusCursor
+  CursorName			 = Bombard
+  ButtonBorderType = ACTION
+  DescriptLabel		 = CONTROLBAR:ToolTipGendryLeap
+  InPalantir			 = Yes
+  AutoAbility			 = Yes
+End
+
+CommandButton Command_SpecialAbilityGendrySkilledSmithLevel1
+	Command                 = SPECIAL_POWER
+	SpecialPower            = SpecialAbilityGendrySkilledSmithLevel1
+	Options                 = NEED_TARGET_POS CONTEXTMODE_COMMAND
+	TextLabel               = CONTROLBAR:GendrySkilledSmith
+	ButtonImage             = GendrySkilledSmith
+	CursorName              = Bombard
+	DisableOnModelCondition = WEAPONSET_TOGGLE_1 USER_4
+	RadiusCursorType        = EyeOfSauronRadiusCursor
+	InvalidCursorName       = GenericInvalid
+	ButtonBorderType        = ACTION
+	DescriptLabel           = CONTROLBAR:ToolTipGendrySkilledSmith
+	AutoAbility							= Yes
+	InPalantir              = Yes
+	UnitSpecificSound       = GendrySkilledSmith
+End
+
+CommandButton Command_SpecialAbilityGendrySkilledSmithLevel3
+	Command                 = SPECIAL_POWER
+	SpecialPower            = SpecialAbilityGendrySkilledSmithLevel3
+	Options                 = NEED_TARGET_POS CONTEXTMODE_COMMAND
+	TextLabel               = CONTROLBAR:GendrySkilledSmith
+	ButtonImage             = GendrySkilledSmith
+	CursorName              = Bombard
+	DisableOnModelCondition = WEAPONSET_TOGGLE_1 USER_4
+	RadiusCursorType        = EyeOfSauronRadiusCursor
+	InvalidCursorName       = GenericInvalid
+	ButtonBorderType        = ACTION
+	DescriptLabel           = CONTROLBAR:ToolTipGendrySkilledSmith
+	AutoAbility							= Yes
+	InPalantir              = Yes
+	UnitSpecificSound       = GendrySkilledSmith
+End
+
+CommandButton Command_SpecialAbilityGendrySkilledSmithLevel5
+	Command                 = SPECIAL_POWER
+	SpecialPower            = SpecialAbilityGendrySkilledSmithLevel5
+	Options                 = NEED_TARGET_POS CONTEXTMODE_COMMAND
+	TextLabel               = CONTROLBAR:GendrySkilledSmith
+	ButtonImage             = GendrySkilledSmith
+	CursorName              = Bombard
+	DisableOnModelCondition = WEAPONSET_TOGGLE_1 USER_4
+	RadiusCursorType        = EyeOfSauronRadiusCursor
+	InvalidCursorName       = GenericInvalid
+	ButtonBorderType        = ACTION
+	DescriptLabel           = CONTROLBAR:ToolTipGendrySkilledSmith
+	AutoAbility							= Yes
+	InPalantir              = Yes
+	UnitSpecificSound       = GendrySkilledSmith
+End
+
+CommandButton Command_SpecialAbilityGendrySkilledSmithLevel8
+	Command                 = SPECIAL_POWER
+	SpecialPower            = SpecialAbilityGendrySkilledSmithLevel8
+	Options                 = NEED_TARGET_POS CONTEXTMODE_COMMAND
+	TextLabel               = CONTROLBAR:GendrySkilledSmith
+	ButtonImage             = GendrySkilledSmith
+	CursorName              = Bombard
+	DisableOnModelCondition = WEAPONSET_TOGGLE_1 USER_4
+	RadiusCursorType        = EyeOfSauronRadiusCursor
+	InvalidCursorName       = GenericInvalid
+	ButtonBorderType        = ACTION
+	DescriptLabel           = CONTROLBAR:ToolTipGendrySkilledSmith
+	AutoAbility							= Yes
+	InPalantir              = Yes
+	UnitSpecificSound       = GendrySkilledSmith
+End
+
+CommandButton Command_SpecialAbilityGendryStrongSeed
+	Command					  = SPECIAL_POWER
+	SpecialPower		  = SpecialAbilityGimliHeroMode
+	TextLabel				  = CONTROLBAR:GendryStrongSeed
+	ButtonImage			  = GendryStrongSeed
+	ButtonBorderType  = ACTION
+	DescriptLabel		  = CONTROLBAR:ToolTipGendryStrongSeed
+	UnitSpecificSound	= GendryStrongSeed
+	InPalantir			  = Yes
+	AutoAbility			  = Yes
+End
+
+CommandButton Command_SpecialAbilityGendryTheBull
+  Command           = SPECIAL_POWER
+  SpecialPower      = SpecialAbilityGendryTheBullCharge
+  TextLabel         = CONTROLBAR:GendryTheBull
+  ButtonImage       = GendryTheBull
+  RadiusCursorType  = TrainingRadiusCursor
+  ButtonBorderType  = ACTION
+  DescriptLabel     = CONTROLBAR:ToolTipGendryTheBull
+  InPalantir		    = Yes
+  AutoAbility				= Yes
+  UnitSpecificSound = GendryTheBull
+End
+
+CommandButton Command_SpecialAbilityGendryKnightOfTheHollowHill
+	Command          = SPECIAL_POWER
+	SpecialPower     = SpecialAbilityFakeLeadership2
+	Options					 = NONPRESSABLE NEED_UPGRADE
+	NeededUpgrade		 = Upgrade_ObjectLevel8
+	TextLabel        = CONTROLBAR:GendryKnightOfTheHollowHill
+	ButtonImage      = GendryKnightOfTheHollowHill
+	RadiusCursorType = TrainingRadiusCursor
+	ButtonBorderType = ACTION
+	DescriptLabel    = CONTROLBAR:ToolTipKnightOfTheHollowHill
+	InPalantir				= Yes
+End
