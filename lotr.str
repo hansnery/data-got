@@ -87967,11 +87967,11 @@ End
 /////
 
 Map:MAPMPriverisen
-"River Isen"
+"The Trident"
 End
 
 Map:MAPMPriverisen/Desc
-"The river Isen passes between Isengard and Helm's Deep. Many travellers journeying to and from the Gap of Rohan cross the mighty river at this shallow point. \n Capturable: Inn \n Creeps: Cave Troll, Warg \n Region: Rohan"
+"The Trident is a major river in the riverlands of the Seven Kingdoms. Made of numerous smaller tributaries, it is one of the largest rivers on the continent of Westeros. It is a confluence of three main branches, the Red Fork, the Green Fork, and the Blue Fork. \n Capturable: Inn \n Creeps: Cave Troll, Warg \n Region: Riverlands"
 End
 
 /////
@@ -91818,7 +91818,7 @@ OBJECT:BaratheonStannis
 END
 
 CONTROLBAR:BaratheonStannisRecruit
-"Recruit the King in the Narrow Sea"
+"Recruit the King in the Narrow Sea \n\n 'I never asked for this, no more than I asked to be king. ...We do not choose our destinies. Yet we must ... we must do our duty, no? Great or small, we must do our duty.'"
 END
 
 CONTROLBAR:BaratheonStannisRevive
@@ -91868,5 +91868,65 @@ END
 CONTROLBAR:ToolTipStannisOnlyForward
 "Requires Level 10 \n Modifier Type: Spell \n Stannis and nearby allies gain resistance to knockback, +75% damage and +20% speed for 30 seconds\nStannis can crush enemies\n Enemies in wide radius around Stannis are stunned in fear for 15 seconds\nLeft click to activate"
 END
+
+OBJECT:BaratheonDavos
+"Davos Seaworth"
+END
+
+CONTROLBAR:BaratheonDavosRecruit
+"Recruit the Onion Knight \n\n 'A good act does not wash out the bad, nor a bad act the good. Each should have its own reward. You were a hero and a smuggler.'"
+END
+
+CONTROLBAR:BaratheonDavosRevive
+"Revive the fallen Knight, Davos Seaworth"
+END
+
+CONTROLBAR:BaratheonDavosHotkey
+"Davos Seaworth (&S)"
+END
+
+CONTROLBAR:DavosLoyalService
+"Loyal Service"
+END
+
+CONTROLBAR:TooltipDavosLoyalService
+"Stannis Baratheon gains Experience +33% faster when near Davos Seaworth \n Melisandre suffers -15% Armor when near Davos Seaworth \n Stacks with Leadership, Buffs, and Spells \n Passive ability"
+END
+
+CONTROLBAR:OnionKnight
+"Onion Knight (&R)"
+END
+
+CONTROLBAR:ToolTipOnionKnight
+"Davos Seaworth delivers several barrels of onions that heals nearby units \n Left click on icon then left click on target position"
+END
+
+OBJECT:OnionBarrel
+"Onion Barrel"
+END
+
+CONTROLBAR:DavosHonestAccounting
+"Honest Accounting (&T)"
+END
+
+CONTROLBAR:TooltipDavosHonestAccounting
+"Requires Level 3 \n Davos Seaworth keeps the bones of his joints in a pouch around his neck to bring luck Grants a high percentage of ranged damage avoidance and increased armor per level \n Passive ability \n\n Davos Seaworth shows the justice of King Stannis Baratheon \n Target hero is temporarily immune to damage \n but is unable to attack for a long period \n Can be cast on both allied or enemy heroes \n Left click icon then left click on target hero"
+End
+
+CONTROLBAR:DavosSmugglersTricks
+"Smuggler's Tricks (&C)"
+END
+
+CONTROLBAR:TooltipDavosTeleport
+"Requires Level 5 \n Davos Seaworth smuggles allied units with him from one location on the battlefield to anywhere on the map \n Does not work on siege units\n\n Left click icon, then left click on target units, then left click on pathable location"
+End
+
+CONTROLBAR:DavosUpjumpedSmuggler
+"Upjumped Smuggler"
+END
+
+CONTROLBAR:TooltipDavosUpjumpedSmuggler
+"Requires Level 8 \n Modifier Type: Leadership \n Stormlander units gain \n +33% Damage, +33% Armor, \n and earn +33% Experience near Davos Seaworth \n Passive ability \n Does not stack \n\n Modifier Type: Spell \n Davos Seaworth’s hard truths fully refreshes \n the special ability timers of a friendly hero \n Cannot cast on Melisandre \n Stacks with Leadership and Spells \n Left click icon then left click on target hero"
+End
 
 END
