@@ -92081,4 +92081,40 @@ CONTROLBAR:ToolTipKnightOfTheHollowHill
 "Requires Level 8 \n Gendry is knighted and begins to worship the Lord of Light \n He gains permanent splash damage \n Passive ability"
 END
 
+CONTROLBAR:PurchaseUpgradeDragonstoneFortressBaratheonBanners
+"Heraldry of the Fiery Heart (&W)"
+END
+
+CONTROLBAR:PurchaseUpgradeDragonstoneFortressLavaMoat
+"Flames of Dragonmont (&E)"
+END
+
+CONTROLBAR:PurchaseUpgradeDragonstoneFortressSmokeAndBrimstone
+"Smoke and Brimstone (&R)"
+END
+
+CONTROLBAR:FireWeaponDragonstoneFortressSmokeAndBrimstone
+"Smoke and Brimstone (&T)"
+END
+
+CONTROLBAR:ToolTipFireWeaponDragonstoneFortressSmokeAndBrimstone
+"Requires the Smoke and Brimstone upgrade \n The Fortress emits poisonous smoke\nEnemies caught in the smoke suffer damage over time for 15 seconds\n Left click to activate"
+END
+
+CONTROLBAR:PurchaseUpgradeDragonstoneFortressValyrianSorcery
+"Valyrian Sorcery (&T)"
+END
+
+CONTROLBAR:ToolTipPurchaseUpgradeDragonstoneFortressValyrianSorcery
+"Increases Fortress armour by 65% \n Prerequisite to Stone Drum"
+END
+
+CONTROLBAR:PurchaseUpgradeDragonstoneFortressStoneDrum
+"Stone Drum (&S)"
+END
+
+CONTROLBAR:ToolTipPurchaseUpgradeDragonstoneFortressStoneDrum
+"Requires the Valyrian Sorcery upgrade\n Allows recruitment of the Kingsmen\n\nAllows the Fortress to use the Painted Table:\nAll troops on the battlefield gain 15% speed and +50% damage and armour for 30 seconds"
+END
+
 END

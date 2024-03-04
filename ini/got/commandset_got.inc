@@ -212,3 +212,28 @@ CommandSet BaratheonLordGendryCommandSetLevel8
 	17 = Command_SetStanceAggressive
 	18 = Command_SetStanceHoldGround
 End
+CommandSet DragonstoneFortressCommandSet
+	InitialVisible = 11
+	//Main Menu
+	1	= Command_ConstructBaratheonPorter
+	2	= Command_SelectRevivablesDragonstoneFortress
+	3	= Command_SelectUpgradesDragonstoneFortress
+	4	= Command_FireDragonstoneFortressSmokeAndBrimstone
+	6	= Command_Sell
+	//Upgrades Menu
+	12 = Command_PurchaseUpgradeDragonstoneFortressBaratheonBanners
+	13 = Command_PurchaseUpgradeDragonstoneFortressLavaMoat
+	14 = Command_PurchaseUpgradeDragonstoneFortressSmokeAndBrimstone
+	;15	= Command_PurchaseUpgradeMordorFortressFireArrows // Will be Dragons for the Targaryens
+	15 = Command_PurchaseUpgradeDragonstoneFortressValyrianSorcery
+	16 = Command_PurchaseUpgradeDragonstoneFortressStoneDrum
+	17 = Command_RadialBack
+	//Hero Menu
+	18 = Command_RingHeroReviveSlot
+	19 = Command_CreateAHeroReviveSlot		// Note we also need an extra slot for the Create A Hero
+	20 = Command_GenericReviveSlot1
+	21 = Command_GenericReviveSlot2
+	22 = Command_GenericReviveSlot3
+	23 = Command_GenericReviveSlot4
+	24 = Command_RadialBack
+End

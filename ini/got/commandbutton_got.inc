@@ -439,3 +439,113 @@ CommandButton Command_SpecialAbilityMelisandreShadowbinder
   InPalantir				= Yes
   AutoAbility				= Yes
 End
+
+CommandButton Command_ConstructBaratheonPorter
+	Command				   = UNIT_BUILD
+	Object				   = BaratheonPorter
+	Options				   = CANCELABLE
+	TextLabel			   = CONTROLBAR:ConstructMordorPorter
+	ButtonImage			 = UIGondorBuilder
+	ButtonBorderType = BUILD
+	DescriptLabel		 = CONTROLBAR:ToolTipConstructMordorPorter
+	Radial				   = Yes
+	InPalantir	   	 = Yes
+	ShowProductionCount = Yes
+End
+
+CommandButton Command_SelectRevivablesDragonstoneFortress
+	Command           = PUSH_VISIBLE_COMMAND_RANGE
+	TextLabel         = CONTROLBAR:SelectRevivablesMordorFortress
+	ButtonImage       = BABaratheonCrownButton
+	ButtonBorderType  = SYSTEM
+	DescriptLabel     = CONTROLBAR:ToolTipCommandSelectRevivablesMordorFortress
+	Radial            = Yes
+	CommandRangeStart	= 17	//Starts its counting at 0, so command button 8 is 7
+	CommandRangeCount	= 7
+End
+
+CommandButton Command_PurchaseUpgradeDragonstoneFortressBaratheonBanners
+	Command          = OBJECT_UPGRADE
+	Upgrade          = Upgrade_MordorFortressDoomPyres
+	Options			  	 = CANCELABLE
+	TextLabel        = CONTROLBAR:PurchaseUpgradeDragonstoneFortressBaratheonBanners
+	ButtonImage      = BAFiery_Heart_Banner
+	ButtonBorderType = UPGRADE
+	DescriptLabel    = CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres
+	Radial           = Yes
+	InPalantir	   	 = No
+End
+
+CommandButton Command_PurchaseUpgradeDragonstoneFortressLavaMoat
+	Command          = OBJECT_UPGRADE
+	Upgrade          = Upgrade_MordorFortressLavaMoat
+	Options			  	 = CANCELABLE
+	TextLabel        = CONTROLBAR:PurchaseUpgradeDragonstoneFortressLavaMoat
+	ButtonImage      = BIMordorLavaMoat
+	ButtonBorderType = UPGRADE
+	DescriptLabel    = CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressLavaMoat
+	Radial           = Yes
+	InPalantir	   	 = No
+End
+
+CommandButton Command_PurchaseUpgradeDragonstoneFortressSmokeAndBrimstone
+	Command          = OBJECT_UPGRADE
+	Upgrade          = Upgrade_MordorFortressMagmaCauldrons
+	Options			  	 = CANCELABLE
+	TextLabel        = CONTROLBAR:PurchaseUpgradeDragonstoneFortressSmokeAndBrimstone
+	ButtonImage      = BADragonstoneSmokeAndBrimstone
+	ButtonBorderType = UPGRADE
+	DescriptLabel    = CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressMagmaCauldrons
+	Radial           = Yes
+	InPalantir	   	 = No
+End
+
+CommandButton Command_FireDragonstoneFortressSmokeAndBrimstone
+	Command				   = SPECIAL_POWER
+	SpecialPower		 = SpecialAbilityMordorFortressMagmaCauldrons
+	;Options			   = HIDE_WHILE_DISABLED
+	TextLabel			   = CONTROLBAR:FireWeaponDragonstoneFortressSmokeAndBrimstone
+	ButtonImage			 = BADragonstoneSmokeAndBrimstone
+	ButtonBorderType = ACTION
+	DescriptLabel		 = CONTROLBAR:ToolTipFireWeaponDragonstoneFortressSmokeAndBrimstone
+	Radial				   = Yes
+	AutoAbility			 = Yes
+	InPalantir			 = No
+End
+
+CommandButton Command_PurchaseUpgradeDragonstoneFortressValyrianSorcery
+	Command          = OBJECT_UPGRADE
+	Upgrade          = Upgrade_MordorFortressMorgulSorceryTrigger
+	Options			  	 = CANCELABLE
+	TextLabel        = CONTROLBAR:PurchaseUpgradeDragonstoneFortressValyrianSorcery
+	ButtonImage      = BADragonstoneValyrianSorcery
+	ButtonBorderType = UPGRADE
+	DescriptLabel    = CONTROLBAR:ToolTipPurchaseUpgradeDragonstoneFortressValyrianSorcery
+	Radial           = Yes
+	InPalantir	   	 = No
+End
+
+CommandButton Command_PurchaseUpgradeDragonstoneFortressStoneDrum
+	Command          = OBJECT_UPGRADE
+	Upgrade          = Upgrade_MordorFortressGorgorothSpire
+	Options			  	 = CANCELABLE NEED_UPGRADE
+	NeededUpgrade		 = Upgrade_MordorFortressMorgulSorcery
+	TextLabel        = CONTROLBAR:PurchaseUpgradeDragonstoneFortressStoneDrum
+	ButtonImage      = BADragonstoneStoneDrum
+	ButtonBorderType = UPGRADE
+	DescriptLabel    = CONTROLBAR:ToolTipPurchaseUpgradeDragonstoneFortressStoneDrum
+	Radial           = Yes
+	InPalantir	   	 = No
+	LacksPrerequisiteLabel = CONTROLBAR:ToolTipPurchaseUpgradeDragonstoneFortressStoneDrum
+End
+
+CommandButton Command_SelectUpgradesDragonstoneFortress
+	Command           = PUSH_VISIBLE_COMMAND_RANGE
+	TextLabel         = CONTROLBAR:SelectUpgradesMordorFortress
+	ButtonImage       = BAStannisSigil
+	ButtonBorderType  = SYSTEM
+	DescriptLabel     = CONTROLBAR:ToolTipCommandSelectUpgradesMordorFortress
+	Radial            = Yes
+	CommandRangeStart	= 11	//Starts its counting at 0, so command button 8 is 7
+	CommandRangeCount	= 6
+End
