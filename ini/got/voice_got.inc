@@ -362,6 +362,55 @@ AudioEvent GendryVoiceDie
   Type = world player voice
   SubmixSlider = voice
 End
+
+AudioEvent BaratheonBuilderVoiceSalute
+  Sounds = GUMeBui_voisala GUMeBui_voisalb GUMeBui_voisalc
+  Volume = #ADD( UNIT_RESPONSE_VOLUME 85 )
+  MinVolume = #ADD( UNIT_RESPONSE_MINVOLUME 85 )
+  Priority = high
+  Type = world player voice
+  SubmixSlider = voice
+End
+
+AudioEvent BaratheonBuilderVoiceSelect
+  Sounds = builder_baratheon builder_do_you_need_something_built builder_get_paid builder_queen_of_dragons builder_repair builder_stormlands builder_summer builder_the_wall builder_walls builder_we_have_work_to_do builder_where_are_we_building ;builder_white_walkers builder_wildlings builder_nights_watch builder_giants
+  Volume = #ADD( UNIT_RESPONSE_VOLUME 85 )
+  MinVolume = #ADD( UNIT_RESPONSE_MINVOLUME 85 )
+  Priority = high
+  Type = world player voice
+  SubmixSlider = voice
+End
+
+Multisound BaratheonBuilderVoiceSelectMS
+  Subsounds = BaratheonBuilderVoiceSelect MenBuilderFoleySelect
+End
+
+AudioEvent BaratheonBuilderVoiceMove
+  Sounds = builder_cart builder_lets_get_this_thing_moving builder_lets_get_to_work builder_lets_get_working builder_lets_go builder_straight_away builder_supplies_are_coming builder_tavern builder_tools_ready builder_wait_this_is_heavy
+  Volume = #ADD( UNIT_RESPONSE_VOLUME 85 )
+  MinVolume = #ADD( UNIT_RESPONSE_MINVOLUME 85 )
+  Priority = high
+  Type = world player voice
+  SubmixSlider = voice
+End
+
+AudioEvent BaratheonBuilderVoiceBuild
+  Sounds = builder_battlements builder_castles builder_clear_the_land builder_dragons builder_dragons_breath builder_lets_build_it builder_living_or_dead builder_miss_the_days builder_more_walls builder_next_war builder_repair builder_scaffolding builder_shelter builder_stone_and_mortar builder_sturdy_foundation builder_there_is_a_good_place builder_tower
+  Volume = #ADD( UNIT_RESPONSE_VOLUME 85 )
+  MinVolume = #ADD( UNIT_RESPONSE_MINVOLUME 85 )
+  Priority = high
+  Type = world player voice
+  SubmixSlider = voice
+End
+
+AudioEvent BaratheonBuilderVoiceGarrison
+  Sounds = builder_shelter
+  Volume = #ADD( UNIT_RESPONSE_VOLUME 85 )
+  MinVolume = #ADD( UNIT_RESPONSE_MINVOLUME 85 )
+  Priority = high
+  Type = world player voice
+  SubmixSlider = voice
+End
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 AudioEvent CampGenericDragonEggDropped
   Sounds    = dragon_egg_by_the_seven dragon_egg_old_gods_and_the_new dragon_egg_dropped dragon_egg_take_it1
