@@ -91826,7 +91826,7 @@ CONTROLBAR:BaratheonStannisRevive
 END
 
 CONTROLBAR:BaratheonStannisHotkey
-"Stannis Baratheon (&D)"
+"Stannis Baratheon (&F)"
 END
 
 CONTROLBAR:StannisLeadership
@@ -91882,7 +91882,7 @@ CONTROLBAR:BaratheonMelisandreRevive
 END
 
 CONTROLBAR:BaratheonMelisandreHotkey
-"Melisandre (&S)"
+"Melisandre (&D)"
 END
 
 CONTROLBAR:PristessOfAsshai
@@ -92115,6 +92115,62 @@ END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDragonstoneFortressStoneDrum
 "Requires the Valyrian Sorcery upgrade\n Allows recruitment of the Kingsmen\n\nAllows the Fortress to use the Painted Table:\nAll troops on the battlefield gain 15% speed and +50% damage and armour for 30 seconds"
+END
+
+CONTROLBAR:PrincessOfDragonstone
+"Princess of Dragonstone"
+END
+
+CONTROLBAR:ToolTipPrincessOfDragonstone
+"Shireen Baratheon is protected by her guards \n Allows her to rank up \n Left click to purchase upgrade \n\n Modifier Type: Leadership \n Rank 1: Shireen causes fear to nearby enemies \n Rank 3: Nearby structures gain +30% armour \n Rank 6: Nearby enemy units suffer -15% damage and -10% armour \n Stacks with Buffs and Spells \n Passive ability"
+End
+
+CONTROLBAR:ToolTipToolTipPrincessOfDragonstoneLvl10
+"Shireen Baratheon is protected by her guards \n Allows her to rank up \n Left click to purchase upgrade \n\n Modifier Type: Leadership \n Rank 1: Shireen causes fear to nearby enemies \n Rank 3: Nearby structures gain +30% armour \n Rank 6: Nearby enemy units suffer -15% damage and -10% armour \n Stacks with Buffs and Spells \n Passive ability"
+End
+
+CONTROLBAR:ShireenGoodAndKind
+"Good and Kind"
+END
+
+CONTROLBAR:TooltipShireenGoodAndKind
+"Requires Level 3\n Modifier Type: Leadership \n Nearby heroes earn experience 33% faster \n Shireen's health is increased \n Passive ability"
+END
+
+CONTROLBAR:ShireenGlowOfTheGreyscale
+"Glow of the Greyscale (&T)"
+END
+
+CONTROLBAR:ToolTipShireenGlowOfTheGreyscale
+"Requires Level 6\n Fearing contracting Greyscale, enemy troops will refuse to touch Shireen\nShireen Baratheon becomes immune to damage, and is resistant to knockback for 20 seconds\n Left click to activate"
+END
+
+CONTROLBAR:ShireenLearnedChild
+"Learned Child (&C)"
+END
+
+CONTROLBAR:ToolTipShireenLearnedChild
+"Requires Level 6\n Modifier Type: Spell \n Shireen teaches valuable knowledge to targeted friendly hero\nTarget hero instantly levels up by one rank\nLeft click icon then left click on target hero"
+END
+
+OBJECT:BaratheonShireen
+"Shireen Baratheon"
+END
+
+CONTROLBAR:BaratheonShireenRecruit
+"Recruit the Princess of Dragonstone \n\n 'This is the king's true heir. Shireen will one day sit the Iron Throne and rule the Seven Kingdoms.'"
+END
+
+CONTROLBAR:BaratheonShireenRevive
+"Revive the fallen Princess, Shireen Baratheon"
+END
+
+CONTROLBAR:BaratheonShireenHotkey
+"Shireen Baratheon (&W)"
+END
+
+CONTROLBAR:DragonEgg
+"Dragon Egg (&R)"
 END
 
 END

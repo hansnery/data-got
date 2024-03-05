@@ -461,7 +461,7 @@ CommandButton Command_SelectRevivablesDragonstoneFortress
 	DescriptLabel     = CONTROLBAR:ToolTipCommandSelectRevivablesMordorFortress
 	Radial            = Yes
 	CommandRangeStart	= 17	//Starts its counting at 0, so command button 8 is 7
-	CommandRangeCount	= 7
+	CommandRangeCount	= 8
 End
 
 CommandButton Command_PurchaseUpgradeDragonstoneFortressBaratheonBanners
@@ -548,4 +548,86 @@ CommandButton Command_SelectUpgradesDragonstoneFortress
 	Radial            = Yes
 	CommandRangeStart	= 11	//Starts its counting at 0, so command button 8 is 7
 	CommandRangeCount	= 6
+End
+
+CommandButton Command_SpecialPowerShireenLvl3
+  Command          = OBJECT_UPGRADE
+	Options			  	 = CANCELABLE
+  Upgrade          = Upgrade_DenethorLevel3
+  TextLabel        = CONTROLBAR:PrincessOfDragonstone
+  ButtonImage      = BABaratheonSigil
+  ButtonBorderType = UPGRADE
+  DescriptLabel    = CONTROLBAR:ToolTipPrincessOfDragonstone
+  InPalantir       = Yes
+End
+
+CommandButton Command_SpecialPowerShireenLvl6
+  Command          = OBJECT_UPGRADE
+	Options			  	 = CANCELABLE
+  Upgrade          = Upgrade_DenethorLevel6
+  TextLabel        = CONTROLBAR:PrincessOfDragonstone
+  ButtonImage      = BABaratheonSigil
+  ButtonBorderType = UPGRADE
+  DescriptLabel    = CONTROLBAR:ToolTipPrincessOfDragonstone
+  InPalantir       = Yes
+End
+
+CommandButton Command_SpecialPowerShireenLvl10
+  Command          = OBJECT_UPGRADE
+	Options			  	 = CANCELABLE
+  Upgrade          = Upgrade_ArwenLevel10
+  TextLabel        = CONTROLBAR:PrincessOfDragonstone
+  ButtonImage      = BABaratheonSigil
+  ButtonBorderType = UPGRADE
+  DescriptLabel    = CONTROLBAR:ToolTipPrincessOfDragonstone
+  InPalantir       = Yes
+End
+
+CommandButton Command_SpecialPowerShireenLvl10Final
+  Command          = SPECIAL_POWER
+  SpecialPower     = SpecialAbilityFakeLeadership
+  Options					 = NONPRESSABLE
+  TextLabel        = CONTROLBAR:PrincessOfDragonstone
+  ButtonImage      = BABaratheonSigil
+  RadiusCursorType = TrainingRadiusCursor
+  ButtonBorderType = ACTION
+  DescriptLabel    = CONTROLBAR:ToolTipToolTipPrincessOfDragonstoneLvl10
+  InPalantir		   = Yes
+End
+
+CommandButton Command_SpecialPowerShireenGoodAndKind
+  Command          = SPECIAL_POWER
+  SpecialPower     = SpecialAbilityFakeLeadership
+  Options					 = NONPRESSABLE OK_FOR_MULTI_SELECT
+  TextLabel        = CONTROLBAR:ShireenGoodAndKind
+  ButtonImage      = BAShireenGoodAndKind
+  ButtonBorderType = ACTION
+  DescriptLabel    = CONTROLBAR:TooltipShireenGoodAndKind
+  InPalantir       = Yes
+End
+
+CommandButton Command_SpecialPowerShireenGlowOfTheGreyscale
+	Command					 = SPECIAL_POWER
+	SpecialPower		 = SpecialAbilityGlorfindelBladeOfPurity
+	TextLabel				 = CONTROLBAR:ShireenGlowOfTheGreyscale
+	DescriptLabel		 = CONTROLBAR:ToolTipShireenGlowOfTheGreyscale
+	ButtonImage			 = BAShireenGlowOfTheGreyscale
+	ButtonBorderType = ACTION
+	InPalantir			 = Yes
+	AutoAbility			 = Yes
+End
+
+CommandButton Command_SpecialAbilityShireenLearnedChild
+  Command						= SPECIAL_POWER
+  SpecialPower			= SpecialAbilityShireenLearnedChild
+  Options						= NEED_TARGET_ALLY_OBJECT
+  TextLabel					= CONTROLBAR:ShireenLearnedChild
+  ButtonImage				= BAShireenLearnedChild
+  CursorName				= Bombard
+  ButtonBorderType	= ACTION
+  DescriptLabel			= CONTROLBAR:ToolTipShireenLearnedChild
+  InvalidCursorName	= GenericInvalid
+  InPalantir				= Yes
+  AutoAbility				= Yes
+  PresetRange				= 200.0
 End

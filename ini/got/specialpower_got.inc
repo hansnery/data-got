@@ -255,3 +255,9 @@ SpecialPower SpecialAbilityGendryLeapLevel8
 	RadiusCursorRadius	= 50.0
 	Flags			= PATHABLE_ONLY
 End
+
+SpecialPower SpecialAbilityShireenLearnedChild
+	Enum				 = SPECIAL_AT_VISIBLE_OBJECT
+	ReloadTime	 = 240000
+	ObjectFilter = NONE +HERO -SUMMONED -BaratheonShireen ALLIES
+End

@@ -363,3 +363,39 @@ AudioEvent GendryVoiceDie
   SubmixSlider = voice
 End
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+AudioEvent CampGenericDragonEggDropped
+  Sounds    = dragon_egg_by_the_seven dragon_egg_old_gods_and_the_new dragon_egg_dropped dragon_egg_take_it1
+  Volume    = #ADD( CAMP_ORC_VOLUME 90 )
+  MinVolume = #ADD( CAMP_ORC_MINVOLUME 90 )
+  Type      = world player voice
+  SubmixSlider = voice
+End
+AudioEvent CampBaratheonDragonEggDropped
+  Sounds    = dragon_egg_lord_of_light dragon_egg_rhllor dragon_egg_dropped dragon_egg_take_it1
+  Volume    = #ADD( CAMP_ORC_VOLUME 90 )
+  MinVolume = #ADD( CAMP_ORC_MINVOLUME 90 )
+  Type      = world player voice
+  SubmixSlider = voice
+End
+AudioEvent CampGenericDragonEggPickedUpByUs
+  Sounds    = dragon_egg_take_it1 dragon_egg_take_to_the_fortress
+  Volume    = #ADD( CAMP_ORC_VOLUME 90 )
+  MinVolume = #ADD( CAMP_ORC_MINVOLUME 90 )
+  Type      = world player voice
+  SubmixSlider = voice
+End
+AudioEvent CampGenericDragonEggPickedUpByTheEnemy
+  Sounds = dragon_egg_take_it1
+  Volume = #ADD( CAMP_ORC_VOLUME 90 )
+  MinVolume = #ADD( CAMP_ORC_MINVOLUME 90 )
+  Type = world player voice
+  SubmixSlider = voice
+End
+AudioEvent CampGenericDragonEggRetrieved
+  Sounds = dragon_egg_we_have_it dragon_egg_we_have_it2 dragon_egg_we_have_it3 dragon_egg_we_have_it4 dragon_egg_we_have_it5 dragon_egg_we_have_it6
+  Sounds = ECRin_OwnUsd ECRin_OwnUse
+  Volume = #ADD( CAMP_ORC_VOLUME 90 )
+  MinVolume = #ADD( CAMP_ORC_MINVOLUME 90 )
+  Type = world player voice
+  SubmixSlider = voice
+End

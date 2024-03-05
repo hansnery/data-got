@@ -235,5 +235,66 @@ CommandSet DragonstoneFortressCommandSet
 	21 = Command_GenericReviveSlot2
 	22 = Command_GenericReviveSlot3
 	23 = Command_GenericReviveSlot4
-	24 = Command_RadialBack
+	24 = Command_GenericReviveSlot5
+	25 = Command_RadialBack
+End
+
+CommandSet ShireenCommandSet
+	1  = Command_ToggleStance
+	2  = Command_SpecialPowerShireenLvl3
+	3  = Command_SpecialPowerShireenGoodAndKind
+	4  = Command_SpecialPowerShireenGlowOfTheGreyscale
+	5  = Command_SpecialAbilityShireenLearnedChild
+	;6  = Command_SpecialAbilityMelisandreShadowbinder
+	12 = Command_CaptureBuilding
+	13 = Command_AttackMove
+	14 = Command_Stop
+	16 = Command_SetStanceBattle
+	17 = Command_SetStanceAggressive
+	18 = Command_SetStanceHoldGround
+End
+
+CommandSet ShireenCommandSet_Lvl3
+	1  = Command_ToggleStance
+	2  = Command_SpecialPowerShireenLvl6
+	3  = Command_SpecialPowerShireenGoodAndKind
+	4  = Command_SpecialPowerShireenGlowOfTheGreyscale
+	5  = Command_SpecialAbilityShireenLearnedChild
+	;6  = Command_SpecialAbilityMelisandreShadowbinder	
+	12 = Command_CaptureBuilding
+	13 = Command_AttackMove
+	14 = Command_Stop
+	16 = Command_SetStanceBattle
+	17 = Command_SetStanceAggressive
+	18 = Command_SetStanceHoldGround
+End
+
+CommandSet ShireenCommandSet_Lvl6
+	1  = Command_ToggleStance
+	2  = Command_SpecialPowerShireenLvl10
+	3  = Command_SpecialPowerShireenGoodAndKind
+	4  = Command_SpecialPowerShireenGlowOfTheGreyscale
+	5  = Command_SpecialAbilityShireenLearnedChild
+	;6  = Command_SpecialAbilityMelisandreShadowbinder
+	12 = Command_CaptureBuilding
+	13 = Command_AttackMove
+	14 = Command_Stop
+	16 = Command_SetStanceBattle
+	17 = Command_SetStanceAggressive
+	18 = Command_SetStanceHoldGround
+End
+
+CommandSet ShireenCommandSet_Lvl10
+	1  = Command_ToggleStance
+	2  = Command_SpecialPowerShireenLvl10Final
+	3  = Command_SpecialPowerShireenGoodAndKind
+	4  = Command_SpecialPowerShireenGlowOfTheGreyscale
+	5  = Command_SpecialAbilityShireenLearnedChild
+	;6  = Command_SpecialAbilityMelisandreShadowbinder
+	12 = Command_CaptureBuilding
+	13 = Command_AttackMove
+	14 = Command_Stop
+	16 = Command_SetStanceBattle
+	17 = Command_SetStanceAggressive
+	18 = Command_SetStanceHoldGround
 End
