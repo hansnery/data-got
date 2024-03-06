@@ -2,6 +2,57 @@
 ; ASOIAF HEROES
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;
+; Baratheon Builder
+;;;;;;;;;;;;;;;;;;;;;
+AudioEvent BaratheonBuilderVoiceSalute
+  Sounds = GUMeBui_voisala GUMeBui_voisalb GUMeBui_voisalc
+  Volume = #ADD( UNIT_RESPONSE_VOLUME 85 )
+  MinVolume = #ADD( UNIT_RESPONSE_MINVOLUME 85 )
+  Priority = high
+  Type = world player voice
+  SubmixSlider = voice
+End
+
+AudioEvent BaratheonBuilderVoiceSelect
+  Sounds = builder_baratheon builder_do_you_need_something_built builder_get_paid builder_queen_of_dragons builder_repair builder_stormlands builder_summer builder_the_wall builder_walls builder_we_have_work_to_do builder_where_are_we_building ;builder_white_walkers builder_wildlings builder_nights_watch builder_giants
+  Volume = #ADD( UNIT_RESPONSE_VOLUME 85 )
+  MinVolume = #ADD( UNIT_RESPONSE_MINVOLUME 85 )
+  Priority = high
+  Type = world player voice
+  SubmixSlider = voice
+End
+
+Multisound BaratheonBuilderVoiceSelectMS
+  Subsounds = BaratheonBuilderVoiceSelect MenBuilderFoleySelect
+End
+
+AudioEvent BaratheonBuilderVoiceMove
+  Sounds = builder_cart builder_lets_get_this_thing_moving builder_lets_get_to_work builder_lets_get_working builder_lets_go builder_straight_away builder_supplies_are_coming builder_tavern builder_tools_ready builder_wait_this_is_heavy
+  Volume = #ADD( UNIT_RESPONSE_VOLUME 85 )
+  MinVolume = #ADD( UNIT_RESPONSE_MINVOLUME 85 )
+  Priority = high
+  Type = world player voice
+  SubmixSlider = voice
+End
+
+AudioEvent BaratheonBuilderVoiceBuild
+  Sounds = builder_battlements builder_castles builder_clear_the_land builder_dragons builder_dragons_breath builder_lets_build_it builder_living_or_dead builder_miss_the_days builder_more_walls builder_next_war builder_repair builder_scaffolding builder_shelter builder_stone_and_mortar builder_sturdy_foundation builder_there_is_a_good_place builder_tower
+  Volume = #ADD( UNIT_RESPONSE_VOLUME 85 )
+  MinVolume = #ADD( UNIT_RESPONSE_MINVOLUME 85 )
+  Priority = high
+  Type = world player voice
+  SubmixSlider = voice
+End
+
+AudioEvent BaratheonBuilderVoiceGarrison
+  Sounds = builder_shelter
+  Volume = #ADD( UNIT_RESPONSE_VOLUME 85 )
+  MinVolume = #ADD( UNIT_RESPONSE_MINVOLUME 85 )
+  Priority = high
+  Type = world player voice
+  SubmixSlider = voice
+End
+;;;;;;;;;;;;;;;;;;;;;
 ; Stannis Baratheon
 ;;;;;;;;;;;;;;;;;;;;;
 AudioEvent StannisVoiceSalute
@@ -362,53 +413,65 @@ AudioEvent GendryVoiceDie
   Type = world player voice
   SubmixSlider = voice
 End
-
-AudioEvent BaratheonBuilderVoiceSalute
-  Sounds = GUMeBui_voisala GUMeBui_voisalb GUMeBui_voisalc
+;;;;;;;;;;;;;;;;;;;;;
+; Shireen Baratheon
+;;;;;;;;;;;;;;;;;;;;;
+AudioEvent ShireenVoiceSalute
+  Sounds = shireen_salute
+  Priority = high
   Volume = #ADD( UNIT_RESPONSE_VOLUME 85 )
   MinVolume = #ADD( UNIT_RESPONSE_MINVOLUME 85 )
-  Priority = high
   Type = world player voice
   SubmixSlider = voice
 End
 
-AudioEvent BaratheonBuilderVoiceSelect
-  Sounds = builder_baratheon builder_do_you_need_something_built builder_get_paid builder_queen_of_dragons builder_repair builder_stormlands builder_summer builder_the_wall builder_walls builder_we_have_work_to_do builder_where_are_we_building ;builder_white_walkers builder_wildlings builder_nights_watch builder_giants
-  Volume = #ADD( UNIT_RESPONSE_VOLUME 85 )
+AudioEvent ShireenVoiceMove
+  Sounds    = shireen_move1 shireen_move2 shireen_move3 shireen_move4 shireen_move5 shireen_move6 shireen_move7 shireen_move8 shireen_move9
+  Volume    = #ADD( UNIT_RESPONSE_VOLUME 85 )
   MinVolume = #ADD( UNIT_RESPONSE_MINVOLUME 85 )
-  Priority = high
-  Type = world player voice
+  PlayPercent  = VOICE_MOVE_PLAY_PERCENT
+  Type         = world player voice
   SubmixSlider = voice
 End
 
-Multisound BaratheonBuilderVoiceSelectMS
-  Subsounds = BaratheonBuilderVoiceSelect MenBuilderFoleySelect
-End
-
-AudioEvent BaratheonBuilderVoiceMove
-  Sounds = builder_cart builder_lets_get_this_thing_moving builder_lets_get_to_work builder_lets_get_working builder_lets_go builder_straight_away builder_supplies_are_coming builder_tavern builder_tools_ready builder_wait_this_is_heavy
-  Volume = #ADD( UNIT_RESPONSE_VOLUME 85 )
+AudioEvent ShireenVoiceDisengage
+  Sounds    = shireen_retreat1 shireen_retreat2 shireen_retreat3 shireen_retreat4
+  Volume    = #ADD( UNIT_RESPONSE_VOLUME 85 )
   MinVolume = #ADD( UNIT_RESPONSE_MINVOLUME 85 )
-  Priority = high
-  Type = world player voice
+  PlayPercent  = VOICE_MOVE_PLAY_PERCENT
+  Type         = world player voice
   SubmixSlider = voice
 End
 
-AudioEvent BaratheonBuilderVoiceBuild
-  Sounds = builder_battlements builder_castles builder_clear_the_land builder_dragons builder_dragons_breath builder_lets_build_it builder_living_or_dead builder_miss_the_days builder_more_walls builder_next_war builder_repair builder_scaffolding builder_shelter builder_stone_and_mortar builder_sturdy_foundation builder_there_is_a_good_place builder_tower
-  Volume = #ADD( UNIT_RESPONSE_VOLUME 85 )
+AudioEvent ShireenVoiceSelect
+  Sounds    = shireen_select1 shireen_select2 shireen_select3 shireen_select4 shireen_select5 shireen_select6 shireen_select7 shireen_select8 shireen_select9
+  Volume    = #ADD( UNIT_RESPONSE_VOLUME 85 )
   MinVolume = #ADD( UNIT_RESPONSE_MINVOLUME 85 )
-  Priority = high
-  Type = world player voice
+  Type      = world player voice
   SubmixSlider = voice
 End
 
-AudioEvent BaratheonBuilderVoiceGarrison
-  Sounds = builder_shelter
-  Volume = #ADD( UNIT_RESPONSE_VOLUME 85 )
+AudioEvent ShireenVoiceHelpMe
+  Sounds    = shireen_help1 shireen_help2
+  Volume    = #ADD( UNIT_RESPONSE_VOLUME 85 )
   MinVolume = #ADD( UNIT_RESPONSE_MINVOLUME 85 )
-  Priority = high
-  Type = world player voice
+  Type      = world player voice
+  SubmixSlider = voice
+End
+
+AudioEvent ShireenVoiceRespawn
+  Sounds    = shireen_respawn
+  Volume    = #ADD( UNIT_RESPONSE_VOLUME 85 )
+  MinVolume = #ADD( UNIT_RESPONSE_MINVOLUME 85 )
+  Type      = world player voice
+  SubmixSlider = voice
+End
+
+AudioEvent ShireenVoiceDie
+  Sounds    = shireen_dies
+  Volume    = #ADD( UNIT_RESPONSE_VOLUME 85 )
+  MinVolume = #ADD( UNIT_RESPONSE_MINVOLUME 85 )
+  Type      = world player voice
   SubmixSlider = voice
 End
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
