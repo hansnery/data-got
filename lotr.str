@@ -91826,7 +91826,7 @@ CONTROLBAR:BaratheonStannisRevive
 END
 
 CONTROLBAR:BaratheonStannisHotkey
-"Stannis Baratheon (&F)"
+"Stannis Baratheon (&D)"
 END
 
 CONTROLBAR:StannisLeadership
@@ -91882,7 +91882,7 @@ CONTROLBAR:BaratheonMelisandreRevive
 END
 
 CONTROLBAR:BaratheonMelisandreHotkey
-"Melisandre (&D)"
+"Melisandre (&S)"
 END
 
 CONTROLBAR:PristessOfAsshai
@@ -91942,7 +91942,7 @@ CONTROLBAR:BaratheonDavosRevive
 END
 
 CONTROLBAR:BaratheonDavosHotkey
-"Davos Seaworth (&S)"
+"Davos Seaworth (&T)"
 END
 
 CONTROLBAR:DavosLoyalService
@@ -92006,7 +92006,7 @@ CONTROLBAR:BaratheonGendryRevive
 END
 
 CONTROLBAR:BaratheonGendryHotkey
-"Gendry (&T)"
+"Gendry (&R)"
 END
 
 OBJECT:BaratheonGendryBaratheon
@@ -92022,7 +92022,7 @@ CONTROLBAR:BaratheonGendryBaratheonRevive
 END
 
 CONTROLBAR:BaratheonGendryBaratheonHotkey
-"Gendry Baratheon (&T)"
+"Gendry Baratheon (&R)"
 END
 
 CONTROLBAR:GendryOfFleaBottom
@@ -92171,6 +92171,45 @@ END
 
 CONTROLBAR:DragonEgg
 "Dragon Egg (&R)"
+END
+
+OBJECT:BaratheonSalladhor
+"Salladhor Saan"
+END
+
+CONTROLBAR:BaratheonSalladhorRecruit
+"Recruit the notorious pirate, Salladhor Saan \n\n 'The Lyseni was a sleek, smiling man whose flamboyance was a byword on both sides of the narrow sea.'"
+END
+
+CONTROLBAR:BaratheonSalladhorRevive
+"Revive the fallen Pirate, Salladhor Saan"
+END
+
+CONTROLBAR:BaratheonSalladhorHotkey
+"Salladhor Saan (&E)"
+END
+
+CONTROLBAR:PrinceOfTheNarrowSea
+"Prince of the Narrow Sea"
+END
+
+CONTROLBAR:ToolTipPrinceOfTheNarrowSea
+"Modifier Type: Leadership \n Nearby Corsairs gain +33% armour and damage and +50% experience\nAt level 5, Salladhor Saan and nearby Corsairs earn resources per kill\nPassive ability"
+END
+
+CONTROLBAR:ButAGoodFriend
+"Treacherous Old Rogue, But A Good Friend (&R)"
+END
+
+CONTROLBAR:ToolTipButAGoodFriend
+"Requires Level 3 \n Modifier Type: Spell \n Salladhor Saan empowers a friendly hero, granting them 50% armour, 50% faster experience gain, and 75% faster power recharge times for 30 seconds\nLeft click icon then left click on target hero"
+END
+
+CONTROLBAR:DesireOfPlunder
+"Desire of Plunder (&T)"
+END
+CONTROLBAR:ToolTipDesireOfPlunder
+"Requires Level 8\nDeals significant damage over time to structures for 15 seconds \n Can be cast from a large distance \n Left click icon then left click on target"
 END
 
 END

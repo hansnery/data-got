@@ -212,6 +212,7 @@ CommandSet BaratheonLordGendryCommandSetLevel8
 	17 = Command_SetStanceAggressive
 	18 = Command_SetStanceHoldGround
 End
+
 CommandSet DragonstoneFortressCommandSet
 	InitialVisible = 11
 	//Main Menu
@@ -236,7 +237,8 @@ CommandSet DragonstoneFortressCommandSet
 	22 = Command_GenericReviveSlot3
 	23 = Command_GenericReviveSlot4
 	24 = Command_GenericReviveSlot5
-	25 = Command_RadialBack
+	25 = Command_GenericReviveSlot6
+	26 = Command_RadialBack
 End
 
 CommandSet ShireenCommandSet
@@ -297,4 +299,18 @@ CommandSet ShireenCommandSet_Lvl10
 	16 = Command_SetStanceBattle
 	17 = Command_SetStanceAggressive
 	18 = Command_SetStanceHoldGround
+End
+
+CommandSet BaratheonSalladhorSaanCommandSet
+	1	 = Command_ToggleStance
+	2	 = Command_SalladhorSaanFakeLeadership
+	3	 = Command_SpecialAbilityButAGoodFriend
+	4	 = Command_SpecialAbilityDesireOfPlunder
+	12 = Command_CaptureBuilding
+	13 = Command_AttackMove
+	14 = Command_Stop
+	16 = Command_SetStanceBattle
+	17 = Command_SetStanceAggressive
+	18 = Command_SetStanceHoldGround
+	19 = Command_ToggleBeregondWeapon
 End

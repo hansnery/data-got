@@ -474,6 +474,85 @@ AudioEvent ShireenVoiceDie
   Type      = world player voice
   SubmixSlider = voice
 End
+;;;;;;;;;;;;;;;;;;;;;
+; Salladhor Saan
+;;;;;;;;;;;;;;;;;;;;;
+AudioEvent SalladhorSaanVoiceSalute
+  Sounds = salladhor_saan_salute
+  Priority = high
+  Volume = #ADD( UNIT_RESPONSE_VOLUME 85 )
+  MinVolume = #ADD( UNIT_RESPONSE_MINVOLUME 85 )
+  Type = world player voice
+  SubmixSlider = voice
+End
+
+AudioEvent SalladhorSaanVoiceMove
+  Sounds    = salladhor_saan_move2 salladhor_saan_move3 salladhor_saan_move5 salladhor_saan_move6 salladhor_saan_move7
+  Volume    = #ADD( UNIT_RESPONSE_VOLUME 85 )
+  MinVolume = #ADD( UNIT_RESPONSE_MINVOLUME 85 )
+  PlayPercent  = VOICE_MOVE_PLAY_PERCENT
+  Type         = world player voice
+  SubmixSlider = voice
+End
+
+AudioEvent SalladhorSaanVoiceMoveShip
+  Sounds    = salladhor_saan_select5 salladhor_saan_move1 salladhor_saan_move4
+  Volume    = #ADD( UNIT_RESPONSE_VOLUME 85 )
+  MinVolume = #ADD( UNIT_RESPONSE_MINVOLUME 85 )
+  PlayPercent  = VOICE_MOVE_PLAY_PERCENT
+  Type         = world player voice
+  SubmixSlider = voice
+End
+
+AudioEvent SalladhorSaanVoiceAttack
+  Sounds    = salladhor_saan_attack1 salladhor_saan_attack2 salladhor_saan_attack3 salladhor_saan_attack4 salladhor_saan_attack5 salladhor_saan_attack6 salladhor_saan_attack7
+  Volume    = #ADD( UNIT_RESPONSE_VOLUME 85 )
+  MinVolume = #ADD( UNIT_RESPONSE_MINVOLUME 85 )
+  PlayPercent  = VOICE_MOVE_PLAY_PERCENT
+  Type         = world player voice
+  SubmixSlider = voice
+End
+
+AudioEvent SalladhorSaanVoiceDisengage
+  Sounds    = salladhor_saan_retreat1 salladhor_saan_retreat2
+  Volume    = #ADD( UNIT_RESPONSE_VOLUME 85 )
+  MinVolume = #ADD( UNIT_RESPONSE_MINVOLUME 85 )
+  PlayPercent  = VOICE_MOVE_PLAY_PERCENT
+  Type         = world player voice
+  SubmixSlider = voice
+End
+
+AudioEvent SalladhorSaanVoiceSelect
+  Sounds    = salladhor_saan_select1 salladhor_saan_select2 salladhor_saan_select3 salladhor_saan_select4 salladhor_saan_select6 salladhor_saan_select7
+  Volume    = #ADD( UNIT_RESPONSE_VOLUME 85 )
+  MinVolume = #ADD( UNIT_RESPONSE_MINVOLUME 85 )
+  Type      = world player voice
+  SubmixSlider = voice
+End
+
+AudioEvent SalladhorSaanVoiceHelpMe
+  Sounds    = salladhor_saan_help1 salladhor_saan_help2 salladhor_saan_help3
+  Volume    = #ADD( UNIT_RESPONSE_VOLUME 85 )
+  MinVolume = #ADD( UNIT_RESPONSE_MINVOLUME 85 )
+  Type      = world player voice
+  SubmixSlider = voice
+End
+
+AudioEvent SalladhorSaanVoiceRespawn
+  Sounds    = salladhor_saan_respawn
+  Volume    = #ADD( UNIT_RESPONSE_VOLUME 85 )
+  MinVolume = #ADD( UNIT_RESPONSE_MINVOLUME 85 )
+  Type      = world player voice
+  SubmixSlider = voice
+End
+
+AudioEvent SalladhorSaanVoiceDie
+  Sounds    = salladhor_saan_dies
+  Volume    = #ADD( UNIT_RESPONSE_VOLUME 85 )
+  MinVolume = #ADD( UNIT_RESPONSE_MINVOLUME 85 )
+  Type      = world player voice
+  SubmixSlider = voice
+End
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 AudioEvent CampGenericDragonEggDropped
   Sounds    = dragon_egg_by_the_seven dragon_egg_old_gods_and_the_new dragon_egg_dropped dragon_egg_take_it1

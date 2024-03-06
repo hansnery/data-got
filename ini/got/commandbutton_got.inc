@@ -461,7 +461,7 @@ CommandButton Command_SelectRevivablesDragonstoneFortress
 	DescriptLabel     = CONTROLBAR:ToolTipCommandSelectRevivablesMordorFortress
 	Radial            = Yes
 	CommandRangeStart	= 17	//Starts its counting at 0, so command button 8 is 7
-	CommandRangeCount	= 8
+	CommandRangeCount	= 9
 End
 
 CommandButton Command_PurchaseUpgradeDragonstoneFortressBaratheonBanners
@@ -620,7 +620,8 @@ End
 CommandButton Command_SpecialAbilityShireenLearnedChild
   Command						= SPECIAL_POWER
   SpecialPower			= SpecialAbilityShireenLearnedChild
-  Options						= NEED_TARGET_ALLY_OBJECT
+  Options						= NEED_TARGET_ALLY_OBJECT NEED_UPGRADE
+  NeededUpgrade		  = Upgrade_ObjectLevel6
   TextLabel					= CONTROLBAR:ShireenLearnedChild
   ButtonImage				= BAShireenLearnedChild
   CursorName				= Bombard
@@ -630,4 +631,46 @@ CommandButton Command_SpecialAbilityShireenLearnedChild
   InPalantir				= Yes
   AutoAbility				= Yes
   PresetRange				= 200.0
+End
+
+CommandButton Command_SalladhorSaanFakeLeadership
+  Command          = SPECIAL_POWER
+  SpecialPower     = SpecialAbilityFakeLeadership
+  Options			     = NONPRESSABLE
+  TextLabel        = CONTROLBAR:PrinceOfTheNarrowSea
+  ButtonImage      = BACorsairOfLys
+  RadiusCursorType = IronHandRadiusCursor
+  ButtonBorderType = ACTION
+  DescriptLabel    = CONTROLBAR:ToolTipPrinceOfTheNarrowSea
+  InPalantir		   = Yes
+End
+
+CommandButton Command_SpecialAbilityButAGoodFriend
+  Command			      = SPECIAL_POWER
+  SpecialPower		  = SpecialAbilityArbiterofFaith
+  Options			      = NEED_TARGET_ALLY_OBJECT
+  TextLabel			    = CONTROLBAR:ButAGoodFriend
+  ButtonImage		    = BASalladhorSaanButAGoodFriend
+  CursorName		    = Bombard
+  ButtonBorderType	= ACTION
+  DescriptLabel		  = CONTROLBAR:ToolTipButAGoodFriend
+  InvalidCursorName	= GenericInvalid
+  ;UnitSpecificSound	= ForlongVoiceTrueHeart
+  InPalantir		    = Yes
+  AutoAbility		    = Yes
+  PresetRange		    = 200.0
+End
+
+CommandButton Command_SpecialAbilityDesireOfPlunder
+  Command           = SPECIAL_POWER
+  SpecialPower      = SpecialAbilityWateryGraves
+  Options           = NEED_TARGET_POS CONTEXTMODE_COMMAND OK_FOR_MULTI_EXECUTE OK_FOR_MULTI_SELECT
+  TextLabel         = CONTROLBAR:DesireOfPlunder
+  ButtonImage       = BASalladhorSaanDesireOfPlunder
+  RadiusCursorType  = AkallabethCursor
+  InvalidCursorName = GenericInvalid
+  ButtonBorderType  = ACTION
+  DescriptLabel     = CONTROLBAR:ToolTipDesireOfPlunder
+  AutoAbility			  = Yes
+  InPalantir			  = Yes
 End
