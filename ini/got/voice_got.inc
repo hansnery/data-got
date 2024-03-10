@@ -581,7 +581,7 @@ AudioEvent CampGenericDragonEggPickedUpByUs
 End
 
 AudioEvent CampGenericDragonEggPickedUpByTheEnemy
-  Sounds = dragon_egg_take_it1
+  Sounds = dragon_egg_enemy_stole_it dragon_egg_enemy_wield dragon_egg_enemy_with_an_egg dragon_egg_lost_to_the_enemy
   Volume = #ADD( CAMP_ORC_VOLUME 90 )
   MinVolume = #ADD( CAMP_ORC_MINVOLUME 90 )
   Type = world player voice
@@ -594,6 +594,30 @@ AudioEvent CampGenericDragonEggRetrieved
   Volume = #ADD( CAMP_ORC_VOLUME 90 )
   MinVolume = #ADD( CAMP_ORC_MINVOLUME 90 )
   Type = world player voice
+  SubmixSlider = voice
+End
+
+AudioEvent CampGenericDragonEggLost
+  Sounds    = dragon_egg_lost dragon_egg_lost2 dragon_egg_lost3 dragon_egg_lost4 dragon_egg_lost5 dragon_egg_lost6
+  Volume    = #ADD( CAMP_ORC_VOLUME 90 )
+  MinVolume = #ADD( CAMP_ORC_MINVOLUME 90 )
+  Type      = world player voice
+  SubmixSlider = voice
+End
+
+AudioEvent CampGenericEnemyHasDragonEgg
+  Sounds    = dragon_egg_enemy_has_it dragon_egg_enemy_wields
+  Volume    = #ADD( CAMP_ORC_VOLUME 90 )
+  MinVolume = #ADD( CAMP_ORC_MINVOLUME 90 )
+  Type      = world player voice
+  SubmixSlider = voice
+End
+
+AudioEvent CampGenericAllyHasDragonEgg
+  Sounds    = dragon_egg_ally dragon_egg_ally2
+  Volume    = #ADD( CAMP_ORC_VOLUME 90 )
+  MinVolume = #ADD( CAMP_ORC_MINVOLUME 90 )
+  Type      = world player voice
   SubmixSlider = voice
 End
 ;;;;;;;;;;;;;;;;;;;;;
