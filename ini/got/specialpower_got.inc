@@ -278,7 +278,7 @@ End
 SpecialPower SpecialAbilityViserionWingBlast
 	Enum			 = SPECIAL_GENERAL_TARGETLESS
 	ReloadTime = 90000
-	RadiusCursorRadius = 100.0
+	RadiusCursorRadius = 75.0
 End
 
 SpecialPower SpecialAbilityViserionDracarys
