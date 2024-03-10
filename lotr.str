@@ -92321,4 +92321,20 @@ CONTROLBAR:TargaryenDrogonHotkey
 "Rhaegal (&A)"
 END
 
+OBJECT:TargaryenViserion
+"Viserion"
+END
+
+CONTROLBAR:TargaryenViserionRecruit
+"Recruit the white dragon Viserion \n\n 'The cream and gold I call Viserion. Viserys was cruel and weak and frightened, yet he was my brother still. His dragon will do what he could not.'"
+END
+
+CONTROLBAR:TargaryenViserionRevive
+"Revive the fallen Dragon, Viserion"
+End
+
+CONTROLBAR:TargaryenViserionHotkey
+"Viserion (&A)"
+END
+
 END

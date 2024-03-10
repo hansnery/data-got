@@ -840,3 +840,29 @@ CommandButton Command_RhaegalDracarys
 	InPalantir			 = Yes
 	AutoAbility			 = Yes
 End
+
+CommandButton Command_ViserionWingBlast
+	Command          = SPECIAL_POWER
+	SpecialPower     = SpecialAbilityViserionWingBlast
+	Options          = NEED_TARGET_POS CONTEXTMODE_COMMAND
+	TextLabel        = CONTROLBAR:SpecialAbilityDrogonWingBlast
+	ButtonImage      = TGDrogonWingBlastButton
+	ButtonBorderType = ACTION
+	RadiusCursorType = WingBlastRadiusCursor
+	DescriptLabel    = CONTROLBAR:ToolTipSpecialAbilityDrogonWingBlast
+	InPalantir			 = Yes
+	AutoAbility			 = Yes
+End
+
+CommandButton Command_ViserionDracarys
+	Command          = SPECIAL_POWER
+	SpecialPower     = SpecialAbilityViserionDracarys
+	Options          = NEED_TARGET_POS CONTEXTMODE_COMMAND
+	TextLabel        = CONTROLBAR:SpecialAbilityDrogonDracarys
+	ButtonImage      = uikharonaxflamingruin
+	ButtonBorderType = ACTION
+	RadiusCursorType = FireBreathRadiusCursor
+	DescriptLabel    = CONTROLBAR:ToolTipSpecialAbilityFlamingRuin
+	InPalantir			 = Yes
+	AutoAbility			 = Yes
+End

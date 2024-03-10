@@ -351,3 +351,17 @@ CommandSet RhaegalDragonCommandSet
 	17 = Command_SetStanceAggressive
 	18 = Command_SetStanceHoldGround
 End
+
+CommandSet ViserionDragonCommandSet
+	1 = Command_ToggleStance
+	2 = Command_DrogonStun
+	3 = Command_DrogonFlamestrike
+	4 = Command_DrogonsWrath
+	5 = Command_ViserionWingBlast
+	6 = Command_ViserionDracarys
+	13 = Command_AttackMove
+	14 = Command_Stop
+	16 = Command_SetStanceBattle
+	17 = Command_SetStanceAggressive
+	18 = Command_SetStanceHoldGround
+End

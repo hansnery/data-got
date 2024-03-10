@@ -274,3 +274,16 @@ SpecialPower SpecialAbilityRhaegalDracarys
 	RadiusCursorRadius = 110
 	Flags							 = WATER_OK
 End
+
+SpecialPower SpecialAbilityViserionWingBlast
+	Enum			 = SPECIAL_GENERAL_TARGETLESS
+	ReloadTime = 90000
+	RadiusCursorRadius = 100.0
+End
+
+SpecialPower SpecialAbilityViserionDracarys
+	Enum							 = SPECIAL_BALROG_BREATH
+	ReloadTime				 = 300000
+	RadiusCursorRadius = 80
+	Flags							 = WATER_OK
+End
