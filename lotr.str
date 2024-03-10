@@ -92305,4 +92305,20 @@ CONTROLBAR:SpecialAbilityDrogonDracarys
 "Dracarys (&V)"
 END
 
+OBJECT:TargaryenRhaegal
+"Rhaegal"
+END
+
+CONTROLBAR:TargaryenRhaegalRecruit
+"Recruit the green dragon Rhaegal \n\n 'The green one shall be Rhaegal, for my valiant brother who died on the green banks of the Trident.'"
+END
+
+CONTROLBAR:TargaryenRhaegalRevive
+"Revive the fallen Dragon, Rhaegal"
+End
+
+CONTROLBAR:TargaryenDrogonHotkey
+"Rhaegal (&A)"
+END
+
 END
