@@ -623,177 +623,81 @@ End
 ;;;;;;;;;;;;;;;;;;;;;
 ; Drogon
 ;;;;;;;;;;;;;;;;;;;;;
-AudioEvent DrogonVoiceAttack
-  Sounds        = Drogon_atk1 Drogon_atk2 Drogon_atk3 Drogon_atk4 Drogon_atk5 EUDrogo_voxAtta EUDrogo_voxAttb EUDrogo_voxAttc EUDrogo_voxAttd EUDrogo_voxAtte
-  Priority      = High
-  Volume        = M_Drogon_RESPONSE_VOLUME
-  MinVolume     = M_Drogon_RESPONSE_MINVOLUME
-  Type          = world player voice
-  SubmixSlider  = voice
-End
-
-AudioEvent DrogonVoiceEnterStateAttack
-  Sounds        = Drogon_atk1 Drogon_atk2 Drogon_atk3 Drogon_atk4 Drogon_atk5 EUDrogo_voxAtca EUDrogo_voxAtcd EUDrogo_voxAtcg
-  Priority      = High
-  Limit         = 1
-  Volume        = BATTLE_CHATTER_VOLUME
-  MinVolume     = BATTLE_CHATTER_MIN_VOLUME
-  Type          = world allies enemies voice shrouded
-  SubmixSlider  = voice
-  MaxRange      = BATTLE_CHATTER_RANGE
-  PlayPercent   = BATTLE_CHATTER_PLAY_PERCENT
-End
-
-AudioEvent DrogonVoiceAttackBuilding
-  Sounds        = Drogon_atk1 Drogon_atk2 Drogon_atk3 Drogon_atk4 Drogon_atk5 EUDrogo_voxAtta EUDrogo_voxAttb EUDrogo_voxAttc EUDrogo_voxAttd EUDrogo_voxAtte
-  Priority      = High
-  Volume        = M_Drogon_RESPONSE_VOLUME
-  MinVolume     = M_Drogon_RESPONSE_MINVOLUME
-  Type          = world player voice
-  SubmixSlider  = voice
-End
-
-AudioEvent DrogonVoiceEnterStateAttackBuilding
-  Sounds        = Drogon_atk1 Drogon_atk2 Drogon_atk3 Drogon_atk4 Drogon_atk5 EUDrogo_voxAtta EUDrogo_voxAttb EUDrogo_voxAttc EUDrogo_voxAttd EUDrogo_voxAtte
-  Priority      = High
-  Limit         = 1
-  Volume        = BATTLE_CHATTER_VOLUME
-  MinVolume     = BATTLE_CHATTER_MIN_VOLUME
-  Type          = world allies enemies voice shrouded
-  SubmixSlider  = voice
-  MaxRange      = BATTLE_CHATTER_RANGE
-  PlayPercent   = BATTLE_CHATTER_PLAY_PERCENT
-End
-
 AudioEvent DrogonVoiceSalute
-  Sounds        = Drogon_salute1
+  Sounds        = dragon2
   Priority      = High
-  Volume        = M_Drogon_RESPONSE_VOLUME
-  MinVolume     = M_Drogon_RESPONSE_MINVOLUME
+  Volume        = 200
+  MinVolume     = 195
   Type          = world player voice
   SubmixSlider  = voice
 End
 
-AudioEvent DrogonVoiceSelect
-  Sounds        = Drogon_select1 Drogon_select2 Drogon_select3 Drogon_select4 Drogon_select5 EUDrogo_voxSela EUDrogo_voxSelb EUDrogo_voxSelc EUDrogo_voxSeld EUDrogo_voxSele
+AudioEvent DrogonVoiceAttack
+  Sounds        = dragon3 dragon9 dragon17
   Priority      = High
-  Volume        = M_Drogon_RESPONSE_VOLUME
-  MinVolume     = M_Drogon_RESPONSE_MINVOLUME
-  Type          = world player voice
-  SubmixSlider  = voice
-End
-
-AudioEvent DrogonVoiceSelectBattle
-  Sounds        = Drogon_combat1 Drogon_combat2
-  Priority      = High
-  Volume        = M_Drogon_RESPONSE_VOLUME
-  MinVolume     = M_Drogon_RESPONSE_MINVOLUME
+  Volume        = 200
+  MinVolume     = 195
   Type          = world player voice
   SubmixSlider  = voice
 End
 
 AudioEvent DrogonVoiceMove
-  Sounds        = Drogon_move1 Drogon_move2 Drogon_move3 Drogon_move4 EUDrogo_voxMova EUDrogo_voxMovb EUDrogo_voxMovc EUDrogo_voxMovd EUDrogo_voxMove EUDrogo_voxMovf EUDrogo_voxMovg
+  Sounds        = dragon1 dragon4 dragon6 dragon7 dragon8 dragon11 dragon12 dragon13 dragon14 dragon15 dragon16 dragon18
   Priority      = High
-  Volume        = M_Drogon_RESPONSE_VOLUME
-  MinVolume     = M_Drogon_RESPONSE_MINVOLUME
+  Volume        = 200
+  MinVolume     = 195
   PlayPercent   = VOICE_MOVE_PLAY_PERCENT
   Type          = world player voice
   SubmixSlider  = voice
 End
 
-AudioEvent DrogonVoiceEnterStateMove
-  Sounds        = Drogon_move1 Drogon_move2 Drogon_move3 Drogon_move4 EUDrogo_voxMova EUDrogo_voxMovb EUDrogo_voxMovc EUDrogo_voxMovd EUDrogo_voxMove EUDrogo_voxMovf EUDrogo_voxMovg
-  Priority      = High
-  Limit         = 1
-  Volume        = BATTLE_CHATTER_VOLUME
-  MinVolume     = BATTLE_CHATTER_MIN_VOLUME
-  Type          = world allies enemies voice shrouded
-  SubmixSlider  = voice
-  MaxRange      = BATTLE_CHATTER_RANGE
-  PlayPercent   = BATTLE_CHATTER_PLAY_PERCENT
-End
-
-AudioEvent DrogonVoiceMoveCamp
-  Sounds        = Drogon_camp1 Drogon_camp2
-  Priority      = High
-  Volume        = M_Drogon_RESPONSE_VOLUME
-  MinVolume     = M_Drogon_RESPONSE_MINVOLUME
-  Type          = world player voice
-  SubmixSlider  = voice
-End
-
-AudioEvent DrogonVoiceEnterStateMoveCamp
-  Sounds        = Drogon_camp1 Drogon_camp2
-  Priority      = High
-  Limit         = 1
-  Volume        = BATTLE_CHATTER_VOLUME
-  MinVolume     = BATTLE_CHATTER_MIN_VOLUME
-  Type          = world allies enemies voice shrouded
-  SubmixSlider  = voice
-  MaxRange      = BATTLE_CHATTER_RANGE
-  PlayPercent   = BATTLE_CHATTER_PLAY_PERCENT
-End
-
 AudioEvent DrogonVoiceDisengage
-  Sounds        = Drogon_disengage1
+  Sounds        = dragon19 dragon20
   Priority      = High
-  Volume        = M_Drogon_RESPONSE_VOLUME
-  MinVolume     = M_Drogon_RESPONSE_MINVOLUME
+  Volume        = 200
+  MinVolume     = 195
   Type          = world player voice
   SubmixSlider  = voice
-End
-
-AudioEvent DrogonVoiceEnterStateDisengage
-  Sounds        = Drogon_disengage1
-  Priority      = High
-  Limit         = 1
-  Volume        = BATTLE_CHATTER_VOLUME
-  MinVolume     = BATTLE_CHATTER_MIN_VOLUME
-  Type          = world allies enemies voice shrouded
-  SubmixSlider  = voice
-  MaxRange      = BATTLE_CHATTER_RANGE
-  PlayPercent   = BATTLE_CHATTER_PLAY_PERCENT
 End
 
 AudioEvent DrogonVoiceFireball
-  Sounds        = Drogon_fireball1 Drogon_fireball2
+  Sounds        = dragon_fire
   Priority      = High
-  Volume        = M_Drogon_RESPONSE_VOLUME
-  MinVolume     = M_Drogon_RESPONSE_MINVOLUME
+  Volume        = 200
+  MinVolume     = 195
   Type          = world player voice
   SubmixSlider  = voice
 End
 
-AudioEvent DrogonVoiceDragonsFavor
-  Sounds        = Drogon_dragonsfavor1 Drogon_dragonsfavor2
+AudioEvent DrogonVoiceDracarys
+  Sounds        = dragon_fire
   Priority      = High
-  Volume        = M_Drogon_RESPONSE_VOLUME
-  MinVolume     = M_Drogon_RESPONSE_MINVOLUME
+  Volume        = 200
+  MinVolume     = 195
   Type          = world player voice
   SubmixSlider  = voice
 End
 
 AudioEvent DrogonVoiceFear
-  Sounds        = Drogon_help1
+  Sounds        = dragon5
   Priority      = High
-  Volume        = M_Drogon_RESPONSE_VOLUME
-  MinVolume     = M_Drogon_RESPONSE_MINVOLUME
+  Volume        = 200
+  MinVolume     = 195
   Type          = world player voice
   SubmixSlider  = voice
 End
 
-AudioEvent DrogonVoiceRespawn
-  Sounds        = Drogon_revive1
+AudioEvent DrogonVoiceScreech
+  Sounds        = dragon_screech
   Priority      = High
-  Volume        = M_Drogon_RESPONSE_VOLUME
-  MinVolume     = M_Drogon_RESPONSE_MINVOLUME
+  Volume        = 200
+  MinVolume     = 195
   Type          = world player voice
   SubmixSlider  = voice
 End
 
 AudioEvent DrogonVoiceDie
-  Sounds        = Drogon_death1 EUDrogo_voxDiea EUDrogo_voxDieb EUDrogo_voxDiec
+  Sounds        = dragon_dies dragon_dies2 dragon_dies3
   Priority      = High
   Limit         = 3
   Volume        = UNIT_RESPONSE_VOLUME

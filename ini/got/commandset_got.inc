@@ -327,7 +327,7 @@ End
 CommandSet DrogonDragonCommandSet
 	1 = Command_ToggleStance
 	2 = Command_DrogonStun ;Command_SpecialAbilityGildedMajesty
-	3 = Command_KhanoraxFlamestrike
+	3 = Command_DrogonFlamestrike
 	4 = Command_DrogonsWrath
 	5 = Command_DrogonWingBlast ;Command_SpecialAbilityGoldenDrakesFavour
 	6 = Command_DrogonDracarys

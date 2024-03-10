@@ -763,6 +763,20 @@ CommandButton Command_DrogonStun
   AutoAbility			  = Yes
 End
 
+CommandButton Command_DrogonFlamestrike
+	Command           = SPECIAL_POWER
+	SpecialPower      = SpecialAbilityDrogothFireball
+	Options           = NEED_TARGET_ENEMY_OBJECT NEED_TARGET_ALLY_OBJECT NEED_TARGET_NEUTRAL_OBJECT
+	TextLabel         = CONTROLBAR:SpecialAbilityDrogonFlamestrike
+	ButtonImage       = uikharonaxflamestrike
+	ButtonBorderType  = ACTION
+	DescriptLabel     = CONTROLBAR:ToolTipSpecialAbilityKhanoraxFlamestrike
+	CursorName        = EvilAbilityObj
+	InvalidCursorName = GenericInvalid
+	AutoAbility				= Yes
+	InPalantir				= Yes
+End
+
 CommandButton Command_DrogonsWrath
   Command          = SPECIAL_POWER
   SpecialPower     = SpecialAbilityScreech
@@ -780,7 +794,7 @@ CommandButton Command_DrogonWingBlast
 	SpecialPower     = SpecialAbilityWingBlast
 	Options          = NEED_TARGET_POS CONTEXTMODE_COMMAND
 	TextLabel        = CONTROLBAR:SpecialAbilityDrogonWingBlast
-	ButtonImage      = UIMMSmaugWings
+	ButtonImage      = TGDrogonWingBlastButton
 	ButtonBorderType = ACTION
 	RadiusCursorType = WingBlastRadiusCursor
 	DescriptLabel    = CONTROLBAR:ToolTipSpecialAbilityDrogonWingBlast

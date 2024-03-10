@@ -92285,8 +92285,12 @@ CONTROLBAR:ToolTipSpecialAbilityDrogonStun
 "Pins enemy hero in place for 30 seconds\nLeft click icon then left click on target"
 END
 
+CONTROLBAR:SpecialAbilityDrogonFlamestrike
+"Fire and Blood (&R)"
+END
+
 CONTROLBAR:DrogonsWrath
-"Drogon's Wrath (&T)"
+"Wrath of the Dragon (&T)"
 END
 
 CONTROLBAR:SpecialAbilityDrogonWingBlast
@@ -92294,7 +92298,7 @@ CONTROLBAR:SpecialAbilityDrogonWingBlast
 END
 
 CONTROLBAR:ToolTipSpecialAbilityDrogonWingBlast
-"Shoots a shockwave of force below Drogon, causing meta damage to enemies \n Left click icon then left click on target area"
+"Shoots a shockwave of force below, causing meta damage to enemies \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:SpecialAbilityDrogonDracarys
