@@ -214,12 +214,14 @@ CommandSet BaratheonLordGendryCommandSetLevel8
 End
 
 CommandSet DragonstoneFortressCommandSet
-	InitialVisible = 11
+	InitialVisible = 7
 	//Main Menu
 	1	= Command_ConstructBaratheonPorter
 	2	= Command_SelectRevivablesDragonstoneFortress
-	3	= Command_SelectUpgradesDragonstoneFortress
-	4	= Command_FireDragonstoneFortressSmokeAndBrimstone
+	3 = Command_SelectBaratheonDavosUpgrades
+	4	= Command_SelectUpgradesDragonstoneFortress
+	5 = Command_SelectBaratheonMelisandreUpgrades
+	7	= Command_FireDragonstoneFortressSmokeAndBrimstone
 	6	= Command_Sell
 	//Upgrades Menu
 	12 = Command_PurchaseUpgradeDragonstoneFortressBaratheonBanners
@@ -229,16 +231,23 @@ CommandSet DragonstoneFortressCommandSet
 	15 = Command_PurchaseUpgradeDragonstoneFortressValyrianSorcery
 	16 = Command_PurchaseUpgradeDragonstoneFortressStoneDrum
 	17 = Command_RadialBack
+	//Decisions Upgrades
+	18 = Command_SelectBaratheonLawfulSon
+	19 = Command_SelectBaratheonDavosUpgrade2
+	20 = Command_RadialBack
+	21 = Command_SelectBaratheonKingsBloodPower
+	22 = Command_SelectBaratheonMelisandreUpgrade2
+	23 = Command_RadialBack
 	//Hero Menu
-	18 = Command_RingHeroReviveSlot
-	19 = Command_CreateAHeroReviveSlot		// Note we also need an extra slot for the Create A Hero
-	20 = Command_GenericReviveSlot1
-	21 = Command_GenericReviveSlot2
-	22 = Command_GenericReviveSlot3
-	23 = Command_GenericReviveSlot4
-	24 = Command_GenericReviveSlot5
-	25 = Command_GenericReviveSlot6
-	26 = Command_RadialBack
+	24 = Command_RingHeroReviveSlot
+	25 = Command_CreateAHeroReviveSlot		// Note we also need an extra slot for the Create A Hero
+	26 = Command_GenericReviveSlot1
+	27 = Command_GenericReviveSlot2
+	28 = Command_GenericReviveSlot3
+	29 = Command_GenericReviveSlot4
+	30 = Command_GenericReviveSlot5
+	31 = Command_GenericReviveSlot6
+	32 = Command_RadialBack
 End
 
 CommandSet ShireenCommandSet
@@ -313,4 +322,18 @@ CommandSet BaratheonSalladhorSaanCommandSet
 	17 = Command_SetStanceAggressive
 	18 = Command_SetStanceHoldGround
 	19 = Command_ToggleBeregondWeapon
+End
+
+CommandSet DrogonDragonCommandSet
+	1 = Command_ToggleStance
+	2 = Command_DrogonStun ;Command_SpecialAbilityGildedMajesty
+	3 = Command_KhanoraxFlamestrike
+	4 = Command_DrogonsWrath
+	5 = Command_DrogonWingBlast ;Command_SpecialAbilityGoldenDrakesFavour
+	6 = Command_DrogonDracarys
+	13 = Command_AttackMove
+	14 = Command_Stop
+	16 = Command_SetStanceBattle
+	17 = Command_SetStanceAggressive
+	18 = Command_SetStanceHoldGround
 End

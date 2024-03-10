@@ -20,8 +20,8 @@ Upgrade Upgrade_BaratheonKingsBloodPowerTrigger // You actually buy this one, wh
 	BuildTime						= 0
 	DisplayName					= Upgrade:KingsBloodPower
 	UpgradeFX        		= FX_DwarvenFortressUpgrade
-	SkirmishAIHeuristic = AI_UPGRADEHEURISTIC_IMPORTANT
-	ResearchSound 			= UpgradeKingsBloodPower
+	;SkirmishAIHeuristic = AI_UPGRADEHEURISTIC_IMPORTANT
+	;ResearchSound 			= UpgradeKingsBloodPower
 End
 Upgrade Upgrade_BaratheonLawfulSonTrigger // You actually buy this one, which gives the one below to the whole castle
 	Type								= PLAYER
@@ -29,6 +29,6 @@ Upgrade Upgrade_BaratheonLawfulSonTrigger // You actually buy this one, which gi
 	BuildTime						= 0
 	DisplayName					= Upgrade:LawfulSon
 	UpgradeFX        		= FX_DwarvenFortressUpgrade
-	SkirmishAIHeuristic = AI_UPGRADEHEURISTIC_IMPORTANT
-	ResearchSound 			= UpgradeLawfulSon
+	;SkirmishAIHeuristic = AI_UPGRADEHEURISTIC_IMPORTANT
+	;ResearchSound 			= UpgradeLawfulSon
 End

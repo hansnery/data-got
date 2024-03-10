@@ -1,3 +1,4 @@
+// @format
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; ASOIAF LEVELS
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -1420,6 +1421,266 @@ ExperienceLevel	PurchaseableLevel10
 		OpacityMax = 100%
 		MinRadius	 = 40
 		MaxRadius	 = 200
+		MaxSelectedUnits = 40
+	End
+End
+ExperienceLevel	MiniHordeLevel1_GOT
+	TargetNames				 = MINI_HORDE_GOT
+	RequiredExperience = AOTR_EXPERIENCE_REQUIRED_MINI_HORDE_1
+	ExperienceAward		 = EXPERIENCE_AWARD_MINI_HORDE_1
+	InformUpdateModule = Yes
+	Rank							 = 1
+	Upgrades					 = Upgrade_ObjectLevel1
+	LevelUpTintColor						=	R:255 G:255	B:255
+	LevelUpTintPreColorTime			=	500
+	LevelUpTintPostColorTime		=	3000
+	LevelUpTintSustainColorTime	=	500
+	SelectionDecal
+		Texture		 =	decal_I_level1
+		Texture2	 =	decal_evil_CO
+		Style			 =	SHADOW_MERGE_DECAL
+		OpacityMin =	80%
+		OpacityMax =	100%
+		MinRadius	 =	HORDE_DECAL_MIN_RADIUS
+		MaxRadius	 =	200
+		MaxSelectedUnits =	40
+	End
+END
+ExperienceLevel	MiniHordeLevel2_GOT
+	TargetNames				 = MINI_HORDE_GOT
+	RequiredExperience = AOTR_EXPERIENCE_REQUIRED_MINI_HORDE_2
+	ExperienceAward		 = EXPERIENCE_AWARD_MINI_HORDE_2
+	AttributeModifiers = MiniHordeBonusRank2
+	InformUpdateModule = Yes
+	Upgrades					 = Upgrade_MiniHordeLvl2 Upgrade_ObjectLevel2
+	Rank							 = 2
+	LevelUpFx					 = FX:EvilLevelUpFX
+	LevelUpTintColor						=	R:255 G:255	B:255
+	LevelUpTintPreColorTime			=	500
+	LevelUpTintPostColorTime		=	3000
+	LevelUpTintSustainColorTime =	500
+	EmotionType									=	CHEER
+	SelectionDecal
+		Texture					 = decal_I_level2
+		Texture2				 = decal_evil_CO
+		Style						 = SHADOW_MERGE_DECAL
+		OpacityMin			 = 80%
+		OpacityMax			 = 100%
+		MinRadius			   = HORDE_DECAL_MIN_RADIUS
+		MaxRadius				 = 200
+		MaxSelectedUnits = 40
+	End
+END
+ExperienceLevel	MiniHordeLevel3_GOT
+	TargetNames				 = MINI_HORDE_GOT
+	RequiredExperience = AOTR_EXPERIENCE_REQUIRED_MINI_HORDE_3
+	ExperienceAward		 = EXPERIENCE_AWARD_MINI_HORDE_3
+	AttributeModifiers = MiniHordeBonusRank3
+	InformUpdateModule = Yes
+	Upgrades					 = Upgrade_MiniHordeLvl3
+	Rank							 = 3
+	LevelUpFx					 = FX:EvilLevelUpFX
+	LevelUpTintColor						=	R:255 G:255	B:255
+	LevelUpTintPreColorTime			=	500
+	LevelUpTintPostColorTime		=	3000
+	LevelUpTintSustainColorTime	=	500
+	EmotionType									=	CHEER
+	SelectionDecal
+		Texture					 = decal_I_level3
+		Texture2				 = decal_evil_CO
+		Style						 = SHADOW_MERGE_DECAL
+		OpacityMin			 = 80%
+		OpacityMax			 = 100%
+		MinRadius			   = HORDE_DECAL_MIN_RADIUS
+		MaxRadius				 = 200
+		MaxSelectedUnits = 40
+	End
+END
+ExperienceLevel	MiniHordeLevel4_GOT
+	TargetNames				 = MINI_HORDE_GOT
+	RequiredExperience = AOTR_EXPERIENCE_REQUIRED_MINI_HORDE_4
+	ExperienceAward		 = EXPERIENCE_AWARD_MINI_HORDE_4
+	AttributeModifiers = MiniHordeBonusRank4
+	InformUpdateModule = Yes
+	Upgrades					 = Upgrade_MiniHordeLvl4
+	Rank							 = 4
+	LevelUpFx					 = FX:EvilLevelUpFX
+	LevelUpTintColor						=	R:255 G:255	B:255
+	LevelUpTintPreColorTime			=	500
+	LevelUpTintPostColorTime		=	3000
+	LevelUpTintSustainColorTime	=	500
+	EmotionType									=	CHEER
+	SelectionDecal
+		Texture					 = decal_I_level4
+		Texture2				 = decal_evil_CO
+		Style						 = SHADOW_MERGE_DECAL
+		OpacityMin			 = 80%
+		OpacityMax			 = 100%
+		MinRadius			   = HORDE_DECAL_MIN_RADIUS
+		MaxRadius				 = 200
+		MaxSelectedUnits = 40
+	End
+END
+ExperienceLevel	MiniHordeLevel5_GOT
+	TargetNames				 = MINI_HORDE_GOT
+	RequiredExperience = AOTR_EXPERIENCE_REQUIRED_MINI_HORDE_5
+	ExperienceAward		 = EXPERIENCE_AWARD_MINI_HORDE_5
+	AttributeModifiers = MiniHordeBonusRank5
+	InformUpdateModule = Yes
+	Upgrades					 = Upgrade_MiniHordeLvl5
+	Rank							 = 5
+	LevelUpFx					 = FX:EvilLevelUpFX
+	LevelUpTintColor					  =	R:255 G:255	B:255
+	LevelUpTintPreColorTime			=	500
+	LevelUpTintPostColorTime		=	3000
+	LevelUpTintSustainColorTime	=	500
+	EmotionType									=	CHEER
+	SelectionDecal
+		Texture					 = decal_I_level4
+		Texture2				 = decal_evil_CO
+		Style						 = SHADOW_MERGE_DECAL
+		OpacityMin			 = 80%
+		OpacityMax			 = 100%
+		MinRadius			   = HORDE_DECAL_MIN_RADIUS
+		MaxRadius				 = 200
+		MaxSelectedUnits = 40
+	End
+END
+ExperienceLevel	MiniHordeLevel6_GOT
+	TargetNames				 = MINI_HORDE_GOT
+	RequiredExperience = AOTR_EXPERIENCE_REQUIRED_MINI_HORDE_6
+	ExperienceAward		 = EXPERIENCE_AWARD_MINI_HORDE_6
+	AttributeModifiers = MiniHordeBonusRank6
+	InformUpdateModule = Yes
+	Rank							 = 6
+	LevelUpFx					 = FX:EvilLevelUpFX
+	LevelUpTintColor						=	R:255 G:255	B:255
+	LevelUpTintPreColorTime			=	500
+	LevelUpTintPostColorTime		=	3000
+	LevelUpTintSustainColorTime	=	500
+	EmotionType									=	CHEER
+	SelectionDecal
+		Texture					 = decal_I_level4
+		Texture2				 = decal_evil_CO
+		Style						 = SHADOW_MERGE_DECAL
+		OpacityMin			 = 80%
+		OpacityMax			 = 100%
+		MinRadius			   = HORDE_DECAL_MIN_RADIUS
+		MaxRadius				 = 200
+		MaxSelectedUnits = 40
+	End
+END
+ExperienceLevel	MiniHordeLevel7_GOT
+	TargetNames				 = MINI_HORDE_GOT
+	RequiredExperience = AOTR_EXPERIENCE_REQUIRED_MINI_HORDE_7
+	ExperienceAward		 = EXPERIENCE_AWARD_MINI_HORDE_7
+	AttributeModifiers = MiniHordeBonusRank7
+	InformUpdateModule = Yes
+	Upgrades					 = Upgrade_MiniHordeLvl7
+	Rank							 = 7
+	LevelUpFx					 = FX:EvilLevelUpFX
+	LevelUpTintColor						=	R:255 G:255	B:255
+	LevelUpTintPreColorTime			=	500
+	LevelUpTintPostColorTime		= 3000
+	LevelUpTintSustainColorTime =	500
+	EmotionType									= CHEER
+	SelectionDecal
+		Texture					 = decal_I_level4
+		Texture2				 = decal_evil_CO
+		Style						 = SHADOW_MERGE_DECAL
+		OpacityMin			 = 80%
+		OpacityMax			 = 100%
+		MinRadius			   = HORDE_DECAL_MIN_RADIUS
+		MaxRadius				 = 200
+		MaxSelectedUnits = 40
+	End
+END
+ExperienceLevel	MiniHordeLevel8_GOT
+	TargetNames				 = MINI_HORDE_GOT
+	RequiredExperience = AOTR_EXPERIENCE_REQUIRED_MINI_HORDE_8
+	ExperienceAward		 = EXPERIENCE_AWARD_MINI_HORDE_8
+	AttributeModifiers = MiniHordeBonusRank8
+	InformUpdateModule = Yes
+	Rank							 = 8
+	LevelUpFx					 = FX:EvilLevelUpFX
+	LevelUpTintColor						=	R:255 G:255	B:255
+	LevelUpTintPreColorTime			=	500
+	LevelUpTintPostColorTime		=	3000
+	LevelUpTintSustainColorTime =	500
+	EmotionType									=	CHEER
+	SelectionDecal
+		Texture					 = decal_I_level4
+		Texture2				 = decal_evil_CO
+		Style						 = SHADOW_MERGE_DECAL
+		OpacityMin			 = 80%
+		OpacityMax			 = 100%
+		MinRadius			   = HORDE_DECAL_MIN_RADIUS
+		MaxRadius				 = 200
+		MaxSelectedUnits = 40
+	End
+END
+ExperienceLevel	MiniHordeLevel9_GOT
+	TargetNames				 = MINI_HORDE_GOT
+	RequiredExperience = AOTR_EXPERIENCE_REQUIRED_MINI_HORDE_9
+	ExperienceAward		 = EXPERIENCE_AWARD_MINI_HORDE_9
+	AttributeModifiers = MiniHordeBonusRank9
+	InformUpdateModule = Yes
+	Rank							 = 9
+	LevelUpFx					 = FX:EvilLevelUpFX
+	LevelUpTintColor						=	R:255 G:255	B:255
+	LevelUpTintPreColorTime			=	500
+	LevelUpTintPostColorTime		=	3000
+	LevelUpTintSustainColorTime	=	500
+	EmotionType									=	CHEER
+	SelectionDecal
+		Texture					 = decal_I_level4
+		Texture2				 = decal_evil_CO
+		Style						 = SHADOW_MERGE_DECAL
+		OpacityMin			 = 80%
+		OpacityMax			 = 100%
+		MinRadius			   = HORDE_DECAL_MIN_RADIUS
+		MaxRadius				 = 200
+		MaxSelectedUnits = 40
+	End
+END
+ExperienceLevel	MiniHordeLevel10_GOT
+	TargetNames				 = MINI_HORDE_GOT
+	RequiredExperience = AOTR_EXPERIENCE_REQUIRED_MINI_HORDE_10
+	ExperienceAward		 = EXPERIENCE_AWARD_MINI_HORDE_10
+	AttributeModifiers = MiniHordeBonusRank10
+	InformUpdateModule = Yes
+	Upgrades					 = Upgrade_MiniHordeLvl10
+	Rank							 = 10
+	LevelUpFx					 = FX:EvilLevelUpFX
+	LevelUpTintColor						=	R:255 G:255	B:255
+	LevelUpTintPreColorTime			=	500
+	LevelUpTintPostColorTime		=	3000
+	LevelUpTintSustainColorTime =	500
+	EmotionType									=	CHEER
+	SelectionDecal
+		Texture					 = decal_I_level4
+		Texture2				 = decal_evil_CO
+		Style						 = SHADOW_MERGE_DECAL
+		OpacityMin			 = 80%
+		OpacityMax			 = 100%
+		MinRadius			   = HORDE_DECAL_MIN_RADIUS
+		MaxRadius				 = 200
+		MaxSelectedUnits = 40
+	End
+END
+ExperienceLevel	PorterLevel1_GOT
+	TargetNames				 = PORTERS_GOT
+	RequiredExperience = 1
+	ExperienceAward		 = 10
+	Rank							 = 1
+	SelectionDecal
+		Texture					 = decal_I_level1
+		Texture2				 = decal_evil_CO
+		Style						 = SHADOW_MERGE_DECAL
+		OpacityMin			 = 80%
+		OpacityMax			 = 100%
+		MinRadius				 = HORDE_DECAL_MIN_RADIUS
+		MaxRadius				 = 200
 		MaxSelectedUnits = 40
 	End
 End

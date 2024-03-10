@@ -2169,12 +2169,12 @@ END
 
 APT:EndVictorious
 // context: Popup screen at end of game telling you you won
-"VICTORIOUS"
+"VALAR DOHAERIS"
 END
 
 APT:EndDefeat
 // context: Popup screen at end of game telling you you list
-"DEFEATED"
+"VALAR MORGHULIS"
 END
 
 APT:EndGameOver
@@ -92208,8 +92208,97 @@ END
 CONTROLBAR:DesireOfPlunder
 "Desire of Plunder (&T)"
 END
+
 CONTROLBAR:ToolTipDesireOfPlunder
 "Requires Level 8\nDeals significant damage over time to structures for 15 seconds \n Can be cast from a large distance \n Left click icon then left click on target"
+END
+
+CONTROLBAR:SelectBaratheonDavosUpgrades
+"Heed &Davos Seaworth"
+END
+
+CONTROLBAR:ToolTipCommandSelectBaratheonDavosUpgrades
+"Heed the Onion Knight and follow a path of reason"
+END
+
+CONTROLBAR:SelectBaratheonMelisandreUpgrades
+"Heed &Melisandre"
+END
+
+CONTROLBAR:ToolTipCommandSelectBaratheonMelisandreUpgrades
+"Heed the Priestess of Asshai and follow a path of faith"
+END
+
+CONTROLBAR:PurchaseUpgradeBaratheonKingsBloodPower
+"King's Blood Power"
+END
+
+CONTROLBAR:ToolTipPurchaseUpgradeBaratheonKingsBloodPower
+"Gendry is acknowledged as the bastard son of Robert Baratheon \nand his blood is used by Melisandre for blood magic \n Melisandre gains increased damage and attack radius \nbut Gendry will go out on his own if defeated \n Is mutually exclusive with Lawful Son upgrade \n Prerequisite for Gendry"
+END
+
+Upgrade:KingsBloodPower
+"King's Blood Power"
+END
+
+TOOLTIP:KingsBloodPowerIsMutuallyExclusive
+"You have already researched Lawful Son"
+END
+
+CONTROLBAR:PurchaseUpgradeBaratheonLawfulSon
+"Lawful Son"
+END
+
+CONTROLBAR:ToolTipPurchaseUpgradeBaratheonLawfulSon
+"Gendry is declared heir to Stannis Baratheon and \nis legitimized as the lawful son of Robert Baratheon \n Gendry gains leadership and the ability to leap in place of \nhis ability to escape and to smith \n Is mutually exclusive with Kings Blood Power upgrade \n Prerequisite for Gendry "
+END
+
+Upgrade:LawfulSon
+"Lawful Son"
+END
+
+TOOLTIP:LawfulSonIsMutuallyExclusive
+"You have already researched Kings Blood Power"
+END
+
+OBJECT:TargaryenDrogon
+"Drogon"
+END
+
+CONTROLBAR:TargaryenDrogonRecruit
+"Recruit the largest of Daenerys Targaryen's dragons \n\n 'Drogon roared. The sound filled the pit. A furnace wind engulfed her. The dragon's long scaled neck stretched toward her. When his mouth opened, she could see bits of broken bone and charred flesh between his black teeth. His eyes were molten. I am looking into hell, but I dare not look away. She had never been so certain of anything. If I run from him, he will burn me and devour me.'"
+END
+
+CONTROLBAR:TargaryenDrogonRevive
+"Revive the fallen Dragon, Drogon"
+End
+
+CONTROLBAR:TargaryenDrogonHotkey
+"Drogon (&A)"
+END
+
+CONTROLBAR:SpecialAbilityDrogonStun
+"Dread Gaze (&W)"
+END
+
+CONTROLBAR:ToolTipSpecialAbilityDrogonStun
+"Pins enemy hero in place for 30 seconds\nLeft click icon then left click on target"
+END
+
+CONTROLBAR:DrogonsWrath
+"Drogon's Wrath (&T)"
+END
+
+CONTROLBAR:SpecialAbilityDrogonWingBlast
+"Wing Blast (&C)"
+END
+
+CONTROLBAR:ToolTipSpecialAbilityDrogonWingBlast
+"Shoots a shockwave of force below Drogon, causing meta damage to enemies \n Left click icon then left click on target area"
+END
+
+CONTROLBAR:SpecialAbilityDrogonDracarys
+"Dracarys (&V)"
 END
 
 END

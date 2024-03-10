@@ -460,7 +460,7 @@ CommandButton Command_SelectRevivablesDragonstoneFortress
 	ButtonBorderType  = SYSTEM
 	DescriptLabel     = CONTROLBAR:ToolTipCommandSelectRevivablesMordorFortress
 	Radial            = Yes
-	CommandRangeStart	= 17	//Starts its counting at 0, so command button 8 is 7
+	CommandRangeStart	= 23	//Starts its counting at 0, so command button 8 is 7
 	CommandRangeCount	= 9
 End
 
@@ -673,4 +673,130 @@ CommandButton Command_SpecialAbilityDesireOfPlunder
   DescriptLabel     = CONTROLBAR:ToolTipDesireOfPlunder
   AutoAbility			  = Yes
   InPalantir			  = Yes
+End
+
+CommandButton Command_SelectBaratheonDavosUpgrades
+	Command           = PUSH_VISIBLE_COMMAND_RANGE
+	TextLabel         = CONTROLBAR:SelectBaratheonDavosUpgrades
+	ButtonImage       = BADavosUpgrades
+	ButtonBorderType  = SYSTEM 
+	DescriptLabel     = CONTROLBAR:ToolTipCommandSelectBaratheonDavosUpgrades
+	Radial            = Yes
+	CommandRangeStart	= 17	//Starts its counting at 0, so command button 8 is 7
+	CommandRangeCount	= 3
+End
+
+CommandButton Command_SelectBaratheonMelisandreUpgrades
+	Command           = PUSH_VISIBLE_COMMAND_RANGE
+	TextLabel         = CONTROLBAR:SelectBaratheonMelisandreUpgrades
+	ButtonImage       = BAMelisandreUpgrades
+	ButtonBorderType  = SYSTEM 
+	DescriptLabel     = CONTROLBAR:ToolTipCommandSelectBaratheonMelisandreUpgrades
+	Radial            = Yes
+	CommandRangeStart	= 20	//Starts its counting at 0, so command button 8 is 7
+	CommandRangeCount	= 3
+End
+
+CommandButton Command_SelectBaratheonLawfulSon
+  Command          = PLAYER_UPGRADE
+  Upgrade          = Upgrade_BaratheonLawfulSonTrigger
+  Options					 = NEED_UPGRADE CANCELABLE
+	NeededUpgrade	   = Upgrade_BaratheonLawfulSonAvailableIsTrue
+  TextLabel        = CONTROLBAR:PurchaseUpgradeBaratheonLawfulSon
+  ButtonImage      = BALawfulSon
+  ButtonBorderType = UPGRADE
+  DescriptLabel    = CONTROLBAR:ToolTipPurchaseUpgradeBaratheonLawfulSon
+  Radial           = Yes
+  InPalantir	   	 = Yes
+	LacksPrerequisiteLabel = TOOLTIP:LawfulSonIsMutuallyExclusive
+End
+
+CommandButton Command_SelectBaratheonDavosUpgrade2
+  Command          = PLAYER_UPGRADE
+  Upgrade          = Upgrade_MenFortressNumenorStoneworkTrigger
+  Options					 = CANCELABLE
+  TextLabel        = CONTROLBAR:PurchaseUpgradeBaratheonWeatheredByTheStorm
+  ButtonImage      = BAWeatheredByTheStorm
+  ButtonBorderType = UPGRADE
+  DescriptLabel    = CONTROLBAR:ToolTipPurchaseUpgradeBaratheonWeatheredByTheStorm
+  Radial           = Yes
+  InPalantir	   	 = Yes
+End
+
+CommandButton Command_SelectBaratheonKingsBloodPower
+  Command          = PLAYER_UPGRADE
+  Upgrade          = Upgrade_BaratheonKingsBloodPowerTrigger
+  Options					 = NEED_UPGRADE CANCELABLE
+	NeededUpgrade	   = Upgrade_BaratheonKingsBloodPowerAvailableIsTrue
+  TextLabel        = CONTROLBAR:PurchaseUpgradeBaratheonKingsBloodPower
+  ButtonImage      = BAPowerInKingsBlood
+  ButtonBorderType = UPGRADE
+  DescriptLabel    = CONTROLBAR:ToolTipPurchaseUpgradeBaratheonKingsBloodPower
+  Radial           = Yes
+  InPalantir	   	 = Yes
+	LacksPrerequisiteLabel = TOOLTIP:KingsBloodPowerIsMutuallyExclusive
+End
+
+CommandButton Command_SelectBaratheonMelisandreUpgrade2
+  Command          = PLAYER_UPGRADE
+  Upgrade          = Upgrade_MenFortressNumenorStoneworkTrigger
+  Options					 = CANCELABLE
+  TextLabel        = CONTROLBAR:PurchaseUpgradeBaratheonWeatheredByTheStorm
+  ButtonImage      = BAWeatheredByTheStorm
+  ButtonBorderType = UPGRADE
+  DescriptLabel    = CONTROLBAR:ToolTipPurchaseUpgradeBaratheonWeatheredByTheStorm
+  Radial           = Yes
+  InPalantir	   	 = Yes
+End
+
+CommandButton Command_DrogonStun
+  Command           = SPECIAL_POWER
+  SpecialPower      = SpecialAbilityLurtzCripple
+  Options           = NEED_TARGET_ENEMY_OBJECT
+  TextLabel         = CONTROLBAR:SpecialAbilityDrogonStun
+  CursorName        = EvilAbilityObj
+  InvalidCursorName = GenericInvalid
+  ButtonImage       = UIMMBolgDebuff
+  ButtonBorderType  = ACTION
+  DescriptLabel     = CONTROLBAR:ToolTipSpecialAbilityDrogonStun
+  InPalantir			  = Yes
+  AutoAbility			  = Yes
+End
+
+CommandButton Command_DrogonsWrath
+  Command          = SPECIAL_POWER
+  SpecialPower     = SpecialAbilityScreech
+  TextLabel        = CONTROLBAR:DrogonsWrath
+  ButtonImage      = uikharonaxpower5
+  ButtonBorderType = ACTION
+  DescriptLabel    = CONTROLBAR:TooltipGlaurungsWrath
+  InPalantir			 = Yes
+  AutoAbility			 = Yes
+  PresetRange			 = 150
+End
+
+CommandButton Command_DrogonWingBlast
+	Command          = SPECIAL_POWER
+	SpecialPower     = SpecialAbilityWingBlast
+	Options          = NEED_TARGET_POS CONTEXTMODE_COMMAND
+	TextLabel        = CONTROLBAR:SpecialAbilityDrogonWingBlast
+	ButtonImage      = UIMMSmaugWings
+	ButtonBorderType = ACTION
+	RadiusCursorType = WingBlastRadiusCursor
+	DescriptLabel    = CONTROLBAR:ToolTipSpecialAbilityDrogonWingBlast
+	InPalantir			 = Yes
+	AutoAbility			 = Yes
+End
+
+CommandButton Command_DrogonDracarys
+	Command          = SPECIAL_POWER
+	SpecialPower     = SpecialAbilityDrogothIncinerate
+	Options          = NEED_TARGET_POS CONTEXTMODE_COMMAND
+	TextLabel        = CONTROLBAR:SpecialAbilityDrogonDracarys
+	ButtonImage      = uikharonaxflamingruin
+	ButtonBorderType = ACTION
+	RadiusCursorType = FireBreathRadiusCursor
+	DescriptLabel    = CONTROLBAR:ToolTipSpecialAbilityFlamingRuin
+	InPalantir			 = Yes
+	AutoAbility			 = Yes
 End
