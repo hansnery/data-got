@@ -326,11 +326,25 @@ End
 
 CommandSet DrogonDragonCommandSet
 	1 = Command_ToggleStance
-	2 = Command_DrogonStun ;Command_SpecialAbilityGildedMajesty
+	2 = Command_DrogonStun
 	3 = Command_DrogonFlamestrike
 	4 = Command_DrogonsWrath
-	5 = Command_DrogonWingBlast ;Command_SpecialAbilityGoldenDrakesFavour
+	5 = Command_DrogonWingBlast
 	6 = Command_DrogonDracarys
+	13 = Command_AttackMove
+	14 = Command_Stop
+	16 = Command_SetStanceBattle
+	17 = Command_SetStanceAggressive
+	18 = Command_SetStanceHoldGround
+End
+
+CommandSet RhaegalDragonCommandSet
+	1 = Command_ToggleStance
+	2 = Command_DrogonStun
+	3 = Command_DrogonFlamestrike
+	4 = Command_DrogonsWrath
+	5 = Command_RhaegalWingBlast
+	6 = Command_RhaegalDracarys
 	13 = Command_AttackMove
 	14 = Command_Stop
 	16 = Command_SetStanceBattle
