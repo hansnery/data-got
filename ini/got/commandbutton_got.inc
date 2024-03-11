@@ -1,6 +1,19 @@
-//--------------------------------------------------------------------------	
+//--------------------------------------------------------------------------
 //	GAME OF THRONES COMMAND BUTTONS
-//--------------------------------------------------------------------------	
+//--------------------------------------------------------------------------
+CommandButton Command_SpecialAbilityTestGollumVision
+	Command					 = SPECIAL_POWER
+  SpecialPower		 = SpecialAbilityMenFortressIvoryTowerVision
+  ButtonImage			 = UIGondorFortressIvoryTower
+	TextLabel				 = CONTROLBAR:IvoryTowerVision
+	ButtonBorderType = ACTION
+	DescriptLabel		 = CONTROLBAR:TooltipIvoryTowerVision
+	RadiusCursorType = PalantirVisionRadiusCursor
+	Radial					 = No
+	InPalantir			 = Yes
+	AutoAbility			 = Yes
+End
+
 CommandButton Command_StannisFakeLeadershipButton
   Command          = SPECIAL_POWER
   SpecialPower     = SpecialAbilityFakeLeadership

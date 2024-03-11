@@ -1,6 +1,18 @@
 ////////////////////////////////////
 // 					GAME OF THRONES 				
 ////////////////////////////////////
+CommandSet TestGollumCommandSet
+	1	= Command_ToggleStance
+	2 = Command_SpecialAbilityTestGollumVision
+	3 = Command_SpecialAbilitySilverHostSummon
+	12 = Command_CaptureBuilding
+	13 = Command_AttackMove
+	14 = Command_Stop
+	16 = Command_SetStanceBattle
+	17 = Command_SetStanceAggressive
+	18 = Command_SetStanceHoldGround
+End
+
 CommandSet BaratheonStannisCommandSet
 	1	 = Command_ToggleStance
 	2	 = Command_StannisFakeLeadershipButton

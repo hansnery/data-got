@@ -28127,7 +28127,7 @@ END
 
 RULE:AllowRingHeroes
 // On rule tab for game setup.
-"Allow Ring Heroes"
+"Allow Dragons"
 END
 
 RULE:AllowCustomHeroes
@@ -92335,6 +92335,10 @@ End
 
 CONTROLBAR:TargaryenViserionHotkey
 "Viserion (&A)"
+END
+
+OBJECT:TargaryenViserys
+"Viserys Targaryen"
 END
 
 END
