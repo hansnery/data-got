@@ -393,28 +393,28 @@ CommandSet BaratheonPorterCommandSet
 End
 
 CommandSet BaratheonBarracksCommandSet
-	1 = Command_ConstructBaratheonCorsairOfLysHorde
-	2 = Command_ConstructBaratheonDragonstoneSoldierHorde
-	3 = Command_ConstructBaratheonDragonstonePikemanHorde
-	4 = Command_ConstructBaratheonDragonstoneArcherHorde
-	5 = Command_UpgradeMordorOrcPitLevel2
+	; 1 = Command_ConstructBaratheonCorsairOfLysHorde
+	1 = Command_ConstructBaratheonDragonstoneSoldierHorde
+	2 = Command_ConstructBaratheonDragonstonePikemanHorde
+	3 = Command_ConstructBaratheonDragonstoneArcherHorde
+	4 = Command_UpgradeBaratheonDragonstoneBarracksLevel2
 	6	= Command_Sell
 End
 
 CommandSet BaratheonBarracksCommandSetLvl2
-	1 = Command_ConstructBaratheonCorsairOfLysHorde
-	2 = Command_ConstructBaratheonDragonstoneSoldierHorde
-	3 = Command_ConstructBaratheonDragonstonePikemanHorde
-	4 = Command_ConstructBaratheonDragonstoneArcherHorde
-	5 = Command_UpgradeMordorOrcPitLevel3
+	; 1 = Command_ConstructBaratheonCorsairOfLysHorde
+	1 = Command_ConstructBaratheonDragonstoneSoldierHorde
+	2 = Command_ConstructBaratheonDragonstonePikemanHorde
+	3 = Command_ConstructBaratheonDragonstoneArcherHorde
+	4 = Command_UpgradeBaratheonDragonstoneBarracksLevel3
 	6	= Command_Sell
 End
 
 CommandSet BaratheonBarracksCommandSetLvl3
-	1 = Command_ConstructBaratheonCorsairOfLysHorde
-	2 = Command_ConstructBaratheonDragonstoneSoldierHorde
-	3 = Command_ConstructBaratheonDragonstonePikemanHorde
-	4 = Command_ConstructBaratheonDragonstoneArcherHorde
+	; 1 = Command_ConstructBaratheonCorsairOfLysHorde
+	1 = Command_ConstructBaratheonDragonstoneSoldierHorde
+	2 = Command_ConstructBaratheonDragonstonePikemanHorde
+	3 = Command_ConstructBaratheonDragonstoneArcherHorde
 	6	= Command_Sell
 End
 

@@ -943,3 +943,29 @@ CommandButton Command_ConstructBaratheonDragonstoneArcherHorde
 	ShowProductionCount	= Yes
   UnitSpecificSound   = GondorArcherVoiceBuy
 End
+
+CommandButton Command_UpgradeBaratheonDragonstoneBarracksLevel2
+	Command				   = OBJECT_UPGRADE
+	Object				   = MordorOrcPit
+	Upgrade				   = Upgrade_MordorOrcPitLevel2
+	Options				   = CANCELABLE
+	TextLabel			   = CONTROLBAR:UpgradeBaratheonDragonstoneBarracksLevel2
+	ButtonImage			 = UpgradeEvilButton ; UCCommon_UpgradeStructureNew
+	ButtonBorderType = BUILD
+	DescriptLabel		 = CONTROLBAR:TooltipUpgradeBaratheonDragonstoneBarracksLevel2
+	Radial				   = Yes
+	InPalantir			 = Yes
+End
+
+CommandButton Command_UpgradeBaratheonDragonstoneBarracksLevel3
+	Command				   = OBJECT_UPGRADE
+	Object				   = MordorOrcPit
+	Upgrade				   = Upgrade_MordorOrcPitLevel3
+	Options				   = CANCELABLE
+	TextLabel			   = CONTROLBAR:UpgradeBaratheonDragonstoneBarracksLevel3
+	ButtonImage			 = UpgradeEvilButton ; UCCommon_UpgradeStructureNew
+	ButtonBorderType = BUILD
+	DescriptLabel		 = CONTROLBAR:TooltipUpgradeBaratheonDragonstoneBarracksLevel3
+	Radial				   = Yes
+	InPalantir			 = Yes
+End

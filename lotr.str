@@ -92346,11 +92346,11 @@ OBJECT:BaratheonBarracks
 END
 
 CONTROLBAR:ConstructBaratheonDragonstoneBarracks
-"Build Dragonstone Stronghold (&T)"
+"Build Dragonstone Barracks (&T)"
 END
 
 CONTROLBAR:ToolTipBaratheonDragonstoneBarracks
-"Trains Corsairs of Lys and Soldiers of Dragonstone \n\n The barracks of Dragonstone, carved from ancient stone, stand resilient and austere, housing soldiers trained rigorously and skilled corsairs from Lys seeking refuge within its walls."
+"Trains Soldiers of Dragonstone \n\n The barracks of Dragonstone, carved from ancient stone, stand resilient and austere, housing soldiers rigorously trained."
 END
 
 OBJECT:BaratheonCorsairOfLys
@@ -92366,11 +92366,11 @@ CONTROLBAR:ConstructBaratheonCorsairOfLysHorde
 END
 
 CONTROLBAR:ToolTipConstructBaratheonCorsairOfLysHorde
-"Requires Level 2 Dragonstone Stronghold \nStrong vs. Pikemen"
+"Strong vs. Pikemen"
 END
 
 CONTROLBAR:ConstructDragonstoneFighterHorde
-"Soldiers of Dragonstone (&E)"
+"Soldiers of Dragonstone (&W)"
 END
 
 CONTROLBAR:ToolTipConstructDragonstoneFighterHorde
@@ -92382,11 +92382,15 @@ OBJECT:DragonstoneFighter
 END
 
 CONTROLBAR:ConstructDragonstonePikemanHorde
-"Pikemen of Dragonstone (&R)"
+"Pikemen of Dragonstone (&E)"
 END
 
 CONTROLBAR:ToolTipConstructDragonstonePikemanHorde
 "Pikemen of Dragonstone \n Strong vs. Cavalry, Siege and Heroes \n\n The pikemen of Dragonstone, clad in sturdy armor and wielding their formidable weapons with precision, stand as stalwart defenders of the fortress. With disciplined formations and unwavering resolve, they form an impenetrable barrier against any who dare to challenge the might of House Baratheon."
+END
+
+OBJECT:DragonstonePikeman
+"Soldier of Dragonstone"
 END
 
 OBJECT:BaratheonDragonstoneArcher
@@ -92398,11 +92402,27 @@ OBJECT:BaratheonDragonstoneArcherHorde
 END
 
 CONTROLBAR:ConstructDragonstoneArcherHorde
-"Dragonstone Archers (&T)"
+"Dragonstone Archers (&R)"
 END
 
 CONTROLBAR:ToolTipConstructDragonstoneArcherHorde
 "Requires Level 2 Barracks \n Strong vs. Infantry and Monsters \n Stealth near trees\n \n The archers of Dragonstone, perched atop the fortress's ramparts, are masters of ranged warfare. With keen eyes and steady hands, they rain down a hail of deadly arrows upon any foe foolish enough to approach the fortress walls."
 END
+
+CONTROLBAR:UpgradeBaratheonDragonstoneBarracksLevel2
+"Upgrade Dragonstone Barracks to Level 2 (&A)"
+End
+
+CONTROLBAR:UpgradeBaratheonDragonstoneBarracksLevel3
+"Upgrade Dragonstone Barracks to Level 3 (&A)"
+End
+
+CONTROLBAR:TooltipUpgradeBaratheonDragonstoneBarracksLevel2
+"Allows training of Dragonstone Archers \n +10% faster build speed"
+End
+
+CONTROLBAR:TooltipUpgradeBaratheonDragonstoneBarracksLevel3
+"+25% faster build speed"
+End
 
 END
