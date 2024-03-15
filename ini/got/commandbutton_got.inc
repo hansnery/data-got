@@ -928,3 +928,18 @@ CommandButton Command_ConstructBaratheonDragonstonePikemanHorde
 	InPalantir			 = Yes
 	ShowProductionCount	= Yes
 End
+
+CommandButton Command_ConstructBaratheonDragonstoneArcherHorde
+	Command			     = UNIT_BUILD
+	Object			     = BaratheonDragonstoneArcherHorde
+  NeededUpgrade    = Upgrade_MordorOrcPitLevel2
+	Options			     = CANCELABLE NEED_UPGRADE
+	TextLabel		     = CONTROLBAR:ConstructDragonstoneArcherHorde
+	ButtonImage		   = BAArcher
+	ButtonBorderType = BUILD
+	DescriptLabel		 = CONTROLBAR:ToolTipConstructDragonstoneArcherHorde
+	Radial			     = Yes
+	InPalantir	   	 = Yes
+	ShowProductionCount	= Yes
+  UnitSpecificSound   = GondorArcherVoiceBuy
+End

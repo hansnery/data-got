@@ -396,6 +396,7 @@ CommandSet BaratheonBarracksCommandSet
 	1 = Command_ConstructBaratheonCorsairOfLysHorde
 	2 = Command_ConstructBaratheonDragonstoneSoldierHorde
 	3 = Command_ConstructBaratheonDragonstonePikemanHorde
+	4 = Command_ConstructBaratheonDragonstoneArcherHorde
 	5 = Command_UpgradeMordorOrcPitLevel2
 	6	= Command_Sell
 End
@@ -404,6 +405,7 @@ CommandSet BaratheonBarracksCommandSetLvl2
 	1 = Command_ConstructBaratheonCorsairOfLysHorde
 	2 = Command_ConstructBaratheonDragonstoneSoldierHorde
 	3 = Command_ConstructBaratheonDragonstonePikemanHorde
+	4 = Command_ConstructBaratheonDragonstoneArcherHorde
 	5 = Command_UpgradeMordorOrcPitLevel3
 	6	= Command_Sell
 End
@@ -412,6 +414,7 @@ CommandSet BaratheonBarracksCommandSetLvl3
 	1 = Command_ConstructBaratheonCorsairOfLysHorde
 	2 = Command_ConstructBaratheonDragonstoneSoldierHorde
 	3 = Command_ConstructBaratheonDragonstonePikemanHorde
+	4 = Command_ConstructBaratheonDragonstoneArcherHorde
 	6	= Command_Sell
 End
 

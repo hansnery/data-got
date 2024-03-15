@@ -92389,4 +92389,20 @@ CONTROLBAR:ToolTipConstructDragonstonePikemanHorde
 "Pikemen of Dragonstone \n Strong vs. Cavalry, Siege and Heroes \n\n The pikemen of Dragonstone, clad in sturdy armor and wielding their formidable weapons with precision, stand as stalwart defenders of the fortress. With disciplined formations and unwavering resolve, they form an impenetrable barrier against any who dare to challenge the might of House Baratheon."
 END
 
+OBJECT:BaratheonDragonstoneArcher
+"Dragonstone Archer"
+END
+
+OBJECT:BaratheonDragonstoneArcherHorde
+"Dragonstone Archers"
+END
+
+CONTROLBAR:ConstructDragonstoneArcherHorde
+"Dragonstone Archers (&T)"
+END
+
+CONTROLBAR:ToolTipConstructDragonstoneArcherHorde
+"Strong vs. Infantry and Monsters \n Stealth near trees\n \n The archers of Dragonstone, perched atop the fortress's ramparts, are masters of ranged warfare. With keen eyes and steady hands, they rain down a hail of deadly arrows upon any foe foolish enough to approach the fortress walls."
+END
+
 END
