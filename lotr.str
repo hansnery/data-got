@@ -92374,7 +92374,7 @@ CONTROLBAR:ConstructDragonstoneFighterHorde
 END
 
 CONTROLBAR:ToolTipConstructDragonstoneFighterHorde
-"Requires Level 2 Barracks \n Strong vs. Pikemen\n Able to switch formation for improved defensive capabilities \n \n The soldiers of Dragonstone under Stannis Baratheon were known for their grim countenances, fierce determination, and unwavering loyalty to their king, standing like unyielding sentinels amidst the storm-tossed seas surrounding their fortress."
+"Strong vs. Pikemen\n Able to switch formation for improved defensive capabilities \n \n The soldiers of Dragonstone under Stannis Baratheon were known for their grim countenances, fierce determination, and unwavering loyalty to their king, standing like unyielding sentinels amidst the storm-tossed seas surrounding their fortress."
 END
 
 OBJECT:DragonstoneFighter
@@ -92402,7 +92402,7 @@ CONTROLBAR:ConstructDragonstoneArcherHorde
 END
 
 CONTROLBAR:ToolTipConstructDragonstoneArcherHorde
-"Strong vs. Infantry and Monsters \n Stealth near trees\n \n The archers of Dragonstone, perched atop the fortress's ramparts, are masters of ranged warfare. With keen eyes and steady hands, they rain down a hail of deadly arrows upon any foe foolish enough to approach the fortress walls."
+"Requires Level 2 Barracks \n Strong vs. Infantry and Monsters \n Stealth near trees\n \n The archers of Dragonstone, perched atop the fortress's ramparts, are masters of ranged warfare. With keen eyes and steady hands, they rain down a hail of deadly arrows upon any foe foolish enough to approach the fortress walls."
 END
 
 END

@@ -935,7 +935,7 @@ CommandButton Command_ConstructBaratheonDragonstoneArcherHorde
   NeededUpgrade    = Upgrade_MordorOrcPitLevel2
 	Options			     = CANCELABLE NEED_UPGRADE
 	TextLabel		     = CONTROLBAR:ConstructDragonstoneArcherHorde
-	ButtonImage		   = BAArcher
+	ButtonImage		   = BADragonstoneArcherButton
 	ButtonBorderType = BUILD
 	DescriptLabel		 = CONTROLBAR:ToolTipConstructDragonstoneArcherHorde
 	Radial			     = Yes
