@@ -906,8 +906,7 @@ End
 CommandButton Command_ConstructBaratheonDragonstoneSoldierHorde
 	Command							= UNIT_BUILD
 	Object							= BaratheonDragonstoneSoldierHorde
-	; NeededUpgrade				= Upgrade_BaratheonEliteTraining
-	Options							= CANCELABLE ;NEED_UPGRADE
+	Options							= CANCELABLE
 	TextLabel						= CONTROLBAR:ConstructDragonstoneFighterHorde
 	ButtonImage					= BADragonstoneSoldiers
 	ButtonBorderType    = BUILD 
@@ -915,4 +914,17 @@ CommandButton Command_ConstructBaratheonDragonstoneSoldierHorde
 	Radial							= Yes
 	InPalantir					= Yes
 	ShowProductionCount	= Yes    
+End
+
+CommandButton Command_ConstructBaratheonDragonstonePikemanHorde
+	Command				   = UNIT_BUILD
+	Object				   = BaratheonDragonstonePikemanHorde
+	Options				   = CANCELABLE
+	TextLabel			   = CONTROLBAR:ConstructDragonstonePikemanHorde
+	ButtonImage			 = BADragonstonePikemanButton
+	ButtonBorderType = BUILD
+	DescriptLabel    = CONTROLBAR:ToolTipConstructDragonstonePikemanHorde
+	Radial				   = Yes
+	InPalantir			 = Yes
+	ShowProductionCount	= Yes
 End

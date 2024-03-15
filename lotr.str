@@ -92381,4 +92381,12 @@ OBJECT:DragonstoneFighter
 "Soldier of Dragonstone"
 END
 
+CONTROLBAR:ConstructDragonstonePikemanHorde
+"Pikemen of Dragonstone (&R)"
+END
+
+CONTROLBAR:ToolTipConstructDragonstonePikemanHorde
+"Pikemen of Dragonstone \n Strong vs. Cavalry, Siege and Heroes \n\n The pikemen of Dragonstone, clad in sturdy armor and wielding their formidable weapons with precision, stand as stalwart defenders of the fortress. With disciplined formations and unwavering resolve, they form an impenetrable barrier against any who dare to challenge the might of House Baratheon."
+END
+
 END
