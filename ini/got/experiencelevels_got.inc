@@ -1914,6 +1914,129 @@ ExperienceLevel	EliteLevel5_GOT
 	End
 END
 
+ExperienceLevel	Level1_GOT
+	TargetNames				 = TROOPS_GOT
+	RequiredExperience = EXPERIENCE_REQUIRED_GOOD_TROOP_1
+	ExperienceAward		 = EXPERIENCE_AWARD_GOOD_TROOP_1
+	InformUpdateModule = Yes
+	Rank							 = 1
+	LevelUpTintColor						=	R:255 G:255	B:255
+	LevelUpTintPreColorTime			=	500
+	LevelUpTintPostColorTime		=	3000
+	LevelUpTintSustainColorTime =	500
+	Upgrades										=	Upgrade_ObjectLevel1
+	SelectionDecal
+		Texture					 = decal_G_level1
+		Texture2				 = decal_good_CO
+		Style						 = SHADOW_MERGE_DECAL
+		OpacityMin			 = 80%
+		OpacityMax			 = 100%
+		MinRadius			   = HORDE_DECAL_MIN_RADIUS
+		MaxRadius				 = 200
+		MaxSelectedUnits = 40
+	End
+END
+
+ExperienceLevel	Level2_GOT
+	TargetNames				 = TROOPS_GOT
+	RequiredExperience = EXPERIENCE_REQUIRED_GOOD_TROOP_2
+	ExperienceAward		 = EXPERIENCE_AWARD_GOOD_TROOP_2
+	AttributeModifiers = GoodTroopBonusRank2
+	InformUpdateModule = Yes
+	Rank							 = 2
+	LevelUpFx										=	FX:GoodLevelUpFX ;FX:GoodLevelUpFX
+	LevelUpTintColor						=	R:255 G:255	B:255
+	LevelUpTintPreColorTime			=	500
+	LevelUpTintPostColorTime		=	3000
+	LevelUpTintSustainColorTime =	500
+	Upgrades										=	Upgrade_ObjectLevel2
+	SelectionDecal
+		Texture					 = decal_G_level2
+		Texture2				 = decal_good_CO
+		Style						 = SHADOW_MERGE_DECAL
+		OpacityMin			 = 80%
+		OpacityMax			 = 100%
+		MinRadius			   = HORDE_DECAL_MIN_RADIUS
+		MaxRadius				 = 200
+		MaxSelectedUnits = 40
+	End
+END
+
+ExperienceLevel	Level3_GOT
+	TargetNames				 = TROOPS_GOT
+	RequiredExperience = EXPERIENCE_REQUIRED_GOOD_TROOP_3
+	ExperienceAward		 = EXPERIENCE_AWARD_GOOD_TROOP_3
+	AttributeModifiers = GoodTroopBonusRank3
+	InformUpdateModule = Yes
+	Rank							 = 3
+	LevelUpFx					 					= FX:GoodLevelUpFX
+	LevelUpTintColor						=	R:255 G:255	B:255
+	LevelUpTintPreColorTime			=	500
+	LevelUpTintPostColorTime		=	3000
+	LevelUpTintSustainColorTime =	500
+	Upgrades										=	Upgrade_ObjectLevel3 Upgrade_MiniHordeLvl3
+	SelectionDecal
+		Texture					 = decal_G_level3
+		Texture2				 = decal_good_CO
+		Style						 = SHADOW_MERGE_DECAL
+		OpacityMin			 = 80%
+		OpacityMax			 = 100%
+		MinRadius			   = HORDE_DECAL_MIN_RADIUS
+		MaxRadius				 = 200
+		MaxSelectedUnits = 40
+	End
+END
+
+ExperienceLevel	Level4_GOT
+	TargetNames				 = TROOPS_GOT
+	RequiredExperience = EXPERIENCE_REQUIRED_GOOD_TROOP_4
+	ExperienceAward		 = EXPERIENCE_AWARD_GOOD_TROOP_4
+	AttributeModifiers = GoodTroopBonusRank4
+	InformUpdateModule = Yes
+	Rank							 = 4
+	LevelUpFx										=	FX:GoodLevelUpFX ;FX:GoodLevelUpFX
+	LevelUpTintColor						=	R:255 G:255	B:255
+	LevelUpTintPreColorTime			=	500
+	LevelUpTintPostColorTime		=	3000
+	LevelUpTintSustainColorTime	=	500
+	Upgrades										=	Upgrade_ObjectLevel4 Upgrade_MiniHordeLvl4
+	SelectionDecal
+		Texture					 = decal_G_level4
+		Texture2				 = decal_good_CO
+		Style						 = SHADOW_MERGE_DECAL
+		OpacityMin			 = 80%
+		OpacityMax			 = 100%
+		MinRadius			   = HORDE_DECAL_MIN_RADIUS
+		MaxRadius				 = 200
+		MaxSelectedUnits = 40
+	End
+END
+
+ExperienceLevel	Level5_GOT
+	TargetNames				 = TROOPS_GOT
+	RequiredExperience = EXPERIENCE_REQUIRED_GOOD_TROOP_5
+	ExperienceAward		 = EXPERIENCE_AWARD_GOOD_TROOP_5
+	AttributeModifiers = GoodTroopBonusRank5
+	InformUpdateModule = Yes
+	Rank							 = 5
+	LevelUpFx					 					=	FX:GoodLevelUpFX
+	LevelUpTintColor						=	R:255 G:255	B:255
+	LevelUpTintPreColorTime			=	500
+	LevelUpTintPostColorTime		=	3000
+	LevelUpTintSustainColorTime	=	500
+	Upgrades										=	Upgrade_ObjectLevel5
+	SelectionDecal
+		Texture					 = decal_G_level4
+		Texture2				 = decal_good_CO
+		Style						 = SHADOW_MERGE_DECAL
+		OpacityMin			 = 80%
+		OpacityMax			 = 100%
+		MinRadius			   = HORDE_DECAL_MIN_RADIUS
+		MaxRadius				 = 200
+		MaxSelectedUnits = 40 
+	End
+END
+
 ExperienceLevel	SummonedLevel1_GOT
 	TargetNames				 = SUMMONED_GOT
 	RequiredExperience = 1

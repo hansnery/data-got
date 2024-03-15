@@ -378,16 +378,38 @@ CommandSet ViserionDragonCommandSet
 	18 = Command_SetStanceHoldGround
 End
 
+CommandSet BaratheonPorterCommandSet
+	1 = Command_EvilStop
+	2 = Command_PorterExtinguishFire
+	3 = Command_PorterConstructMordorSlaughterHouse
+	4 = Command_PorterConstructMordorLumberMill
+	5	= Command_PorterConstructMordorArmory
+	6 = Command_PorterConstructBaratheonDragonstoneBarracks
+	7 = Command_PorterConstructMordorHaradrimPalace
+	8 = Command_PorterConstructMordorTrollCage
+	9 = Command_PorterConstructMordorSiegeWorks
+	10 = Command_PorterconstructMordorBattleTower
+	11 = Command_PorterConstructMordorFortress
+End
+
 CommandSet BaratheonBarracksCommandSet
-	1 = Command_ConstructDragonstoneSoldierHorde
-  ; 1	= Command_ConstructGondorFighterHorde
-	; 2 = Command_ConstructGondorTowerShieldGuardHorde
-	; 3 = Command_ConstructDragonstoneSoldierHorde
-	; 4 = Command_ConstructGondorRangerHorde
-	; 5 = Command_PurchaseTechnologyGondorFireArrows
-	; 6 = Command_PurchaseUpgradeBaratheonBarracksImprovedTraining
-	; 7 = Command_PurchaseUpgradeBaratheonBarracksArcheryRange
-	; 8	= Command_Sell
+	1 = Command_ConstructBaratheonCorsairOfLysHorde
+	2 = Command_ConstructBaratheonDragonstoneSoldierHorde
+	5 = Command_UpgradeMordorOrcPitLevel2
+	6	= Command_Sell
+End
+
+CommandSet BaratheonBarracksCommandSetLvl2
+	1 = Command_ConstructBaratheonCorsairOfLysHorde
+	2 = Command_ConstructBaratheonDragonstoneSoldierHorde
+	5 = Command_UpgradeMordorOrcPitLevel3
+	6	= Command_Sell
+End
+
+CommandSet BaratheonBarracksCommandSetLvl3
+	1 = Command_ConstructBaratheonCorsairOfLysHorde
+	2 = Command_ConstructBaratheonDragonstoneSoldierHorde
+	6	= Command_Sell
 End
 
 CommandSet DragonstoneFighterHordeCommandSet

@@ -880,9 +880,32 @@ CommandButton Command_ViserionDracarys
 	AutoAbility			 = Yes
 End
 
-CommandButton Command_ConstructDragonstoneSoldierHorde
+CommandButton Command_PorterConstructBaratheonDragonstoneBarracks
+	Command       	 = DOZER_CONSTRUCT
+	Object        	 = MordorOrcPit
+	TextLabel     	 = CONTROLBAR:ConstructBaratheonDragonstoneBarracks
+	ButtonImage   	 = BADragonstoneBarracksButton
+	ButtonBorderType = BUILD
+	DescriptLabel    = CONTROLBAR:ToolTipBaratheonDragonstoneBarracks
+	Radial				   = Yes
+End
+
+CommandButton Command_ConstructBaratheonCorsairOfLysHorde
+	Command				   = UNIT_BUILD
+	Object				   = BaratheonCorsairOfLysHorde
+	Options				   = CANCELABLE
+	TextLabel			   = CONTROLBAR:ConstructBaratheonCorsairOfLysHorde
+	ButtonImage			 = BACorsairOfLysButton
+	ButtonBorderType = BUILD
+	DescriptLabel		 = CONTROLBAR:ToolTipConstructBaratheonCorsairOfLysHorde
+	Radial				   = Yes
+	InPalantir	   	 = Yes
+	ShowProductionCount	= Yes
+End
+
+CommandButton Command_ConstructBaratheonDragonstoneSoldierHorde
 	Command							= UNIT_BUILD
-	Object							= DragonstoneSoldierHorde
+	Object							= BaratheonDragonstoneSoldierHorde
 	; NeededUpgrade				= Upgrade_BaratheonEliteTraining
 	Options							= CANCELABLE ;NEED_UPGRADE
 	TextLabel						= CONTROLBAR:ConstructDragonstoneFighterHorde

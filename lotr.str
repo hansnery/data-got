@@ -92341,8 +92341,36 @@ OBJECT:TargaryenViserys
 "Viserys Targaryen"
 END
 
+OBJECT:BaratheonBarracks
+"Dragonstone Barracks"
+END
+
+CONTROLBAR:ConstructBaratheonDragonstoneBarracks
+"Build Dragonstone Stronghold (&T)"
+END
+
+CONTROLBAR:ToolTipBaratheonDragonstoneBarracks
+"Trains Corsairs of Lys and Soldiers of Dragonstone \n\n The barracks of Dragonstone, carved from ancient stone, stand resilient and austere, housing soldiers trained rigorously and skilled corsairs from Lys seeking refuge within its walls."
+END
+
+OBJECT:BaratheonCorsairOfLys
+"Corsair of Lys"
+End
+
+OBJECT:BaratheonCorsairOfLysHorde
+"Corsairs Of Lys"
+END
+
+CONTROLBAR:ConstructBaratheonCorsairOfLysHorde
+"Corsairs of Lys (&W)"
+END
+
+CONTROLBAR:ToolTipConstructBaratheonCorsairOfLysHorde
+"Requires Level 2 Dragonstone Stronghold \nStrong vs. Pikemen"
+END
+
 CONTROLBAR:ConstructDragonstoneFighterHorde
-"Soldiers of Dragonstone (&T)"
+"Soldiers of Dragonstone (&E)"
 END
 
 CONTROLBAR:ToolTipConstructDragonstoneFighterHorde
