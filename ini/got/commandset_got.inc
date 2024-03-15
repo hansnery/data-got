@@ -377,3 +377,30 @@ CommandSet ViserionDragonCommandSet
 	17 = Command_SetStanceAggressive
 	18 = Command_SetStanceHoldGround
 End
+
+CommandSet BaratheonBarracksCommandSet
+	1 = Command_ConstructDragonstoneSoldierHorde
+  ; 1	= Command_ConstructGondorFighterHorde
+	; 2 = Command_ConstructGondorTowerShieldGuardHorde
+	; 3 = Command_ConstructDragonstoneSoldierHorde
+	; 4 = Command_ConstructGondorRangerHorde
+	; 5 = Command_PurchaseTechnologyGondorFireArrows
+	; 6 = Command_PurchaseUpgradeBaratheonBarracksImprovedTraining
+	; 7 = Command_PurchaseUpgradeBaratheonBarracksArcheryRange
+	; 8	= Command_Sell
+End
+
+CommandSet DragonstoneFighterHordeCommandSet
+	1 = Command_ToggleStance
+	2	= Command_ToggleFormationGondorFighterElite
+	3	= Command_GondorSoldierChargeAttack
+	4 = Command_PurchaseUpgradeMordorHeavyArmor
+	5	= Command_PurchaseUpgradeMordorForgedBlades
+	6	= Command_PurchaseUpgradeMordorBasicTraining
+	12 = Command_CaptureBuilding
+	13 = Command_AttackMove
+	14 = Command_Stop
+	16 = Command_SetStanceBattle
+	17 = Command_SetStanceAggressive
+	18 = Command_SetStanceHoldGround
+End

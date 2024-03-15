@@ -879,3 +879,17 @@ CommandButton Command_ViserionDracarys
 	InPalantir			 = Yes
 	AutoAbility			 = Yes
 End
+
+CommandButton Command_ConstructDragonstoneSoldierHorde
+	Command							= UNIT_BUILD
+	Object							= DragonstoneSoldierHorde
+	; NeededUpgrade				= Upgrade_BaratheonEliteTraining
+	Options							= CANCELABLE ;NEED_UPGRADE
+	TextLabel						= CONTROLBAR:ConstructDragonstoneFighterHorde
+	ButtonImage					= BADragonstoneSoldiers
+	ButtonBorderType    = BUILD 
+	DescriptLabel       = CONTROLBAR:ToolTipConstructDragonstoneFighterHorde
+	Radial							= Yes
+	InPalantir					= Yes
+	ShowProductionCount	= Yes    
+End
