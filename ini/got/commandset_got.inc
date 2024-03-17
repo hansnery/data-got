@@ -424,14 +424,40 @@ End
 CommandSet DragonstoneFighterHordeCommandSet
 	1 = Command_ToggleStance
 	2	= Command_ToggleFormationGondorFighterElite
-	3	= Command_GondorSoldierChargeAttack
-	4 = Command_PurchaseUpgradeMordorHeavyArmor
-	5	= Command_PurchaseUpgradeMordorForgedBlades
-	6	= Command_PurchaseUpgradeMordorBasicTraining
+	3	= Command_SpecialAbilityAppealToTheLordOfLight
+	4 = Command_PurchaseUpgradeBaratheonHeavyArmor
+	5	= Command_PurchaseUpgradeBaratheonForgedBlades
+	6	= Command_PurchaseUpgradeBaratheonBasicTraining
 	12 = Command_CaptureBuilding
 	13 = Command_AttackMove
 	14 = Command_Stop
 	16 = Command_SetStanceBattle
 	17 = Command_SetStanceAggressive
 	18 = Command_SetStanceHoldGround
+End
+
+CommandSet BaratheonArmoryCommandSetLevel1
+	1 = Command_PurchaseTechnologyBaratheonBasicTraining
+	2	= Command_PurchaseTechnologyBaratheonForgedBlades
+	3	= Command_PurchaseTechnologyBaratheonHeavyArmor
+	4	= Command_PurchaseTechnologyBaratheonFireArrows
+	5 = Command_UpgradeBaratheonDragonstoneFoundryLevel2
+	6 = Command_Sell
+End
+
+CommandSet BaratheonArmoryCommandSetLevel2
+	1 = Command_PurchaseTechnologyBaratheonBasicTraining
+	2	= Command_PurchaseTechnologyBaratheonForgedBlades
+	3	= Command_PurchaseTechnologyBaratheonHeavyArmor
+	4	= Command_PurchaseTechnologyBaratheonFireArrows
+	5 = Command_UpgradeBaratheonDragonstoneFoundryLevel3
+	6 = Command_Sell
+End
+
+CommandSet BaratheonArmoryCommandSetLevel3
+	1 = Command_PurchaseTechnologyBaratheonBasicTraining
+	2	= Command_PurchaseTechnologyBaratheonForgedBlades
+	3	= Command_PurchaseTechnologyBaratheonHeavyArmor
+	4	= Command_PurchaseTechnologyBaratheonFireArrows
+	6 = Command_Sell
 End

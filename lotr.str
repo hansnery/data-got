@@ -92114,7 +92114,7 @@ CONTROLBAR:PurchaseUpgradeDragonstoneFortressStoneDrum
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDragonstoneFortressStoneDrum
-"Requires the Valyrian Sorcery upgrade\n Allows recruitment of the Kingsmen\n\nAllows the Fortress to use the Painted Table:\nAll troops on the battlefield gain 15% speed and +50% damage and armour for 30 seconds"
+"Requires the Valyrian Sorcery upgrade\n Allows recruitment of the King's Men\n\nAllows the Fortress to use the Painted Table:\nAll troops on the battlefield gain 15% speed and +50% damage and armour for 30 seconds"
 END
 
 CONTROLBAR:PrincessOfDragonstone
@@ -92350,7 +92350,7 @@ CONTROLBAR:ConstructBaratheonDragonstoneBarracks
 END
 
 CONTROLBAR:ToolTipBaratheonDragonstoneBarracks
-"Trains Soldiers of Dragonstone \n\n The barracks of Dragonstone, carved from ancient stone, stand resilient and austere, housing rigorously trained soldiers and the Corsairs of Lys."
+"Trains Corsairs of Lys and Soldiers of Dragonstone \n\n The barracks of Dragonstone, carved from ancient stone, stand resilient and austere, housing rigorously trained soldiers and the Corsairs of Lys."
 END
 
 OBJECT:BaratheonCorsairOfLys
@@ -92440,5 +92440,101 @@ End
 CONTROLBAR:TooltipUpgradeBaratheonDragonstoneBarracksLevel3
 "Allows training of Knights of Dragonstone \n +25% faster build speed"
 End
+
+OBJECT:BaratheonArmory
+"Dragonstone Foundry"
+END
+
+CONTROLBAR:PurchaseTechnologyBaratheonBasicTraining
+"Research Banners of the Fiery Heart (&W)"
+END
+
+CONTROLBAR:ToolTipPurchaseTechnologyBaratheonBasicTraining
+"Allows hordes to purchase the Banners of the Fiery Heart upgrade \n Increases a horde to Level 2"
+END
+
+TOOLTIP:LackLevel2DragonstoneFoundry
+"Requires Level 2 Dragonstone Foundry"
+END
+
+TOOLTIP:LackLevel3DragonstoneFoundry
+"Requires Level 3 Dragonstone Foundry"
+END
+
+CONTROLBAR:PurchaseTechnologyBaratheonForgedBlades
+"Research Castle-Forged Steel (&E)"
+END
+
+CONTROLBAR:ToolTipPurchaseTechnologyBaratheonForgedBlades
+"Allows hordes to purchase the Castle-Forged Steel upgrade \n When equipped, increases the damage done by melee weapons\n Will upgrade all patrols instantly once upgrade is purchased"
+END
+
+CONTROLBAR:PurchaseTechnologyBaratheonHeavyArmor
+"Research Heavy Armour (&R)"
+END
+
+CONTROLBAR:ToolTipPurchaseTechnologyBaratheonHeavyArmor
+"Allows hordes to purchase the Heavy Armour upgrade \n When equipped, significantly reduces the amount of damage taken\n Will upgrade all patrols instantly once upgrade is purchased"
+END
+
+CONTROLBAR:UpgradeBaratheonDragonstoneFoundryLevel2
+"Upgrade Dragonstone Foundry to Level 2 (&A)"
+End
+
+CONTROLBAR:TooltipUpgradeBaratheonDragonstoneFoundryLevel2
+"Allows research of the Castle-Forged Steel and Heavy Armour upgrade \n +10% faster build speed"
+End
+
+CONTROLBAR:UpgradeBaratheonDragonstoneFoundryLevel3
+"Upgrade Dragonstone Foundry to Level 3 (&A)"
+End
+
+CONTROLBAR:TooltipUpgradeBaratheonDragonstoneFoundryLevel3
+"Allows research of the Fire Arrows upgrade \n +25% faster build speed"
+End
+
+CONTROLBAR:PurchaseUpgradeBaratheonBasicTraining
+"Purchase Banners of the Fiery Heart (&V)"
+END
+
+TOOLTIP:LackBaratheonBasicTraining
+"Research upgrade at Dragonstone Foundry to enable this equipment \n When equipped, increases this horde to Level 2"
+END
+
+CONTROLBAR:ToolTipPurchaseUpgradeBaratheonForgedBlades
+"Upgrades this horde with Castle-Forged Steel \n Increases the damage done by melee weapons"
+END
+
+ToolTip:LackBaratheonForgedBlades
+"Research upgrade at Dragonstone Foundry to enable this equipment \n When equipped, increases the damage done by melee weapons"
+END
+
+CONTROLBAR:ToolTipPurchaseUpgradeMordorHeavyArmor
+"Upgrades this horde with Heavy Armour \n Significantly reduces the amount of damage taken"
+END
+
+ToolTip:LackBaratheonHeavyArmor
+"Research upgrade at Dragonstone Foundry to enable this equipment \n When equipped, significantly reduces the amount of damage taken"
+END
+
+CONTROLBAR:PurchaseTechnologyBaratheonFireArrows
+"Research Fire Arrows (&T)"
+END
+
+CONTROLBAR:AppealToTheLordOfLight
+"Appeal to the Lord of Light (&R)"
+END
+
+CONTROLBAR:ToolTipAppealToTheLordOfLight
+"The seasoned warriors appeal to the Lord of Light for strength\nSoldiers of Dragonstone gain +33% damage for 15 seconds\nLeft click to activate"
+END
+
+CONTROLBAR:PurchaseUpgradeBaratheonForgedBlades
+"Purchase Castle-Forged Steel (&C)"
+END
+
+CONTROLBAR:PurchaseUpgradeBaratheonHeavyArmor
+"Purchase Heavy Armour (&T)"
+END
 
 END

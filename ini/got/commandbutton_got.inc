@@ -983,3 +983,135 @@ CommandButton Command_ConstructBaratheonDragonstoneKnightHorde
 	InPalantir	   	 = Yes
 	ShowProductionCount	= Yes
 End
+
+CommandButton Command_PurchaseTechnologyBaratheonBasicTraining
+	Command					 = PLAYER_UPGRADE
+	Options					 = CANCELABLE
+	Upgrade					 = Upgrade_TechnologyMordorBasicTraining
+	TextLabel				 = CONTROLBAR:PurchaseTechnologyBaratheonBasicTraining
+	ButtonImage			 = BAFiery_Heart_Banner2
+	ButtonBorderType = UPGRADE
+	DescriptLabel		 = CONTROLBAR:ToolTipPurchaseTechnologyBaratheonBasicTraining
+	Radial					 = Yes
+	InPalantir			 = Yes
+End
+
+CommandButton Command_PurchaseTechnologyBaratheonForgedBlades
+	Command					 = PLAYER_UPGRADE
+	Options					 = NEED_UPGRADE CANCELABLE
+	Upgrade					 = Upgrade_TechnologyMordorForgedBlades
+	NeededUpgrade		 = Upgrade_StructureLevel2
+	TextLabel				 = CONTROLBAR:PurchaseTechnologyBaratheonForgedBlades
+	ButtonImage			 = UPCastleForgedSteel
+	ButtonBorderType = UPGRADE
+	DescriptLabel		 = CONTROLBAR:ToolTipPurchaseTechnologyBaratheonForgedBlades
+	Radial					 = Yes
+	InPalantir			 = Yes
+	LacksPrerequisiteLabel = TOOLTIP:LackLevel2DragonstoneFoundry
+End
+
+CommandButton Command_PurchaseTechnologyBaratheonHeavyArmor
+	Command					 = PLAYER_UPGRADE
+	Options					 = NEED_UPGRADE CANCELABLE
+	Upgrade					 = Upgrade_TechnologyMordorHeavyArmor
+	NeededUpgrade		 = Upgrade_StructureLevel2
+	TextLabel				 = CONTROLBAR:PurchaseTechnologyBaratheonHeavyArmor
+	ButtonImage			 = UPBAArmor
+	ButtonBorderType = UPGRADE
+	DescriptLabel		 = CONTROLBAR:ToolTipPurchaseTechnologyBaratheonHeavyArmor
+	Radial					 = Yes
+	InPalantir			 = Yes
+	LacksPrerequisiteLabel = TOOLTIP:LackLevel3DragonstoneFoundry
+End
+
+CommandButton Command_PurchaseTechnologyBaratheonFireArrows
+	Command					 = PLAYER_UPGRADE
+	Options					 = NEED_UPGRADE CANCELABLE
+	Upgrade					 = Upgrade_TechnologyMordorFireArrows
+	NeededUpgrade		 = Upgrade_StructureLevel3
+	TextLabel				 = CONTROLBAR:PurchaseTechnologyBaratheonFireArrows
+	ButtonImage			 = uilaketownfirearrows ;BIMordorFlamingArrows
+	ButtonBorderType = UPGRADE
+	DescriptLabel		 = CONTROLBAR:ToolTipPurchaseTechnologyMordorFireArrows
+	Radial					 = Yes
+	InPalantir			 = Yes
+	LacksPrerequisiteLabel = TOOLTIP:LackLevel2DragonstoneFoundry
+End
+
+CommandButton Command_UpgradeBaratheonDragonstoneFoundryLevel2
+	Command					 = OBJECT_UPGRADE
+	Object					 = MordorTavern
+	Upgrade					 = Upgrade_MordorTavernLevel2
+	Options					 = CANCELABLE
+	TextLabel				 = CONTROLBAR:UpgradeBaratheonDragonstoneFoundryLevel2
+	ButtonImage			 = UPUpgrade ;UpgradeEvilButton; UCCommon_UpgradeStructureNew
+	ButtonBorderType = BUILD
+	DescriptLabel		 = CONTROLBAR:TooltipUpgradeBaratheonDragonstoneFoundryLevel2
+	Radial					 = Yes
+	InPalantir			 = Yes
+End
+
+CommandButton Command_UpgradeBaratheonDragonstoneFoundryLevel3
+	Command					 = OBJECT_UPGRADE
+	Object					 = MordorTavern
+	Upgrade					 = Upgrade_MordorTavernLevel3
+	Options					 = CANCELABLE
+	TextLabel				 = CONTROLBAR:UpgradeBaratheonDragonstoneFoundryLevel3
+	ButtonImage			 = UPUpgrade ;UpgradeEvilButton; UCCommon_UpgradeStructureNew
+	ButtonBorderType = BUILD
+	DescriptLabel		 = CONTROLBAR:TooltipUpgradeBaratheonDragonstoneFoundryLevel3
+	Radial					 = Yes
+	InPalantir			 = Yes
+End
+
+CommandButton Command_PurchaseUpgradeBaratheonHeavyArmor
+	Command					 = OBJECT_UPGRADE
+	Options					 = NEED_UPGRADE OK_FOR_MULTI_SELECT CANCELABLE
+	Upgrade					 = Upgrade_MordorHeavyArmor
+	NeededUpgrade		 = Upgrade_TechnologyMordorHeavyArmor
+	TextLabel				 = CONTROLBAR:PurchaseUpgradeBaratheonHeavyArmor
+	ButtonImage			 = UPBAArmor
+	ButtonBorderType = UPGRADE
+	DescriptLabel		 = CONTROLBAR:ToolTipPurchaseUpgradeMordorHeavyArmor
+	InPalantir			 = Yes
+	LacksPrerequisiteLabel = TOOLTIP:LackBaratheonHeavyArmor
+End
+
+CommandButton Command_PurchaseUpgradeBaratheonForgedBlades
+	Command					 = OBJECT_UPGRADE
+	Options					 = NEED_UPGRADE OK_FOR_MULTI_SELECT CANCELABLE
+	Upgrade					 = Upgrade_MordorForgedBlades
+	NeededUpgrade		 = Upgrade_TechnologyMordorForgedBlades
+	TextLabel				 = CONTROLBAR:PurchaseUpgradeBaratheonForgedBlades
+	ButtonImage			 = UPCastleForgedSteel
+	ButtonBorderType = UPGRADE
+	DescriptLabel		 = CONTROLBAR:ToolTipPurchaseUpgradeBaratheonForgedBlades
+	InPalantir			 = Yes
+	LacksPrerequisiteLabel = TOOLTIP:LackBaratheonForgedBlades
+End
+
+CommandButton Command_PurchaseUpgradeBaratheonBasicTraining
+	Command					 = OBJECT_UPGRADE
+	Options					 = NEED_UPGRADE OK_FOR_MULTI_SELECT CANCELABLE
+	Upgrade					 = Upgrade_MordorBasicTraining
+	NeededUpgrade		 = Upgrade_TechnologyMordorBasicTraining
+	TextLabel				 = CONTROLBAR:PurchaseUpgradeBaratheonBasicTraining
+	ConflictingLabel = CONTROLBAR:BatallionAreadyHasUpgrade
+	ButtonImage			 = BAFiery_Heart_Banner2
+	ButtonBorderType = UPGRADE
+	DescriptLabel		 = CONTROLBAR:ToolTipPurchaseUpgradeMordorBasicTraining
+	InPalantir			 = Yes
+	LacksPrerequisiteLabel = TOOLTIP:LackBaratheonBasicTraining
+End
+
+CommandButton Command_SpecialAbilityAppealToTheLordOfLight
+	Command					 = SPECIAL_POWER
+	Options					 = OK_FOR_MULTI_SELECT OK_FOR_MULTI_EXECUTE
+	SpecialPower		 = SpecialAbilityGimliHeroMode
+	TextLabel				 = CONTROLBAR:AppealToTheLordOfLight
+	ButtonImage			 = uirivfinwesong
+	ButtonBorderType = ACTION
+	DescriptLabel		 = CONTROLBAR:ToolTipAppealToTheLordOfLight
+	InPalantir			 = Yes
+	AutoAbility			 = Yes
+End
