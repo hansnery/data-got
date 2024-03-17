@@ -16327,3 +16327,98 @@ function OnBaratheonRenlysVanguardFunctionsCreated(self)
   function MelisandreTerror(self)
     ObjectDoSpecialPower(self, "SpecialAbilityScreech")
   end
+
+  function OnDragonstoneKnightsCreated(self)
+
+    ObjectHideSubObjectPermanently( self, "FireArowTip", true )
+	ObjectHideSubObjectPermanently( self, "FORGED_BLADE", true )
+	ObjectHideSubObjectPermanently( self, "ARROWUP", true )
+	ObjectHideSubObjectPermanently( self, "QUIVARROWUP", true )
+
+	;------------------------HEADS
+	ObjectHideSubObjectPermanently( self, "HEAD01", true )
+	ObjectHideSubObjectPermanently( self, "HEAD02", true )
+	ObjectHideSubObjectPermanently( self, "HEAD03", true )
+	ObjectHideSubObjectPermanently( self, "HEAD04", true )
+	ObjectHideSubObjectPermanently( self, "MASK", true )
+	-- ObjectHideSubObjectPermanently( self, "HELMET", true )
+	;------------------------CLOAKS
+	ObjectHideSubObjectPermanently( self, "CLOAK01", true )
+	ObjectHideSubObjectPermanently( self, "CLOAK02", true )
+	ObjectHideSubObjectPermanently( self, "CLOAK03", true )
+	ObjectHideSubObjectPermanently( self, "CLOAK04", true )
+	;------------------------BODY
+	ObjectHideSubObjectPermanently( self, "HOODDOWN01", true )
+	ObjectHideSubObjectPermanently( self, "HOODDOWN02", true )
+	ObjectHideSubObjectPermanently( self, "HOODDOWN03", true )
+	ObjectHideSubObjectPermanently( self, "HOODDOWN04", true )
+	;------------------------HORSE
+	ObjectHideSubObjectPermanently( self, "HORSE01", true )
+	ObjectHideSubObjectPermanently( self, "HORSE02", true )
+	ObjectHideSubObjectPermanently( self, "HORSE03", true )
+	ObjectHideSubObjectPermanently( self, "HORSE04", true )
+	;------------------------GEAR
+	ObjectHideSubObjectPermanently( self, "BEDROLL", true )
+	ObjectHideSubObjectPermanently( self, "BAG", true )
+	ObjectHideSubObjectPermanently( self, "DAGGER", true )
+    ;------------------------BODY
+	ObjectHideSubObjectPermanently( self, "BODYHA", true )
+
+	local head	= GetRandomNumber()
+	local horse	= GetRandomNumber()
+	local cloak = GetRandomNumber()
+
+	local bag     = GetRandomNumber()
+	local bedroll = GetRandomNumber()
+	local dagger  = GetRandomNumber()
+
+	if bag <= 0.50 then
+        ObjectHideSubObjectPermanently( self, "BAG", false )
+    else
+        ObjectHideSubObjectPermanently( self, "NOTHING", false )
+    end
+	if bedroll <= 0.50 then
+        ObjectHideSubObjectPermanently( self, "BEDROLL", false )
+    else
+        ObjectHideSubObjectPermanently( self, "NOTHING", false )
+    end
+	if dagger <= 0.50 then
+        ObjectHideSubObjectPermanently( self, "DAGGER", false )
+    else
+        ObjectHideSubObjectPermanently( self, "NOTHING", false )
+    end
+
+    if head <= 0.25 then
+        ObjectHideSubObjectPermanently( self, "HEAD01", false )
+    elseif head <= 0.50 then
+        ObjectHideSubObjectPermanently( self, "HEAD02", false )
+    elseif head <= 0.75 then
+        ObjectHideSubObjectPermanently( self, "HEAD03", false )
+    else
+        ObjectHideSubObjectPermanently( self, "HEAD04", false )
+    end
+
+	if horse <= 0.25 then
+        ObjectHideSubObjectPermanently( self, "HORSE01", false )
+    elseif horse <= 0.50 then
+        ObjectHideSubObjectPermanently( self, "HORSE02", false )
+    elseif horse <= 0.75 then
+        ObjectHideSubObjectPermanently( self, "HORSE03", false )
+    else
+        ObjectHideSubObjectPermanently( self, "HORSE04", false )
+    end
+
+	if cloak <= 0.25 then
+        ObjectHideSubObjectPermanently( self, "CLOAK01", false )
+		ObjectHideSubObjectPermanently( self, "HOODDOWN01", false )
+    elseif cloak <= 0.50 then
+        ObjectHideSubObjectPermanently( self, "CLOAK02", false )
+		ObjectHideSubObjectPermanently( self, "HOODDOWN02", false )
+    elseif cloak <= 0.75 then
+        ObjectHideSubObjectPermanently( self, "CLOAK03", false )
+		ObjectHideSubObjectPermanently( self, "HOODDOWN03", false )
+    else
+        ObjectHideSubObjectPermanently( self, "CLOAK04", false )
+		ObjectHideSubObjectPermanently( self, "HOODDOWN04", false )
+    end
+end

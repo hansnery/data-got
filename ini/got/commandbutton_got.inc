@@ -969,3 +969,17 @@ CommandButton Command_UpgradeBaratheonDragonstoneBarracksLevel3
 	Radial				   = Yes
 	InPalantir			 = Yes
 End
+
+CommandButton Command_ConstructBaratheonDragonstoneKnightHorde
+	Command					 = UNIT_BUILD
+	Object					 = BaratheonDragonstoneKnightHorde
+	NeededUpgrade    = Upgrade_MordorOrcPitLevel3
+	Options			     = CANCELABLE NEED_UPGRADE
+	TextLabel				 = CONTROLBAR:ConstructBaratheonDragonstoneKnightHorde
+	ButtonImage			 = BADragonstoneKnights
+	ButtonBorderType = BUILD
+	DescriptLabel		 = CONTROLBAR:ToolTipConstructBaratheonDragonstoneKnightHorde
+	Radial					 = Yes
+	InPalantir	   	 = Yes
+	ShowProductionCount	= Yes
+End

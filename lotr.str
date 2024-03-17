@@ -92350,7 +92350,7 @@ CONTROLBAR:ConstructBaratheonDragonstoneBarracks
 END
 
 CONTROLBAR:ToolTipBaratheonDragonstoneBarracks
-"Trains Soldiers of Dragonstone \n\n The barracks of Dragonstone, carved from ancient stone, stand resilient and austere, housing soldiers rigorously trained."
+"Trains Soldiers of Dragonstone \n\n The barracks of Dragonstone, carved from ancient stone, stand resilient and austere, housing rigorously trained soldiers and the Corsairs of Lys."
 END
 
 OBJECT:BaratheonCorsairOfLys
@@ -92370,7 +92370,7 @@ CONTROLBAR:ToolTipConstructBaratheonCorsairOfLysHorde
 END
 
 CONTROLBAR:ConstructDragonstoneFighterHorde
-"Soldiers of Dragonstone (&W)"
+"Soldiers of Dragonstone (&E)"
 END
 
 CONTROLBAR:ToolTipConstructDragonstoneFighterHorde
@@ -92382,7 +92382,7 @@ OBJECT:DragonstoneFighter
 END
 
 CONTROLBAR:ConstructDragonstonePikemanHorde
-"Pikemen of Dragonstone (&E)"
+"Pikemen of Dragonstone (&R)"
 END
 
 CONTROLBAR:ToolTipConstructDragonstonePikemanHorde
@@ -92394,19 +92394,35 @@ OBJECT:DragonstonePikeman
 END
 
 OBJECT:BaratheonDragonstoneArcher
-"Dragonstone Archer"
+"Archer of Dragonstone"
 END
 
 OBJECT:BaratheonDragonstoneArcherHorde
-"Dragonstone Archers"
+"Archers of Dragonstone"
 END
 
 CONTROLBAR:ConstructDragonstoneArcherHorde
-"Dragonstone Archers (&R)"
+"Archers of Dragonstone (&T)"
 END
 
 CONTROLBAR:ToolTipConstructDragonstoneArcherHorde
 "Requires Level 2 Barracks \n Strong vs. Infantry and Monsters \n Stealth near trees\n \n The archers of Dragonstone, perched atop the fortress's ramparts, are masters of ranged warfare. With keen eyes and steady hands, they rain down a hail of deadly arrows upon any foe foolish enough to approach the fortress walls."
+END
+
+OBJECT:BaratheonDragonstoneKnight
+"Knight of Dragonstone"
+END
+
+OBJECT:BaratheonDragonstoneKnightHorde
+"Knights of Dragonstone"
+END
+
+CONTROLBAR:ConstructBaratheonDragonstoneKnightHorde
+"Knights of Dragonstone (&S)"
+END
+
+CONTROLBAR:ToolTipConstructBaratheonDragonstoneKnightHorde
+"Requires Level 3 Barracks \n Strong vs. Archers\nCan stealth near trees\n \n As the vanguard of Stannis Baratheon's forces, the Knights of Dragonstone uphold the honor and glory of their liege lord, ready to defend Dragonstone with their lives."
 END
 
 CONTROLBAR:UpgradeBaratheonDragonstoneBarracksLevel2
@@ -92418,11 +92434,11 @@ CONTROLBAR:UpgradeBaratheonDragonstoneBarracksLevel3
 End
 
 CONTROLBAR:TooltipUpgradeBaratheonDragonstoneBarracksLevel2
-"Allows training of Dragonstone Archers \n +10% faster build speed"
+"Allows training of Archers of Dragonstone \n +10% faster build speed"
 End
 
 CONTROLBAR:TooltipUpgradeBaratheonDragonstoneBarracksLevel3
-"+25% faster build speed"
+"Allows training of Knights of Dragonstone \n +25% faster build speed"
 End
 
 END

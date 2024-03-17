@@ -3104,4 +3104,8 @@ Inherit="InfantryFunctions">
 		<EventHandler EventName="OnCreated"			ScriptFunctionName="MelisandreTerror"			DebugSingleStep="false"/>
 		<EventHandler EventName="BeScary"			ScriptFunctionName="RadiateTerrorEx"			DebugSingleStep="false"/>		
     </EventList>
+
+    <EventList Name="DragonstoneKnightsFunctions" Inherit="CavalryFunctions">
+        <EventHandler EventName="OnCreated"				ScriptFunctionName="OnDragonstoneKnightsCreated" DebugSingleStep="false"/>
+    </EventList>
 </SageLuaScriptSection>
