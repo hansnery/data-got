@@ -421,21 +421,6 @@ CommandSet BaratheonBarracksCommandSetLvl3
 	6	= Command_Sell
 End
 
-CommandSet DragonstoneFighterHordeCommandSet
-	1 = Command_ToggleStance
-	2	= Command_ToggleFormationGondorFighterElite
-	3	= Command_SpecialAbilityAppealToTheLordOfLight
-	4 = Command_PurchaseUpgradeBaratheonHeavyArmor
-	5	= Command_PurchaseUpgradeBaratheonForgedBlades
-	6	= Command_PurchaseUpgradeBaratheonBasicTraining
-	12 = Command_CaptureBuilding
-	13 = Command_AttackMove
-	14 = Command_Stop
-	16 = Command_SetStanceBattle
-	17 = Command_SetStanceAggressive
-	18 = Command_SetStanceHoldGround
-End
-
 CommandSet BaratheonArmoryCommandSetLevel1
 	1 = Command_PurchaseTechnologyBaratheonBasicTraining
 	2	= Command_PurchaseTechnologyBaratheonForgedBlades
@@ -460,4 +445,151 @@ CommandSet BaratheonArmoryCommandSetLevel3
 	3	= Command_PurchaseTechnologyBaratheonHeavyArmor
 	4	= Command_PurchaseTechnologyBaratheonFireArrows
 	6 = Command_Sell
+End
+
+CommandSet DragonstoneFighterHordeCommandSet
+	1 = Command_ToggleStance
+	2	= Command_ToggleFormationGondorFighterElite
+	3	= Command_SpecialAbilityAppealToTheLordOfLightDamage
+	4 = Command_PurchaseUpgradeBaratheonHeavyArmor
+	5	= Command_PurchaseUpgradeBaratheonForgedBlades
+	6	= Command_PurchaseUpgradeBaratheonBasicTraining
+	12 = Command_CaptureBuilding
+	13 = Command_AttackMove
+	14 = Command_Stop
+	16 = Command_SetStanceBattle
+	17 = Command_SetStanceAggressive
+	18 = Command_SetStanceHoldGround
+End
+
+CommandSet DragonstoneFighterHordeCommandSet_Lvl2
+	1 = Command_ToggleStance
+	2	= Command_ToggleFormationGondorFighterElite
+	3	= Command_SpecialAbilityAppealToTheLordOfLightDamage
+	4 = Command_PurchaseUpgradeBaratheonHeavyArmor
+	5	= Command_PurchaseUpgradeBaratheonForgedBlades
+	6	= Command_SpecialAbilityBaratheonFaithfulResolve
+	12 = Command_CaptureBuilding
+	13 = Command_AttackMove
+	14 = Command_Stop
+	16 = Command_SetStanceBattle
+	17 = Command_SetStanceAggressive
+	18 = Command_SetStanceHoldGround
+End
+
+CommandSet DragonstonePikemanHordeCommandSet
+	1 = Command_ToggleStance
+	2 = Command_RivendellSentryPorcupineFormation
+	3	= Command_SpecialAbilityAppealToTheLordOfLightArmor
+	4 = Command_PurchaseUpgradeBaratheonHeavyArmor
+	5 = Command_PurchaseUpgradeBaratheonForgedBlades
+	6 = Command_PurchaseUpgradeBaratheonBasicTraining
+	12 = Command_CaptureBuilding
+	13 = Command_AttackMove
+	14 = Command_Stop
+	16 = Command_SetStanceBattle
+	17 = Command_SetStanceAggressive
+	18 = Command_SetStanceHoldGround
+End
+
+CommandSet DragonstonePikemanHordeCommandSet_Lvl2
+	1 = Command_ToggleStance
+	2 = Command_RivendellSentryPorcupineFormation
+	3	= Command_SpecialAbilityAppealToTheLordOfLightArmor
+	4 = Command_PurchaseUpgradeBaratheonHeavyArmor
+	5 = Command_PurchaseUpgradeBaratheonForgedBlades
+	6 = Command_SpecialAbilityBaratheonFaithfulResolve
+	12 = Command_CaptureBuilding
+	13 = Command_AttackMove
+	14 = Command_Stop
+	16 = Command_SetStanceBattle
+	17 = Command_SetStanceAggressive
+	18 = Command_SetStanceHoldGround
+End
+
+CommandSet DragonstoneArcherHordeCommandSet
+	1 = Command_ToggleStance
+	2	= Command_ArcherBombard
+	3	= Command_SpecialAbilityAppealToTheLordOfLightRange
+	4 = Command_PurchaseUpgradeBaratheonHeavyArmor
+	5 = Command_PurchaseUpgradeBaratheonFireArrows
+	6 = Command_PurchaseUpgradeBaratheonBasicTraining
+	12 = Command_CaptureBuilding
+	13 = Command_AttackMove
+	14 = Command_Stop
+	16 = Command_SetStanceBattle
+	17 = Command_SetStanceAggressive
+	18 = Command_SetStanceHoldGround
+End
+
+CommandSet DragonstoneArcherHordeCommandSet_Lvl2
+	1 = Command_ToggleStance
+	2	= Command_ArcherBombard
+	3	= Command_SpecialAbilityAppealToTheLordOfLightRange
+	4 = Command_PurchaseUpgradeBaratheonHeavyArmor
+	5 = Command_PurchaseUpgradeBaratheonFireArrows
+	6 = Command_SpecialAbilityBaratheonFaithfulResolve
+	12 = Command_CaptureBuilding
+	13 = Command_AttackMove
+	14 = Command_Stop
+	16 = Command_SetStanceBattle
+	17 = Command_SetStanceAggressive
+	18 = Command_SetStanceHoldGround
+End
+
+CommandSet DragonstoneKnightHordeCommandSet
+	1 = Command_ToggleStance
+	2 = Command_ToggleFormationDunedainOutriders
+	3 = Command_SpecialAbilityAppealToTheLordOfLightTrample
+	4 = Command_PurchaseUpgradeBaratheonHeavyArmor
+	5	= Command_PurchaseUpgradeBaratheonForgedBlades
+	6	= Command_PurchaseUpgradeBaratheonBasicTraining
+	12 = Command_CaptureBuilding
+	13 = Command_AttackMove
+	14 = Command_Stop
+	16 = Command_SetStanceBattle
+	17 = Command_SetStanceAggressive
+	18 = Command_SetStanceHoldGround
+End
+
+CommandSet DragonstoneKnightHordeCommandSet_Lvl2
+	1 = Command_ToggleStance
+	2 = Command_ToggleFormationDunedainOutriders
+	3 = Command_SpecialAbilityAppealToTheLordOfLightTrample
+	4 = Command_PurchaseUpgradeBaratheonHeavyArmor
+	5	= Command_PurchaseUpgradeBaratheonForgedBlades
+	6	= Command_SpecialAbilityBaratheonFaithfulResolve
+	12 = Command_CaptureBuilding
+	13 = Command_AttackMove
+	14 = Command_Stop
+	16 = Command_SetStanceBattle
+	17 = Command_SetStanceAggressive
+	18 = Command_SetStanceHoldGround
+End
+
+CommandSet BaratheonCorsairOfLysHordeCommandSet
+	1	= Command_ToggleStance
+	3	= Command_ToggleCorsairWeaponHarad
+	4	= Command_SpecialAbilityCorsairsOfLysCoastalRaiders
+	6	= Command_PurchaseUpgradeBaratheonBasicTrainingCorsairsOfLys
+	12 = Command_CaptureBuilding
+	13 = Command_AttackMove
+	14 = Command_Stop
+	16 = Command_SetStanceBattle
+	17 = Command_SetStanceAggressive
+	18 = Command_SetStanceHoldGround
+End
+
+CommandSet BaratheonCorsairOfLysHordeCommandSetFireBomb
+	1	= Command_ToggleStance
+	2	= Command_ArcherBombard
+	3	= Command_ToggleCorsairWeaponHarad
+	4	= Command_SpecialAbilityCorsairsOfLysCoastalRaiders
+	6	= Command_PurchaseUpgradeBaratheonBasicTrainingCorsairsOfLys
+	12 = Command_CaptureBuilding
+	13 = Command_AttackMove
+	14 = Command_Stop
+	16 = Command_SetStanceBattle
+	17 = Command_SetStanceAggressive
+	18 = Command_SetStanceHoldGround
 End

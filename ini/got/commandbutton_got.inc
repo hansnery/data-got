@@ -1021,7 +1021,7 @@ CommandButton Command_PurchaseTechnologyBaratheonHeavyArmor
 	DescriptLabel		 = CONTROLBAR:ToolTipPurchaseTechnologyBaratheonHeavyArmor
 	Radial					 = Yes
 	InPalantir			 = Yes
-	LacksPrerequisiteLabel = TOOLTIP:LackLevel3DragonstoneFoundry
+	LacksPrerequisiteLabel = TOOLTIP:LackLevel2DragonstoneFoundry
 End
 
 CommandButton Command_PurchaseTechnologyBaratheonFireArrows
@@ -1035,7 +1035,7 @@ CommandButton Command_PurchaseTechnologyBaratheonFireArrows
 	DescriptLabel		 = CONTROLBAR:ToolTipPurchaseTechnologyMordorFireArrows
 	Radial					 = Yes
 	InPalantir			 = Yes
-	LacksPrerequisiteLabel = TOOLTIP:LackLevel2DragonstoneFoundry
+	LacksPrerequisiteLabel = TOOLTIP:LackLevel3DragonstoneFoundry
 End
 
 CommandButton Command_UpgradeBaratheonDragonstoneFoundryLevel2
@@ -1104,14 +1104,96 @@ CommandButton Command_PurchaseUpgradeBaratheonBasicTraining
 	LacksPrerequisiteLabel = TOOLTIP:LackBaratheonBasicTraining
 End
 
-CommandButton Command_SpecialAbilityAppealToTheLordOfLight
+CommandButton Command_SpecialAbilityAppealToTheLordOfLightDamage
 	Command					 = SPECIAL_POWER
 	Options					 = OK_FOR_MULTI_SELECT OK_FOR_MULTI_EXECUTE
 	SpecialPower		 = SpecialAbilityGimliHeroMode
 	TextLabel				 = CONTROLBAR:AppealToTheLordOfLight
-	ButtonImage			 = uirivfinwesong
+	ButtonImage			 = BAFieryHeartButton
 	ButtonBorderType = ACTION
-	DescriptLabel		 = CONTROLBAR:ToolTipAppealToTheLordOfLight
+	DescriptLabel		 = CONTROLBAR:ToolTipAppealToTheLordOfLightDamage
 	InPalantir			 = Yes
 	AutoAbility			 = Yes
+End
+
+CommandButton Command_SpecialAbilityAppealToTheLordOfLightArmor
+	Command					 = SPECIAL_POWER
+	Options					 = OK_FOR_MULTI_SELECT OK_FOR_MULTI_EXECUTE
+	SpecialPower		 = SpecialAbilityGimliHeroMode
+	TextLabel				 = CONTROLBAR:AppealToTheLordOfLight
+	ButtonImage			 = BAFieryHeartButton
+	ButtonBorderType = ACTION
+	DescriptLabel		 = CONTROLBAR:ToolTipAppealToTheLordOfLightArmor
+	InPalantir			 = Yes
+	AutoAbility			 = Yes
+End
+
+CommandButton Command_SpecialAbilityAppealToTheLordOfLightRange
+	Command					 = SPECIAL_POWER
+	Options					 = OK_FOR_MULTI_SELECT OK_FOR_MULTI_EXECUTE
+	SpecialPower		 = SpecialAbilityGimliHeroMode
+	TextLabel				 = CONTROLBAR:AppealToTheLordOfLight
+	ButtonImage			 = BAFieryHeartButton
+	ButtonBorderType = ACTION
+	DescriptLabel		 = CONTROLBAR:ToolTipAppealToTheLordOfLightRange
+	InPalantir			 = Yes
+	AutoAbility			 = Yes
+End
+
+CommandButton Command_SpecialAbilityAppealToTheLordOfLightTrample
+	Command					 = SPECIAL_POWER
+	Options					 = OK_FOR_MULTI_SELECT OK_FOR_MULTI_EXECUTE
+	SpecialPower		 = SpecialAbilityGimliHeroMode
+	TextLabel				 = CONTROLBAR:AppealToTheLordOfLight
+	ButtonImage			 = BAFieryHeartButton
+	ButtonBorderType = ACTION
+	DescriptLabel		 = CONTROLBAR:ToolTipAppealToTheLordOfLightTrample
+	InPalantir			 = Yes
+	AutoAbility			 = Yes
+End
+
+CommandButton Command_SpecialAbilityBaratheonFaithfulResolve
+  Options					 = NONPRESSABLE OK_FOR_MULTI_SELECT
+  TextLabel        = CONTROLBAR:BaratheonFaithfulResolve
+  ButtonImage      = BAFaithfulResolveButton
+  RadiusCursorType = TrainingRadiusCursor
+  ButtonBorderType = ACTION
+  DescriptLabel    = CONTROLBAR:ToolTipBaratheonFaithfulResolve
+  InPalantir			 = Yes
+End
+
+CommandButton Command_PurchaseUpgradeBaratheonFireArrows
+	Command					 = OBJECT_UPGRADE
+	Options					 = NEED_UPGRADE OK_FOR_MULTI_SELECT CANCELABLE
+	Upgrade					 = Upgrade_MordorFireArrows
+	NeededUpgrade		 = Upgrade_TechnologyMordorFireArrows
+	TextLabel				 = CONTROLBAR:BaratheonFireArrowUpgrade
+	ButtonImage			 = uilaketownfirearrows
+	ButtonBorderType = UPGRADE
+	DescriptLabel		 = CONTROLBAR:ToolTipPurchaseUpgradeRohanFireArrows
+	InPalantir			 = Yes
+	LacksPrerequisiteLabel = TOOLTIP:LackLevel3DragonstoneFoundry
+End
+
+CommandButton Command_SpecialAbilityCorsairsOfLysCoastalRaiders
+  Options		  		 = NONPRESSABLE OK_FOR_MULTI_SELECT
+  TextLabel        = CONTROLBAR:CorsairChargeHarad
+  ButtonImage      = uihwcorsairspower
+  RadiusCursorType = TRAINING
+  ButtonBorderType = ACTION
+  DescriptLabel    = CONTROLBAR:TooltipCorsairChargeLys
+  InPalantir		   = Yes
+End
+
+CommandButton Command_PurchaseUpgradeBaratheonBasicTrainingCorsairsOfLys
+	Command					 = OBJECT_UPGRADE
+	Options					 = NEED_UPGRADE OK_FOR_MULTI_SELECT CANCELABLE
+	Upgrade					 = Upgrade_MordorBasicTraining
+	NeededUpgrade		 = Upgrade_AmrothKnights
+	TextLabel				 = CONTROLBAR:PurchaseUpgradeAngmarBasicTrainingCorsairs
+	ButtonImage			 = UIOathsworn
+	ButtonBorderType = UPGRADE
+	DescriptLabel		 = CONTROLBAR:ToolTipPurchaseUpgradeBaratheonBasicTrainingCorsairsOfLys
+	InPalantir			 = Yes
+	LacksPrerequisiteLabel = TOOLTIP:LackBaratheonBasicTrainingCorsairsOfLys
 End

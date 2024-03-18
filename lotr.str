@@ -92366,7 +92366,7 @@ CONTROLBAR:ConstructBaratheonCorsairOfLysHorde
 END
 
 CONTROLBAR:ToolTipConstructBaratheonCorsairOfLysHorde
-"Strong vs. Pikemen"
+"Strong vs. Pikemen \n\n The corsairs of Lys, renowned for their skillful seamanship and daring exploits, are a formidable force upon the waves. Hailing from the Free City of Lys, these sailors are masters of plunder, navigating the treacherous waters of the Narrow Sea with unparalleled expertise."
 END
 
 CONTROLBAR:ConstructDragonstoneFighterHorde
@@ -92390,7 +92390,11 @@ CONTROLBAR:ToolTipConstructDragonstonePikemanHorde
 END
 
 OBJECT:DragonstonePikeman
-"Soldier of Dragonstone"
+"Pikeman of Dragonstone"
+END
+
+OBJECT:DragonstonePikemanHorde
+"Pikemen of Dragonstone"
 END
 
 OBJECT:BaratheonDragonstoneArcher
@@ -92522,11 +92526,23 @@ CONTROLBAR:PurchaseTechnologyBaratheonFireArrows
 END
 
 CONTROLBAR:AppealToTheLordOfLight
-"Appeal to the Lord of Light (&R)"
+"Flame of Devotion (&R)"
 END
 
-CONTROLBAR:ToolTipAppealToTheLordOfLight
+CONTROLBAR:ToolTipAppealToTheLordOfLightDamage
 "The seasoned warriors appeal to the Lord of Light for strength\nSoldiers of Dragonstone gain +33% damage for 15 seconds\nLeft click to activate"
+END
+
+CONTROLBAR:ToolTipAppealToTheLordOfLightArmor
+"The seasoned warriors appeal to the Lord of Light for strength\nSoldiers of Dragonstone gain +33% armour for 15 seconds\nLeft click to activate"
+END
+
+CONTROLBAR:ToolTipAppealToTheLordOfLightRange
+"The seasoned warriors appeal to the Lord of Light for strength\nSoldiers of Dragonstone gain +20% attack range and vision for 15 seconds\nLeft click to activate"
+END
+
+CONTROLBAR:ToolTipAppealToTheLordOfLightTrample
+"The seasoned warriors appeal to the Lord of Light for strength\nSoldiers of Dragonstone gain -50% reduced trample deceleration for 15 seconds\nLeft click to activate"
 END
 
 CONTROLBAR:PurchaseUpgradeBaratheonForgedBlades
@@ -92535,6 +92551,30 @@ END
 
 CONTROLBAR:PurchaseUpgradeBaratheonHeavyArmor
 "Purchase Heavy Armour (&T)"
+END
+
+CONTROLBAR:BaratheonFaithfulResolve
+"Faithful Resolve"
+END
+
+CONTROLBAR:ToolTipBaratheonFaithfulResolve
+"Requires Level 2\nDragonstone units regain health while outside of combat\nPassive ability"
+END
+
+CONTROLBAR:BaratheonFireArrowUpgrade
+"Purchase Fire Arrows (&C)"
+END
+
+CONTROLBAR:TooltipCorsairChargeLys
+"Modifier Type: Spell\nCorsairs of Lys gain +5% damage for every nearby Corsair horde, up to a maximum of +35% damage\n\nCorsairs steal resources from enemy structures with knives equipped\nPassive ability"
+END
+
+CONTROLBAR:ToolTipPurchaseUpgradeBaratheonBasicTrainingCorsairsOfLys
+"Increases this battalion to Level 2 \n Requires Salladhor Saan to have been recruited\n Can only be equipped at Level 1"
+END
+
+TOOLTIP:LackBaratheonBasicTrainingCorsairsOfLys
+"Salladhor Saan must have been recruited to enable this equipment \n When equipped, increases the horde to Level 2"
 END
 
 END
