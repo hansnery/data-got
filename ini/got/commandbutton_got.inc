@@ -1197,3 +1197,15 @@ CommandButton Command_PurchaseUpgradeBaratheonBasicTrainingCorsairsOfLys
 	InPalantir			 = Yes
 	LacksPrerequisiteLabel = TOOLTIP:LackBaratheonBasicTrainingCorsairsOfLys
 End
+
+CommandButton Command_BaratheonFiefArmaments
+  Command          = SPECIAL_POWER
+  SpecialPower     = SpecialAbilityFakeLeadership
+  Options				   = NONPRESSABLE
+  TextLabel        = CONTROLBAR:BaratheonArmaments
+  ButtonImage      = BAHealBuilding ;BAStagButton
+  RadiusCursorType = TrainingRadiusCursor
+  ButtonBorderType = ACTION
+  DescriptLabel    = CONTROLBAR:ToolTipGondorArmamentsNew
+  InPalantir		   = Yes
+End

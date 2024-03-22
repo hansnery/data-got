@@ -92577,4 +92577,20 @@ TOOLTIP:LackBaratheonBasicTrainingCorsairsOfLys
 "Salladhor Saan must have been recruited to enable this equipment \n When equipped, increases the horde to Level 2"
 END
 
+OBJECT:BaratheonStormlander
+"Stormlander Footman"
+END
+
+OBJECT:BaratheonStormlanderHorde
+"Stormlander Footmen"
+END
+
+CONTROLBAR:BaratheonArmaments
+"Armaments of Storm's End"
+END
+
+OBJECT:BaratheonBanner
+"Baratheon Banner Carrier"
+END
+
 END

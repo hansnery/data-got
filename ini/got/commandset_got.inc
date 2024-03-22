@@ -593,3 +593,16 @@ CommandSet BaratheonCorsairOfLysHordeCommandSetFireBomb
 	17 = Command_SetStanceAggressive
 	18 = Command_SetStanceHoldGround
 End
+
+CommandSet BaratheonStormlanderHordeCommandSet
+	1 = Command_ToggleStance
+	4 = Command_BaratheonFiefArmaments
+	5	= Command_PurchaseUpgradeBaratheonForgedBlades
+	6	= Command_PurchaseUpgradeBaratheonBasicTraining
+	12 = Command_CaptureBuilding
+	13 = Command_AttackMove
+	14 = Command_Stop
+	16 = Command_SetStanceBattle
+	17 = Command_SetStanceAggressive
+	18 = Command_SetStanceHoldGround
+End
