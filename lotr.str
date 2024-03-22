@@ -92641,4 +92641,20 @@ CONTROLBAR:ToolTipConstructBaratheonStormlanderFootmanHorde
 "Strong vs. Infantry \n Can stealth near trees \n\nHailing from the proud and resilient lands of the Stormlands, Stormlander Footmen embody the martial tradition and unwavering loyalty that define House Baratheon."
 End
 
+OBJECT:BaratheonStormlanderArcher
+"Stormlander Archer"
+END
+
+OBJECT:BaratheonStormlanderArcherHorde
+"Stormlander Archers"
+END
+
+CONTROLBAR:ConstructBaratheonStormlanderArcherHorde
+"Stormlander Archers (&E)"
+END
+
+CONTROLBAR:ToolTipConstructBaratheonStormlanderArcherHorde
+"Strong vs. Infantry \n Can stealth near trees \n \n From the windswept hills and verdant forests of the Stormlands, the Stormlander Archers emerge as masters of ranged warfare, their skill honed through years of disciplined training and steadfast devotion to House Baratheon."
+END
+
 END

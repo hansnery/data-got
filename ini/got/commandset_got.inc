@@ -608,7 +608,7 @@ End
 
 CommandSet BaratheonStormlanderEncampment
 	1	= Command_ConstructBaratheonStormlanderFootmanHorde
-	2 = Command_ConstructRivendellTookArcherHorde
+	2 = Command_ConstructBaratheonStormlanderArcherHorde
 	3	= Command_ConstructArnorBreelandGuardHorde
 	4 = Command_ConstructArnorBreelandRam
 	5 = Command_SpecialAbilityDancingHobbits

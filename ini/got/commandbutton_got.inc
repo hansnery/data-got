@@ -1292,3 +1292,18 @@ CommandButton Command_ConstructBaratheonStormlanderFootmanHorde
 	InPalantir	   	 = Yes
 	ShowProductionCount	= Yes
 End
+
+CommandButton Command_ConstructBaratheonStormlanderArcherHorde
+	Command					 = UNIT_BUILD
+	Object					 = BaratheonStormlanderArcherHorde
+	Options					 = CANCELABLE
+	NeededUpgradeAny = Yes
+	TextLabel				 = CONTROLBAR:ConstructBaratheonStormlanderArcherHorde
+	ButtonImage			 = BAArcher
+	ButtonBorderType = BUILD
+	DescriptLabel		 = CONTROLBAR:ToolTipConstructBaratheonStormlanderArcherHorde
+	Radial					 = Yes
+	InPalantir	   	 = Yes
+	ShowProductionCount	= Yes
+	UnitSpecificSound   = GondorArcherVoiceBuy
+End
