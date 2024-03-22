@@ -92341,18 +92341,6 @@ OBJECT:TargaryenViserys
 "Viserys Targaryen"
 END
 
-OBJECT:BaratheonBarracks
-"Dragonstone Barracks"
-END
-
-CONTROLBAR:ConstructBaratheonDragonstoneBarracks
-"Build Dragonstone Barracks (&T)"
-END
-
-CONTROLBAR:ToolTipBaratheonDragonstoneBarracks
-"Trains Corsairs of Lys and Soldiers of Dragonstone \n\n The barracks of Dragonstone, carved from ancient stone, stand resilient and austere, housing rigorously trained soldiers and the Corsairs of Lys."
-END
-
 OBJECT:BaratheonCorsairOfLys
 "Corsair of Lys"
 End
@@ -92592,5 +92580,65 @@ END
 OBJECT:BaratheonBanner
 "Baratheon Banner Carrier"
 END
+
+CONTROLBAR:ConstructMill
+"Mill (&W)"
+END
+
+OBJECT:Mill
+"Mill"
+END
+
+CONTROLBAR:ConstructDragonstoneFoundry
+"Build Dragonstone Foundry (&R)"
+END
+
+CONTROLBAR:ToolTipConstructDragonstoneFoundry
+"Manufactures and trades armour as a resource based on available terrain\nResearches weapon and armour upgrades\n Reduced cost of upgrades \n Increases command point limit by 50\n\nWith roots steeped in Targaryen lore and dragonfire, this foundry serves as the crucible where skilled artisans labor tirelessly forging weapons and armor for the Lord of Dragonstone."
+END
+
+OBJECT:BaratheonBarracks
+"Dragonstone Barracks"
+END
+
+CONTROLBAR:ConstructBaratheonDragonstoneBarracks
+"Build Dragonstone Barracks (&T)"
+END
+
+CONTROLBAR:ToolTipBaratheonDragonstoneBarracks
+"Trains Corsairs of Lys and Soldiers of Dragonstone \n\n The barracks of Dragonstone, carved from ancient stone, stand resilient and austere, housing rigorously trained soldiers and the Corsairs of Lys."
+END
+
+CONTROLBAR:ConstructStormlanderEncampment
+"Build Stormlander Encampment (&C)"
+END
+
+CONTROLBAR:ToolTipConstructStormlanderEncampment
+"Trains Stormlander units\n\nUnited under the banner of House Baratheon, the warriors of the Stormlands stand ready to defend their homeland and honor the memory of their fallen lord."
+END
+
+CONTROLBAR:ConstructDragonstoneBattleTower
+"Build Tower of Dragostone (&Y)"
+End
+
+CONTROLBAR:ToolTipConstructDragonstoneBattleTower
+"Defensive tower that fires arrows at nearby enemies\n\nCrafted with meticulous precision and steeped in the ancient artistry of Valyria, this towering structure commands both respect and fear."
+End
+
+CONTROLBAR:ConstructDragonstoneFortress
+"Build Dragonstone Fortress (&I)"
+END
+
+CONTROLBAR:ToolTipConstructDragonstoneFortress
+"Recruits Builders and Heroes \n Can be upgraded with various improvements and expansions \n Increases command point limit by 100\n\nCarved from the island's ancient stone and fortified with Valyrian ingenuity, the fortress commands a strategic position overlooking the Narrow Sea, its towering ramparts and imposing walls casting a watchful gaze over the surrounding waters."
+END
+
+CONTROLBAR:ConstructBaratheonStormlanderFootmanHorde
+"Stormlander Footmen (&W)"
+End
+
+CONTROLBAR:ToolTipConstructBaratheonStormlanderFootmanHorde
+"Strong vs. Infantry \n Can stealth near trees \n\nHailing from the proud and resilient lands of the Stormlands, Stormlander Footmen embody the martial tradition and unwavering loyalty that define House Baratheon."
+End
 
 END

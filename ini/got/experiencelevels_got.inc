@@ -2176,3 +2176,32 @@ ExperienceLevel	HorseLevel5_GOT
 		MaxSelectedUnits = 40
 	End
 END
+
+ExperienceLevel	FarmLevel1_GOT
+	TargetNames				 = FARM_GOT
+	RequiredExperience = 1
+	ExperienceAward		 = GONDOR_FARM_LVL1_EXP_AWARD
+	Rank							 = 1
+	AttributeModifiers = BasicLevelUpProduction1
+	Upgrades					 = Upgrade_StructureLevel1
+End
+
+ExperienceLevel	FarmLevel2_GOT
+	TargetNames				 = FARM_GOT
+	RequiredExperience = GONDOR_FARM_LVL2_EXP_NEEDED
+	ExperienceAward		 = GONDOR_FARM_LVL2_EXP_AWARD
+	Rank							 = 2
+	AttributeModifiers = GondorFarmLevel2Production GondorFarmHitPointModLvl2
+	Upgrades					 = Upgrade_StructureLevel2
+	LevelUpFx					 = FX:GenericBuildingUpgrade
+End
+
+ExperienceLevel	FarmLevel3_GOT
+	TargetNames				 = FARM_GOT
+	RequiredExperience = GONDOR_FARM_LVL3_EXP_NEEDED
+	ExperienceAward		 = GONDOR_FARM_LVL3_EXP_AWARD
+	Rank							 = 3
+	AttributeModifiers = GondorFarmLevel3Production GondorFarmHitPointModLvl3
+	Upgrades					 = Upgrade_StructureLevel3
+	LevelUpFx					 = FX:GenericBuildingUpgrade
+End

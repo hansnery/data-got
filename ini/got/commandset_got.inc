@@ -381,15 +381,14 @@ End
 CommandSet BaratheonPorterCommandSet
 	1 = Command_EvilStop
 	2 = Command_PorterExtinguishFire
-	3 = Command_PorterConstructMordorSlaughterHouse
-	4 = Command_PorterConstructMordorLumberMill
-	5	= Command_PorterConstructMordorArmory
+	3 = Command_PorterConstructMill
+	4 = Command_PorterConstructLumberMill
+	5	= Command_PorterConstructDragonstoneFoundry
 	6 = Command_PorterConstructBaratheonDragonstoneBarracks
-	7 = Command_PorterConstructMordorHaradrimPalace
-	8 = Command_PorterConstructMordorTrollCage
-	9 = Command_PorterConstructMordorSiegeWorks
-	10 = Command_PorterconstructMordorBattleTower
-	11 = Command_PorterConstructMordorFortress
+	7 = Command_PorterConstructStormlanderEncampment
+	8 = Command_PorterConstructDragonstoneSiegeWorks
+	9 = Command_PorterconstructDragonstoneBattleTower
+	10 = Command_PorterConstructDragonstoneFortress
 End
 
 CommandSet BaratheonBarracksCommandSet
@@ -605,4 +604,13 @@ CommandSet BaratheonStormlanderHordeCommandSet
 	16 = Command_SetStanceBattle
 	17 = Command_SetStanceAggressive
 	18 = Command_SetStanceHoldGround
+End
+
+CommandSet BaratheonStormlanderEncampment
+	1	= Command_ConstructBaratheonStormlanderFootmanHorde
+	2 = Command_ConstructRivendellTookArcherHorde
+	3	= Command_ConstructArnorBreelandGuardHorde
+	4 = Command_ConstructArnorBreelandRam
+	5 = Command_SpecialAbilityDancingHobbits
+	6 = Command_Sell
 End

@@ -1209,3 +1209,86 @@ CommandButton Command_BaratheonFiefArmaments
   DescriptLabel    = CONTROLBAR:ToolTipGondorArmamentsNew
   InPalantir		   = Yes
 End
+
+CommandButton Command_PorterConstructMill
+	Command       	 = DOZER_CONSTRUCT
+	Object        	 = Mill
+	TextLabel     	 = CONTROLBAR:ConstructMill
+	ButtonImage   	 = uiarthedwindmill
+	ButtonBorderType = BUILD
+	DescriptLabel    = CONTROLBAR:ToolTipConstructArnorMill
+	Radial					 = Yes
+End
+
+CommandButton Command_PorterConstructLumberMill
+  Command          = DOZER_CONSTRUCT
+  Object           = MordorLumberMill
+  TextLabel        = CONTROLBAR:ConstructMordorLumberMill
+  ButtonImage      = uilumbermillnewbutton
+  ButtonBorderType = BUILD
+  DescriptLabel    = CONTROLBAR:ToolTipConstructLumberMill
+  Radial           = Yes
+End
+
+CommandButton Command_PorterConstructDragonstoneFoundry
+  Command          = DOZER_CONSTRUCT
+  Object           = MordorArmory
+  TextLabel        = CONTROLBAR:ConstructDragonstoneFoundry
+  ButtonImage      = BIMordorArmoury
+  ButtonBorderType = BUILD
+  DescriptLabel    = CONTROLBAR:ToolTipConstructDragonstoneFoundry
+  Radial           = Yes
+End
+
+CommandButton Command_PorterconstructDragonstoneBattleTower
+	Command					 = DOZER_CONSTRUCT
+	Object					 = MordorBattleTower
+	TextLabel				 = CONTROLBAR:ConstructDragonstoneBattleTower
+	ButtonImage			 = BIMordorBattleTower
+	ButtonBorderType = BUILD
+	DescriptLabel		 = CONTROLBAR:ToolTipConstructDragonstoneBattleTower
+	Radial					 = Yes
+End
+
+CommandButton Command_PorterConstructDragonstoneFortress
+  Command          = DOZER_CONSTRUCT
+  Object           = MordorFortress
+  TextLabel        = CONTROLBAR:ConstructDragonstoneFortress
+  ButtonImage      = BIMordorFortress
+  ButtonBorderType = BUILD
+  DescriptLabel    = CONTROLBAR:ToolTipConstructDragonstoneFortress
+  Radial           = Yes
+End
+
+CommandButton Command_PorterConstructStormlanderEncampment
+  Command          = DOZER_CONSTRUCT
+  Object           = RivendellBreeLandEncampment
+  TextLabel        = CONTROLBAR:ConstructStormlanderEncampment
+  ButtonImage      = BIRivendellEncampment
+  ButtonBorderType = BUILD
+  DescriptLabel    = CONTROLBAR:ToolTipConstructStormlanderEncampment
+  Radial           = Yes
+End
+
+CommandButton Command_PorterConstructDragonstoneSiegeWorks
+  Command          = DOZER_CONSTRUCT
+  Object           = MordorSiegeWorks
+  TextLabel        = CONTROLBAR:ConstructMordorSiegeWorks
+  ButtonImage      = BIMordorSiegeWorks
+  ButtonBorderType = BUILD
+  DescriptLabel    = CONTROLBAR:ToolTipordorSiegeWorks
+  Radial           = Yes
+End
+
+CommandButton Command_ConstructBaratheonStormlanderFootmanHorde
+	Command					 = UNIT_BUILD
+	Object					 = BaratheonStormlanderHorde
+	Options					 = CANCELABLE
+	TextLabel				 = CONTROLBAR:ConstructBaratheonStormlanderFootmanHorde
+	ButtonImage			 = BAFootmen
+	ButtonBorderType = BUILD
+	DescriptLabel		 = CONTROLBAR:ToolTipConstructBaratheonStormlanderFootmanHorde
+	Radial					 = Yes
+	InPalantir	   	 = Yes
+	ShowProductionCount	= Yes
+End
