@@ -227,3 +227,14 @@ AudioEvent GendryStrongSeed
   Limit = 1
   SubmixSlider = SoundFX
 End
+
+AudioEvent Carousing
+  Sounds       = the_bear_and_the_maiden_fair got_carousing
+  Limit        = 2
+  Volume       = 150
+  MinRange     = 300
+  MaxRange     = 1000
+  Priority     = critical
+  Type         = world shrouded everyone
+  SubmixSlider = SoundFX
+End

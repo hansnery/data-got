@@ -3108,4 +3108,9 @@ Inherit="InfantryFunctions">
     <EventList Name="DragonstoneKnightsFunctions" Inherit="CavalryFunctions">
         <EventHandler EventName="OnCreated"				ScriptFunctionName="OnDragonstoneKnightsCreated" DebugSingleStep="false"/>
     </EventList>
+
+    <EventList Name="DancingSoldierFunctions" Inherit="InfantryFunctions">
+		<!-- This contains events specific to the Gondor Fighter horde member. jba -->
+        <EventHandler EventName="OnCreated"				ScriptFunctionName="OnDancingSoldierCreated" DebugSingleStep="false"/>
+    </EventList>
 </SageLuaScriptSection>

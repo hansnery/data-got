@@ -1307,3 +1307,18 @@ CommandButton Command_ConstructBaratheonStormlanderArcherHorde
 	ShowProductionCount	= Yes
 	UnitSpecificSound   = GondorArcherVoiceBuy
 End
+
+CommandButton Command_SpecialAbilityCarousing
+  Command           = SPECIAL_POWER
+  SpecialPower      = SpecialAbilityDancingHobbits
+  TextLabel         = CONTROLBAR:Carousing
+  ButtonImage       = BACarousingButton
+  ButtonBorderType  = ACTION
+  DescriptLabel     = CONTROLBAR:ToolTipCarousing
+  InPalantir				= Yes
+  Radial				    = Yes
+  AutoAbility				= Yes
+  AutoDelay					= 30.0
+  PresetRange				= 50.0
+  UnitSpecificSound = Carousing
+End

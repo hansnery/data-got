@@ -92657,4 +92657,24 @@ CONTROLBAR:ToolTipConstructBaratheonStormlanderArcherHorde
 "Strong vs. Infantry \n Can stealth near trees \n \n From the windswept hills and verdant forests of the Stormlands, the Stormlander Archers emerge as masters of ranged warfare, their skill honed through years of disciplined training and steadfast devotion to House Baratheon."
 END
 
+CONTROLBAR:Carousing
+"Carousing"
+END
+
+CONTROLBAR:ToolTipCarousing
+"\nHe lifted her high in the air!\nHe sniffed and roared and smelled her there!\nShe kicked and wailed, the maid so fair,\nBut he licked the honey from her hair.\nFrom there to here, from here to there,\nAll black and brown and covered with hair.\nHe smelled that girl on the summer air,\nThe bear! The bear! And the maiden fair!"
+END
+
+OBJECT:BaratheonStormlanderEncampment
+"Stormlander Encampment"
+END
+
+OBJECT:BaratheonStormlanderEncampmentDescription
+"Trains Stormlander units \n Level 2: +10% faster build speed \n Level 3: +25% faster build speed"
+END
+
+OBJECT:DancingSoldier
+"Drunk Soldier"
+End
+
 END

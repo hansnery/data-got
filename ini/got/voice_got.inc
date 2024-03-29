@@ -36,7 +36,7 @@ AudioEvent BaratheonBuilderVoiceMove
 End
 
 AudioEvent BaratheonBuilderVoiceBuild
-  Sounds = builder_castles builder_clear_the_land builder_dragons_breath builder_lets_build_it builder_living_or_dead builder_miss_the_days builder_more_walls builder_next_war builder_repair builder_stone_and_mortar builder_sturdy_foundation builder_there_is_a_good_place  ; builder_tower builder_scaffolding builder_shelter builder_dragons builder_battlements
+  Sounds = builder_castles builder_clear_the_land builder_dragons_breath builder_lets_build_it builder_living_or_dead builder_miss_the_days builder_next_war builder_repair builder_stone_and_mortar builder_sturdy_foundation builder_there_is_a_good_place  ;builder_more_walls builder_tower builder_scaffolding builder_shelter builder_dragons builder_battlements
   Volume = #ADD( UNIT_RESPONSE_VOLUME 85 )
   MinVolume = #ADD( UNIT_RESPONSE_MINVOLUME 85 )
   Priority = high

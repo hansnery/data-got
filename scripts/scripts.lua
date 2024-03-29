@@ -16422,3 +16422,31 @@ function OnBaratheonRenlysVanguardFunctionsCreated(self)
 		ObjectHideSubObjectPermanently( self, "HOODDOWN04", false )
     end
 end
+
+function OnDancingSoldierCreated(self)
+	-- ObjectHideSubObjectPermanently( self, "SHIELD", true )
+    -- ObjectHideSubObjectPermanently( self, "SWORD", true )
+    -- ObjectHideSubObjectPermanently( self, "PIPE", true )
+
+	local shield = GetRandomNumber()
+	local sword  = GetRandomNumber()
+	local pipe   = GetRandomNumber()
+
+    if shield <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "SHIELD", true )
+	else
+        ObjectHideSubObjectPermanently( self, "SHIELD", false )
+    end
+
+    if sword <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "SWORD", true )
+	else
+        ObjectHideSubObjectPermanently( self, "SWORD", false )
+    end
+
+    if pipe <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "PIPE", true )
+	else
+        ObjectHideSubObjectPermanently( self, "PIPE", false )
+    end
+end
