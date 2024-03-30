@@ -609,7 +609,27 @@ End
 CommandSet BaratheonStormlanderEncampment
 	1	= Command_ConstructBaratheonStormlanderFootmanHorde
 	2 = Command_ConstructBaratheonStormlanderArcherHorde
-	3	= Command_ConstructArnorBreelandGuardHorde
+	3	= Command_ConstructBaratheonStormlanderGuardHorde
+	4 = Command_ConstructArnorBreelandRam
+	5 = Command_SpecialAbilityCarousing
+	6 = Command_Sell
+	7 = Command_PurchaseUpgradeBaratheonStormlanderCampLevel2
+End
+
+CommandSet BaratheonStormlanderEncampment_Lvl2
+	1	= Command_ConstructBaratheonStormlanderFootmanHorde
+	2 = Command_ConstructBaratheonStormlanderArcherHorde
+	3	= Command_ConstructBaratheonStormlanderGuardHorde
+	4 = Command_ConstructArnorBreelandRam
+	5 = Command_SpecialAbilityCarousing
+	6 = Command_Sell
+	7 = Command_PurchaseUpgradeBaratheonStormlanderCampLevel3
+End
+
+CommandSet BaratheonStormlanderEncampment_Lvl3
+	1	= Command_ConstructBaratheonStormlanderFootmanHorde
+	2 = Command_ConstructBaratheonStormlanderArcherHorde
+	3	= Command_ConstructBaratheonStormlanderGuardHorde
 	4 = Command_ConstructArnorBreelandRam
 	5 = Command_SpecialAbilityCarousing
 	6 = Command_Sell

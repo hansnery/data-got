@@ -1322,3 +1322,40 @@ CommandButton Command_SpecialAbilityCarousing
   PresetRange				= 50.0
   UnitSpecificSound = Carousing
 End
+
+CommandButton Command_PurchaseUpgradeBaratheonStormlanderCampLevel2
+	Command          = OBJECT_UPGRADE
+	Upgrade          = Upgrade_DwarvenBarracksLevel2
+	Options          = CANCELABLE
+	TextLabel        = CONTROLBAR:ConstructBaratheonStormlanderCampLevel2Upgrade
+	ButtonImage      = UpgradeGoodButton
+	ButtonBorderType = UPGRADE
+	DescriptLabel    = CONTROLBAR:ToolTipBaratheonStormlanderCampLevel2Upgrade
+	Radial           = Yes
+	InPalantir       = Yes
+End
+
+CommandButton Command_PurchaseUpgradeBaratheonStormlanderCampLevel3
+	Command          = OBJECT_UPGRADE
+	Upgrade          = Upgrade_ArnorArcheryRangeLevel3
+	Options          = CANCELABLE
+	TextLabel        = CONTROLBAR:ConstructBaratheonStormlanderCampLevel3Upgrade
+	ButtonImage      = UpgradeGoodButton
+	ButtonBorderType = UPGRADE
+	DescriptLabel    = CONTROLBAR:ToolTipBaratheonStormlanderCampLevel3Upgrade
+	Radial           = Yes
+	InPalantir       = Yes
+End
+
+CommandButton Command_ConstructBaratheonStormlanderGuardHorde
+	Command					 = UNIT_BUILD
+	Object					 = BaratheonStormsEndGuardHorde
+	Options					 = CANCELABLE
+	TextLabel				 = CONTROLBAR:ConstructBaratheonStormlanderGuardHorde
+	ButtonImage			 = uirivbreelander
+	ButtonBorderType = BUILD
+	DescriptLabel		 = CONTROLBAR:ToolTipConstructBaratheonStormlanderGuardHorde
+	Radial					 = Yes
+	InPalantir	   	 = Yes
+	ShowProductionCount	= Yes
+End
