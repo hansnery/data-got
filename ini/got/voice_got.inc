@@ -554,6 +554,188 @@ AudioEvent SalladhorSaanVoiceDie
   SubmixSlider = voice
 End
 ;;;;;;;;;;;;;;;;;;;;;
+; Stormlander Guard
+;;;;;;;;;;;;;;;;;;;;;
+AudioEvent StormlanderGuardVoiceAttack
+  Sounds    = stormlander_guard_attack1 stormlander_guard_attack2 stormlander_guard_attack3 stormlander_guard_attack4 stormlander_guard_attack5 stormlander_guard_attack6 stormlander_guard_attack7
+  Volume    = M_BREELANDERS_RESPONSE_VOLUME
+  MinVolume = M_BREELANDERS_RESPONSE_MINVOLUME
+  Type      = world player voice
+  SubmixSlider = voice
+End
+
+AudioEvent StormlanderGuardAttackBuilding
+  Sounds    = stormlander_guard_attack_building1 stormlander_guard_attack_building2 stormlander_guard_attack_building3 stormlander_guard_attack_building4 stormlander_guard_attack_building5
+  Volume    = M_BREELANDERS_RESPONSE_VOLUME
+  MinVolume = M_BREELANDERS_RESPONSE_MINVOLUME
+  Type      = world player voice
+  SubmixSlider = voice
+End
+
+AudioEvent StormlanderGuardVoiceSalute
+  Sounds    = stormlander_guard_salute1 stormlander_guard_salute2 stormlander_guard_salute3 stormlander_guard_salute4
+  Volume    = M_BREELANDERS_RESPONSE_VOLUME
+  MinVolume = M_BREELANDERS_RESPONSE_MINVOLUME
+  Limit     = 1
+  Type      = world player voice
+  SubmixSlider = voice
+End
+
+AudioEvent StormlanderGuardVoiceMove
+  Sounds      = stormlander_guard_move1 stormlander_guard_move2 stormlander_guard_move3 stormlander_guard_move4 stormlander_guard_move5 stormlander_guard_move6 stormlander_guard_move7 stormlander_guard_move8
+  Volume      = M_BREELANDERS_RESPONSE_VOLUME
+  MinVolume   = M_BREELANDERS_RESPONSE_MINVOLUME
+  PlayPercent = VOICE_MOVE_PLAY_PERCENT
+  Type        = world player voice
+  SubmixSlider = voice
+End
+
+AudioEvent StormlanderGuardVoiceMoveCamp
+  Sounds    = stormlander_guard_move_camp1 stormlander_guard_move_camp2 stormlander_guard_move_camp3 stormlander_guard_move_camp4
+  Volume    = M_BREELANDERS_RESPONSE_VOLUME
+  MinVolume = M_BREELANDERS_RESPONSE_MINVOLUME
+  Type      = world player voice
+  SubmixSlider = voice
+End
+
+AudioEvent  StormlanderGuardVoiceDisengage
+  Sounds    = stormlander_guard_disengage1 stormlander_guard_disengage2 stormlander_guard_disengage3 stormlander_guard_disengage4 stormlander_guard_disengage5
+  Volume    = M_BREELANDERS_RESPONSE_VOLUME
+  MinVolume = M_BREELANDERS_RESPONSE_MINVOLUME
+  Type      = world player voice
+  SubmixSlider = voice
+End
+
+AudioEvent  StormlanderGuardVoiceRetreat
+  Sounds    = stormlander_guard_retreat1
+  Volume    = M_BREELANDERS_RESPONSE_VOLUME
+  MinVolume = M_BREELANDERS_RESPONSE_MINVOLUME
+  Type      = world player voice
+  SubmixSlider = voice
+End
+
+AudioEvent StormlanderGuardVoiceSelect
+  Sounds    = stormlander_guard_select1 stormlander_guard_select2 stormlander_guard_select3 stormlander_guard_select4 stormlander_guard_select5 stormlander_guard_select6 stormlander_guard_select7
+  Volume    = M_BREELANDERS_RESPONSE_VOLUME
+  MinVolume = M_BREELANDERS_RESPONSE_MINVOLUME
+  Type      = world player voice
+  SubmixSlider = voice
+End
+
+Multisound StormlanderGuardVoiceSelectMS
+	Subsounds = StormlanderGuardVoiceSelect PeasantVoiceSelect2
+End
+
+AudioEvent StormlanderGuardVoiceSelectBattle
+  Sounds    = stormlander_guard_combat1 stormlander_guard_combat2 stormlander_guard_combat3 stormlander_guard_combat4 stormlander_guard_combat5
+  Volume    = M_BREELANDERS_RESPONSE_VOLUME
+  MinVolume = M_BREELANDERS_RESPONSE_MINVOLUME
+  Type      = world player voice
+  SubmixSlider = voice
+End
+
+AudioEvent StormlanderGuardVoiceEnterStateAttack
+  Sounds       = stormlander_guard_attack1 stormlander_guard_attack2 stormlander_guard_attack3 stormlander_guard_attack4 stormlander_guard_attack5 stormlander_guard_attack6 stormlander_guard_attack7
+  Limit        = 1
+  Volume       = BATTLE_CHATTER_VOLUME
+  MinVolume    = BATTLE_CHATTER_MIN_VOLUME
+  Type         = world allies enemies voice shrouded
+  SubmixSlider = voice
+  MaxRange     = BATTLE_CHATTER_RANGE
+  PlayPercent  = BATTLE_CHATTER_PLAY_PERCENT
+End
+
+AudioEvent StormlanderGuardVoiceEnterStateAttackBuilding
+  Sounds       = stormlander_guard_attack_building1 stormlander_guard_attack_building2 stormlander_guard_attack_building3 stormlander_guard_attack_building4 stormlander_guard_attack_building5
+  Limit        = 1
+  Volume       = BATTLE_CHATTER_VOLUME
+  MinVolume    = BATTLE_CHATTER_MIN_VOLUME
+  Type         = world allies enemies voice shrouded
+  SubmixSlider = voice
+  MaxRange     = BATTLE_CHATTER_RANGE
+  PlayPercent  = BATTLE_CHATTER_PLAY_PERCENT
+End
+
+AudioEvent StormlanderGuardVoiceEnterStateMove
+  Sounds       = stormlander_guard_move1 stormlander_guard_move2 stormlander_guard_move3 stormlander_guard_move4 stormlander_guard_move5 stormlander_guard_move6 stormlander_guard_move7 stormlander_guard_move8
+  Limit        = 1
+  Volume       = BATTLE_CHATTER_VOLUME
+  MinVolume    = BATTLE_CHATTER_MIN_VOLUME
+  Type         = world allies enemies voice shrouded
+  SubmixSlider = voice
+  MaxRange     = BATTLE_CHATTER_RANGE
+  PlayPercent  = BATTLE_CHATTER_PLAY_PERCENT
+End
+
+AudioEvent StormlanderGuardVoiceEnterStateMoveCamp
+  Sounds       = stormlander_guard_move_camp1 stormlander_guard_move_camp2 stormlander_guard_move_camp3 stormlander_guard_move_camp4
+  Limit        = 1
+  Volume       = BATTLE_CHATTER_VOLUME
+  MinVolume    = BATTLE_CHATTER_MIN_VOLUME
+  Type         = world allies enemies voice shrouded
+  SubmixSlider = voice
+  MaxRange     = BATTLE_CHATTER_RANGE
+  PlayPercent  = BATTLE_CHATTER_PLAY_PERCENT
+End
+
+AudioEvent StormlanderGuardVoiceEnterStateDisengage
+  Sounds       = stormlander_guard_disengage1 stormlander_guard_disengage2 stormlander_guard_disengage3 stormlander_guard_disengage4 stormlander_guard_disengage5
+  Limit        = 1
+  Volume       = BATTLE_CHATTER_VOLUME
+  MinVolume    = BATTLE_CHATTER_MIN_VOLUME
+  Type         = world allies enemies voice shrouded
+  SubmixSlider = voice
+  MaxRange     = BATTLE_CHATTER_RANGE
+  PlayPercent  = BATTLE_CHATTER_PLAY_PERCENT
+End
+
+AudioEvent StormlanderGuardVoiceEnterStateRetreat
+  Sounds       = stormlander_guard_retreat1
+  Limit        = 1
+  Volume       = BATTLE_CHATTER_VOLUME
+  MinVolume    = BATTLE_CHATTER_MIN_VOLUME
+  Type         = world allies enemies voice shrouded
+  SubmixSlider = voice
+  MaxRange     = BATTLE_CHATTER_RANGE
+  PlayPercent  = BATTLE_CHATTER_PLAY_PERCENT
+End
+
+AudioEvent StormlanderGuardVoiceGarrison
+  Sounds    = stormlander_guard_garrison1 stormlander_guard_garrison2
+  Volume    = M_BREELANDERS_RESPONSE_VOLUME
+  MinVolume = M_BREELANDERS_RESPONSE_MINVOLUME
+  Type      = world player voice
+  SubmixSlider = voice
+End
+
+AudioEvent StormlanderGuardMoveShip
+  Sounds    = stormlander_guard_ship1
+  Priority  = high
+  Volume    = M_BREELANDERS_RESPONSE_VOLUME
+  MinVolume = M_BREELANDERS_RESPONSE_MINVOLUME
+  Type      = world player voice
+  SubmixSlider = voice
+End
+
+AudioEvent StormlanderGuardVoiceMoveTrees
+  Sounds       = stormlander_guard_move_trees1 stormlander_guard_move_trees2
+  Volume       = M_BREELANDERS_RESPONSE_VOLUME
+  MinVolume	   = M_BREELANDERS_RESPONSE_MINVOLUME
+  Type         = world player voice
+  SubmixSlider = voice
+End
+
+AudioEvent StormlanderGuardVoiceEnterStateMoveTrees
+  Sounds       = stormlander_guard_move_trees1 stormlander_guard_move_trees2
+  Limit        = 1
+  Volume       = BATTLE_CHATTER_VOLUME
+  MinVolume    = BATTLE_CHATTER_MIN_VOLUME
+  Type         = world allies enemies voice shrouded
+  SubmixSlider = voice
+  MaxRange     = BATTLE_CHATTER_RANGE
+  PlayPercent  = BATTLE_CHATTER_PLAY_PERCENT
+End
+;;;;;;;;;;;;;;;;;;;;;
 ; EVA - Camp
 ;;;;;;;;;;;;;;;;;;;;;
 AudioEvent CampGenericDragonEggDropped
