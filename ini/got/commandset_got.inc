@@ -658,6 +658,7 @@ End
 CommandSet BaratheonStormlanderArcherHordeCommandSet
 	1 = Command_ToggleStance
 	2	= Command_ArcherBombard
+	4 = Command_BaratheonFiefArmaments
 	5 = Command_PurchaseUpgradeBaratheonFireArrows
 	6	= Command_PurchaseUpgradeBaratheonBasicTraining
 	12 = Command_CaptureBuilding
