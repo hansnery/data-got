@@ -92725,4 +92725,20 @@ OBJECT:BaratheonStormlanderEliteGuardHorde
 "Storm's End Guard"
 END
 
+OBJECT:BaratheonStormlanderHammer
+"Stormlander Hammer"
+END
+
+OBJECT:BaratheonStormlanderHammerHorde
+"Stormlander Hammers"
+END
+
+CONTROLBAR:ConstructBaratheonStormlanderHammerHorde
+"Stormlander Hammers (&D)"
+END
+
+CONTROLBAR:ToolTipConstructBaratheonStormlanderHammerHorde
+"Requires Level 2 Stormlander Encampment \n Strong vs. Spam Infantry \n\n Within the ranks of House Baratheon's formidable army, the Stormlander Hammers stand as a testament to the indomitable spirit and ferocious strength inspired by the legendary Robert Baratheon himself. Embodying the sheer force and tenacity of their late liege lord, they wield massive warhammers with devastating effect, shattering enemy ranks with each thunderous blow."
+END
+
 END

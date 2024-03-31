@@ -626,9 +626,10 @@ CommandSet BaratheonStormlanderEncampment
 	3	= Command_ConstructBaratheonStormlanderGuardHorde
 	4 = Command_ConstructArnorBreelandRam
 	5 = Command_ConstructBaratheonStormlanderEliteGuardHorde
-	7 = Command_SpecialAbilityCarousing
+	7 = Command_ConstructBaratheonStormlanderHammerHorde
+	8 = Command_SpecialAbilityCarousing
 	6 = Command_Sell
-	8 = Command_PurchaseUpgradeBaratheonStormlanderCampLevel2
+	9 = Command_PurchaseUpgradeBaratheonStormlanderCampLevel2
 End
 
 CommandSet BaratheonStormlanderEncampment_Lvl2
@@ -637,9 +638,10 @@ CommandSet BaratheonStormlanderEncampment_Lvl2
 	3	= Command_ConstructBaratheonStormlanderGuardHorde
 	4 = Command_ConstructArnorBreelandRam
 	5 = Command_ConstructBaratheonStormlanderEliteGuardHorde
-	7 = Command_SpecialAbilityCarousing
+	7 = Command_ConstructBaratheonStormlanderHammerHorde
+	8 = Command_SpecialAbilityCarousing
 	6 = Command_Sell
-	8 = Command_PurchaseUpgradeBaratheonStormlanderCampLevel3
+	9 = Command_PurchaseUpgradeBaratheonStormlanderCampLevel3
 End
 
 CommandSet BaratheonStormlanderEncampment_Lvl3
@@ -648,7 +650,8 @@ CommandSet BaratheonStormlanderEncampment_Lvl3
 	3	= Command_ConstructBaratheonStormlanderGuardHorde
 	4 = Command_ConstructArnorBreelandRam
 	5 = Command_ConstructBaratheonStormlanderEliteGuardHorde
-	7 = Command_SpecialAbilityCarousing
+	7 = Command_ConstructBaratheonStormlanderHammerHorde
+	8 = Command_SpecialAbilityCarousing
 	6 = Command_Sell
 End
 
@@ -669,6 +672,19 @@ CommandSet BaratheonStormlanderEliteGuardHordeCommandSet
 	1 = Command_ToggleStance
 	2 = Command_RivendellSentryPorcupineFormation
 	4 = Command_PurchaseUpgradeBaratheonHeavyArmor
+	5 = Command_PurchaseUpgradeBaratheonForgedBlades
+	6 = Command_PurchaseUpgradeBaratheonBasicTraining
+	12 = Command_CaptureBuilding
+	13 = Command_AttackMove
+	14 = Command_Stop
+	16 = Command_SetStanceBattle
+	17 = Command_SetStanceAggressive
+	18 = Command_SetStanceHoldGround
+End
+
+CommandSet BaratheonStormlanderHammersHordeCommandSet
+	1 = Command_ToggleStance
+	2 = Command_StormlanderHammersIntimidateFakeLeadershipButton
 	5 = Command_PurchaseUpgradeBaratheonForgedBlades
 	6 = Command_PurchaseUpgradeBaratheonBasicTraining
 	12 = Command_CaptureBuilding

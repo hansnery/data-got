@@ -1373,3 +1373,28 @@ CommandButton Command_ConstructBaratheonStormlanderEliteGuardHorde
 	InPalantir	   	 = Yes
 	ShowProductionCount	= Yes
 End
+
+CommandButton Command_ConstructBaratheonStormlanderHammerHorde
+	Command					 = UNIT_BUILD
+	Object					 = BaratheonStormlanderHammerHorde
+	Options					 = NEED_UPGRADE CANCELABLE
+	NeededUpgrade		 = Upgrade_ArnorArcheryRangeLevel2
+	TextLabel				 = CONTROLBAR:ConstructBaratheonStormlanderHammerHorde
+	ButtonImage			 = BAStormlanderHammerButton
+	ButtonBorderType = BUILD
+	DescriptLabel		 = CONTROLBAR:ToolTipConstructBaratheonStormlanderHammerHorde
+	Radial					 = Yes
+	InPalantir	   	 = Yes
+	ShowProductionCount	= Yes
+End
+
+CommandButton Command_StormlanderHammersIntimidateFakeLeadershipButton
+  Command          = SPECIAL_POWER
+  SpecialPower     = SpecialAbilityFakeLeadership
+  Options					 = NONPRESSABLE
+  TextLabel        = CONTROLBAR:GrimIntimidate
+  ButtonImage      = BAStormlanderHammerIntimidationButton
+  ButtonBorderType = ACTION
+  DescriptLabel    = CONTROLBAR:TooltipGrimIntimidate
+  InPalantir       = Yes
+End
