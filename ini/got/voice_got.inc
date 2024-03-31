@@ -736,6 +736,196 @@ AudioEvent StormlanderGuardVoiceEnterStateMoveTrees
   PlayPercent  = BATTLE_CHATTER_PLAY_PERCENT
 End
 ;;;;;;;;;;;;;;;;;;;;;
+; Dragonstone Soldier
+;;;;;;;;;;;;;;;;;;;;;
+AudioEvent DragonstoneSoldierVoiceAttack
+  Sounds    = dragonstone_soldier_attack1 dragonstone_soldier_attack2 dragonstone_soldier_attack3 dragonstone_soldier_attack4 dragonstone_soldier_attack5 dragonstone_soldier_attack6 dragonstone_soldier_attack7 dragonstone_soldier_attack8 dragonstone_soldier_attack9
+  Volume    = M_BREELANDERS_RESPONSE_VOLUME
+  MinVolume = M_BREELANDERS_RESPONSE_MINVOLUME
+  Type      = world player voice
+  SubmixSlider = voice
+End
+
+AudioEvent DragonstoneSoldierAttackBuilding
+  Sounds    = dragonstone_soldier_attack_building1 dragonstone_soldier_attack_building2 dragonstone_soldier_attack_building3 dragonstone_soldier_attack_building4 dragonstone_soldier_attack_building5
+  Volume    = M_BREELANDERS_RESPONSE_VOLUME
+  MinVolume = M_BREELANDERS_RESPONSE_MINVOLUME
+  Type      = world player voice
+  SubmixSlider = voice
+End
+
+AudioEvent DragonstoneSoldierVoiceSalute
+  Sounds    = dragonstone_soldier_salute1 dragonstone_soldier_salute2 dragonstone_soldier_salute3 dragonstone_soldier_salute4
+  Volume    = M_BREELANDERS_RESPONSE_VOLUME
+  MinVolume = M_BREELANDERS_RESPONSE_MINVOLUME
+  Limit     = 1
+  Type      = world player voice
+  SubmixSlider = voice
+End
+
+AudioEvent DragonstoneSoldierVoiceMove
+  Sounds      = dragonstone_soldier_move1 dragonstone_soldier_move2 dragonstone_soldier_move3 dragonstone_soldier_move4 dragonstone_soldier_move5 dragonstone_soldier_move6 dragonstone_soldier_move7 dragonstone_soldier_move8
+  Volume      = M_BREELANDERS_RESPONSE_VOLUME
+  MinVolume   = M_BREELANDERS_RESPONSE_MINVOLUME
+  PlayPercent = VOICE_MOVE_PLAY_PERCENT
+  Type        = world player voice
+  SubmixSlider = voice
+End
+
+AudioEvent DragonstoneSoldierVoiceMoveCamp
+  Sounds    = dragonstone_soldier_move_camp1 dragonstone_soldier_move_camp2 dragonstone_soldier_move_camp3 dragonstone_soldier_move_camp4
+  Volume    = M_BREELANDERS_RESPONSE_VOLUME
+  MinVolume = M_BREELANDERS_RESPONSE_MINVOLUME
+  Type      = world player voice
+  SubmixSlider = voice
+End
+
+AudioEvent  DragonstoneSoldierVoiceDisengage
+  Sounds    = dragonstone_soldier_disengage1 dragonstone_soldier_disengage2 dragonstone_soldier_disengage3 dragonstone_soldier_disengage4 dragonstone_soldier_disengage5
+  Volume    = M_BREELANDERS_RESPONSE_VOLUME
+  MinVolume = M_BREELANDERS_RESPONSE_MINVOLUME
+  Type      = world player voice
+  SubmixSlider = voice
+End
+
+AudioEvent  DragonstoneSoldierVoiceRetreat
+  Sounds    = dragonstone_soldier_retreat1 dragonstone_soldier_retreat2
+  Volume    = M_BREELANDERS_RESPONSE_VOLUME
+  MinVolume = M_BREELANDERS_RESPONSE_MINVOLUME
+  Type      = world player voice
+  SubmixSlider = voice
+End
+
+AudioEvent DragonstoneSoldierVoiceSelect
+  Sounds    = dragonstone_soldier_select1 dragonstone_soldier_select2 dragonstone_soldier_select3 dragonstone_soldier_select4 dragonstone_soldier_select5 dragonstone_soldier_select6 dragonstone_soldier_select7
+  Volume    = M_BREELANDERS_RESPONSE_VOLUME
+  MinVolume = M_BREELANDERS_RESPONSE_MINVOLUME
+  Type      = world player voice
+  SubmixSlider = voice
+End
+
+Multisound DragonstoneSoldierVoiceSelectMS
+	Subsounds = DragonstoneSoldierVoiceSelect PeasantVoiceSelect2
+End
+
+AudioEvent DragonstoneSoldierVoiceSelectBattle
+  Sounds    = dragonstone_soldier_select_battle1 dragonstone_soldier_select_battle2 dragonstone_soldier_select_battle3 dragonstone_soldier_select_battle4 dragonstone_soldier_select_battle5
+  Volume    = M_BREELANDERS_RESPONSE_VOLUME
+  MinVolume = M_BREELANDERS_RESPONSE_MINVOLUME
+  Type      = world player voice
+  SubmixSlider = voice
+End
+
+AudioEvent DragonstoneSoldierVoiceEnterStateAttack
+  Sounds       = dragonstone_soldier_attack1 dragonstone_soldier_attack2 dragonstone_soldier_attack3 dragonstone_soldier_attack4 dragonstone_soldier_attack5 dragonstone_soldier_attack6 dragonstone_soldier_attack7 dragonstone_soldier_attack8 dragonstone_soldier_attack9
+  Limit        = 1
+  Volume       = BATTLE_CHATTER_VOLUME
+  MinVolume    = BATTLE_CHATTER_MIN_VOLUME
+  Type         = world allies enemies voice shrouded
+  SubmixSlider = voice
+  MaxRange     = BATTLE_CHATTER_RANGE
+  PlayPercent  = BATTLE_CHATTER_PLAY_PERCENT
+End
+
+AudioEvent DragonstoneSoldierVoiceEnterStateAttackBuilding
+  Sounds       = dragonstone_soldier_attack_building1 dragonstone_soldier_attack_building2 dragonstone_soldier_attack_building3 dragonstone_soldier_attack_building4 dragonstone_soldier_attack_building5
+  Limit        = 1
+  Volume       = BATTLE_CHATTER_VOLUME
+  MinVolume    = BATTLE_CHATTER_MIN_VOLUME
+  Type         = world allies enemies voice shrouded
+  SubmixSlider = voice
+  MaxRange     = BATTLE_CHATTER_RANGE
+  PlayPercent  = BATTLE_CHATTER_PLAY_PERCENT
+End
+
+AudioEvent DragonstoneSoldierVoiceEnterStateMove
+  Sounds       = dragonstone_soldier_move1 dragonstone_soldier_move2 dragonstone_soldier_move3 dragonstone_soldier_move4 dragonstone_soldier_move5 dragonstone_soldier_move6 dragonstone_soldier_move7 dragonstone_soldier_move8
+  Limit        = 1
+  Volume       = BATTLE_CHATTER_VOLUME
+  MinVolume    = BATTLE_CHATTER_MIN_VOLUME
+  Type         = world allies enemies voice shrouded
+  SubmixSlider = voice
+  MaxRange     = BATTLE_CHATTER_RANGE
+  PlayPercent  = BATTLE_CHATTER_PLAY_PERCENT
+End
+
+AudioEvent DragonstoneSoldierVoiceEnterStateMoveCamp
+  Sounds       = dragonstone_soldier_move_camp1 dragonstone_soldier_move_camp2 dragonstone_soldier_move_camp3 dragonstone_soldier_move_camp4
+  Limit        = 1
+  Volume       = BATTLE_CHATTER_VOLUME
+  MinVolume    = BATTLE_CHATTER_MIN_VOLUME
+  Type         = world allies enemies voice shrouded
+  SubmixSlider = voice
+  MaxRange     = BATTLE_CHATTER_RANGE
+  PlayPercent  = BATTLE_CHATTER_PLAY_PERCENT
+End
+
+AudioEvent DragonstoneSoldierVoiceEnterStateDisengage
+  Sounds       = dragonstone_soldier_disengage1 dragonstone_soldier_disengage2 dragonstone_soldier_disengage3 dragonstone_soldier_disengage4 dragonstone_soldier_disengage5
+  Limit        = 1
+  Volume       = BATTLE_CHATTER_VOLUME
+  MinVolume    = BATTLE_CHATTER_MIN_VOLUME
+  Type         = world allies enemies voice shrouded
+  SubmixSlider = voice
+  MaxRange     = BATTLE_CHATTER_RANGE
+  PlayPercent  = BATTLE_CHATTER_PLAY_PERCENT
+End
+
+AudioEvent DragonstoneSoldierVoiceEnterStateRetreat
+  Sounds       = dragonstone_soldier_retreat1 dragonstone_soldier_retreat2
+  Limit        = 1
+  Volume       = BATTLE_CHATTER_VOLUME
+  MinVolume    = BATTLE_CHATTER_MIN_VOLUME
+  Type         = world allies enemies voice shrouded
+  SubmixSlider = voice
+  MaxRange     = BATTLE_CHATTER_RANGE
+  PlayPercent  = BATTLE_CHATTER_PLAY_PERCENT
+End
+
+AudioEvent DragonstoneSoldierVoiceGarrison
+  Sounds    = dragonstone_soldier_garrison1 dragonstone_soldier_garrison2
+  Volume    = M_BREELANDERS_RESPONSE_VOLUME
+  MinVolume = M_BREELANDERS_RESPONSE_MINVOLUME
+  Type      = world player voice
+  SubmixSlider = voice
+End
+
+AudioEvent DragonstoneSoldierVoiceCapture
+  Sounds    = dragonstone_soldier_capture1 dragonstone_soldier_capture2 dragonstone_soldier_capture3
+  Volume    = M_BREELANDERS_RESPONSE_VOLUME
+  MinVolume = M_BREELANDERS_RESPONSE_MINVOLUME
+  Type      = world player voice
+  SubmixSlider = voice
+End
+
+AudioEvent DragonstoneSoldierMoveShip
+  Sounds    = dragonstone_soldier_ship1
+  Priority  = high
+  Volume    = M_BREELANDERS_RESPONSE_VOLUME
+  MinVolume = M_BREELANDERS_RESPONSE_MINVOLUME
+  Type      = world player voice
+  SubmixSlider = voice
+End
+
+AudioEvent DragonstoneSoldierVoiceMoveTrees
+  Sounds       = dragonstone_soldier_trees1 dragonstone_soldier_trees2
+  Volume       = M_BREELANDERS_RESPONSE_VOLUME
+  MinVolume	   = M_BREELANDERS_RESPONSE_MINVOLUME
+  Type         = world player voice
+  SubmixSlider = voice
+End
+
+AudioEvent DragonstoneSoldierVoiceEnterStateMoveTrees
+  Sounds       = dragonstone_soldier_trees1 dragonstone_soldier_trees2
+  Limit        = 1
+  Volume       = BATTLE_CHATTER_VOLUME
+  MinVolume    = BATTLE_CHATTER_MIN_VOLUME
+  Type         = world allies enemies voice shrouded
+  SubmixSlider = voice
+  MaxRange     = BATTLE_CHATTER_RANGE
+  PlayPercent  = BATTLE_CHATTER_PLAY_PERCENT
+End
+;;;;;;;;;;;;;;;;;;;;;
 ; EVA - Camp
 ;;;;;;;;;;;;;;;;;;;;;
 AudioEvent CampGenericDragonEggDropped
