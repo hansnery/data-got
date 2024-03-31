@@ -111,7 +111,7 @@ CommandSet BaratheonGendryCommandSetLevel1
 	3	 = Command_SpecialAbilityGendrySkilledSmithLevel1
 	4	 = Command_SpecialAbilityGendryStrongSeed
 	5	 = Command_SpecialAbilityGendryTheBull
-	6	 = Command_SpecialAbilityGendryKnightOfTheHollowHill
+	; 6	 = Command_SpecialAbilityGendryKnightOfTheHollowHill
 	12 = Command_CaptureBuilding
 	13 = Command_AttackMove
 	14 = Command_Stop
@@ -126,7 +126,7 @@ CommandSet BaratheonGendryCommandSetLevel3
 	3	 = Command_SpecialAbilityGendrySkilledSmithLevel3
 	4	 = Command_SpecialAbilityGendryStrongSeed
 	5	 = Command_SpecialAbilityGendryTheBull
-	6	 = Command_SpecialAbilityGendryKnightOfTheHollowHill
+	; 6	 = Command_SpecialAbilityGendryKnightOfTheHollowHill
 	12 = Command_CaptureBuilding
 	13 = Command_AttackMove
 	14 = Command_Stop
@@ -141,7 +141,7 @@ CommandSet BaratheonGendryCommandSetLevel5
 	3	 = Command_SpecialAbilityGendrySkilledSmithLevel5
 	4	 = Command_SpecialAbilityGendryStrongSeed
 	5	 = Command_SpecialAbilityGendryTheBull
-	6	 = Command_SpecialAbilityGendryKnightOfTheHollowHill
+	; 6	 = Command_SpecialAbilityGendryKnightOfTheHollowHill
 	12 = Command_CaptureBuilding
 	13 = Command_AttackMove
 	14 = Command_Stop
@@ -156,7 +156,7 @@ CommandSet BaratheonGendryCommandSetLevel8
 	3	 = Command_SpecialAbilityGendrySkilledSmithLevel8
 	4	 = Command_SpecialAbilityGendryStrongSeed
 	5	 = Command_SpecialAbilityGendryTheBull
-	6	 = Command_SpecialAbilityGendryKnightOfTheHollowHill
+	; 6	 = Command_SpecialAbilityGendryKnightOfTheHollowHill
 	12 = Command_CaptureBuilding
 	13 = Command_AttackMove
 	14 = Command_Stop
@@ -606,14 +606,29 @@ CommandSet BaratheonStormlanderHordeCommandSet
 	18 = Command_SetStanceHoldGround
 End
 
+CommandSet BaratheonStormlanderGuardHordeCommandSet
+	1 = Command_ToggleStance
+	2 = Command_BreelandSentryPorcupineFormation
+	4 = Command_BaratheonFiefArmaments
+	5	= Command_PurchaseUpgradeBaratheonForgedBlades
+	6	= Command_PurchaseUpgradeBaratheonBasicTraining
+	12 = Command_CaptureBuilding
+	13 = Command_AttackMove
+	14 = Command_Stop
+	16 = Command_SetStanceBattle
+	17 = Command_SetStanceAggressive
+	18 = Command_SetStanceHoldGround
+End
+
 CommandSet BaratheonStormlanderEncampment
 	1	= Command_ConstructBaratheonStormlanderFootmanHorde
 	2 = Command_ConstructBaratheonStormlanderArcherHorde
 	3	= Command_ConstructBaratheonStormlanderGuardHorde
 	4 = Command_ConstructArnorBreelandRam
-	5 = Command_SpecialAbilityCarousing
+	5 = Command_ConstructBaratheonStormlanderEliteGuardHorde
+	7 = Command_SpecialAbilityCarousing
 	6 = Command_Sell
-	7 = Command_PurchaseUpgradeBaratheonStormlanderCampLevel2
+	8 = Command_PurchaseUpgradeBaratheonStormlanderCampLevel2
 End
 
 CommandSet BaratheonStormlanderEncampment_Lvl2
@@ -621,9 +636,10 @@ CommandSet BaratheonStormlanderEncampment_Lvl2
 	2 = Command_ConstructBaratheonStormlanderArcherHorde
 	3	= Command_ConstructBaratheonStormlanderGuardHorde
 	4 = Command_ConstructArnorBreelandRam
-	5 = Command_SpecialAbilityCarousing
+	5 = Command_ConstructBaratheonStormlanderEliteGuardHorde
+	7 = Command_SpecialAbilityCarousing
 	6 = Command_Sell
-	7 = Command_PurchaseUpgradeBaratheonStormlanderCampLevel3
+	8 = Command_PurchaseUpgradeBaratheonStormlanderCampLevel3
 End
 
 CommandSet BaratheonStormlanderEncampment_Lvl3
@@ -631,6 +647,34 @@ CommandSet BaratheonStormlanderEncampment_Lvl3
 	2 = Command_ConstructBaratheonStormlanderArcherHorde
 	3	= Command_ConstructBaratheonStormlanderGuardHorde
 	4 = Command_ConstructArnorBreelandRam
-	5 = Command_SpecialAbilityCarousing
+	5 = Command_ConstructBaratheonStormlanderEliteGuardHorde
+	7 = Command_SpecialAbilityCarousing
 	6 = Command_Sell
+End
+
+CommandSet BaratheonStormlanderArcherHordeCommandSet
+	1 = Command_ToggleStance
+	2	= Command_ArcherBombard
+	5 = Command_PurchaseUpgradeBaratheonFireArrows
+	6	= Command_PurchaseUpgradeBaratheonBasicTraining
+	12 = Command_CaptureBuilding
+	13 = Command_AttackMove
+	14 = Command_Stop
+	16 = Command_SetStanceBattle
+	17 = Command_SetStanceAggressive
+	18 = Command_SetStanceHoldGround
+End
+
+CommandSet BaratheonStormlanderEliteGuardHordeCommandSet
+	1 = Command_ToggleStance
+	2 = Command_RivendellSentryPorcupineFormation
+	4 = Command_PurchaseUpgradeBaratheonHeavyArmor
+	5 = Command_PurchaseUpgradeBaratheonForgedBlades
+	6 = Command_PurchaseUpgradeBaratheonBasicTraining
+	12 = Command_CaptureBuilding
+	13 = Command_AttackMove
+	14 = Command_Stop
+	16 = Command_SetStanceBattle
+	17 = Command_SetStanceAggressive
+	18 = Command_SetStanceHoldGround
 End

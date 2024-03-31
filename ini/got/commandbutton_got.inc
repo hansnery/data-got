@@ -1349,12 +1349,26 @@ End
 
 CommandButton Command_ConstructBaratheonStormlanderGuardHorde
 	Command					 = UNIT_BUILD
-	Object					 = BaratheonStormsEndGuardHorde
+	Object					 = BaratheonStormlanderGuardHorde
 	Options					 = CANCELABLE
 	TextLabel				 = CONTROLBAR:ConstructBaratheonStormlanderGuardHorde
-	ButtonImage			 = uirivbreelander
+	ButtonImage			 = BAStormlanderGuardButton
 	ButtonBorderType = BUILD
 	DescriptLabel		 = CONTROLBAR:ToolTipConstructBaratheonStormlanderGuardHorde
+	Radial					 = Yes
+	InPalantir	   	 = Yes
+	ShowProductionCount	= Yes
+End
+
+CommandButton Command_ConstructBaratheonStormlanderEliteGuardHorde
+	Command					 = UNIT_BUILD
+	Object					 = BaratheonStormlanderEliteGuardHorde
+	Options					 = NEED_UPGRADE CANCELABLE
+	NeededUpgrade		 = Upgrade_ArnorArcheryRangeLevel2
+	TextLabel				 = CONTROLBAR:ConstructBaratheonStormlanderEliteGuardHorde
+	ButtonImage			 = BAPikemen
+	ButtonBorderType = BUILD
+	DescriptLabel		 = CONTROLBAR:ToolTipConstructBaratheonStormlanderEliteGuardHorde
 	Radial					 = Yes
 	InPalantir	   	 = Yes
 	ShowProductionCount	= Yes

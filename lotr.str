@@ -92694,11 +92694,35 @@ CONTROLBAR:ToolTipBaratheonStormlanderCampLevel3Upgrade
 END
 
 CONTROLBAR:ConstructBaratheonStormlanderGuardHorde
-"Stormlander Guard (&R)"
+"Stormlander Pikemen (&R)"
 END
 
 CONTROLBAR:ToolTipConstructBaratheonStormlanderGuardHorde
 "Strong vs. Cavalry and Heroes \n\n Forged in the crucible of centuries-old tradition and hardened by the tempests that sweep across their homeland, the Stormlander Guard is a force to be reckoned with on the battlefield. Masters of the spear, they wield their weapons with precision and skill, striking down foes with lethal efficiency."
+END
+
+CONTROLBAR:ConstructBaratheonStormlanderEliteGuardHorde
+"Storm's End Guard (&S)"
+END
+
+CONTROLBAR:ToolTipConstructBaratheonStormlanderEliteGuardHorde
+"Requires Level 2 Stormlander Encampment \n Strong vs. Cavalry and Heroes \n\n These guardians, entrusted with the safety of Storm's End, are revered for their unwavering loyalty and unmatched skill. They are the embodiment of disciplined might, standing as an impenetrable barrier against the storm of adversaries that seek to breach their lord's domain."
+END
+
+OBJECT:BaratheonStormlanderGuard
+"Stormlander Pikeman"
+END
+
+OBJECT:BaratheonStormlanderGuardHorde
+"Stormlander Pikemen"
+END
+
+OBJECT:BaratheonStormlanderEliteGuard
+"Storm's End Guard"
+END
+
+OBJECT:BaratheonStormlanderEliteGuardHorde
+"Storm's End Guard"
 END
 
 END
