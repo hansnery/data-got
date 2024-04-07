@@ -3117,7 +3117,5 @@ Inherit="InfantryFunctions">
 
     <EventList Name="DragonstoneFortressFunctions" Inherit="BaseScriptFunctions">
         <EventHandler EventName="OnCreated"				ScriptFunctionName="OnDragonstoneFortressCreated" DebugSingleStep="false"/>
-        <EventHandler EventName="User28IsActive"		ScriptFunctionName="OnAragornBow"	DebugSingleStep="false"/> <!-- ;;,;; -->
-        <EventHandler EventName="User28IsNotActive"		ScriptFunctionName="OnAragornSword"	DebugSingleStep="false"/> <!-- ;;,;; -->
     </EventList>
 </SageLuaScriptSection>

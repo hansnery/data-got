@@ -463,7 +463,7 @@ END
 
 APT:SkirmishSelectorTab
 // context: One of the selection buttons to choose between Campaign/Skirmish/Replay loading in load/save menu
-"SKIRMISH"
+"PLAY THE GAME OF THRONES"
 END
 
 APT:HeaderSavedFiles
@@ -86981,11 +86981,11 @@ End
 /////
 
 Map:MAPMPgreyhavens
-"Grey Havens"
+"Oldtown"
 End
 
 Map:MAPMPgreyhavens/Desc
-"The Elven harbour from which the Elves of Middle-earth would pass to the West. \n Capturable: Inn, Dock \n Region: Lindon"
+"Built by the First Men before the coming of the Andals, Oldtown is the largest and richest city in the Seven Kingdoms. \n Capturable: Inn, Dock \n Region: Lindon"
 End
 
 /////
