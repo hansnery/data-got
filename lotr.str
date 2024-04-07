@@ -87677,11 +87677,11 @@ End
 
 
 Map:MAPMPnafaratriver
-"Nâfarat River*"
+"The Basilisk Isles*"
 End
 
 Map:MAPMPnafaratriver/Desc
-"Within the desert of Harad, the Nâfarat River is seen by many as a refuge from the burning sun. Those who have traveled there and lived to tell the tale, beg to differ. \n Capturable: Inn \n Creeps: Karadd \n Region: Haradwaith"
+"The isles are hot, humid, and swarming with stinging flies, sand fleas, and bloodworms, making them unhealthy for both man and beast. \n Capturable: Inn \n Creeps: Karadd \n Region: Sothoryos"
 End
 
 /////
@@ -92237,7 +92237,7 @@ CONTROLBAR:PurchaseUpgradeBaratheonKingsBloodPower
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeBaratheonKingsBloodPower
-"Gendry is acknowledged as the bastard son of Robert Baratheon \nand his blood is used by Melisandre for blood magic \n Melisandre gains increased damage and attack radius \nbut Gendry will go out on his own if defeated \n Is mutually exclusive with Lawful Son upgrade \n Prerequisite for Gendry"
+"Gendry is acknowledged as the bastard son of Robert Baratheon \nand his blood is used by Melisandre for blood magic: \n\n Gendry can be recruited in the Fortress \n\n Is mutually exclusive with Lawful Son upgrade \n Prerequisite for Gendry"
 END
 
 Upgrade:KingsBloodPower
@@ -92778,6 +92778,18 @@ End
 
 SCRIPT:DiplomacyPlayerName
 "You are %s"
+End
+
+CONTROLBAR:FieryFervour
+"Fiery Fervour"
+End
+
+CONTROLBAR:ShaftsOfDragonmont
+"Shafts of Dragonmont"
+END
+
+CONTROLBAR:WarChantStannis
+"Baratheon Horn"
 End
 
 END

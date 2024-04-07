@@ -473,8 +473,8 @@ CommandButton Command_SelectRevivablesDragonstoneFortress
 	ButtonBorderType  = SYSTEM
 	DescriptLabel     = CONTROLBAR:ToolTipCommandSelectRevivablesMordorFortress
 	Radial            = Yes
-	CommandRangeStart	= 23	//Starts its counting at 0, so command button 8 is 7
-	CommandRangeCount	= 9
+	CommandRangeStart	= 19	//Starts its counting at 0, so command button 8 is 7
+	CommandRangeCount	= 10
 End
 
 CommandButton Command_PurchaseUpgradeDragonstoneFortressBaratheonBanners
@@ -559,7 +559,7 @@ CommandButton Command_SelectUpgradesDragonstoneFortress
 	ButtonBorderType  = SYSTEM
 	DescriptLabel     = CONTROLBAR:ToolTipCommandSelectUpgradesMordorFortress
 	Radial            = Yes
-	CommandRangeStart	= 11	//Starts its counting at 0, so command button 8 is 7
+	CommandRangeStart	= 7	//Starts its counting at 0, so command button 8 is 7
 	CommandRangeCount	= 6
 End
 
@@ -695,7 +695,7 @@ CommandButton Command_SelectBaratheonDavosUpgrades
 	ButtonBorderType  = SYSTEM 
 	DescriptLabel     = CONTROLBAR:ToolTipCommandSelectBaratheonDavosUpgrades
 	Radial            = Yes
-	CommandRangeStart	= 17	//Starts its counting at 0, so command button 8 is 7
+	CommandRangeStart	= 13	//Starts its counting at 0, so command button 8 is 7
 	CommandRangeCount	= 3
 End
 
@@ -706,7 +706,7 @@ CommandButton Command_SelectBaratheonMelisandreUpgrades
 	ButtonBorderType  = SYSTEM 
 	DescriptLabel     = CONTROLBAR:ToolTipCommandSelectBaratheonMelisandreUpgrades
 	Radial            = Yes
-	CommandRangeStart	= 20	//Starts its counting at 0, so command button 8 is 7
+	CommandRangeStart	= 16	//Starts its counting at 0, so command button 8 is 7
 	CommandRangeCount	= 3
 End
 
@@ -1397,4 +1397,66 @@ CommandButton Command_StormlanderHammersIntimidateFakeLeadershipButton
   ButtonBorderType = ACTION
   DescriptLabel    = CONTROLBAR:TooltipGrimIntimidate
   InPalantir       = Yes
+End
+
+CommandButton Command_SpellBookFieryFervour
+	Command 				 = SPELL_BOOK
+	Options					 = NEED_TARGET_POS
+	TextLabel				 = CONTROLBAR:FieryFervour
+	DescriptLabel		 = CONTROLBAR:ToolTipRecklessFervour
+	SpecialPower		 = SpellBookFieryFervour
+	ButtonImage			 = BAHeal
+	ButtonBorderType = ACTION
+	RadiusCursorType = RhllorRadiusCursor
+End
+
+CommandButton Command_PurchaseSpellFieryFervour
+	Command					 = PURCHASE_SCIENCE
+	ButtonBorderType = UPGRADE
+	ButtonImage			 = BAHeal
+	Science					 = SCIENCE_FieryFervour
+	TextLabel				 = CONTROLBAR:FieryFervour
+	DescriptLabel		 = CONTROLBAR:ToolTipRecklessFervour
+End
+
+CommandButton Command_SpellBookWarChantStannis
+	Command					 = SPELL_BOOK
+	SpecialPower		 = SpellBookWarChantStannis
+	Options					 = NEED_TARGET_POS
+	ButtonBorderType = ACTION
+	TextLabel				 = CONTROLBAR:WarChantStannis
+	DescriptLabel		 = CONTROLBAR:TooltipWarChantMordor
+	ButtonImage			 = BAHornButton
+	RadiusCursorType = RhllorRadiusCursor
+End
+
+CommandButton Command_PurchaseSpellWarChantStannis
+	Command					 = PURCHASE_SCIENCE
+	ButtonBorderType = UPGRADE
+  ButtonImage			 = BAHornButton
+  Science					 = SCIENCE_WarChantStannis
+	TextLabel				 = CONTROLBAR:WarChantStannis
+	DescriptLabel		 = CONTROLBAR:TooltipWarChantMordor
+End
+
+CommandButton Command_PurchaseSpellShaftsOfDragonmont
+	Command					 = PURCHASE_SCIENCE
+	ButtonBorderType = UPGRADE
+	ButtonImage			 = BICracksOfDoom
+	Science					 = SCIENCE_ShaftsOfDragonmont
+	TextLabel				 = CONTROLBAR:ShaftsOfDragonmont
+	DescriptLabel		 = CONTROLBAR:TooltipCracksOfDoom
+End
+
+CommandButton Command_SpellBookShaftsOfDragonmont
+	Command						= SPELL_BOOK
+	SpecialPower			= SpellBookShaftsOfDragonmont
+	Options         	= NEED_TARGET_POS
+	ButtonImage				= BICracksOfDoom
+	ButtonBorderType  = ACTION
+	TextLabel       	= CONTROLBAR:ShaftsOfDragonmont
+	DescriptLabel     = CONTROLBAR:TooltipCracksOfDoom
+	RadiusCursorType  = TaintRadiusCursor
+	CursorName        = AttackObj
+	InvalidCursorName = GenericInvalid
 End

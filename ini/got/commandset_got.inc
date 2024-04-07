@@ -236,30 +236,104 @@ CommandSet DragonstoneFortressCommandSet
 	7	= Command_FireDragonstoneFortressSmokeAndBrimstone
 	6	= Command_Sell
 	//Upgrades Menu
-	12 = Command_PurchaseUpgradeDragonstoneFortressBaratheonBanners
-	13 = Command_PurchaseUpgradeDragonstoneFortressLavaMoat
-	14 = Command_PurchaseUpgradeDragonstoneFortressSmokeAndBrimstone
-	;15	= Command_PurchaseUpgradeMordorFortressFireArrows // Will be Dragons for the Targaryens
-	15 = Command_PurchaseUpgradeDragonstoneFortressValyrianSorcery
-	16 = Command_PurchaseUpgradeDragonstoneFortressStoneDrum
-	17 = Command_RadialBack
+	8 = Command_PurchaseUpgradeDragonstoneFortressBaratheonBanners
+	9 = Command_PurchaseUpgradeDragonstoneFortressLavaMoat
+	10 = Command_PurchaseUpgradeDragonstoneFortressSmokeAndBrimstone
+	11 = Command_PurchaseUpgradeDragonstoneFortressValyrianSorcery
+	12 = Command_PurchaseUpgradeDragonstoneFortressStoneDrum
+	13 = Command_RadialBack
 	//Decisions Upgrades
-	18 = Command_SelectBaratheonLawfulSon
-	19 = Command_SelectBaratheonDavosUpgrade2
-	20 = Command_RadialBack
-	21 = Command_SelectBaratheonKingsBloodPower
-	22 = Command_SelectBaratheonMelisandreUpgrade2
-	23 = Command_RadialBack
+	14 = Command_SelectBaratheonLawfulSon
+	15 = Command_SelectBaratheonDavosUpgrade2
+	16 = Command_RadialBack
+	17 = Command_SelectBaratheonKingsBloodPower
+	18 = Command_SelectBaratheonMelisandreUpgrade2
+	19 = Command_RadialBack
 	//Hero Menu
-	24 = Command_RingHeroReviveSlot
-	25 = Command_CreateAHeroReviveSlot		// Note we also need an extra slot for the Create A Hero
-	26 = Command_GenericReviveSlot1
-	27 = Command_GenericReviveSlot2
-	28 = Command_GenericReviveSlot3
-	29 = Command_GenericReviveSlot4
-	30 = Command_GenericReviveSlot5
-	31 = Command_GenericReviveSlot6
-	32 = Command_RadialBack
+	20 = Command_RingHeroReviveSlot
+	21 = Command_CreateAHeroReviveSlot		// Note we also need an extra slot for the Create A Hero
+	22 = Command_GenericReviveSlot1				// Shireen Baratheon
+	23 = Command_GenericReviveSlot2				// Salladhor Saan
+	24 = Command_GenericReviveSlot3				// Davos Seaworth
+	25 = Command_FakeReviveSlot4_Visible	// Gendry
+	26 = Command_FakeReviveSlot1					// Lord Gendry
+	27 = Command_GenericReviveSlot5				// Melisandre
+	28 = Command_GenericReviveSlot6				// Stannis Baratheon
+	29 = Command_RadialBack
+End
+
+CommandSet DragonstoneFortressCommandSet_BastardGendry
+	InitialVisible = 7
+	//Main Menu
+	1	= Command_ConstructBaratheonPorter
+	2	= Command_SelectRevivablesDragonstoneFortress
+	3 = Command_SelectBaratheonDavosUpgrades
+	4	= Command_SelectUpgradesDragonstoneFortress
+	5 = Command_SelectBaratheonMelisandreUpgrades
+	7	= Command_FireDragonstoneFortressSmokeAndBrimstone
+	6	= Command_Sell
+	//Upgrades Menu
+	8 = Command_PurchaseUpgradeDragonstoneFortressBaratheonBanners
+	9 = Command_PurchaseUpgradeDragonstoneFortressLavaMoat
+	10 = Command_PurchaseUpgradeDragonstoneFortressSmokeAndBrimstone
+	11 = Command_PurchaseUpgradeDragonstoneFortressValyrianSorcery
+	12 = Command_PurchaseUpgradeDragonstoneFortressStoneDrum
+	13 = Command_RadialBack
+	//Decisions Upgrades
+	14 = Command_SelectBaratheonLawfulSon
+	15 = Command_SelectBaratheonDavosUpgrade2
+	16 = Command_RadialBack
+	17 = Command_SelectBaratheonKingsBloodPower
+	18 = Command_SelectBaratheonMelisandreUpgrade2
+	19 = Command_RadialBack
+	//Hero Menu
+	20 = Command_RingHeroReviveSlot
+	21 = Command_CreateAHeroReviveSlot		// Note we also need an extra slot for the Create A Hero
+	22 = Command_GenericReviveSlot1				// Shireen Baratheon
+	23 = Command_GenericReviveSlot2				// Salladhor Saan
+	24 = Command_GenericReviveSlot3				// Davos Seaworth
+	25 = Command_GenericReviveSlot4				// Gendry
+	26 = Command_FakeReviveSlot1					// Lord Gendry
+	27 = Command_GenericReviveSlot5				// Melisandre
+	28 = Command_GenericReviveSlot6				// Stannis Baratheon
+	29 = Command_RadialBack
+End
+
+CommandSet DragonstoneFortressCommandSet_LordGendry
+	InitialVisible = 7
+	//Main Menu
+	1	= Command_ConstructBaratheonPorter
+	2	= Command_SelectRevivablesDragonstoneFortress
+	3 = Command_SelectBaratheonDavosUpgrades
+	4	= Command_SelectUpgradesDragonstoneFortress
+	5 = Command_SelectBaratheonMelisandreUpgrades
+	7	= Command_FireDragonstoneFortressSmokeAndBrimstone
+	6	= Command_Sell
+	//Upgrades Menu
+	8 = Command_PurchaseUpgradeDragonstoneFortressBaratheonBanners
+	9 = Command_PurchaseUpgradeDragonstoneFortressLavaMoat
+	10 = Command_PurchaseUpgradeDragonstoneFortressSmokeAndBrimstone
+	11 = Command_PurchaseUpgradeDragonstoneFortressValyrianSorcery
+	12 = Command_PurchaseUpgradeDragonstoneFortressStoneDrum
+	13 = Command_RadialBack
+	//Decisions Upgrades
+	14 = Command_SelectBaratheonLawfulSon
+	15 = Command_SelectBaratheonDavosUpgrade2
+	16 = Command_RadialBack
+	17 = Command_SelectBaratheonKingsBloodPower
+	18 = Command_SelectBaratheonMelisandreUpgrade2
+	19 = Command_RadialBack
+	//Hero Menu
+	20 = Command_RingHeroReviveSlot
+	21 = Command_CreateAHeroReviveSlot		// Note we also need an extra slot for the Create A Hero
+	22 = Command_GenericReviveSlot1				// Shireen Baratheon
+	23 = Command_GenericReviveSlot2				// Salladhor Saan
+	24 = Command_GenericReviveSlot3				// Davos Seaworth
+	25 = Command_FakeReviveSlot1					// Gendry
+	26 = Command_GenericReviveSlot4				// Lord Gendry
+	27 = Command_GenericReviveSlot5				// Melisandre
+	28 = Command_GenericReviveSlot6				// Stannis Baratheon
+	29 = Command_RadialBack
 End
 
 CommandSet ShireenCommandSet
@@ -694,4 +768,45 @@ CommandSet BaratheonStormlanderHammersHordeCommandSet
 	16 = Command_SetStanceBattle
 	17 = Command_SetStanceAggressive
 	18 = Command_SetStanceHoldGround
+End
+
+CommandSet BaratheonSpellBookCommandSet
+	1 = Command_SpellBookFieryFervour
+	2 = Command_SpellBookWarChantStannis
+	3 = Command_SpellBookShaftsOfDragonmont
+
+	4 = Command_SpellBookHaradrimRaiders
+	5 = Command_SpellBookBarricade
+	6 = Command_SpellBookMordorCalltheHorde
+	7 = Command_SpellBookIndustryMordor
+
+	8 = Command_SpellBookShelobSummon
+	9 = Command_SpellBookDarkness
+	10 = Command_SpellBookWraith
+
+	11 = Command_SpellBookEyeofSauronNew
+	12 = Command_SpellBookRainOfFire
+
+	13 = Command_SpellBookGeneralView
+	14 = Command_SpellBookCommanderView
+	15 = Command_SpellBookUnitView
+	16 = Command_SpellBookGroundView
+End
+
+CommandSet BaratheonSpellStoreCommandSet
+	1 = Command_PurchaseSpellFieryFervour
+	2 = Command_PurchaseSpellWarChantStannis
+	3 = Command_PurchaseSpellShaftsOfDragonmont
+
+	4 = Command_PurchaseSpellHaradrimRaiders
+	5 = Command_PurchaseSpellBarricade
+	6 = Command_PurchaseSpellMordorCalltheHorde
+	7 = Command_PurchaseSpellIndustryMordor
+
+	8 = Command_PurchaseSpellShelobSummon
+	9 = Command_PurchaseSpellDarkness
+	10 = Command_PurchaseSpellWraith
+
+	11 = Command_PurchaseSpellEyeofSauronNew
+	12 = Command_PurchaseSpellRainOfFire
 End

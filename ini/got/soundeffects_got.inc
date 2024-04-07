@@ -183,8 +183,7 @@ End
 AudioEvent UpgradeLawfulSon
   Sounds = gendry_lawful_son
   Limit = 3
-  Volume = 100
-  MinVolume = 80
+  Volume = 300
   Type = world shrouded player
   SubmixSlider = SoundFX
 End
@@ -192,8 +191,7 @@ End
 AudioEvent UpgradeKingsBloodPower
   Sounds = gendry_bastard_son
   Limit = 3
-  Volume = 100
-  MinVolume = 80
+  Volume = 300
   Type = world shrouded player
   SubmixSlider = SoundFX
 End
