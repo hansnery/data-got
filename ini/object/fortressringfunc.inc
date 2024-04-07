@@ -24,17 +24,17 @@
 	
 	; Special draw module just for rendering the ring model over the fortress to indicate ownership.
 	Draw = W3DScriptedModelDraw ModuleTag_RingFX
-    	DefaultModelConditionState
-      		Model = None
-    	End
+		DefaultModelConditionState
+				Model = None
+		End
 		
 		; Higher version for tall towers.
 		ModelConditionState = ONE_RING BUILD_VARIATION_TWO
-			Model = EXOneRing_CR
+			Model = None ;EXOneRing_CR
 		End
 
 		ModelConditionState = ONE_RING
-			Model = EXOneRing
+			Model = None ;EXOneRing
 		End
 		
 	End

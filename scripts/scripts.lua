@@ -10645,8 +10645,8 @@ function OnRohanFortressCreated(self)
 end
 
 function OnFortressCreated(self)
-	ObjectHideSubObjectPermanently( self, "DBFBANNER", true )
-	ObjectSetGeometryActive( self, "HighTowerGeom", false )
+    ObjectHideSubObjectPermanently(self, "DBFBANNER", true)
+    ObjectSetGeometryActive(self, "HighTowerGeom", false)
 end
 
 function OnGuldurFortressKeepCreated(self)
@@ -16449,4 +16449,46 @@ function OnDancingSoldierCreated(self)
 	else
         ObjectHideSubObjectPermanently( self, "PIPE", false )
     end
+end
+
+function OnDiplomacyTest(self, data)
+
+	local str = tostring( data )
+
+    -- local str = ObjectCapturingObjectPlayerSide(self)
+
+	-- if str == nil then
+	-- 	str = ObjectPlayerSide(self)
+	-- end
+
+	-- if str == "show_rock" then
+	-- 	ObjectHideSubObjectPermanently( self, "ROCK", false )
+	-- elseif str == "hide_rock" then
+	-- 	ObjectHideSubObjectPermanently( self, "ROCK", true )
+	-- end
+
+    ExecuteAction("DISPLAY_NOTIFICATION_BOX", "Generic", "SCRIPT:DIPLOMACY_TEST_1", 5)
+end
+
+function OnDragonstoneFortressCreated(self)
+	ObjectHideSubObjectPermanently( self, "MORGULGLOW", true )
+	ObjectHideSubObjectPermanently( self, "MORGULTOWER", true )
+	ObjectHideSubObjectPermanently( self, "TOWERGLOW", true )
+	ObjectHideSubObjectPermanently( self, "LAVAMOATA", true )
+	ObjectHideSubObjectPermanently( self, "LAVAMOATB", true )
+	ObjectHideSubObjectPermanently( self, "LAVAMOATC", true )
+	ObjectHideSubObjectPermanently( self, "STACKSA", true )
+	ObjectHideSubObjectPermanently( self, "STACKSB", true )
+	ObjectHideSubObjectPermanently( self, "BANNERS", true )
+	ObjectSetGeometryActive( self, "HighTowerGeom", false )
+
+    -- local str = ObjectDescription(self)
+
+    -- local playerName = strsub(str, 55, strlen(str) - 2)
+
+    -- "BonusObjectiveCompleted", "Generic", "HeroDeath", "HeroEarnedAward", "HeroGranted", "HeroInitialSpawn", "HeroRespawn", "Hint", "Instructional", "NewBonusObjective", "NewObjective", "ObjectiveCompleted", "ObjectiveReminder"
+
+    -- ExecuteAction("DISPLAY_NOTIFICATION_BOX", "Generic", playerName, 5)
+
+    -- ExecuteAction("SHOW_MILITARY_CAPTION", playerName, 5)
 end

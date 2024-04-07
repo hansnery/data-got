@@ -48895,7 +48895,8 @@ ToolTip:OnlineShell/ClanWarsShortcut
 END
 
 ToolTip:OpeningMenu/WaroftheRingButton
-"Play in a turn-based game across the map of Middle-earth"
+//"Play in a turn-based game across the map of Middle-earth"
+""
 END
 
 ToolTip:OpeningMenu/SkirmishButton
@@ -53909,12 +53910,14 @@ END
 
 ToolTip:OpeningMenu/Expansion1Button
 //"Begin an Unexpected Adventure \n COMING SOON"
-"Click here to start the Battle of Azanulbizar"
+//"Click here to start the Battle of Azanulbizar"
+""
 END
 
 ToolTip:OpeningMenu/BonusButton
 //"UNAVAILABLE"
-"Click here to start the War of the Ring Missions starting from the The Last Alliance"
+//"Click here to start the War of the Ring Missions starting from the The Last Alliance"
+""
 END
 
 ToolTip:OpeningMenu/BonusButtonDisabled
@@ -92740,5 +92743,41 @@ END
 CONTROLBAR:ToolTipConstructBaratheonStormlanderHammerHorde
 "Requires Level 2 Stormlander Encampment \n Strong vs. Spam Infantry \n\n Within the ranks of House Baratheon's formidable army, the Stormlander Hammers stand as a testament to the indomitable spirit and ferocious strength inspired by the legendary Robert Baratheon himself. Embodying the sheer force and tenacity of their late liege lord, they wield massive warhammers with devastating effect, shattering enemy ranks with each thunderous blow."
 END
+
+SCRIPT:teamPlayer_1
+"You are Player 1."
+End
+
+SCRIPT:teamPlayer_2
+"You are Player 2."
+End
+
+SCRIPT:teamPlayer_3
+"You are Player 3."
+End
+
+SCRIPT:teamPlayer_4
+"You are Player 4."
+End
+
+SCRIPT:teamPlayer_5
+"You are Player 5."
+End
+
+SCRIPT:teamPlayer_6
+"You are Player 6."
+End
+
+SCRIPT:teamPlayer_7
+"You are Player 7."
+End
+
+SCRIPT:teamPlayer_8
+"You are Player 8."
+End
+
+SCRIPT:DiplomacyPlayerName
+"You are %s"
+End
 
 END

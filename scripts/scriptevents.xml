@@ -1793,6 +1793,7 @@
 
     <EventList Name="FortressFunctions" Inherit="BaseScriptFunctions">
         <EventHandler EventName="OnCreated"				ScriptFunctionName="OnFortressCreated" DebugSingleStep="false"/>
+        <EventHandler EventName="OnGenericEvent"		ScriptFunctionName="OnDiplomacyTest" DebugSingleStep="false"/>
     </EventList>
 
 	<EventList Name="MordorFortressFunctions" Inherit="BaseScriptFunctions">
@@ -3112,5 +3113,16 @@ Inherit="InfantryFunctions">
     <EventList Name="DancingSoldierFunctions" Inherit="InfantryFunctions">
 		<!-- This contains events specific to the Gondor Fighter horde member. jba -->
         <EventHandler EventName="OnCreated"				ScriptFunctionName="OnDancingSoldierCreated" DebugSingleStep="false"/>
+    </EventList>
+
+    <EventList Name="DragonstoneFortressFunctions" Inherit="BaseScriptFunctions">
+        <EventHandler EventName="OnCreated"				ScriptFunctionName="OnDragonstoneFortressCreated" DebugSingleStep="false"/>
+        <EventHandler EventName="User28IsActive"		ScriptFunctionName="OnAragornBow"	DebugSingleStep="false"/> <!-- ;;,;; -->
+        <EventHandler EventName="User28IsNotActive"		ScriptFunctionName="OnAragornSword"	DebugSingleStep="false"/> <!-- ;;,;; -->
+    </EventList>
+
+    <EventList Name="CosmeticDragonFunctions" Inherit="BaseScriptFunctions">
+        <EventHandler EventName="User28IsActive"		ScriptFunctionName="OnAragornBow"	DebugSingleStep="false"/> <!-- ;;,;; -->
+        <EventHandler EventName="User28IsNotActive"		ScriptFunctionName="OnAragornSword"	DebugSingleStep="false"/> <!-- ;;,;; -->
     </EventList>
 </SageLuaScriptSection>
