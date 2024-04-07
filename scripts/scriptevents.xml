@@ -3120,9 +3120,4 @@ Inherit="InfantryFunctions">
         <EventHandler EventName="User28IsActive"		ScriptFunctionName="OnAragornBow"	DebugSingleStep="false"/> <!-- ;;,;; -->
         <EventHandler EventName="User28IsNotActive"		ScriptFunctionName="OnAragornSword"	DebugSingleStep="false"/> <!-- ;;,;; -->
     </EventList>
-
-    <EventList Name="CosmeticDragonFunctions" Inherit="BaseScriptFunctions">
-        <EventHandler EventName="User28IsActive"		ScriptFunctionName="OnAragornBow"	DebugSingleStep="false"/> <!-- ;;,;; -->
-        <EventHandler EventName="User28IsNotActive"		ScriptFunctionName="OnAragornSword"	DebugSingleStep="false"/> <!-- ;;,;; -->
-    </EventList>
 </SageLuaScriptSection>
