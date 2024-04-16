@@ -1,6 +1,54 @@
-;------------------------------------------------------------------------------
-; GAME OF THRONES SPELLBOOKS
-;------------------------------------------------------------------------------
+;//////////////////////////////////////////////////////////////////////////////
+;// Game of Thrones Submod
+;//////////////////////////////////////////////////////////////////////////////
+SpecialPower SpellBookFieryFervour
+	Enum                		= SPECIAL_SPELL_BOOK_HEAL
+	Flags										= WATER_OK RESPECT_RECHARGE_TIME_DISCOUNT
+	ReloadTime         			= SPELL_RECHARGE_TIME_TIER_1
+	RequiredSciences     		= SCIENCE_FieryFervour
+	RadiusCursorRadius  		= 150
+	; InitiateAtLocationSound = DrogothVoxFireballEveryone ;HasharinWickedMirage GuildedGuardWeepingBlades
+End
+
+SpecialPower SpellBookShaftsOfDragonmont
+	Enum										= SPECIAL_SPELL_BOOK_CHILL_WIND
+	RadiusCursorRadius			= 150
+	RequiredSciences				= SCIENCE_ShaftsOfDragonmont
+	ReloadTime							= SPELL_RECHARGE_TIME_TIER_1
+	InitiateAtLocationSound = SpellCrackOfDoomSoundMS
+	ViewObjectDuration			= 5000
+	ViewObjectRange					= 150
+	Flags										= NO_FORBIDDEN_OBJECTS RESPECT_RECHARGE_TIME_DISCOUNT
+	ForbiddenObjectFilter		= NONE +WatcherHead +WatcherHittingArm +WatcherCaldera
+	ForbiddenObjectRange		= 50
+End
+
+SpecialPower SpellBookWarChantStannis
+	Enum							 = SPECIAL_SPELL_BOOK_WAR_CHANT
+	Flags							 = WATER_OK RESPECT_RECHARGE_TIME_DISCOUNT
+	ReloadTime      	 = SPELL_RECHARGE_TIME_TIER_1
+	RadiusCursorRadius = 75.0
+	RequiredSciences	 = SCIENCE_WarChantStannis
+	InitiateAtLocationSound = SpellMordorRallyingCall
+End
+
+SpecialPower SpellBookMightOfTheStormlands
+	Enum						 = SPECIAL_SPELL_BOOK_CALL_THE_HORDE
+	RequiredSciences = SCIENCE_MightOfTheStormlands
+	ReloadTime			 = SPELL_RECHARGE_TIME_TIER_2
+	InitiateSound		 = SpellCallTheHordeStereo
+	Flags						 = RESPECT_RECHARGE_TIME_DISCOUNT
+End
+
+SpecialPower SpellBookBaratheonRebuild
+	Enum							 = SPECIAL_SPELL_BOOK_REBUILD
+	Flags							 = WATER_OK RESPECT_RECHARGE_TIME_DISCOUNT
+	ReloadTime				 = SPELL_RECHARGE_TIME_TIER_1
+	RadiusCursorRadius = SPELL_REBUILD_RADIUS_CURSOR
+	RequiredSciences	 = SCIENCE_BaratheonRebuild
+	InitiateAtLocationSound = SpellRebuild
+End
+
 SpecialPower SpellBookFireGazing
 	Enum				= SPECIAL_SPELL_BOOK_PALANTIR_VISION
 	Flags				= WATER_OK RESPECT_RECHARGE_TIME_DISCOUNT
@@ -39,14 +87,6 @@ SpecialPower SpellBookLightbringer
   RequiredSciences			= SCIENCE_Lightbringer
   ReloadTime      			= 0
   Flags						= RESPECT_RECHARGE_TIME_DISCOUNT
-End
-
-SpecialPower SpellBookMightOfTheStormlands
-	Enum				= SPECIAL_SPELL_BOOK_CALL_THE_HORDE
-	RequiredSciences		= SCIENCE_MightOfTheStormlands
-	ReloadTime			= SPELL_RECHARGE_TIME_TIER_2
-	InitiateSound			= SpellCallTheHordeStereo
-	Flags				= RESPECT_RECHARGE_TIME_DISCOUNT
 End
 
 SpecialPower SpellBookTheIronBank

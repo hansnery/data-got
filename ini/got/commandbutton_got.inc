@@ -1430,15 +1430,6 @@ CommandButton Command_SpellBookWarChantStannis
 	RadiusCursorType = RhllorRadiusCursor
 End
 
-CommandButton Command_PurchaseSpellWarChantStannis
-	Command					 = PURCHASE_SCIENCE
-	ButtonBorderType = UPGRADE
-  ButtonImage			 = BAHornButton
-  Science					 = SCIENCE_WarChantStannis
-	TextLabel				 = CONTROLBAR:WarChantStannis
-	DescriptLabel		 = CONTROLBAR:TooltipWarChantMordor
-End
-
 CommandButton Command_PurchaseSpellShaftsOfDragonmont
 	Command					 = PURCHASE_SCIENCE
 	ButtonBorderType = UPGRADE
@@ -1446,6 +1437,15 @@ CommandButton Command_PurchaseSpellShaftsOfDragonmont
 	Science					 = SCIENCE_ShaftsOfDragonmont
 	TextLabel				 = CONTROLBAR:ShaftsOfDragonmont
 	DescriptLabel		 = CONTROLBAR:TooltipCracksOfDoom
+End
+
+CommandButton Command_PurchaseSpellWarChantStannis
+	Command					 = PURCHASE_SCIENCE
+	ButtonBorderType = UPGRADE
+  ButtonImage			 = BAHornButton
+  Science					 = SCIENCE_WarChantStannis
+	TextLabel				 = CONTROLBAR:WarChantStannis
+	DescriptLabel		 = CONTROLBAR:TooltipWarChantMordor
 End
 
 CommandButton Command_SpellBookShaftsOfDragonmont
@@ -1459,4 +1459,42 @@ CommandButton Command_SpellBookShaftsOfDragonmont
 	RadiusCursorType  = TaintRadiusCursor
 	CursorName        = AttackObj
 	InvalidCursorName = GenericInvalid
+End
+
+CommandButton Command_PurchaseSpellMightOfTheStormlands
+	Command					 = PURCHASE_SCIENCE
+	ButtonBorderType = UPGRADE
+	ButtonImage			 = BAMightOfTheStormlands
+	Science					 = SCIENCE_MightOfTheStormlands
+	TextLabel				 = CONTROLBAR:MightOfTheStormlands
+	DescriptLabel		 = CONTROLBAR:TooltipMightOfTheStormlands
+End
+
+CommandButton Command_SpellBookMightOfTheStormlands
+	SpecialPower	= SpellBookMightOfTheStormlands
+	Command				= SPELL_BOOK
+	TextLabel			= CONTROLBAR:MightOfTheStormlands
+	DescriptLabel	= CONTROLBAR:TooltipMightOfTheStormlands
+	ButtonImage		= BAMightOfTheStormlands
+End
+
+CommandButton Command_PurchaseSpellBaratheonRebuild
+	Command					 = PURCHASE_SCIENCE
+	ButtonBorderType = UPGRADE
+	ButtonImage			 = BAHealBuilding
+	Science					 = SCIENCE_BaratheonRebuild
+	TextLabel				 = CONTROLBAR:BaratheonRebuild
+	DescriptLabel		 = CONTROLBAR:TooltipRebuild
+End
+
+CommandButton Command_SpellBookBaratheonRebuild
+	Command						= SPELL_BOOK
+	SpecialPower			= SpellBookBaratheonRebuild
+	ButtonImage				= BAHealBuilding
+	Options						= NEED_TARGET_POS
+	TextLabel					= CONTROLBAR:BaratheonRebuild
+	ButtonBorderType	= ACTION
+	DescriptLabel			= CONTROLBAR:TooltipRebuild
+	RadiusCursorType  = RebuildRadiusCursor
+	InvalidCursorName	= GenericInvalid
 End

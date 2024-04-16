@@ -772,13 +772,13 @@ End
 
 CommandSet BaratheonSpellBookCommandSet
 	1 = Command_SpellBookFieryFervour
-	2 = Command_SpellBookWarChantStannis
-	3 = Command_SpellBookShaftsOfDragonmont
+	2 = Command_SpellBookShaftsOfDragonmont
+	3 = Command_SpellBookWarChantStannis
 
 	4 = Command_SpellBookHaradrimRaiders
 	5 = Command_SpellBookBarricade
-	6 = Command_SpellBookMordorCalltheHorde
-	7 = Command_SpellBookIndustryMordor
+	6 = Command_SpellBookMightOfTheStormlands
+	7 = Command_SpellBookBaratheonRebuild
 
 	8 = Command_SpellBookShelobSummon
 	9 = Command_SpellBookDarkness
@@ -795,13 +795,13 @@ End
 
 CommandSet BaratheonSpellStoreCommandSet
 	1 = Command_PurchaseSpellFieryFervour
-	2 = Command_PurchaseSpellWarChantStannis
-	3 = Command_PurchaseSpellShaftsOfDragonmont
+	2 = Command_PurchaseSpellShaftsOfDragonmont
+	3 = Command_PurchaseSpellWarChantStannis
 
 	4 = Command_PurchaseSpellHaradrimRaiders
 	5 = Command_PurchaseSpellBarricade
-	6 = Command_PurchaseSpellMordorCalltheHorde
-	7 = Command_PurchaseSpellIndustryMordor
+	6 = Command_PurchaseSpellMightOfTheStormlands
+	7 = Command_PurchaseSpellBaratheonRebuild
 
 	8 = Command_PurchaseSpellShelobSummon
 	9 = Command_PurchaseSpellDarkness

@@ -92792,4 +92792,16 @@ CONTROLBAR:WarChantStannis
 "Baratheon Horn"
 End
 
+CONTROLBAR:MightOfTheStormlands
+"Might of the Stormlands"
+End
+
+CONTROLBAR:ToolTipMightOfTheStormlands
+"Increases Stormlander Production Speed for 30 seconds\n Left click to activate"
+END
+
+CONTROLBAR:BaratheonRebuild
+"Legacy of Durran Godsgrief"
+End
+
 END
