@@ -1543,6 +1543,23 @@ CommandButton Command_SpellBookTheIronBank
 	InvalidCursorName = GenericInvalid
 End
 
+CommandButton Command_PurchaseSpellBleedingStar
+	Command					 = PURCHASE_SCIENCE
+	ButtonBorderType = UPGRADE
+	ButtonImage			 = BABleedingStar
+	Science					 = SCIENCE_BleedingStar
+	TextLabel				 = CONTROLBAR:BleedingStar
+	DescriptLabel		 = CONTROLBAR:TooltipBleedingStar
+End
+
+CommandButton Command_SpellBookBleedingStar
+	Command				= SPELL_BOOK
+	SpecialPower	= SpellBookBleedingStar
+	ButtonImage		= BABleedingStar
+	TextLabel			= CONTROLBAR:BleedingStar
+	DescriptLabel = CONTROLBAR:ToolTipBleedingStar
+End
+
 CommandButton Command_FakeLeadershipSignOfLegitimacy
 	Command					 = SPECIAL_POWER
 	SpecialPower		 = SpecialAbilityFakeLeadership3

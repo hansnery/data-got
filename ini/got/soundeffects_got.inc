@@ -236,3 +236,13 @@ AudioEvent Carousing
   Type         = world shrouded everyone
   SubmixSlider = SoundFX
 End
+
+AudioEvent SpellSpawnBaratheonWhiteStag
+  Sounds    = white_stag
+  Volume    = 160
+  MinVolume = 140
+  Priority  = critical
+  Limit     = 3
+  Type      = world everyone
+  SubmixSlider = SoundFX
+End

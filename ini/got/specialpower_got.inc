@@ -49,12 +49,20 @@ SpecialPower SpellBookBaratheonRebuild
 	InitiateAtLocationSound = SpellRebuild
 End
 
+SpecialPower SpellBookBleedingStar
+	Enum                    = SPECIAL_SPELL_BOOK_DARKNESS
+	RequiredSciences        = SCIENCE_BleedingStar
+	ReloadTime              = SPELL_RECHARGE_TIME_TIER_3
+	InitiateAtLocationSound = SpellDarkness
+	Flags					 					= RESPECT_RECHARGE_TIME_DISCOUNT
+End
+
 SpecialPower SpellBookFireGazing
-	Enum				= SPECIAL_SPELL_BOOK_PALANTIR_VISION
-	Flags				= WATER_OK RESPECT_RECHARGE_TIME_DISCOUNT
-	ReloadTime			= SPELL_RECHARGE_TIME_TIER_5
-	RadiusCursorRadius		= 100.0
-	RequiredSciences			= SCIENCE_FireGazing
+	Enum										= SPECIAL_SPELL_BOOK_PALANTIR_VISION
+	Flags										= WATER_OK RESPECT_RECHARGE_TIME_DISCOUNT
+	ReloadTime							= SPELL_RECHARGE_TIME_TIER_5
+	RadiusCursorRadius			= 100.0
+	RequiredSciences				= SCIENCE_FireGazing
 	InitiateAtLocationSound	= LightOfRhllorCreated
 End
 
@@ -87,14 +95,6 @@ SpecialPower SpellBookLightbringer
   RequiredSciences			= SCIENCE_Lightbringer
   ReloadTime      			= 0
   Flags						= RESPECT_RECHARGE_TIME_DISCOUNT
-End
-
-SpecialPower SpellBookBleedingStar
-	Enum                    = SPECIAL_SPELL_BOOK_DARKNESS
-	RequiredSciences        = SCIENCE_BleedingStar
-	ReloadTime              = SPELL_RECHARGE_TIME_TIER_3
-	InitiateAtLocationSound = SpellDarkness
-	Flags					 					= RESPECT_RECHARGE_TIME_DISCOUNT
 End
 
 SpecialPower SpellBookShadowbinder
@@ -319,7 +319,7 @@ SpecialPower SpellBookBaratheonWhiteStag
 	Enum										= SPECIAL_SPELL_BOOK_ROHAN_ALLIES
 	RequiredSciences				= SCIENCE_SignOfLegitimacy
 	ReloadTime      				= SPELL_RECHARGE_TIME_TIER_3
-	; InitiateAtLocationSound = SpellSpawnGreenwoodWhiteStag
+	InitiateAtLocationSound = SpellSpawnBaratheonWhiteStag
 	RadiusCursorRadius			= 100.0
 	Flags										= NO_FORBIDDEN_OBJECTS RESPECT_RECHARGE_TIME_DISCOUNT
 	ForbiddenObjectFilter		= AOTR_NO_STRUCTURE_SUMMON_NEAR_OBJECT_FILTER

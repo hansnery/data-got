@@ -92804,6 +92804,14 @@ CONTROLBAR:BaratheonRebuild
 "Legacy of Durran Godsgrief"
 End
 
+CONTROLBAR:BleedingStar
+"Bleeding Star"
+End
+
+CONTROLBAR:ToolTipBleedingStar
+"Covers the entire map in darkness for 3 minutes \n Modifier Type: Spell \n All allied units gain +33% damage and +33% armour \nLeft click to activate"
+END
+
 CONTROLBAR:SummonBaratheonWhiteStag
 "Sign of Legitimacy"
 END

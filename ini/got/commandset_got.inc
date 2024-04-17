@@ -781,7 +781,7 @@ CommandSet BaratheonSpellBookCommandSet
 	7 = Command_SpellBookBaratheonRebuild
 
 	8 = Command_SpellBookShelobSummon
-	9 = Command_SpellBookDarkness
+	9 = Command_SpellBookBleedingStar
 	10 = Command_SpellBookBaratheonWhiteStag
 
 	11 = Command_SpellBookEyeofSauronNew
@@ -804,7 +804,7 @@ CommandSet BaratheonSpellStoreCommandSet
 	7 = Command_PurchaseSpellBaratheonRebuild
 
 	8 = Command_PurchaseSpellShelobSummon
-	9 = Command_PurchaseSpellDarkness
+	9 = Command_PurchaseSpellBleedingStar
 	10 = Command_PurchaseSpellBaratheonWhiteStag
 
 	11 = Command_PurchaseSpellEyeofSauronNew
