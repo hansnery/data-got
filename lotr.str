@@ -92017,7 +92017,7 @@ OBJECT:BaratheonGendryBaratheon
 END
 
 CONTROLBAR:BaratheonGendryBaratheonRecruit
-"Recruit the lawful son of Robert Baratheon \n\n 'The Baratheon look was stamped on his face, in his jaw, his eyes, that black hair.' \n —thoughts of Eddard Stark"
+"Recruit the lawful son of Robert Baratheon \n\n 'I've served men my entire life. I served Master Mott at King's Landing and he sold me to the Watch. I served Lord Tywin at Harrenhal, wondering every day if I'd get tortured or killed. I'm done serving.'"
 END
 
 CONTROLBAR:BaratheonGendryBaratheonRevive
@@ -92233,7 +92233,7 @@ CONTROLBAR:ToolTipCommandSelectBaratheonMelisandreUpgrades
 END
 
 CONTROLBAR:PurchaseUpgradeBaratheonShadowbinder
-"Assinate Renly (&W)"
+"Assassinate Renly (&W)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeBaratheonShadowbinder
@@ -92269,7 +92269,7 @@ CONTROLBAR:PurchaseUpgradeBaratheonKingsBloodPower
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeBaratheonKingsBloodPower
-"Gendry is acknowledged as the bastard son of Robert Baratheon \nand his blood is used by Melisandre for blood magic \n\n Gendry can be recruited at the Fortress \n\n Is mutually exclusive with Lawful Son choice \n Prerequisite for Gendry"
+"Gendry is acknowledged as the bastard son of Robert Baratheon \nand his blood is used by Melisandre for blood magic \n\n Gendry can be recruited at the Fortress \n Melisandre's health is increased \n\n Is mutually exclusive with Lawful Son choice \n Prerequisite for Gendry"
 END
 
 Upgrade:KingsBloodPower
@@ -92281,19 +92281,51 @@ TOOLTIP:KingsBloodPowerIsMutuallyExclusive
 END
 
 CONTROLBAR:PurchaseUpgradeBaratheonLawfulSon
-"Lawful Son"
+"Lawful Son (&E)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeBaratheonLawfulSon
-"Gendry is declared heir to Stannis Baratheon and \nis legitimized as the lawful son of Robert Baratheon \n Gendry gains leadership and the ability to leap in place of \nhis ability to escape and to smith \n Is mutually exclusive with Kings Blood Power choice \n Prerequisite for Gendry"
+"Gendry is declared heir to Stannis Baratheon and \nis legitimized as the lawful son of Robert Baratheon \n\n Lord Gendry can be recruited at the Fortress \n He is stronger and provides leadership to Stormlander units \n\n Is mutually exclusive with Kings Blood Power choice \n Prerequisite for Lord Gendry"
 END
 
 Upgrade:LawfulSon
-"Lawful Son (&E)"
+"Lawful Son"
 END
 
 TOOLTIP:LawfulSonIsMutuallyExclusive
 "You have already chosen Kings Blood Power"
+END
+
+CONTROLBAR:PurchaseUpgradeBaratheonSacrificeShireen
+"Sacrifice Shireen (&R)"
+END
+
+CONTROLBAR:ToolTipPurchaseUpgradeBaratheonSacrificeShireen
+"Shireen Baratheon is burned at the stake \n\n Melisandre's attack damage and radius is greatly increased \n\n Is mutually exclusive with Pray Harder choice \n Shireen Baratheon dies and can no longer be recruited or revived"
+END
+
+Upgrade:SacrificeShireen
+"Sacrifice Shireen"
+END
+
+TOOLTIP:SacrificeShireenIsMutuallyExclusive
+"You have already chosen Pray Harder"
+END
+
+CONTROLBAR:PurchaseUpgradeBaratheonPrayHarder
+"Pray Harder (&R)"
+END
+
+CONTROLBAR:ToolTipPurchaseUpgradeBaratheonPrayHarder
+"Stannis Baratheon refuses to cede to religious extremism \n\n Can recruit mercenaries at the Fortress who will fight for a lump sum payment \n Is mutually exclusive with Sacrifice Shireen choice"
+END
+
+Upgrade:PrayHarder
+"Pray Harder"
+END
+
+TOOLTIP:PrayHarderIsMutuallyExclusive
+"You have already chosen Sacrifice Shireen"
 END
 
 OBJECT:TargaryenDrogon

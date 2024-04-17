@@ -245,21 +245,23 @@ CommandSet DragonstoneFortressCommandSet
 	//Decisions Upgrades
 	14 = Command_SelectBaratheonControlTheNarrowSea
 	15 = Command_SelectBaratheonLawfulSon
-	16 = Command_RadialBack
-	17 = Command_SelectBaratheonShadowbinder
-	18 = Command_SelectBaratheonKingsBloodPower
-	19 = Command_RadialBack
+	16 = Command_SelectBaratheonPrayHarder
+	17 = Command_RadialBack
+	18 = Command_SelectBaratheonShadowbinder
+	19 = Command_SelectBaratheonKingsBloodPower
+	20 = Command_SelectBaratheonSacrificeShireen
+	21 = Command_RadialBack
 	//Hero Menu
-	20 = Command_RingHeroReviveSlot
-	21 = Command_CreateAHeroReviveSlot		// Note we also need an extra slot for the Create A Hero
-	22 = Command_GenericReviveSlot1				// Shireen Baratheon
-	23 = Command_GenericReviveSlot2				// Salladhor Saan
-	24 = Command_GenericReviveSlot3				// Davos Seaworth
-	25 = Command_FakeReviveSlot4_Visible	// Gendry
-	26 = Command_FakeReviveSlot1					// Lord Gendry
-	27 = Command_GenericReviveSlot5				// Melisandre
-	28 = Command_GenericReviveSlot6				// Stannis Baratheon
-	29 = Command_RadialBack
+	22 = Command_RingHeroReviveSlot
+	23 = Command_CreateAHeroReviveSlot		// Note we also need an extra slot for the Create A Hero
+	24 = Command_GenericReviveSlot1				// Shireen Baratheon
+	25 = Command_GenericReviveSlot2				// Salladhor Saan
+	26 = Command_FakeReviveSlot3_Visible	// Gendry
+	27 = Command_FakeReviveSlot1					// Lord Gendry
+	28 = Command_GenericReviveSlot4				// Davos Seaworth
+	29 = Command_GenericReviveSlot5				// Melisandre
+	30 = Command_GenericReviveSlot6				// Stannis Baratheon
+	31 = Command_RadialBack
 End
 
 CommandSet DragonstoneFortressCommandSet_BastardGendry
@@ -282,21 +284,23 @@ CommandSet DragonstoneFortressCommandSet_BastardGendry
 	//Decisions Upgrades
 	14 = Command_SelectBaratheonControlTheNarrowSea
 	15 = Command_SelectBaratheonLawfulSon
-	16 = Command_RadialBack
-	17 = Command_SelectBaratheonShadowbinder
-	18 = Command_SelectBaratheonKingsBloodPower
-	19 = Command_RadialBack
+	16 = Command_SelectBaratheonPrayHarder
+	17 = Command_RadialBack
+	18 = Command_SelectBaratheonShadowbinder
+	19 = Command_SelectBaratheonKingsBloodPower
+	20 = Command_SelectBaratheonSacrificeShireen
+	21 = Command_RadialBack
 	//Hero Menu
-	20 = Command_RingHeroReviveSlot
-	21 = Command_CreateAHeroReviveSlot		// Note we also need an extra slot for the Create A Hero
-	22 = Command_GenericReviveSlot1				// Shireen Baratheon
-	23 = Command_GenericReviveSlot2				// Salladhor Saan
-	24 = Command_GenericReviveSlot3				// Davos Seaworth
-	25 = Command_GenericReviveSlot4				// Gendry
-	26 = Command_FakeReviveSlot1					// Lord Gendry
-	27 = Command_GenericReviveSlot5				// Melisandre
-	28 = Command_GenericReviveSlot6				// Stannis Baratheon
-	29 = Command_RadialBack
+	22 = Command_RingHeroReviveSlot
+	23 = Command_CreateAHeroReviveSlot		// Note we also need an extra slot for the Create A Hero
+	24 = Command_GenericReviveSlot1				// Shireen Baratheon
+	25 = Command_GenericReviveSlot2				// Salladhor Saan
+	26 = Command_GenericReviveSlot3				// Gendry
+	27 = Command_FakeReviveSlot1					// Lord Gendry
+	28 = Command_GenericReviveSlot4				// Davos Seaworth
+	29 = Command_GenericReviveSlot5				// Melisandre
+	30 = Command_GenericReviveSlot6				// Stannis Baratheon
+	31 = Command_RadialBack
 End
 
 CommandSet DragonstoneFortressCommandSet_LordGendry
@@ -319,21 +323,23 @@ CommandSet DragonstoneFortressCommandSet_LordGendry
 	//Decisions Upgrades
 	14 = Command_SelectBaratheonControlTheNarrowSea
 	15 = Command_SelectBaratheonLawfulSon
-	16 = Command_RadialBack
-	17 = Command_SelectBaratheonShadowbinder
-	18 = Command_SelectBaratheonKingsBloodPower
-	19 = Command_RadialBack
+	16 = Command_SelectBaratheonPrayHarder
+	17 = Command_RadialBack
+	18 = Command_SelectBaratheonShadowbinder
+	19 = Command_SelectBaratheonKingsBloodPower
+	20 = Command_SelectBaratheonSacrificeShireen
+	21 = Command_RadialBack
 	//Hero Menu
-	20 = Command_RingHeroReviveSlot
-	21 = Command_CreateAHeroReviveSlot		// Note we also need an extra slot for the Create A Hero
-	22 = Command_GenericReviveSlot1				// Shireen Baratheon
-	23 = Command_GenericReviveSlot2				// Salladhor Saan
-	24 = Command_GenericReviveSlot3				// Davos Seaworth
-	25 = Command_FakeReviveSlot1					// Gendry
-	26 = Command_GenericReviveSlot4				// Lord Gendry
-	27 = Command_GenericReviveSlot5				// Melisandre
-	28 = Command_GenericReviveSlot6				// Stannis Baratheon
-	29 = Command_RadialBack
+	22 = Command_RingHeroReviveSlot
+	23 = Command_CreateAHeroReviveSlot		// Note we also need an extra slot for the Create A Hero
+	24 = Command_GenericReviveSlot1				// Shireen Baratheon
+	25 = Command_GenericReviveSlot2				// Salladhor Saan
+	26 = Command_FakeReviveSlot1					// Gendry
+	27 = Command_GenericReviveSlot3				// Lord Gendry
+	28 = Command_GenericReviveSlot4				// Davos Seaworth
+	29 = Command_GenericReviveSlot5				// Melisandre
+	30 = Command_GenericReviveSlot6				// Stannis Baratheon
+	31 = Command_RadialBack
 End
 
 CommandSet ShireenCommandSet

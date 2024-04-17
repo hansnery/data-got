@@ -473,7 +473,7 @@ CommandButton Command_SelectRevivablesDragonstoneFortress
 	ButtonBorderType  = SYSTEM
 	DescriptLabel     = CONTROLBAR:ToolTipCommandSelectRevivablesMordorFortress
 	Radial            = Yes
-	CommandRangeStart	= 19	//Starts its counting at 0, so command button 8 is 7
+	CommandRangeStart	= 21	//Starts its counting at 0, so command button 8 is 7
 	CommandRangeCount	= 10
 End
 
@@ -696,7 +696,7 @@ CommandButton Command_SelectBaratheonDavosUpgrades
 	DescriptLabel     = CONTROLBAR:ToolTipCommandSelectBaratheonDavosUpgrades
 	Radial            = Yes
 	CommandRangeStart	= 13	//Starts its counting at 0, so command button 8 is 7
-	CommandRangeCount	= 3
+	CommandRangeCount	= 4
 End
 
 CommandButton Command_SelectBaratheonMelisandreUpgrades
@@ -706,22 +706,8 @@ CommandButton Command_SelectBaratheonMelisandreUpgrades
 	ButtonBorderType  = SYSTEM 
 	DescriptLabel     = CONTROLBAR:ToolTipCommandSelectBaratheonMelisandreUpgrades
 	Radial            = Yes
-	CommandRangeStart	= 16	//Starts its counting at 0, so command button 8 is 7
-	CommandRangeCount	= 3
-End
-
-CommandButton Command_SelectBaratheonLawfulSon
-  Command          = PLAYER_UPGRADE
-  Upgrade          = Upgrade_BaratheonLawfulSonTrigger
-  Options					 = NEED_UPGRADE CANCELABLE
-	NeededUpgrade	   = Upgrade_BaratheonLawfulSonAvailableIsTrue
-  TextLabel        = CONTROLBAR:PurchaseUpgradeBaratheonLawfulSon
-  ButtonImage      = BALawfulSon
-  ButtonBorderType = UPGRADE
-  DescriptLabel    = CONTROLBAR:ToolTipPurchaseUpgradeBaratheonLawfulSon
-  Radial           = Yes
-  InPalantir	   	 = Yes
-	LacksPrerequisiteLabel = TOOLTIP:LawfulSonIsMutuallyExclusive
+	CommandRangeStart	= 17	//Starts its counting at 0, so command button 8 is 7
+	CommandRangeCount	= 4
 End
 
 CommandButton Command_SelectBaratheonShadowbinder
@@ -764,6 +750,48 @@ CommandButton Command_SelectBaratheonKingsBloodPower
   Radial           = Yes
   InPalantir	   	 = Yes
 	LacksPrerequisiteLabel = TOOLTIP:KingsBloodPowerIsMutuallyExclusive
+End
+
+CommandButton Command_SelectBaratheonLawfulSon
+  Command          = PLAYER_UPGRADE
+  Upgrade          = Upgrade_BaratheonLawfulSonTrigger
+  Options					 = NEED_UPGRADE CANCELABLE
+	NeededUpgrade	   = Upgrade_BaratheonLawfulSonAvailableIsTrue
+  TextLabel        = CONTROLBAR:PurchaseUpgradeBaratheonLawfulSon
+  ButtonImage      = BALawfulSon
+  ButtonBorderType = UPGRADE
+  DescriptLabel    = CONTROLBAR:ToolTipPurchaseUpgradeBaratheonLawfulSon
+  Radial           = Yes
+  InPalantir	   	 = Yes
+	LacksPrerequisiteLabel = TOOLTIP:LawfulSonIsMutuallyExclusive
+End
+
+CommandButton Command_SelectBaratheonSacrificeShireen
+  Command          = PLAYER_UPGRADE
+  Upgrade          = Upgrade_BaratheonSacrificeShireenTrigger
+  Options					 = NEED_UPGRADE CANCELABLE
+	NeededUpgrade	   = Upgrade_BaratheonSacrificeShireenAvailableIsTrue
+  TextLabel        = CONTROLBAR:PurchaseUpgradeBaratheonSacrificeShireen
+  ButtonImage      = BASacrificeShireenButton
+  ButtonBorderType = UPGRADE
+  DescriptLabel    = CONTROLBAR:ToolTipPurchaseUpgradeBaratheonSacrificeShireen
+  Radial           = Yes
+  InPalantir	   	 = Yes
+	LacksPrerequisiteLabel = TOOLTIP:SacrificeShireenIsMutuallyExclusive
+End
+
+CommandButton Command_SelectBaratheonPrayHarder
+  Command          = PLAYER_UPGRADE
+  Upgrade          = Upgrade_BaratheonPrayHarderTrigger
+  Options					 = NEED_UPGRADE CANCELABLE
+	NeededUpgrade	   = Upgrade_BaratheonPrayHarderAvailableIsTrue
+  TextLabel        = CONTROLBAR:PurchaseUpgradeBaratheonPrayHarder
+  ButtonImage      = BAPrayHarderButton
+  ButtonBorderType = UPGRADE
+  DescriptLabel    = CONTROLBAR:ToolTipPurchaseUpgradeBaratheonPrayHarder
+  Radial           = Yes
+  InPalantir	   	 = Yes
+	LacksPrerequisiteLabel = TOOLTIP:PrayHarderIsMutuallyExclusive
 End
 
 CommandButton Command_DrogonStun
