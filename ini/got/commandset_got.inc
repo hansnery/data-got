@@ -782,10 +782,10 @@ CommandSet BaratheonSpellBookCommandSet
 
 	8 = Command_SpellBookShelobSummon
 	9 = Command_SpellBookDarkness
-	10 = Command_SpellBookWraith
+	10 = Command_SpellBookBaratheonWhiteStag
 
 	11 = Command_SpellBookEyeofSauronNew
-	12 = Command_SpellBookRainOfFire
+	12 = Command_SpellBookTheIronBank
 
 	13 = Command_SpellBookGeneralView
 	14 = Command_SpellBookCommanderView
@@ -805,8 +805,21 @@ CommandSet BaratheonSpellStoreCommandSet
 
 	8 = Command_PurchaseSpellShelobSummon
 	9 = Command_PurchaseSpellDarkness
-	10 = Command_PurchaseSpellWraith
+	10 = Command_PurchaseSpellBaratheonWhiteStag
 
 	11 = Command_PurchaseSpellEyeofSauronNew
-	12 = Command_PurchaseSpellRainOfFire
+	12 = Command_PurchaseSpellTheIronBank
+End
+
+CommandSet BaratheonWhiteStagCommandSet
+	1	= Command_ToggleStance
+	2 = Command_SpecialAbilityWhiteStagEthereal
+	3	= Command_FakeLeadershipSignOfLegitimacy
+	4	= Command_SpecialAbilityBaratheonFeyWisdom
+	12 = Command_CaptureBuilding
+	13 = Command_AttackMove
+	14 = Command_Stop
+	16 = Command_SetStanceBattle
+	17 = Command_SetStanceAggressive
+	18 = Command_SetStanceHoldGround
 End

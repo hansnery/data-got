@@ -2423,7 +2423,7 @@ END
 
 GUI:SinglePlayer
 // context: Button in the main menu to go to the single player and Skirmish missions
-"SOLO PLAY"
+"PLAY THE GAME OF THRONES"
 END
 
 APT:Online
@@ -2474,12 +2474,12 @@ END
 
 APT:Skirmish
 // context: Button to play Skirmish mode. Skirmish is a single player mode in which the player can fight against 1 to 7 computer controlled opponents as if it were a networked game
-"SKIRMISH"
+"WIN OR DIE"
 END
 
 GUI:Skirmish
 // SKB:DELETE context: Button to play Skirmish mode. Skirmish is a single player mode in which the player can fight against 1 to 7 computer controlled opponents as if it were a networked game
-"SKIRMISH"
+"WIN OR DIE"
 END
 
 
@@ -22253,7 +22253,7 @@ END
 
 APT:SoloPlay
 // context: On main menu, select Solo Player (Single) game
-"SOLO PLAY"
+"PLAY THE GAME OF THRONES"
 END
 
 APT:Multiplayer
@@ -87974,7 +87974,7 @@ Map:MAPMPriverisen
 End
 
 Map:MAPMPriverisen/Desc
-"The Trident is a major river in the riverlands of the Seven Kingdoms. Made of numerous smaller tributaries, it is one of the largest rivers on the continent of Westeros. It is a confluence of three main branches, the Red Fork, the Green Fork, and the Blue Fork. \n Capturable: Inn \n Creeps: Cave Troll, Warg \n Region: Riverlands"
+"The Trident is a major river in the riverlands of the Seven Kingdoms. Made of numerous smaller tributaries, it is one of the largest rivers on the continent of Westeros. \n Capturable: Inn \n Creeps: Cave Troll, Warg \n Region: Riverlands"
 End
 
 /////
@@ -92802,6 +92802,39 @@ END
 
 CONTROLBAR:BaratheonRebuild
 "Legacy of Durran Godsgrief"
+End
+
+CONTROLBAR:SummonBaratheonWhiteStag
+"Sign of Legitimacy"
+END
+
+CONTROLBAR:TooltipSummonBaratheonWhiteStag
+"Summons the White Stag of the Kingswood \n Left click icon then left click on pathable location"
+END
+
+CONTROLBAR:TheIronBank
+"The Iron Bank"
+END
+
+OBJECT:IronBankGold
+"Loan from the Iron Bank"
+End
+
+CONTROLBAR:TooltipTheIronBank
+"Summons gold from the Iron Bank \n Left click icon then left click on target area"
+END
+
+CONTROLBAR:SignOfLegitimacy
+"Sign of Legitimacy"
+End
+
+CONTROLBAR:ToolTipSignOfLegitimacy
+"Modifier Type: Spell \n Nearby friendly units gain +50% armour and resistance to fear and terror \nPassive Ability"
+End
+
+CONTROLBAR:ToolTipBaratheonFeyWisdom
+//"For 60 seconds, nearby units and heroes gain 300% experience gain and immunity to magic and elemental damage\nLeft click to activate"
+"For 60 seconds, nearby units and heroes gain 100% experience gain \n Left click to activate"
 End
 
 END

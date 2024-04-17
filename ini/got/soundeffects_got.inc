@@ -52,12 +52,12 @@ AudioEvent BaratheonLysCorsairs
 End
 
 AudioEvent BaratheonIronBank
-  Sounds      = stannis_iron_bank
-  Limit	     = 2
-  Volume      = 120
+  Sounds   = stannis_iron_bank
+  Limit	   = 2
+  Volume   = 250
   MinRange = 400
   MaxRange = 1000
-  Type        = world everyone 
+  Type     = world everyone 
   SubmixSlider = SoundFX
 End
 

@@ -2205,3 +2205,19 @@ ExperienceLevel	FarmLevel3_GOT
 	Upgrades					 = Upgrade_StructureLevel3
 	LevelUpFx					 = FX:GenericBuildingUpgrade
 End
+
+ExperienceLevel	BaratheonWhiteStagSummonedLevel1
+	TargetNames				 = BaratheonWhiteStag
+	RequiredExperience = 1
+	Rank		       		 = 10
+	Upgrades					 = Upgrade_ObjectLevel1 Upgrade_ObjectLevel2
+	SelectionDecal
+		Texture					 = decal_hero_good
+		Style						 = SHADOW_ALPHA_DECAL
+		OpacityMin			 = 50%
+		OpacityMax			 = 100%
+		MinRadius				 = 80
+		MaxRadius				 = 80
+		MaxSelectedUnits = 40
+	End
+END

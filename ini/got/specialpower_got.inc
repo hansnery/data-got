@@ -89,19 +89,6 @@ SpecialPower SpellBookLightbringer
   Flags						= RESPECT_RECHARGE_TIME_DISCOUNT
 End
 
-SpecialPower SpellBookTheIronBank
-	Enum						= SPECIAL_SPELL_BOOK_DRAGON_ALLY
-	ReloadTime					= SPELL_RECHARGE_TIME_TIER_3
-	RadiusCursorRadius			= 50.0
-	RequiredSciences				= SCIENCE_TheIronBank
-	ViewObjectDuration = 5000
-	ViewObjectRange = 100
-	InitiateAtLocationSound = BaratheonIronBank
-	Flags					= NO_FORBIDDEN_OBJECTS RESPECT_RECHARGE_TIME_DISCOUNT
-	ForbiddenObjectFilter	= NO_SUMMON_NEAR_OBJECT_FILTER
-	ForbiddenObjectRange	= 15.0
-End
-
 SpecialPower SpellBookBleedingStar
 	Enum                    = SPECIAL_SPELL_BOOK_DARKNESS
 	RequiredSciences        = SCIENCE_BleedingStar
@@ -326,4 +313,28 @@ SpecialPower SpecialAbilityViserionDracarys
 	ReloadTime				 = 300000
 	RadiusCursorRadius = 80
 	Flags							 = WATER_OK
+End
+
+SpecialPower SpellBookBaratheonWhiteStag
+	Enum										= SPECIAL_SPELL_BOOK_ROHAN_ALLIES
+	RequiredSciences				= SCIENCE_SignOfLegitimacy
+	ReloadTime      				= SPELL_RECHARGE_TIME_TIER_3
+	; InitiateAtLocationSound = SpellSpawnGreenwoodWhiteStag
+	RadiusCursorRadius			= 100.0
+	Flags										= NO_FORBIDDEN_OBJECTS RESPECT_RECHARGE_TIME_DISCOUNT
+	ForbiddenObjectFilter		= AOTR_NO_STRUCTURE_SUMMON_NEAR_OBJECT_FILTER
+	ForbiddenObjectRange		= 100.0
+End
+
+SpecialPower SpellBookTheIronBank
+	Enum							 = SPECIAL_SPELL_BOOK_DRAGON_ALLY
+	ReloadTime				 = SPELL_RECHARGE_TIME_TIER_4
+	RadiusCursorRadius = 50.0
+	RequiredSciences	 = SCIENCE_TheIronBank
+	ViewObjectDuration = 5000
+	ViewObjectRange 	 = 100
+	InitiateAtLocationSound = BaratheonIronBank
+	Flags										= NO_FORBIDDEN_OBJECTS RESPECT_RECHARGE_TIME_DISCOUNT
+	ForbiddenObjectFilter		= AOTR_NO_STRUCTURE_SUMMON_NEAR_OBJECT_FILTER
+	ForbiddenObjectRange		= 50.0
 End

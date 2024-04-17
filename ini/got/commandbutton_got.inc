@@ -1498,3 +1498,73 @@ CommandButton Command_SpellBookBaratheonRebuild
 	RadiusCursorType  = RebuildRadiusCursor
 	InvalidCursorName	= GenericInvalid
 End
+
+CommandButton Command_PurchaseSpellBaratheonWhiteStag
+	Command					 = PURCHASE_SCIENCE
+	ButtonBorderType = UPGRADE
+	ButtonImage			 = BAWhiteStagButton
+	Science					 = SCIENCE_SignOfLegitimacy
+	TextLabel				 = CONTROLBAR:SummonBaratheonWhiteStag
+	DescriptLabel		 = CONTROLBAR:TooltipSummonBaratheonWhiteStag
+End
+
+CommandButton Command_SpellBookBaratheonWhiteStag
+	Command						= SPELL_BOOK
+	SpecialPower			= SpellBookBaratheonWhiteStag
+	ButtonImage				= BAWhiteStagButton
+	Options						= NEED_TARGET_POS
+	TextLabel					= CONTROLBAR:SummonBaratheonWhiteStag
+	ButtonBorderType	= ACTION
+	DescriptLabel			= CONTROLBAR:TooltipSummonBaratheonWhiteStag
+	RadiusCursorType	= SCWhiteStag
+	CursorName        = AttackObj
+	InvalidCursorName = GenericInvalid
+End
+
+CommandButton Command_PurchaseSpellTheIronBank
+	Command					 = PURCHASE_SCIENCE
+	ButtonBorderType = UPGRADE
+	ButtonImage			 = BAIronBank
+	Science					 = SCIENCE_TheIronBank
+	TextLabel				 = CONTROLBAR:TheIronBank
+	DescriptLabel		 = CONTROLBAR:TooltipTheIronBank
+End
+
+CommandButton Command_SpellBookTheIronBank
+	Command						= SPELL_BOOK
+	SpecialPower			= SpellBookTheIronBank
+	Options						= NEED_TARGET_POS
+	TextLabel					= CONTROLBAR:TheIronBank
+	ButtonImage				= BAIronBank
+	ButtonBorderType	= ACTION
+	DescriptLabel			= CONTROLBAR:TooltipTheIronBank
+	RadiusCursorType	= ThrorsHoard
+	CursorName        = AttackObj
+	InvalidCursorName = GenericInvalid
+End
+
+CommandButton Command_FakeLeadershipSignOfLegitimacy
+	Command					 = SPECIAL_POWER
+	SpecialPower		 = SpecialAbilityFakeLeadership3
+	Options			  	 = NONPRESSABLE
+	TextLabel				 = CONTROLBAR:SignOfLegitimacy
+	ButtonImage			 = BASigilZoomButton
+	RadiusCursorType = TRAINING
+	ButtonBorderType = ACTION
+	DescriptLabel		 = CONTROLBAR:ToolTipSignOfLegitimacy
+	InPalantir			 = Yes
+End
+
+CommandButton Command_SpecialAbilityBaratheonFeyWisdom
+  Command          = SPECIAL_POWER
+  SpecialPower     = SpecialAbilityFeyWisdom
+  Options          = OK_FOR_MULTI_SELECT OK_FOR_MULTI_EXECUTE
+  TextLabel        = CONTROLBAR:FeyWisdom
+  ButtonImage      = UIWhiteStagFeyWisdom
+  RadiusCursorType = SCFeyWisdom
+  ButtonBorderType = ACTION
+  DescriptLabel    = CONTROLBAR:ToolTipBaratheonFeyWisdom
+  AutoAbility		   = Yes
+  InPalantir       = Yes
+  PresetRange			 = 160.0
+End
