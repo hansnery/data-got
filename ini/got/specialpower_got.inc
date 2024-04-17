@@ -10,6 +10,24 @@ SpecialPower SpellBookFieryFervour
 	; InitiateAtLocationSound = DrogothVoxFireballEveryone ;HasharinWickedMirage GuildedGuardWeepingBlades
 End
 
+SpecialPower SpellBookFireGazing
+	Enum										= SPECIAL_SPELL_BOOK_PALANTIR_VISION
+	Flags										= WATER_OK RESPECT_RECHARGE_TIME_DISCOUNT
+	ReloadTime							= SPELL_RECHARGE_TIME_TIER_1
+	RadiusCursorRadius			= 200.0
+	RequiredSciences				= SCIENCE_FireGazing
+	InitiateAtLocationSound	= LightOfRhllorCreated
+End
+
+SpecialPower SpellBookWarChantStannis
+	Enum							 = SPECIAL_SPELL_BOOK_WAR_CHANT
+	Flags							 = WATER_OK RESPECT_RECHARGE_TIME_DISCOUNT
+	ReloadTime      	 = SPELL_RECHARGE_TIME_TIER_1
+	RadiusCursorRadius = 75.0
+	RequiredSciences	 = SCIENCE_WarChantStannis
+	InitiateAtLocationSound = SpellMordorRallyingCall
+End
+
 SpecialPower SpellBookShaftsOfDragonmont
 	Enum										= SPECIAL_SPELL_BOOK_CHILL_WIND
 	RadiusCursorRadius			= 150
@@ -21,15 +39,6 @@ SpecialPower SpellBookShaftsOfDragonmont
 	Flags										= NO_FORBIDDEN_OBJECTS RESPECT_RECHARGE_TIME_DISCOUNT
 	ForbiddenObjectFilter		= NONE +WatcherHead +WatcherHittingArm +WatcherCaldera
 	ForbiddenObjectRange		= 50
-End
-
-SpecialPower SpellBookWarChantStannis
-	Enum							 = SPECIAL_SPELL_BOOK_WAR_CHANT
-	Flags							 = WATER_OK RESPECT_RECHARGE_TIME_DISCOUNT
-	ReloadTime      	 = SPELL_RECHARGE_TIME_TIER_1
-	RadiusCursorRadius = 75.0
-	RequiredSciences	 = SCIENCE_WarChantStannis
-	InitiateAtLocationSound = SpellMordorRallyingCall
 End
 
 SpecialPower SpellBookMightOfTheStormlands
@@ -55,15 +64,6 @@ SpecialPower SpellBookBleedingStar
 	ReloadTime              = SPELL_RECHARGE_TIME_TIER_3
 	InitiateAtLocationSound = SpellBleedingStar
 	Flags					 					= RESPECT_RECHARGE_TIME_DISCOUNT
-End
-
-SpecialPower SpellBookFireGazing
-	Enum										= SPECIAL_SPELL_BOOK_PALANTIR_VISION
-	Flags										= WATER_OK RESPECT_RECHARGE_TIME_DISCOUNT
-	ReloadTime							= SPELL_RECHARGE_TIME_TIER_5
-	RadiusCursorRadius			= 100.0
-	RequiredSciences				= SCIENCE_FireGazing
-	InitiateAtLocationSound	= LightOfRhllorCreated
 End
 
 SpecialPower SpellBookPirateAllies

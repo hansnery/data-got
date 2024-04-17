@@ -446,7 +446,7 @@ CommandButton Command_SpecialAbilityMelisandreShadowbinder
   TextLabel         = CONTROLBAR:MelisandreShadowbinder
   CursorName        = EvilAbilityObj
   InvalidCursorName = GenericInvalid
-  ButtonImage       = BAMelisandreShadowbinder
+  ButtonImage       = BAShadowbinder ;BAMelisandreShadowbinder
   ButtonBorderType  = ACTION
   DescriptLabel     = CONTROLBAR:ToolTipMelisandreShadowbinder
   InPalantir				= Yes
@@ -554,7 +554,7 @@ End
 
 CommandButton Command_SelectUpgradesDragonstoneFortress
 	Command           = PUSH_VISIBLE_COMMAND_RANGE
-	TextLabel         = CONTROLBAR:SelectUpgradesMordorFortress
+	TextLabel         = CONTROLBAR:SelectUpgradesDragonstoneFortress
 	ButtonImage       = BAStannisSigil
 	ButtonBorderType  = SYSTEM
 	DescriptLabel     = CONTROLBAR:ToolTipCommandSelectUpgradesMordorFortress
@@ -724,16 +724,32 @@ CommandButton Command_SelectBaratheonLawfulSon
 	LacksPrerequisiteLabel = TOOLTIP:LawfulSonIsMutuallyExclusive
 End
 
-CommandButton Command_SelectBaratheonDavosUpgrade2
+CommandButton Command_SelectBaratheonShadowbinder
   Command          = PLAYER_UPGRADE
-  Upgrade          = Upgrade_MenFortressNumenorStoneworkTrigger
-  Options					 = CANCELABLE
-  TextLabel        = CONTROLBAR:PurchaseUpgradeBaratheonWeatheredByTheStorm
-  ButtonImage      = BAWeatheredByTheStorm
+  Upgrade          = Upgrade_BaratheonShadowbinderTrigger
+  Options					 = NEED_UPGRADE CANCELABLE
+	NeededUpgrade	   = Upgrade_BaratheonShadowbinderAvailableIsTrue
+  TextLabel        = CONTROLBAR:PurchaseUpgradeBaratheonShadowbinder
+  ButtonImage      = BAMelisandreShadowbinder
   ButtonBorderType = UPGRADE
-  DescriptLabel    = CONTROLBAR:ToolTipPurchaseUpgradeBaratheonWeatheredByTheStorm
+  DescriptLabel    = CONTROLBAR:ToolTipPurchaseUpgradeBaratheonShadowbinder
   Radial           = Yes
   InPalantir	   	 = Yes
+	LacksPrerequisiteLabel = TOOLTIP:ShadowbinderIsMutuallyExclusive
+End
+
+CommandButton Command_SelectBaratheonControlTheNarrowSea
+  Command          = PLAYER_UPGRADE
+  Upgrade          = Upgrade_BaratheonControlTheNarrowSeaTrigger
+  Options					 = NEED_UPGRADE CANCELABLE
+	NeededUpgrade	   = Upgrade_BaratheonControlTheNarrowSeaAvailableIsTrue
+  TextLabel        = CONTROLBAR:PurchaseUpgradeBaratheonControlTheNarrowSea
+  ButtonImage      = BAStannisRoyalFleetButton
+  ButtonBorderType = UPGRADE
+  DescriptLabel    = CONTROLBAR:ToolTipPurchaseUpgradeBaratheonControlTheNarrowSea
+  Radial           = Yes
+  InPalantir	   	 = Yes
+	LacksPrerequisiteLabel = TOOLTIP:ControlTheNarrowSeaIsMutuallyExclusive
 End
 
 CommandButton Command_SelectBaratheonKingsBloodPower
@@ -748,18 +764,6 @@ CommandButton Command_SelectBaratheonKingsBloodPower
   Radial           = Yes
   InPalantir	   	 = Yes
 	LacksPrerequisiteLabel = TOOLTIP:KingsBloodPowerIsMutuallyExclusive
-End
-
-CommandButton Command_SelectBaratheonMelisandreUpgrade2
-  Command          = PLAYER_UPGRADE
-  Upgrade          = Upgrade_MenFortressNumenorStoneworkTrigger
-  Options					 = CANCELABLE
-  TextLabel        = CONTROLBAR:PurchaseUpgradeBaratheonWeatheredByTheStorm
-  ButtonImage      = BAWeatheredByTheStorm
-  ButtonBorderType = UPGRADE
-  DescriptLabel    = CONTROLBAR:ToolTipPurchaseUpgradeBaratheonWeatheredByTheStorm
-  Radial           = Yes
-  InPalantir	   	 = Yes
 End
 
 CommandButton Command_DrogonStun
@@ -1430,13 +1434,33 @@ CommandButton Command_SpellBookWarChantStannis
 	RadiusCursorType = RhllorRadiusCursor
 End
 
+CommandButton Command_PurchaseSpellFireGazing
+	Command					 = PURCHASE_SCIENCE
+	ButtonBorderType = UPGRADE
+	ButtonImage			 = BAFireGazing
+	Science					 = SCIENCE_FireGazing
+	TextLabel				 = CONTROLBAR:FireGazing
+	DescriptLabel		 = CONTROLBAR:TooltipPalantirVision
+End
+
+CommandButton Command_SpellBookFireGazing
+	Command					 = SPELL_BOOK
+	SpecialPower		 = SpellBookFireGazing
+	ButtonImage			 = BAFireGazing
+	Options					 = NEED_TARGET_POS
+	TextLabel				 = CONTROLBAR:FireGazing
+	ButtonBorderType = ACTION
+	DescriptLabel		 = CONTROLBAR:TooltipPalantirVision
+	RadiusCursorType = PalantirVisionRadiusCursor
+End
+
 CommandButton Command_PurchaseSpellShaftsOfDragonmont
 	Command					 = PURCHASE_SCIENCE
 	ButtonBorderType = UPGRADE
 	ButtonImage			 = BICracksOfDoom
 	Science					 = SCIENCE_ShaftsOfDragonmont
 	TextLabel				 = CONTROLBAR:ShaftsOfDragonmont
-	DescriptLabel		 = CONTROLBAR:TooltipCracksOfDoom
+	DescriptLabel		 = CONTROLBAR:ToolTipShaftsOfDragonmont
 End
 
 CommandButton Command_PurchaseSpellWarChantStannis

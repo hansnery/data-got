@@ -243,11 +243,11 @@ CommandSet DragonstoneFortressCommandSet
 	12 = Command_PurchaseUpgradeDragonstoneFortressStoneDrum
 	13 = Command_RadialBack
 	//Decisions Upgrades
-	14 = Command_SelectBaratheonLawfulSon
-	15 = Command_SelectBaratheonDavosUpgrade2
+	14 = Command_SelectBaratheonControlTheNarrowSea
+	15 = Command_SelectBaratheonLawfulSon
 	16 = Command_RadialBack
-	17 = Command_SelectBaratheonKingsBloodPower
-	18 = Command_SelectBaratheonMelisandreUpgrade2
+	17 = Command_SelectBaratheonShadowbinder
+	18 = Command_SelectBaratheonKingsBloodPower
 	19 = Command_RadialBack
 	//Hero Menu
 	20 = Command_RingHeroReviveSlot
@@ -280,11 +280,11 @@ CommandSet DragonstoneFortressCommandSet_BastardGendry
 	12 = Command_PurchaseUpgradeDragonstoneFortressStoneDrum
 	13 = Command_RadialBack
 	//Decisions Upgrades
-	14 = Command_SelectBaratheonLawfulSon
-	15 = Command_SelectBaratheonDavosUpgrade2
+	14 = Command_SelectBaratheonControlTheNarrowSea
+	15 = Command_SelectBaratheonLawfulSon
 	16 = Command_RadialBack
-	17 = Command_SelectBaratheonKingsBloodPower
-	18 = Command_SelectBaratheonMelisandreUpgrade2
+	17 = Command_SelectBaratheonShadowbinder
+	18 = Command_SelectBaratheonKingsBloodPower
 	19 = Command_RadialBack
 	//Hero Menu
 	20 = Command_RingHeroReviveSlot
@@ -317,11 +317,11 @@ CommandSet DragonstoneFortressCommandSet_LordGendry
 	12 = Command_PurchaseUpgradeDragonstoneFortressStoneDrum
 	13 = Command_RadialBack
 	//Decisions Upgrades
-	14 = Command_SelectBaratheonLawfulSon
-	15 = Command_SelectBaratheonDavosUpgrade2
+	14 = Command_SelectBaratheonControlTheNarrowSea
+	15 = Command_SelectBaratheonLawfulSon
 	16 = Command_RadialBack
-	17 = Command_SelectBaratheonKingsBloodPower
-	18 = Command_SelectBaratheonMelisandreUpgrade2
+	17 = Command_SelectBaratheonShadowbinder
+	18 = Command_SelectBaratheonKingsBloodPower
 	19 = Command_RadialBack
 	//Hero Menu
 	20 = Command_RingHeroReviveSlot
@@ -772,11 +772,11 @@ End
 
 CommandSet BaratheonSpellBookCommandSet
 	1 = Command_SpellBookFieryFervour
-	2 = Command_SpellBookShaftsOfDragonmont
+	2 = Command_SpellBookFireGazing
 	3 = Command_SpellBookWarChantStannis
 
 	4 = Command_SpellBookHaradrimRaiders
-	5 = Command_SpellBookBarricade
+	5 = Command_SpellBookShaftsOfDragonmont
 	6 = Command_SpellBookMightOfTheStormlands
 	7 = Command_SpellBookBaratheonRebuild
 
@@ -795,11 +795,11 @@ End
 
 CommandSet BaratheonSpellStoreCommandSet
 	1 = Command_PurchaseSpellFieryFervour
-	2 = Command_PurchaseSpellShaftsOfDragonmont
+	2 = Command_PurchaseSpellFireGazing
 	3 = Command_PurchaseSpellWarChantStannis
 
 	4 = Command_PurchaseSpellHaradrimRaiders
-	5 = Command_PurchaseSpellBarricade
+	5 = Command_PurchaseSpellShaftsOfDragonmont
 	6 = Command_PurchaseSpellMightOfTheStormlands
 	7 = Command_PurchaseSpellBaratheonRebuild
 

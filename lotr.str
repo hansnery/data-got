@@ -87974,7 +87974,7 @@ Map:MAPMPriverisen
 End
 
 Map:MAPMPriverisen/Desc
-"The Trident is a major river in the riverlands of the Seven Kingdoms. Made of numerous smaller tributaries, it is one of the largest rivers on the continent of Westeros. \n Capturable: Inn \n Creeps: Cave Troll, Warg \n Region: Riverlands"
+"The Trident is one of the largest rivers on the continent of Westeros. \n Capturable: Inn \n Creeps: Cave Troll, Warg \n Region: Riverlands"
 End
 
 /////
@@ -92097,7 +92097,7 @@ CONTROLBAR:PurchaseUpgradeDragonstoneFortressSmokeAndBrimstone
 END
 
 CONTROLBAR:FireWeaponDragonstoneFortressSmokeAndBrimstone
-"Smoke and Brimstone (&T)"
+"Smoke and Brimstone (&D)"
 END
 
 CONTROLBAR:ToolTipFireWeaponDragonstoneFortressSmokeAndBrimstone
@@ -92217,7 +92217,7 @@ CONTROLBAR:ToolTipDesireOfPlunder
 END
 
 CONTROLBAR:SelectBaratheonDavosUpgrades
-"Heed &Davos Seaworth"
+"Heed Davos Seaworth (&R)"
 END
 
 CONTROLBAR:ToolTipCommandSelectBaratheonDavosUpgrades
@@ -92225,19 +92225,51 @@ CONTROLBAR:ToolTipCommandSelectBaratheonDavosUpgrades
 END
 
 CONTROLBAR:SelectBaratheonMelisandreUpgrades
-"Heed &Melisandre"
+"Heed Melisandre (&S)"
 END
 
 CONTROLBAR:ToolTipCommandSelectBaratheonMelisandreUpgrades
 "Heed the Priestess of Asshai and follow a path of faith"
 END
 
+CONTROLBAR:PurchaseUpgradeBaratheonShadowbinder
+"Assinate Renly (&W)"
+END
+
+CONTROLBAR:ToolTipPurchaseUpgradeBaratheonShadowbinder
+"Melisandre will use blood magic to assassinate Renly Baratheon \n\n Unlocks the Stormlander Encampment and the Shadowbinder ability for Melisandre \n\n Is mutually exclusive with Control the Narrow Sea choice"
+END
+
+Upgrade:Shadowbinder
+"Shadowbinder"
+END
+
+TOOLTIP:ShadowbinderIsMutuallyExclusive
+"You have already chosen Control the Narrow Sea"
+END
+
+CONTROLBAR:PurchaseUpgradeBaratheonControlTheNarrowSea
+"Control the Narrow Sea (&W)"
+END
+
+CONTROLBAR:ToolTipPurchaseUpgradeBaratheonControlTheNarrowSea
+"The Royal Fleet will establish naval supremacy in the Narrow Sea \n\n Is mutually exclusive with Assassinate Renly choice"
+END
+
+Upgrade:ControlTheNarrowSea
+"Control the Narrow Sea"
+END
+
+TOOLTIP:ControlTheNarrowSeaIsMutuallyExclusive
+"You have already chosen Assassinate Renly"
+END
+
 CONTROLBAR:PurchaseUpgradeBaratheonKingsBloodPower
-"King's Blood Power"
+"King's Blood Power (&E)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeBaratheonKingsBloodPower
-"Gendry is acknowledged as the bastard son of Robert Baratheon \nand his blood is used by Melisandre for blood magic: \n\n Gendry can be recruited in the Fortress \n\n Is mutually exclusive with Lawful Son upgrade \n Prerequisite for Gendry"
+"Gendry is acknowledged as the bastard son of Robert Baratheon \nand his blood is used by Melisandre for blood magic \n\n Gendry can be recruited at the Fortress \n\n Is mutually exclusive with Lawful Son choice \n Prerequisite for Gendry"
 END
 
 Upgrade:KingsBloodPower
@@ -92245,7 +92277,7 @@ Upgrade:KingsBloodPower
 END
 
 TOOLTIP:KingsBloodPowerIsMutuallyExclusive
-"You have already researched Lawful Son"
+"You have already chosen Lawful Son"
 END
 
 CONTROLBAR:PurchaseUpgradeBaratheonLawfulSon
@@ -92253,15 +92285,15 @@ CONTROLBAR:PurchaseUpgradeBaratheonLawfulSon
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeBaratheonLawfulSon
-"Gendry is declared heir to Stannis Baratheon and \nis legitimized as the lawful son of Robert Baratheon \n Gendry gains leadership and the ability to leap in place of \nhis ability to escape and to smith \n Is mutually exclusive with Kings Blood Power upgrade \n Prerequisite for Gendry "
+"Gendry is declared heir to Stannis Baratheon and \nis legitimized as the lawful son of Robert Baratheon \n Gendry gains leadership and the ability to leap in place of \nhis ability to escape and to smith \n Is mutually exclusive with Kings Blood Power choice \n Prerequisite for Gendry"
 END
 
 Upgrade:LawfulSon
-"Lawful Son"
+"Lawful Son (&E)"
 END
 
 TOOLTIP:LawfulSonIsMutuallyExclusive
-"You have already researched Kings Blood Power"
+"You have already chosen Kings Blood Power"
 END
 
 OBJECT:TargaryenDrogon
@@ -92784,13 +92816,21 @@ CONTROLBAR:FieryFervour
 "Fiery Fervour"
 End
 
-CONTROLBAR:ShaftsOfDragonmont
-"Shafts of Dragonmont"
+CONTROLBAR:FireGazing
+"Fire Gazing"
 END
 
 CONTROLBAR:WarChantStannis
 "Baratheon Horn"
 End
+
+CONTROLBAR:ShaftsOfDragonmont
+"Shafts of Dragonmont"
+END
+
+CONTROLBAR:ToolTipShaftsOfDragonmont
+"Summons a patch of cracked, volcanic earth for 30 seconds \n Enemy units inside take damage over time and are slowed by -33%\n Left click icon then left click on target area"
+END
 
 CONTROLBAR:MightOfTheStormlands
 "Might of the Stormlands"
@@ -92844,5 +92884,9 @@ CONTROLBAR:ToolTipBaratheonFeyWisdom
 //"For 60 seconds, nearby units and heroes gain 300% experience gain and immunity to magic and elemental damage\nLeft click to activate"
 "For 60 seconds, nearby units and heroes gain 100% experience gain \n Left click to activate"
 End
+
+CONTROLBAR:SelectUpgradesDragonstoneFortress
+"Upgrade Fortress (&T)"
+END
 
 END
