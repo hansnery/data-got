@@ -53,7 +53,7 @@ SpecialPower SpellBookBleedingStar
 	Enum                    = SPECIAL_SPELL_BOOK_DARKNESS
 	RequiredSciences        = SCIENCE_BleedingStar
 	ReloadTime              = SPELL_RECHARGE_TIME_TIER_3
-	InitiateAtLocationSound = SpellDarkness
+	InitiateAtLocationSound = SpellBleedingStar
 	Flags					 					= RESPECT_RECHARGE_TIME_DISCOUNT
 End
 

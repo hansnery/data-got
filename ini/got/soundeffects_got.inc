@@ -246,3 +246,13 @@ AudioEvent SpellSpawnBaratheonWhiteStag
   Type      = world everyone
   SubmixSlider = SoundFX
 End
+
+AudioEvent SpellBleedingStar
+  Sounds   = comet
+  Limit	   = 2
+  Volume   = 200
+  MinRange = 400
+  MaxRange = 800
+  Type     = ui player enemies allies
+  SubmixSlider = SoundFX
+End
