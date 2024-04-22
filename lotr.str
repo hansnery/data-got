@@ -86564,21 +86564,21 @@ End
 /////
 
 Map:MAPMPforochel
-"Forochel"
+"Frostfangs"
 End
 
 Map:MAPMPforochel/Desc
-"Forochel is the name given to the frozen and icy tundra in the northern parts of Middle-earth, and especially of the great icebay and the lands surrounding it. \n Capturable: Signal Fire, Inn \n Creeps: Snow Troll, Warg \n Region: Forodwaith"
+"The Frostfangs are a mountain range in the far northwest of the continent of Westeros, beyond the Wall and north of the Seven Kingdoms. \n Capturable: Signal Fire, Inn \n Creeps: Snow Troll, Warg \n Region: Beyond the Wall"
 End
 
 /////
 
 Map:MAPMPforodwaith
-"Forodwaith"
+"Frozen Shore"
 End
 
 Map:MAPMPforodwaith/Desc
-"A vast region of ice and snow in the frozen far north of Middle-earth, beyond the Misty Mountains. \n Capturable: Signal Fire, Inn \n Creeps: Goblin, Snow Troll \n Region: Forodwaith"
+"The Frozen Shore is a stretch of coastline that sits on the Bay of Ice beyond the Wall. \n Capturable: Signal Fire, Inn \n Creeps: Goblin, Snow Troll \n Region: Beyond the Wall"
 End
 
 /////
@@ -92253,7 +92253,7 @@ CONTROLBAR:PurchaseUpgradeBaratheonControlTheNarrowSea
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeBaratheonControlTheNarrowSea
-"The Royal Fleet will establish naval supremacy in the Narrow Sea \n\n Is mutually exclusive with Assassinate Renly choice"
+"The Royal Fleet will establish naval supremacy in the Narrow Sea \n\n Fortress permanently receives more resources from trade \n\n Is mutually exclusive with Assassinate Renly choice"
 END
 
 Upgrade:ControlTheNarrowSea

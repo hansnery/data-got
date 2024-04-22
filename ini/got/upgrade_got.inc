@@ -28,7 +28,7 @@ Upgrade Upgrade_BaratheonPrayHarderAvailableIsTrue
 End
 Upgrade Upgrade_BaratheonShadowbinderTrigger
 	Type								= PLAYER
-	BuildCost						= 0
+	BuildCost						= 500
 	BuildTime						= 0
 	DisplayName					= Upgrade:Shadowbinder
 	UpgradeFX        		= FX_DwarvenFortressUpgrade
@@ -37,7 +37,7 @@ Upgrade Upgrade_BaratheonShadowbinderTrigger
 End
 Upgrade Upgrade_BaratheonControlTheNarrowSeaTrigger
 	Type								= PLAYER
-	BuildCost						= 500
+	BuildCost						= 1000
 	BuildTime						= 0
 	DisplayName					= Upgrade:ControlTheNarrowSea
 	UpgradeFX        		= FX_DwarvenFortressUpgrade
@@ -64,7 +64,7 @@ Upgrade Upgrade_BaratheonLawfulSonTrigger
 End
 Upgrade Upgrade_BaratheonSacrificeShireenTrigger
 	Type								= PLAYER
-	BuildCost						= 1000
+	BuildCost						= 500
 	BuildTime						= 0
 	DisplayName					= Upgrade:SacrificeShireen
 	UpgradeFX        		= FX_DwarvenFortressUpgrade
@@ -73,7 +73,7 @@ Upgrade Upgrade_BaratheonSacrificeShireenTrigger
 End
 Upgrade Upgrade_BaratheonPrayHarderTrigger
 	Type								= PLAYER
-	BuildCost						= 1500
+	BuildCost						= 1000
 	BuildTime						= 0
 	DisplayName					= Upgrade:PrayHarder
 	UpgradeFX        		= FX_DwarvenFortressUpgrade
