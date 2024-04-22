@@ -461,7 +461,7 @@ End
 CommandSet BaratheonPorterCommandSet
 	1 = Command_EvilStop
 	2 = Command_PorterExtinguishFire
-	3 = Command_PorterConstructMill
+	3 = Command_PorterConstructDragonstoneMill
 	4 = Command_PorterConstructLumberMill
 	5	= Command_PorterConstructDragonstoneFoundry
 	6 = Command_PorterConstructBaratheonDragonstoneBarracks

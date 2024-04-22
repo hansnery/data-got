@@ -92681,7 +92681,7 @@ CONTROLBAR:ConstructStormlanderEncampment
 END
 
 CONTROLBAR:ToolTipConstructStormlanderEncampment
-"Trains Stormlander units\n\nUnited under the banner of House Baratheon, the warriors of the Stormlands stand ready to defend their homeland and honor the memory of their fallen lord."
+"\nRequires Assassinate Renly choice\nTrains Stormlander units\n\nUnited under the banner of House Baratheon, the warriors of the Stormlands stand ready to defend their homeland and honor the memory of their fallen lord."
 END
 
 CONTROLBAR:ConstructDragonstoneBattleTower

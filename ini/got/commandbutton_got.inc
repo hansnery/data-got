@@ -1242,9 +1242,9 @@ CommandButton Command_BaratheonFiefArmaments
   InPalantir		   = Yes
 End
 
-CommandButton Command_PorterConstructMill
+CommandButton Command_PorterConstructDragonstoneMill
 	Command       	 = DOZER_CONSTRUCT
-	Object        	 = Mill
+	Object        	 = DragonstoneMill
 	TextLabel     	 = CONTROLBAR:ConstructMill
 	ButtonImage   	 = uiarthedwindmill
 	ButtonBorderType = BUILD
@@ -1295,6 +1295,8 @@ End
 CommandButton Command_PorterConstructStormlanderEncampment
   Command          = DOZER_CONSTRUCT
   Object           = RivendellBreeLandEncampment
+	NeededUpgrade 	 = Upgrade_BaratheonShadowbinderTrigger
+	Options					 = NEED_UPGRADE
   TextLabel        = CONTROLBAR:ConstructStormlanderEncampment
   ButtonImage      = BIRivendellEncampment
   ButtonBorderType = BUILD
