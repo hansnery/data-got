@@ -16030,6 +16030,19 @@ OBJECT:GondorWell
 "Well"
 END
 
+CONTROLBAR:ConstructMonumenttoElendil
+"Build Monument to Elendil (&U)"
+END
+CONTROLBAR:MonumenttoElendilBuildTooltip
+"Provides a leadership bonus to nearby units\nHeals nearby allies \n Detects stealth\n\n The High King of Gondor and Arnor was ever remembered in the South-kingdom, even in its days of waning."
+END
+OBJECT:MonumenttoElendil
+"Monument to Elendil"
+END
+OBJECT:MonumenttoElendilDescription
+"Modifier Type: Leadership \n Allies near the Statue gain +25% damage, +25% armour, earn experience 33% faster, and become immune to fear and terror\nReplenishes health and units in nearby battalions"
+END
+
 OBJECT:GBKeep
 "Keep"
 END
@@ -91841,11 +91854,11 @@ CONTROLBAR:ToolTipStannisLeadership
 END
 
 CONTROLBAR:StannisRoyalFleet
-"Royal Fleet (&R)"
+"Naval Invasion (&E)"
 END
 
 CONTROLBAR:TooltipStannisRoyalFleet
-"Requires Level 3 \n Stannis commands the Royal Fleet\nTeleports targeted units to targeted location\nDoes not work on siege units\n Left click icon, then left click on target units, then left click on pathable location"
+"Requires Control the Narrow Sea upgrade \n\n Teleports targeted units to targeted location \n Does not work on siege units \n\n Left click icon, then left click on target units, then left click on pathable location"
 End
 
 CONTROLBAR:StannisProvenCommander
@@ -92097,11 +92110,11 @@ CONTROLBAR:PurchaseUpgradeDragonstoneFortressSmokeAndBrimstone
 END
 
 CONTROLBAR:FireWeaponDragonstoneFortressSmokeAndBrimstone
-"Smoke and Brimstone (&D)"
+"Smoke and Brimstone (&W)"
 END
 
 CONTROLBAR:ToolTipFireWeaponDragonstoneFortressSmokeAndBrimstone
-"Requires the Smoke and Brimstone upgrade \n The Fortress emits poisonous smoke\nEnemies caught in the smoke suffer damage over time for 15 seconds\n Left click to activate"
+"Requires the Smoke and Brimstone upgrade \n\n The Fortress emits poisonous smoke\nEnemies caught in the smoke suffer damage over time for 15 seconds \n\n Left click to activate"
 END
 
 CONTROLBAR:PurchaseUpgradeDragonstoneFortressValyrianSorcery
@@ -92117,7 +92130,7 @@ CONTROLBAR:PurchaseUpgradeDragonstoneFortressStoneDrum
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDragonstoneFortressStoneDrum
-"Requires the Valyrian Sorcery upgrade\n Allows recruitment of the King's Men\n\nAllows the Fortress to use the Painted Table:\nAll troops on the battlefield gain 15% speed and +50% damage and armour for 30 seconds"
+"Requires the Valyrian Sorcery upgrade\n Allows recruitment of the King's Men\n\nUnlocks the Painted Table:\nAll troops on the battlefield gain 15% speed and +50% damage and +33% armour for 30 seconds"
 END
 
 CONTROLBAR:PrincessOfDragonstone
@@ -92233,11 +92246,11 @@ CONTROLBAR:ToolTipCommandSelectBaratheonMelisandreUpgrades
 END
 
 CONTROLBAR:PurchaseUpgradeBaratheonShadowbinder
-"Assassinate Renly (&W)"
+"Shadowbinder (&W)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeBaratheonShadowbinder
-"Melisandre will use blood magic to assassinate Renly Baratheon \n\n Unlocks the Stormlander Encampment and the Shadowbinder ability for Melisandre \n\n Is mutually exclusive with Control the Narrow Sea choice"
+"Melisandre will use blood magic to achieve her ends \n\n Unlocks the Shadowbinder ability for Melisandre and the Burned Idols structure \n Melisandre's health is increased \n\n Is mutually exclusive with Control the Narrow Sea upgrade"
 END
 
 Upgrade:Shadowbinder
@@ -92253,7 +92266,7 @@ CONTROLBAR:PurchaseUpgradeBaratheonControlTheNarrowSea
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeBaratheonControlTheNarrowSea
-"The Royal Fleet will establish naval supremacy in the Narrow Sea \n\n Fortress permanently receives more resources from trade \n\n Is mutually exclusive with Assassinate Renly choice"
+"The Royal Fleet will establish naval supremacy in the Narrow Sea \n\n Fortress permanently receives more resources from trade \n Passive ability \n\n Unlocks Naval Invasion fortress ability \n\n Is mutually exclusive with Shadowbinder upgrade"
 END
 
 Upgrade:ControlTheNarrowSea
@@ -92261,7 +92274,7 @@ Upgrade:ControlTheNarrowSea
 END
 
 TOOLTIP:ControlTheNarrowSeaIsMutuallyExclusive
-"You have already chosen Assassinate Renly"
+"You have already chosen Shadowbinder"
 END
 
 CONTROLBAR:PurchaseUpgradeBaratheonKingsBloodPower
@@ -92269,7 +92282,7 @@ CONTROLBAR:PurchaseUpgradeBaratheonKingsBloodPower
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeBaratheonKingsBloodPower
-"Gendry is acknowledged as the bastard son of Robert Baratheon \nand his blood is used by Melisandre for blood magic \n\n Gendry can be recruited at the Fortress \n Melisandre's health is increased \n\n Is mutually exclusive with Lawful Son choice \n Prerequisite for Gendry"
+"Gendry is acknowledged as the bastard son of Robert Baratheon \nand his blood is used by Melisandre for blood magic \n\n Gendry can be recruited at the Fortress \n Melisandre's health is increased \n\n Is mutually exclusive with Lawful Son upgrade \n Prerequisite for Gendry"
 END
 
 Upgrade:KingsBloodPower
@@ -92285,7 +92298,7 @@ CONTROLBAR:PurchaseUpgradeBaratheonLawfulSon
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeBaratheonLawfulSon
-"Gendry is declared heir to Stannis Baratheon and \nis legitimized as the lawful son of Robert Baratheon \n\n Lord Gendry can be recruited at the Fortress \n He is stronger and provides leadership to Stormlander units \n\n Is mutually exclusive with Kings Blood Power choice \n Prerequisite for Lord Gendry"
+"Gendry is declared heir to Stannis Baratheon and \nis legitimized as the lawful son of Robert Baratheon \n\n Lord Gendry can be recruited at the Fortress \n He is stronger and provides leadership to Stormlander units \n\n Is mutually exclusive with Kings Blood Power upgrade \n Prerequisite for Lord Gendry"
 END
 
 Upgrade:LawfulSon
@@ -92301,7 +92314,7 @@ CONTROLBAR:PurchaseUpgradeBaratheonSacrificeShireen
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeBaratheonSacrificeShireen
-"Shireen Baratheon is burned at the stake \n\n Melisandre's attack damage and radius is greatly increased \n\n Is mutually exclusive with Pray Harder choice \n Shireen Baratheon dies and can no longer be recruited or revived"
+"Shireen Baratheon is burned at the stake \n\n Melisandre's attack damage and radius is greatly increased \n Melisandre's health is increased \n\n Is mutually exclusive with Pray Harder upgrade \n Shireen Baratheon dies and can no longer be recruited or revived"
 END
 
 Upgrade:SacrificeShireen
@@ -92317,7 +92330,7 @@ CONTROLBAR:PurchaseUpgradeBaratheonPrayHarder
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeBaratheonPrayHarder
-"Stannis Baratheon refuses to cede to religious extremism \n\n Can recruit mercenaries at the Fortress who will fight for a lump sum payment \n Is mutually exclusive with Sacrifice Shireen choice"
+"Stannis Baratheon refuses to cede to religious extremism \n\n Can recruit mercenaries at the Fortress who will fight for a lump sum payment \n Is mutually exclusive with Sacrifice Shireen upgrade"
 END
 
 Upgrade:PrayHarder
@@ -92681,7 +92694,7 @@ CONTROLBAR:ConstructStormlanderEncampment
 END
 
 CONTROLBAR:ToolTipConstructStormlanderEncampment
-"\nRequires Assassinate Renly choice\nTrains Stormlander units\n\nUnited under the banner of House Baratheon, the warriors of the Stormlands stand ready to defend their homeland and honor the memory of their fallen lord."
+"Trains Stormlander units\n\nUnited under the banner of House Baratheon, the warriors of the Stormlands stand ready to defend their homeland and honor the memory of their fallen lord."
 END
 
 CONTROLBAR:ConstructDragonstoneBattleTower
@@ -92919,6 +92932,38 @@ End
 
 CONTROLBAR:SelectUpgradesDragonstoneFortress
 "Upgrade Fortress (&T)"
+END
+
+CONTROLBAR:SelectFortressAbilities
+"Fortress Abilities (&D)"
+END
+
+CONTROLBAR:ToolTipCommandSelectFortressAbilities
+"Choose abilities available to the Fortress"
+END
+
+CONTROLBAR:BaratheonPaintedTable
+"The Painted Table (&R)"
+END
+
+CONTROLBAR:ToolTipBaratheonPaintedTable
+"Requires the Stone Drum upgrade \n\n All troops on the battlefield gain 15% speed and +50% damage and +33% armour for 30 seconds \n\n Left click to activate"
+END
+
+OBJECT:BaratheonBurnedIdols
+"Burned Idols"
+END
+
+OBJECT:BaratheonBurnedIdolsDescription
+"Modifier Type: Leadership \n Dragonstone units near Burned Idols gain +25% damage, +25% armour, earn experience 33% faster, replenishes health, and become immune to fear and terror \n Other allied units near Burned Idols suffer -15% damage \n Replenishes units in nearby battalions"
+END
+
+CONTROLBAR:ConstructBaratheonBurnedIdols
+"Burn Idols (&U)"
+END
+
+CONTROLBAR:TooltipConstructBaratheonBurnedIdols
+"Provides a leadership bonus to Dragonstone units \n Heals nearby Dragonstone units \n Debuffs Stormlander units \n Detects stealth \n\n The Red Priestess urged the King to Burn the false idols of the Seven, which angered many."
 END
 
 END

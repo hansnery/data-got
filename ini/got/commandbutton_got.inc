@@ -34,7 +34,8 @@ CommandButton Command_SpecialAbilityStannisRoyalFleet
 	ButtonImage		 	 = BAStannisRoyalFleetButton
 	ButtonBorderType = ACTION
 	DescriptLabel	 	 = CONTROLBAR:TooltipStannisRoyalFleet
-	InPalantir		 	 = Yes
+	Radial					 = Yes
+	InPalantir		 	 = No
 	RadiusCursorType  = RhllorRadiusCursor
 	;UnitSpecificSound	= GloinVoiceTeleport
 End
@@ -446,7 +447,7 @@ CommandButton Command_SpecialAbilityMelisandreShadowbinder
   TextLabel         = CONTROLBAR:MelisandreShadowbinder
   CursorName        = EvilAbilityObj
   InvalidCursorName = GenericInvalid
-  ButtonImage       = BAShadowbinder ;BAMelisandreShadowbinder
+  ButtonImage       = BAMelisandreShadowbinder ;BAShadowbinder ;BAMelisandreShadowbinder
   ButtonBorderType  = ACTION
   DescriptLabel     = CONTROLBAR:ToolTipMelisandreShadowbinder
   InPalantir				= Yes
@@ -473,7 +474,7 @@ CommandButton Command_SelectRevivablesDragonstoneFortress
 	ButtonBorderType  = SYSTEM
 	DescriptLabel     = CONTROLBAR:ToolTipCommandSelectRevivablesMordorFortress
 	Radial            = Yes
-	CommandRangeStart	= 21	//Starts its counting at 0, so command button 8 is 7
+	CommandRangeStart	= 23	//Starts its counting at 0, so command button 8 is 7
 	CommandRangeCount	= 10
 End
 
@@ -695,7 +696,7 @@ CommandButton Command_SelectBaratheonDavosUpgrades
 	ButtonBorderType  = SYSTEM 
 	DescriptLabel     = CONTROLBAR:ToolTipCommandSelectBaratheonDavosUpgrades
 	Radial            = Yes
-	CommandRangeStart	= 13	//Starts its counting at 0, so command button 8 is 7
+	CommandRangeStart	= 12	//Starts its counting at 0, so command button 8 is 7
 	CommandRangeCount	= 4
 End
 
@@ -706,7 +707,7 @@ CommandButton Command_SelectBaratheonMelisandreUpgrades
 	ButtonBorderType  = SYSTEM 
 	DescriptLabel     = CONTROLBAR:ToolTipCommandSelectBaratheonMelisandreUpgrades
 	Radial            = Yes
-	CommandRangeStart	= 17	//Starts its counting at 0, so command button 8 is 7
+	CommandRangeStart	= 16	//Starts its counting at 0, so command button 8 is 7
 	CommandRangeCount	= 4
 End
 
@@ -716,7 +717,7 @@ CommandButton Command_SelectBaratheonShadowbinder
   Options					 = NEED_UPGRADE CANCELABLE
 	NeededUpgrade	   = Upgrade_BaratheonShadowbinderAvailableIsTrue
   TextLabel        = CONTROLBAR:PurchaseUpgradeBaratheonShadowbinder
-  ButtonImage      = BAMelisandreShadowbinder
+  ButtonImage      = BAShadowbinder ;BAMelisandreShadowbinder
   ButtonBorderType = UPGRADE
   DescriptLabel    = CONTROLBAR:ToolTipPurchaseUpgradeBaratheonShadowbinder
   Radial           = Yes
@@ -1295,8 +1296,8 @@ End
 CommandButton Command_PorterConstructStormlanderEncampment
   Command          = DOZER_CONSTRUCT
   Object           = RivendellBreeLandEncampment
-	NeededUpgrade 	 = Upgrade_BaratheonShadowbinderTrigger
-	Options					 = NEED_UPGRADE
+	; NeededUpgrade 	 = Upgrade_BaratheonShadowbinderTrigger
+	; Options					 = NEED_UPGRADE
   TextLabel        = CONTROLBAR:ConstructStormlanderEncampment
   ButtonImage      = BIRivendellEncampment
   ButtonBorderType = BUILD
@@ -1638,4 +1639,41 @@ CommandButton Command_SpecialAbilityBaratheonFeyWisdom
   AutoAbility		   = Yes
   InPalantir       = Yes
   PresetRange			 = 160.0
+End
+
+CommandButton Command_SelectFortressAbilities
+	Command           = PUSH_VISIBLE_COMMAND_RANGE
+	TextLabel         = CONTROLBAR:SelectFortressAbilities
+	ButtonImage       = GOTFortressAbilities
+	ButtonBorderType  = SYSTEM 
+	DescriptLabel     = CONTROLBAR:ToolTipCommandSelectFortressAbilities
+	Radial            = Yes
+	CommandRangeStart	= 19	//Starts its counting at 0, so command button 8 is 7
+	CommandRangeCount	= 4
+End
+
+CommandButton Command_SpecialAbilityBaratheonPaintedTable
+  Command          = SPECIAL_POWER
+  SpecialPower     = SpecialAbilityMordorFortressMorgulSpire
+  TextLabel        = CONTROLBAR:BaratheonPaintedTable
+  ButtonImage      = BAPaintedTable
+  RadiusCursorType = TrainingRadiusCursor
+  ButtonBorderType = ACTION
+  DescriptLabel    = CONTROLBAR:ToolTipBaratheonPaintedTable
+  Radial					 = Yes
+  InPalantir		   = Yes
+  AutoAbility			 = Yes
+  PresetRange			 = 160.0
+End
+
+CommandButton Command_PorterConstructBaratheonBurnedIdol
+	Command					 = DOZER_CONSTRUCT
+	Object					 = BaratheonBurnedIdols
+	NeededUpgrade 	 = Upgrade_BaratheonShadowbinderTrigger
+	Options					 = NEED_UPGRADE
+	TextLabel				 = CONTROLBAR:ConstructBaratheonBurnedIdols
+	ButtonImage			 = BABurnedIdol
+	ButtonBorderType = BUILD
+	DescriptLabel		 = CONTROLBAR:TooltipConstructBaratheonBurnedIdols
+	Radial					 = Yes
 End
