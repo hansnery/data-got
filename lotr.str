@@ -91858,7 +91858,7 @@ CONTROLBAR:StannisRoyalFleet
 END
 
 CONTROLBAR:TooltipStannisRoyalFleet
-"Requires Control the Narrow Sea upgrade \n\n Teleports targeted units to targeted location \n Does not work on siege units \n\n Left click icon, then left click on target units, then left click on pathable location"
+"Requires Master of Ships upgrade \n\n Teleports targeted units to targeted location \n Does not work on siege units \n\n Left click icon, then left click on target units, then left click on pathable location"
 End
 
 CONTROLBAR:StannisProvenCommander
@@ -92245,36 +92245,36 @@ CONTROLBAR:ToolTipCommandSelectBaratheonMelisandreUpgrades
 "Heed the Priestess of Asshai and follow a path of faith"
 END
 
-CONTROLBAR:PurchaseUpgradeBaratheonShadowbinder
-"Shadowbinder (&W)"
+CONTROLBAR:PurchaseUpgradeBaratheonDefenderOfTheFaith
+"Defender of the Faith (&W)"
 END
 
-CONTROLBAR:ToolTipPurchaseUpgradeBaratheonShadowbinder
-"Melisandre will use blood magic to achieve her ends \n\n Unlocks the Shadowbinder ability for Melisandre and the Burned Idols structure \n Melisandre's health is increased \n\n Is mutually exclusive with Control the Narrow Sea upgrade"
+CONTROLBAR:ToolTipPurchaseUpgradeBaratheonDefenderOfTheFaith
+"Melisandre will relentlessly champion the one true faith \n\n Unlocks the Burned Idols structure \n Melisandre's health is increased \n\n Is mutually exclusive with Master of Ships upgrade"
 END
 
-Upgrade:Shadowbinder
-"Shadowbinder"
+Upgrade:DefenderOfTheFaith
+"Defender of the Faith"
 END
 
-TOOLTIP:ShadowbinderIsMutuallyExclusive
-"You have already chosen Control the Narrow Sea"
+TOOLTIP:DefenderOfTheFaithIsMutuallyExclusive
+"You have already chosen Master of Ships"
 END
 
 CONTROLBAR:PurchaseUpgradeBaratheonControlTheNarrowSea
-"Control the Narrow Sea (&W)"
+"Master of Ships (&W)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeBaratheonControlTheNarrowSea
-"The Royal Fleet will establish naval supremacy in the Narrow Sea \n\n Fortress permanently receives more resources from trade \n Passive ability \n\n Unlocks Naval Invasion fortress ability \n\n Is mutually exclusive with Shadowbinder upgrade"
+"The Royal Fleet will establish naval supremacy in the Narrow Sea \n\n Fortress permanently receives more resources from trade \n Passive ability \n\n Unlocks Naval Invasion fortress ability \n\n Is mutually exclusive with Defender of the Faith upgrade"
 END
 
 Upgrade:ControlTheNarrowSea
-"Control the Narrow Sea"
+"Master of Ships"
 END
 
 TOOLTIP:ControlTheNarrowSeaIsMutuallyExclusive
-"You have already chosen Shadowbinder"
+"You have already chosen Defender of the Faith"
 END
 
 CONTROLBAR:PurchaseUpgradeBaratheonKingsBloodPower
@@ -92963,7 +92963,35 @@ CONTROLBAR:ConstructBaratheonBurnedIdols
 END
 
 CONTROLBAR:TooltipConstructBaratheonBurnedIdols
-"Provides a leadership bonus to Dragonstone units \n Heals nearby Dragonstone units \n Debuffs Stormlander units \n Detects stealth \n\n The Red Priestess urged the King to Burn the false idols of the Seven, which angered many."
+"Requires the Defender of the Faith upgrade \n\n Provides a leadership bonus to Dragonstone units \n Heals nearby Dragonstone units \n Debuffs Stormlander units \n Detects stealth \n\n The Red Priestess urged the King to\nburn the false idols of the Seven, which angered many."
 END
+
+CONTROLBAR:ConstructRedTemple
+"Build Red Temple (&N)"
+End
+
+CONTROLBAR:ToolTipConstructRedTemple
+"Trains Red Priests \n Limited to 1 \n\n Red temples are religious buildings of red stone used by followers of R'hllor, the Lord of Light. Red priests light nightfires at sunset, welcome the sun in the morning, and preach to crowds."
+End
+
+OBJECT:RedTemple
+"Red Temple of R'hllor"
+END
+
+OBJECT:SRedTempleDescription
+"Level 2: +10% faster build speed\n Level 3: +25% faster build speed"
+END
+
+CONTROLBAR:ConstructRedPriestHorde
+"R'hllor Cultists (&W)"
+End
+
+CONTROLBAR:TooltipBuildRedPriestHorde
+"Battlefield Support Unit \n \n Learned in the ancient rites and customs of Asshai, these fanatical cultists seek to gain R'hllor's favor and wield some of his power through sacrifice."
+End
+
+OBJECT:RedPriestHorde
+"R'hllor Cultists"
+End
 
 END

@@ -20,6 +20,17 @@ AudioEvent StannisLastStand
   SubmixSlider = SoundFX
 End
 
+AudioEvent StannisResentment
+  Sounds	 = stannis_bend_the_knee
+  Volume	 = 125
+  MinRange = 500
+  MaxRange = 1000
+  Priority = critical
+  Limit		 = 2
+  Type		 = world shrouded everyone
+  SubmixSlider = SoundFX
+End
+
 AudioEvent LightOfRhllorCreated
   Sounds       = melisandre_ive_seen_the_path_to_victory_in_the_flames
   Limit	       = 2

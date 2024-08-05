@@ -65,7 +65,7 @@ AudioEvent StannisVoiceSalute
 End
 
 AudioEvent StannisVoiceAttack
-  Sounds        = stannis_not_easily_killed stannis_bend_the_knee stannis_kingdom_bleed stannis_punish_them stannis_little_regard stannis_cleaner_ways
+  Sounds        = stannis_not_easily_killed stannis_kingdom_bleed stannis_punish_them stannis_little_regard stannis_cleaner_ways ;stannis_bend_the_knee
   Volume        = UNIT_RESPONSE_VOLUME
   MinVolume	= UNIT_RESPONSE_MINVOLUME
   Type          = world player voice
@@ -115,7 +115,7 @@ AudioEvent StannisVoiceSelectMS
 End
 
 AudioEvent StannisVoiceSelectBattle
-  Sounds        = stannis_fighting stannis_not_easily_killed stannis_bend_the_knee stannis_kingdom_bleed stannis_punish_them stannis_little_regard stannis_beat_dogs stannis_kneel
+  Sounds        = stannis_fighting stannis_not_easily_killed stannis_kingdom_bleed stannis_punish_them stannis_little_regard stannis_beat_dogs stannis_kneel ;stannis_bend_the_knee
   Volume        = UNIT_RESPONSE_VOLUME
   MinVolume	    = UNIT_RESPONSE_MINVOLUME
   Type          = world player voice

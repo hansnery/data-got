@@ -5,10 +5,10 @@ Upgrade Upgrade_Lightbringer
 	Type = PLAYER
 	LocalPlayerGainsUpgradeEvaEvent = UpgradeLightbringer
 End
-Upgrade Upgrade_Shadowbinder
+Upgrade Upgrade_DefenderOfTheFaith
 	Type = PLAYER
 End
-Upgrade Upgrade_BaratheonShadowbinderAvailableIsTrue
+Upgrade Upgrade_BaratheonDefenderOfTheFaithAvailableIsTrue
 	Type = PLAYER
 End
 Upgrade Upgrade_BaratheonControlTheNarrowSeaAvailableIsTrue
@@ -26,11 +26,11 @@ End
 Upgrade Upgrade_BaratheonPrayHarderAvailableIsTrue
 	Type = PLAYER
 End
-Upgrade Upgrade_BaratheonShadowbinderTrigger
+Upgrade Upgrade_BaratheonDefenderOfTheFaithTrigger
 	Type								= PLAYER
 	BuildCost						= 500
 	BuildTime						= 0
-	DisplayName					= Upgrade:Shadowbinder
+	DisplayName					= Upgrade:DefenderOfTheFaith
 	UpgradeFX        		= FX_DwarvenFortressUpgrade
 	SkirmishAIHeuristic = AI_UPGRADEHEURISTIC_IMPORTANT
 	; ResearchSound 			= UpgradeLawfulSon

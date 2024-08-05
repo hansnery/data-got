@@ -26,6 +26,21 @@ CommandButton Command_StannisFakeLeadershipButton
   InPalantir		   = Yes
 End
 
+CommandButton Command_SpecialAbilityStannisResentment
+  Command           = SPECIAL_POWER
+  SpecialPower      = SpecialAbilityThorinResentment
+  Options						= NEED_TARGET_POS CONTEXTMODE_COMMAND
+  TextLabel         = CONTROLBAR:ThorinResentment
+  ButtonImage       = BARottenPeaches
+  CursorName				= Bombard
+  RadiusCursorType	= RhllorRadiusCursor
+  InvalidCursorName	= GenericInvalid
+  ButtonBorderType  = ACTION
+  DescriptLabel     = CONTROLBAR:ToolTipThorinResentment
+  InPalantir        = Yes
+  AutoAbility				= Yes
+End
+
 CommandButton Command_SpecialAbilityStannisRoyalFleet
 	Command			 		 = SPECIAL_POWER
 	SpecialPower	 	 = SpecialAbilityStoreObjectsForLevel2TeleportHaldir
@@ -442,8 +457,8 @@ End
 CommandButton Command_SpecialAbilityMelisandreShadowbinder
   Command           = SPECIAL_POWER
   SpecialPower      = SpecialAbilityMelisandreShadowbinder
-	NeededUpgrade		  = Upgrade_Shadowbinder Upgrade_ObjectLevel10
-  Options           = NEED_TARGET_ENEMY_OBJECT NEED_UPGRADE
+	; NeededUpgrade		  = Upgrade_DefenderOfTheFaith Upgrade_ObjectLevel10
+  Options           = NEED_TARGET_ENEMY_OBJECT ;NEED_UPGRADE
   TextLabel         = CONTROLBAR:MelisandreShadowbinder
   CursorName        = EvilAbilityObj
   InvalidCursorName = GenericInvalid
@@ -711,18 +726,18 @@ CommandButton Command_SelectBaratheonMelisandreUpgrades
 	CommandRangeCount	= 4
 End
 
-CommandButton Command_SelectBaratheonShadowbinder
+CommandButton Command_SelectBaratheonDefenderOfTheFaith
   Command          = PLAYER_UPGRADE
-  Upgrade          = Upgrade_BaratheonShadowbinderTrigger
+  Upgrade          = Upgrade_BaratheonDefenderOfTheFaithTrigger
   Options					 = NEED_UPGRADE CANCELABLE
-	NeededUpgrade	   = Upgrade_BaratheonShadowbinderAvailableIsTrue
-  TextLabel        = CONTROLBAR:PurchaseUpgradeBaratheonShadowbinder
-  ButtonImage      = BAShadowbinder ;BAMelisandreShadowbinder
+	NeededUpgrade	   = Upgrade_BaratheonDefenderOfTheFaithAvailableIsTrue
+  TextLabel        = CONTROLBAR:PurchaseUpgradeBaratheonDefenderOfTheFaith
+  ButtonImage      = BABurnedIdol
   ButtonBorderType = UPGRADE
-  DescriptLabel    = CONTROLBAR:ToolTipPurchaseUpgradeBaratheonShadowbinder
+  DescriptLabel    = CONTROLBAR:ToolTipPurchaseUpgradeBaratheonDefenderOfTheFaith
   Radial           = Yes
   InPalantir	   	 = Yes
-	LacksPrerequisiteLabel = TOOLTIP:ShadowbinderIsMutuallyExclusive
+	LacksPrerequisiteLabel = TOOLTIP:DefenderOfTheFaithIsMutuallyExclusive
 End
 
 CommandButton Command_SelectBaratheonControlTheNarrowSea
@@ -1296,8 +1311,6 @@ End
 CommandButton Command_PorterConstructStormlanderEncampment
   Command          = DOZER_CONSTRUCT
   Object           = RivendellBreeLandEncampment
-	; NeededUpgrade 	 = Upgrade_BaratheonShadowbinderTrigger
-	; Options					 = NEED_UPGRADE
   TextLabel        = CONTROLBAR:ConstructStormlanderEncampment
   ButtonImage      = BIRivendellEncampment
   ButtonBorderType = BUILD
@@ -1669,11 +1682,34 @@ End
 CommandButton Command_PorterConstructBaratheonBurnedIdol
 	Command					 = DOZER_CONSTRUCT
 	Object					 = BaratheonBurnedIdols
-	NeededUpgrade 	 = Upgrade_BaratheonShadowbinderTrigger
+	NeededUpgrade 	 = Upgrade_BaratheonDefenderOfTheFaithTrigger
 	Options					 = NEED_UPGRADE
 	TextLabel				 = CONTROLBAR:ConstructBaratheonBurnedIdols
 	ButtonImage			 = BABurnedIdol
 	ButtonBorderType = BUILD
 	DescriptLabel		 = CONTROLBAR:TooltipConstructBaratheonBurnedIdols
 	Radial					 = Yes
+End
+
+CommandButton Command_ConstructRedTemple
+	Command          = DOZER_CONSTRUCT
+	Object           = RedTemple
+	TextLabel        = CONTROLBAR:ConstructRedTemple
+	ButtonImage      = uisanctumzigur
+	ButtonBorderType = BUILD
+	DescriptLabel    = CONTROLBAR:ToolTipConstructRedTemple
+	Radial           = Yes
+End
+
+CommandButton Command_ConstructRedPriestHorde
+	Command					 = UNIT_BUILD
+	Object					 = BaratheonRedPriestHorde
+	Options					 = CANCELABLE
+	TextLabel				 = CONTROLBAR:ConstructRedPriestHorde
+	ButtonImage			 = UIZigurCultist
+	ButtonBorderType = BUILD
+	DescriptLabel    = CONTROLBAR:TooltipBuildRedPriestHorde
+	Radial					 = Yes
+	InPalantir			 = Yes
+	ShowProductionCount	= Yes
 End

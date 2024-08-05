@@ -2221,3 +2221,165 @@ ExperienceLevel	BaratheonWhiteStagSummonedLevel1
 		MaxSelectedUnits = 40
 	End
 END
+
+ExperienceLevel	RedTempleLevel1
+	TargetNames				 = RedTemple RedTempleFoundation
+	RequiredExperience = 1
+	ExperienceAward		 = ANGMAR_FORGEWORKS_LVL1_EXP_AWARD
+	Rank							 = 1
+	AttributeModifiers = BasicLevelUpProduction1
+	Upgrades					 = Upgrade_StructureLevel1
+End
+
+ExperienceLevel	RedTempleLevel2
+	TargetNames				 = RedTemple RedTempleFoundation
+	RequiredExperience = ANGMAR_FORGEWORKS_LVL2_EXP_NEEDED
+	ExperienceAward		 = ANGMAR_FORGEWORKS_LVL2_EXP_AWARD
+	Rank							 = 2
+	AttributeModifiers = GondorBarracksHitPointModLvl2 GondorBarracksBuildSpeedModLvl2
+	Upgrades					 = Upgrade_AngmarForgeWorksLevel2
+	LevelUpFx					 = FX:GenericBuildingUpgrade
+End
+
+ExperienceLevel	RedTempleLevel3
+	TargetNames				 = RedTemple RedTempleFoundation
+	RequiredExperience = ANGMAR_FORGEWORKS_LVL3_EXP_NEEDED
+	ExperienceAward		 = ANGMAR_FORGEWORKS_LVL3_EXP_AWARD
+	Rank							 = 3
+	AttributeModifiers = GondorBarracksHitPointModLvl3 GondorBarracksBuildSpeedModLvl3
+	Upgrades					 = Upgrade_AngmarForgeWorksLevel3
+	LevelUpFx					 = FX:GenericBuildingUpgrade
+End
+
+ExperienceLevel	GOTNecromancerLevel1
+	TargetNames									=	NECROMANCER_GOT
+	RequiredExperience					=	EXPERIENCE_REQUIRED_EVIL_NECROMANCER_1
+	ExperienceAward							=	EXPERIENCE_AWARD_EVIL_NECROMANCER_1
+	ExperienceAwardOwnGuysDie		= 0
+	ShowLevelUpTint							=	Yes
+	Rank												=	1
+	LevelUpTintColor						=	R:255 G:255	B:255
+	LevelUpTintPreColorTime			=	500
+	LevelUpTintPostColorTime		=	3000
+	LevelUpTintSustainColorTime	=	500
+	EmotionType									=	CHEER
+	Upgrades										= Upgrade_ObjectLevel1
+	SelectionDecal
+		Texture					 = decal_I_level1
+		Texture2				 = decal_evil_CO
+		Style						 = SHADOW_MERGE_DECAL
+		OpacityMin			 = 80%
+		OpacityMax			 = 100%
+		MinRadius				 = HORDE_DECAL_MIN_RADIUS
+		MaxRadius				 = 200
+		MaxSelectedUnits = 40
+	End
+End
+
+ExperienceLevel	GOTNecromancerLevel2
+	TargetNames									=	NECROMANCER_GOT
+	RequiredExperience					=	EXPERIENCE_REQUIRED_EVIL_NECROMANCER_2
+	ExperienceAward							=	EXPERIENCE_AWARD_EVIL_NECROMANCER_2
+	AttributeModifiers					=	EvilEliteBonusRank2
+	ExperienceAwardOwnGuysDie		= 0
+	LevelUpFx										=	FX:EvilLevelUpFX
+	ShowLevelUpTint							=	Yes
+	Rank												=	2
+	LevelUpTintColor						=	R:255 G:255	B:255
+	LevelUpTintPreColorTime			=	500
+	LevelUpTintPostColorTime		=	3000
+	LevelUpTintSustainColorTime	=	500
+	EmotionType									=	CHEER
+	Upgrades										= Upgrade_ObjectLevel2
+	SelectionDecal
+		Texture					 = decal_I_level2
+		Texture2				 = decal_evil_CO
+		Style						 = SHADOW_MERGE_DECAL
+		OpacityMin			 = 80%
+		OpacityMax			 = 100%
+		MinRadius				 = HORDE_DECAL_MIN_RADIUS
+		MaxRadius				 = 200
+		MaxSelectedUnits = 40
+	End
+End
+
+ExperienceLevel	GOTNecromancerLevel3
+	TargetNames									=	NECROMANCER_GOT
+	RequiredExperience					=	EXPERIENCE_REQUIRED_EVIL_NECROMANCER_3
+	ExperienceAward							=	EXPERIENCE_AWARD_EVIL_NECROMANCER_3
+	AttributeModifiers					=	EvilEliteBonusRank3 ;EvilNecromancerBonusRank3
+	ExperienceAwardOwnGuysDie		= 0
+	LevelUpFx										=	FX:EvilLevelUpFX
+	ShowLevelUpTint							=	Yes
+	Rank												=	3
+	LevelUpTintColor						=	R:255 G:255	B:255
+	LevelUpTintPreColorTime			=	500
+	LevelUpTintPostColorTime		=	3000
+	LevelUpTintSustainColorTime	=	500
+	EmotionType									=	CHEER
+	Upgrades										=	Upgrade_ObjectLevel3
+	SelectionDecal
+		Texture					 = decal_I_level3
+		Texture2				 = decal_evil_CO
+		Style						 = SHADOW_MERGE_DECAL
+		OpacityMin			 = 80%
+		OpacityMax			 = 100%
+		MinRadius				 = HORDE_DECAL_MIN_RADIUS
+		MaxRadius				 = 200
+		MaxSelectedUnits = 40
+	End
+End
+
+ExperienceLevel	GOTNecromancerLevel4
+	TargetNames									=	NECROMANCER_GOT
+	RequiredExperience					=	EXPERIENCE_REQUIRED_EVIL_NECROMANCER_4
+	ExperienceAward							=	EXPERIENCE_AWARD_EVIL_NECROMANCER_4
+	AttributeModifiers					=	EvilEliteBonusRank4 ;EvilNecromancerBonusRank4
+	ExperienceAwardOwnGuysDie		= 0
+	LevelUpFx										=	FX:EvilLevelUpFX
+	ShowLevelUpTint							=	Yes
+	Rank												=	4
+	LevelUpTintColor						=	R:255 G:255	B:255
+	LevelUpTintPreColorTime			=	500
+	LevelUpTintPostColorTime		=	3000
+	LevelUpTintSustainColorTime	=	500
+	EmotionType									=	CHEER
+	Upgrades										=	Upgrade_ObjectLevel4
+	SelectionDecal
+		Texture					 = decal_I_level4
+		Texture2				 = decal_evil_CO
+		Style						 = SHADOW_MERGE_DECAL
+		OpacityMin			 = 80%
+		OpacityMax			 = 100%
+		MinRadius				 = HORDE_DECAL_MIN_RADIUS
+		MaxRadius				 = 200
+		MaxSelectedUnits = 40
+	End
+End
+
+ExperienceLevel	GOTNecromancerLevel5
+	TargetNames									=	NECROMANCER_GOT
+	RequiredExperience					=	EXPERIENCE_REQUIRED_EVIL_NECROMANCER_5
+	ExperienceAward							=	EXPERIENCE_AWARD_EVIL_NECROMANCER_5
+	AttributeModifiers					=	EvilEliteBonusRank5
+	ExperienceAwardOwnGuysDie		= 0
+	LevelUpFx										=	FX:EvilLevelUpFX
+	ShowLevelUpTint							=	Yes
+	Rank												=	5
+	LevelUpTintColor						=	R:255 G:255	B:255
+	LevelUpTintPreColorTime			=	500
+	LevelUpTintPostColorTime		=	3000
+	LevelUpTintSustainColorTime	=	500
+	EmotionType									=	CHEER
+	Upgrades										=	Upgrade_ObjectLevel5
+	SelectionDecal
+		Texture					 = decal_I_level4
+		Texture2				 = decal_evil_CO
+		Style						 = SHADOW_MERGE_DECAL
+		OpacityMin			 = 80%
+		OpacityMax			 = 100%
+		MinRadius				 = HORDE_DECAL_MIN_RADIUS
+		MaxRadius				 = 200
+		MaxSelectedUnits = 40
+	End
+End

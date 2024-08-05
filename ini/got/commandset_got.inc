@@ -16,7 +16,7 @@ End
 CommandSet BaratheonStannisCommandSet
 	1	 = Command_ToggleStance
 	2	 = Command_StannisFakeLeadershipButton
-	3	 = Command_SpecialAbilityStannisRoyalFleet
+	3	 = Command_SpecialAbilityStannisResentment
 	4	 = Command_SpecialAbilityStannisProvenCommander
 	5	 = Command_SpecialAbilityStannisLightbringer
 	6	 = Command_SpecialAbilityStannisOnlyForward
@@ -246,7 +246,7 @@ CommandSet DragonstoneFortressCommandSet
 	14 = Command_SelectBaratheonControlTheNarrowSea
 	15 = Command_SelectBaratheonLawfulSon
 	16 = Command_SelectBaratheonPrayHarder
-	17 = Command_SelectBaratheonShadowbinder
+	17 = Command_SelectBaratheonDefenderOfTheFaith
 	18 = Command_SelectBaratheonKingsBloodPower
 	19 = Command_SelectBaratheonSacrificeShireen
 	20 = Command_RadialBack
@@ -288,7 +288,7 @@ CommandSet DragonstoneFortressCommandSet_BastardGendry
 	14 = Command_SelectBaratheonControlTheNarrowSea
 	15 = Command_SelectBaratheonLawfulSon
 	16 = Command_SelectBaratheonPrayHarder
-	17 = Command_SelectBaratheonShadowbinder
+	17 = Command_SelectBaratheonDefenderOfTheFaith
 	18 = Command_SelectBaratheonKingsBloodPower
 	19 = Command_SelectBaratheonSacrificeShireen
 	20 = Command_RadialBack
@@ -330,7 +330,7 @@ CommandSet DragonstoneFortressCommandSet_LordGendry
 	14 = Command_SelectBaratheonControlTheNarrowSea
 	15 = Command_SelectBaratheonLawfulSon
 	16 = Command_SelectBaratheonPrayHarder
-	17 = Command_SelectBaratheonShadowbinder
+	17 = Command_SelectBaratheonDefenderOfTheFaith
 	18 = Command_SelectBaratheonKingsBloodPower
 	19 = Command_SelectBaratheonSacrificeShireen
 	20 = Command_RadialBack
@@ -357,7 +357,6 @@ CommandSet ShireenCommandSet
 	3  = Command_SpecialPowerShireenGoodAndKind
 	4  = Command_SpecialPowerShireenGlowOfTheGreyscale
 	5  = Command_SpecialAbilityShireenLearnedChild
-	;6  = Command_SpecialAbilityMelisandreShadowbinder
 	12 = Command_CaptureBuilding
 	13 = Command_AttackMove
 	14 = Command_Stop
@@ -372,7 +371,6 @@ CommandSet ShireenCommandSet_Lvl3
 	3  = Command_SpecialPowerShireenGoodAndKind
 	4  = Command_SpecialPowerShireenGlowOfTheGreyscale
 	5  = Command_SpecialAbilityShireenLearnedChild
-	;6  = Command_SpecialAbilityMelisandreShadowbinder	
 	12 = Command_CaptureBuilding
 	13 = Command_AttackMove
 	14 = Command_Stop
@@ -387,7 +385,6 @@ CommandSet ShireenCommandSet_Lvl6
 	3  = Command_SpecialPowerShireenGoodAndKind
 	4  = Command_SpecialPowerShireenGlowOfTheGreyscale
 	5  = Command_SpecialAbilityShireenLearnedChild
-	;6  = Command_SpecialAbilityMelisandreShadowbinder
 	12 = Command_CaptureBuilding
 	13 = Command_AttackMove
 	14 = Command_Stop
@@ -402,7 +399,6 @@ CommandSet ShireenCommandSet_Lvl10
 	3  = Command_SpecialPowerShireenGoodAndKind
 	4  = Command_SpecialPowerShireenGlowOfTheGreyscale
 	5  = Command_SpecialAbilityShireenLearnedChild
-	;6  = Command_SpecialAbilityMelisandreShadowbinder
 	12 = Command_CaptureBuilding
 	13 = Command_AttackMove
 	14 = Command_Stop
@@ -476,7 +472,7 @@ CommandSet BaratheonPorterCommandSet
 	6 = Command_PorterConstructBaratheonDragonstoneBarracks
 	7 = Command_PorterConstructStormlanderEncampment
 	8 = Command_PorterConstructBaratheonBurnedIdol
-	9 = Command_PorterConstructDragonstoneSiegeWorks
+	9 = Command_ConstructRedTemple ;Command_PorterConstructDragonstoneSiegeWorks
 	10 = Command_PorterconstructDragonstoneBattleTower
 	11 = Command_PorterConstructDragonstoneFortress
 End
@@ -838,4 +834,33 @@ CommandSet BaratheonWhiteStagCommandSet
 	16 = Command_SetStanceBattle
 	17 = Command_SetStanceAggressive
 	18 = Command_SetStanceHoldGround
+End
+
+CommandSet RedTempleCommandSet
+	1 = Command_ConstructRedPriestHorde
+	2 = Command_PurchaseTechnologyZigurCultistsZealotry
+	3 = Command_PurchaseTechnologyAngmarHeartsofFire
+	4 = Command_PurchaseTechnologySpiritOfZigur
+	5 = Command_SanctumMelkorRuinFakeButton
+	6 = Command_Sell
+	7 = Command_Upgrade_SanctumofZigurLevel2
+End
+
+CommandSet RedTempleCommandSetLevel2
+	1 = Command_ConstructRedPriestHorde
+	2 = Command_PurchaseTechnologyZigurCultistsZealotry
+	3 = Command_PurchaseTechnologyAngmarHeartsofFire
+	4 = Command_PurchaseTechnologySpiritOfZigur
+	5 = Command_SanctumMelkorRuinFakeButton
+	6 = Command_Sell
+	7 = Command_Upgrade_SanctumofZigurLevel3
+End
+
+CommandSet RedTempleCommandSetLevel3
+	1 = Command_ConstructRedPriestHorde
+	2 = Command_PurchaseTechnologyZigurCultistsZealotry
+	3 = Command_PurchaseTechnologyAngmarHeartsofFire
+	4 = Command_PurchaseTechnologySpiritOfZigur
+	5 = Command_SanctumMelkorRuin
+	6 = Command_Sell
 End
