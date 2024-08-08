@@ -472,7 +472,7 @@ CommandSet BaratheonPorterCommandSet
 	6 = Command_PorterConstructBaratheonDragonstoneBarracks
 	7 = Command_PorterConstructStormlanderEncampment
 	8 = Command_PorterConstructBaratheonBurnedIdol
-	9 = Command_ConstructRedTemple ;Command_PorterConstructDragonstoneSiegeWorks
+	9 = Command_PorterConstructConstructRedTemple ;Command_PorterConstructDragonstoneSiegeWorks
 	10 = Command_PorterconstructDragonstoneBattleTower
 	11 = Command_PorterConstructDragonstoneFortress
 End
@@ -787,7 +787,7 @@ CommandSet BaratheonSpellBookCommandSet
 	2 = Command_SpellBookFireGazing
 	3 = Command_SpellBookWarChantStannis
 
-	4 = Command_SpellBookHaradrimRaiders
+	4 = Command_SpellBookShadowbinder
 	5 = Command_SpellBookShaftsOfDragonmont
 	6 = Command_SpellBookMightOfTheStormlands
 	7 = Command_SpellBookBaratheonRebuild
@@ -796,7 +796,7 @@ CommandSet BaratheonSpellBookCommandSet
 	9 = Command_SpellBookBleedingStar
 	10 = Command_SpellBookBaratheonWhiteStag
 
-	11 = Command_SpellBookEyeofSauronNew
+	11 = Command_SpellBookLightOfRhllor
 	12 = Command_SpellBookTheIronBank
 
 	13 = Command_SpellBookGeneralView
@@ -810,7 +810,7 @@ CommandSet BaratheonSpellStoreCommandSet
 	2 = Command_PurchaseSpellFireGazing
 	3 = Command_PurchaseSpellWarChantStannis
 
-	4 = Command_PurchaseSpellHaradrimRaiders
+	4 = Command_PurchaseSpellShadowbinder
 	5 = Command_PurchaseSpellShaftsOfDragonmont
 	6 = Command_PurchaseSpellMightOfTheStormlands
 	7 = Command_PurchaseSpellBaratheonRebuild
@@ -819,7 +819,7 @@ CommandSet BaratheonSpellStoreCommandSet
 	9 = Command_PurchaseSpellBleedingStar
 	10 = Command_PurchaseSpellBaratheonWhiteStag
 
-	11 = Command_PurchaseSpellEyeofSauronNew
+	11 = Command_PurchaseSpellLightOfRhllor
 	12 = Command_PurchaseSpellTheIronBank
 End
 

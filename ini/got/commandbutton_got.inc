@@ -431,7 +431,7 @@ CommandButton Command_SpecialAbilityTheNightIsDarkAndFullOfTerrors
   TextLabel					= CONTROLBAR:MelisandreTheNightIsDarkAndFullOfTerrors
   ButtonImage				= BAMelisandreTheNightIsDarkAndFullOfTerrors
   CursorName				= Bombard
-  RadiusCursorType	= EyeOfSauronRadiusCursor
+  RadiusCursorType	= RhllorRadiusCursor
   InvalidCursorName	= GenericInvalid
   ButtonBorderType	= ACTION 
   DescriptLabel			= CONTROLBAR:ToolTipMelisandreTheNightIsDarkAndFullOfTerrors
@@ -457,8 +457,8 @@ End
 CommandButton Command_SpecialAbilityMelisandreShadowbinder
   Command           = SPECIAL_POWER
   SpecialPower      = SpecialAbilityMelisandreShadowbinder
-	; NeededUpgrade		  = Upgrade_DefenderOfTheFaith Upgrade_ObjectLevel10
-  Options           = NEED_TARGET_ENEMY_OBJECT ;NEED_UPGRADE
+	NeededUpgrade		  = Upgrade_GrantDwarvenRiches Upgrade_ObjectLevel10
+  Options           = NEED_TARGET_ENEMY_OBJECT NEED_UPGRADE
   TextLabel         = CONTROLBAR:MelisandreShadowbinder
   CursorName        = EvilAbilityObj
   InvalidCursorName = GenericInvalid
@@ -1589,6 +1589,26 @@ CommandButton Command_SpellBookBaratheonWhiteStag
 	InvalidCursorName = GenericInvalid
 End
 
+CommandButton Command_PurchaseSpellLightOfRhllor
+	Command					 = PURCHASE_SCIENCE
+	ButtonBorderType = UPGRADE
+	ButtonImage			 = BALightOfRhllor
+	Science					 = SCIENCE_EyeofSauronNew
+	TextLabel				 = CONTROLBAR:EyeofSauron
+	DescriptLabel		 = CONTROLBAR:TooltipEyeofSauron
+End
+
+CommandButton Command_SpellBookLightOfRhllor
+	Command			 = SPELL_BOOK
+	SpecialPower = SpellBookEyeofSauronNew
+	ButtonImage	 = BALightOfRhllor
+	Options			 = NEED_TARGET_POS
+	TextLabel		 = CONTROLBAR:LightOfRhllor
+	ButtonBorderType = ACTION
+	DescriptLabel		 = CONTROLBAR:ToolTipLightOfRhllor
+	RadiusCursorType = RhllorRadiusCursor
+End
+
 CommandButton Command_PurchaseSpellTheIronBank
 	Command					 = PURCHASE_SCIENCE
 	ButtonBorderType = UPGRADE
@@ -1691,9 +1711,11 @@ CommandButton Command_PorterConstructBaratheonBurnedIdol
 	Radial					 = Yes
 End
 
-CommandButton Command_ConstructRedTemple
+CommandButton Command_PorterConstructConstructRedTemple
 	Command          = DOZER_CONSTRUCT
 	Object           = RedTemple
+	NeededUpgrade 	 = Upgrade_GrantDwarvenRiches
+	Options					 = NEED_UPGRADE
 	TextLabel        = CONTROLBAR:ConstructRedTemple
 	ButtonImage      = uisanctumzigur
 	ButtonBorderType = BUILD
@@ -1712,4 +1734,24 @@ CommandButton Command_ConstructRedPriestHorde
 	Radial					 = Yes
 	InPalantir			 = Yes
 	ShowProductionCount	= Yes
+End
+
+CommandButton Command_PurchaseSpellShadowbinder
+	Command					 = PURCHASE_SCIENCE
+	ButtonBorderType = UPGRADE
+	ButtonImage			 = BAShadowbinder
+	Science					 = SCIENCE_Shadowbinder ;SCIENCE_BountifulHarvest
+	TextLabel				 = CONTROLBAR:SpellShadowbinder
+	DescriptLabel		 = CONTROLBAR:TooltipSpellShadowbinder
+	CommandTrigger	 = Command_SpellBookShadowbinder
+End
+
+CommandButton Command_SpellBookShadowbinder
+	Command					 = SPELL_BOOK
+	SpecialPower		 = SpellBookShadowbinder
+	ButtonImage			 = BAShadowbinder
+	Options					 = NONPRESSABLE
+	TextLabel				 = CONTROLBAR:SpellShadowbinder
+	ButtonBorderType = ACTION
+	DescriptLabel		 = CONTROLBAR:TooltipSpellShadowbinder
 End

@@ -98,10 +98,11 @@ SpecialPower SpellBookLightbringer
 End
 
 SpecialPower SpellBookShadowbinder
-	Enum				= SPECIAL_SPELL_BOOK_ELVEN_GIFTS
-  RequiredSciences			= SCIENCE_Shadowbinder
-  ReloadTime      			= 0
-  Flags						= RESPECT_RECHARGE_TIME_DISCOUNT
+	Enum						 = SPECIAL_SPELL_BOOK_FUEL_THE_FIRES
+	RequiredSciences = SCIENCE_Shadowbinder
+	ReloadTime       = 0
+	Flags						 = RESPECT_RECHARGE_TIME_DISCOUNT
+	InitiateSound		 = SpellDwarvenRiches1
 End
 
 SpecialPower SpellBookStannisKnights

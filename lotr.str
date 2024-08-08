@@ -91942,7 +91942,7 @@ CONTROLBAR:MelisandreShadowbinder
 END
 
 CONTROLBAR:ToolTipMelisandreShadowbinder
-"Requires Level 10 \n Requires Shadowbinder Spellbook Power \n Assassinates targeted enemy hero"
+"Requires Level 10 \n Requires Shadowbinders Spellbook Power \n Assassinates targeted enemy hero"
 END
 
 OBJECT:BaratheonDavos
@@ -92993,5 +92993,25 @@ End
 OBJECT:RedPriestHorde
 "R'hllor Cultists"
 End
+
+CONTROLBAR:SpellShadowbinder
+"Shadowbinders"
+END
+
+CONTROLBAR:TooltipSpellShadowbinder
+"Unlocks Shadowbinder spell for Melisandre \n Unlocks construction of Red Temple of R'hllor \n Passive power"
+END
+
+OBJECT:BaratheonLightOfRhllor
+"Light of R'hllor"
+END
+
+CONTROLBAR:LightOfRhllor
+"Light of R'hllor"
+END
+
+CONTROLBAR:ToolTipLightOfRhllor
+"Summons the Light of R'hllor \n Reveals stealthed enemies \n Paralyzes all enemies on the map for 10 seconds upon summoning\n All units caught under its light suffer constant damage and are slowed by 33% \nModifier Type: Leadership \n Allies gain +33% damage, +50% armour, gain immunity to fear and terror, and earn experience 50% faster \nLeft click icon then left click on target area"
+END
 
 END
