@@ -710,7 +710,7 @@ CommandSet BaratheonStormlanderEncampment
 	1	= Command_ConstructBaratheonStormlanderFootmanHorde
 	2 = Command_ConstructBaratheonStormlanderArcherHorde
 	3	= Command_ConstructBaratheonStormlanderGuardHorde
-	4 = Command_ConstructArnorBreelandRam
+	4 = Command_ConstructBaratheonBatteringRam
 	5 = Command_ConstructBaratheonStormlanderEliteGuardHorde
 	7 = Command_ConstructBaratheonStormlanderHammerHorde
 	8 = Command_SpecialAbilityCarousing
@@ -722,7 +722,7 @@ CommandSet BaratheonStormlanderEncampment_Lvl2
 	1	= Command_ConstructBaratheonStormlanderFootmanHorde
 	2 = Command_ConstructBaratheonStormlanderArcherHorde
 	3	= Command_ConstructBaratheonStormlanderGuardHorde
-	4 = Command_ConstructArnorBreelandRam
+	4 = Command_ConstructBaratheonBatteringRam
 	5 = Command_ConstructBaratheonStormlanderEliteGuardHorde
 	7 = Command_ConstructBaratheonStormlanderHammerHorde
 	8 = Command_SpecialAbilityCarousing
@@ -734,7 +734,7 @@ CommandSet BaratheonStormlanderEncampment_Lvl3
 	1	= Command_ConstructBaratheonStormlanderFootmanHorde
 	2 = Command_ConstructBaratheonStormlanderArcherHorde
 	3	= Command_ConstructBaratheonStormlanderGuardHorde
-	4 = Command_ConstructArnorBreelandRam
+	4 = Command_ConstructBaratheonBatteringRam
 	5 = Command_ConstructBaratheonStormlanderEliteGuardHorde
 	7 = Command_ConstructBaratheonStormlanderHammerHorde
 	8 = Command_SpecialAbilityCarousing
@@ -792,11 +792,11 @@ CommandSet BaratheonSpellBookCommandSet
 	6 = Command_SpellBookMightOfTheStormlands
 	7 = Command_SpellBookBaratheonRebuild
 
-	8 = Command_SpellBookShelobSummon
+	8 = Command_SpellBookLightOfRhllor
 	9 = Command_SpellBookBleedingStar
 	10 = Command_SpellBookBaratheonWhiteStag
 
-	11 = Command_SpellBookLightOfRhllor
+	11 = Command_SpellBookTheKingWhoCared
 	12 = Command_SpellBookTheIronBank
 
 	13 = Command_SpellBookGeneralView
@@ -815,11 +815,11 @@ CommandSet BaratheonSpellStoreCommandSet
 	6 = Command_PurchaseSpellMightOfTheStormlands
 	7 = Command_PurchaseSpellBaratheonRebuild
 
-	8 = Command_PurchaseSpellShelobSummon
+	8 = Command_PurchaseSpellLightOfRhllor
 	9 = Command_PurchaseSpellBleedingStar
 	10 = Command_PurchaseSpellBaratheonWhiteStag
 
-	11 = Command_PurchaseSpellLightOfRhllor
+	11 = Command_PurchaseSpellTheKingWhoCared
 	12 = Command_PurchaseSpellTheIronBank
 End
 

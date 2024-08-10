@@ -92494,7 +92494,7 @@ CONTROLBAR:ConstructBaratheonDragonstoneKnightHorde
 END
 
 CONTROLBAR:ToolTipConstructBaratheonDragonstoneKnightHorde
-"Requires Level 3 Barracks \n Strong vs. Archers\nCan stealth near trees\n \n As the vanguard of Stannis Baratheon's forces, the Knights of Dragonstone uphold the honor and glory of their liege lord, ready to defend Dragonstone with their lives."
+"Requires Level 3 Barracks and The King Who Cared Spellbook Power \n Strong vs. Archers\nCan stealth near trees\n \n As the vanguard of Stannis Baratheon's forces, the Knights of Dragonstone uphold the honor and glory of their liege lord, ready to defend Dragonstone with their lives."
 END
 
 CONTROLBAR:UpgradeBaratheonDragonstoneBarracksLevel2
@@ -93002,7 +93002,7 @@ CONTROLBAR:TooltipSpellShadowbinder
 "Unlocks Shadowbinder spell for Melisandre \n Unlocks construction of Red Temple of R'hllor \n Passive power"
 END
 
-OBJECT:BaratheonLightOfRhllor
+OBJECT:LightOfRhllor
 "Light of R'hllor"
 END
 
@@ -93011,7 +93011,20 @@ CONTROLBAR:LightOfRhllor
 END
 
 CONTROLBAR:ToolTipLightOfRhllor
-"Summons the Light of R'hllor \n Reveals stealthed enemies \n Paralyzes all enemies on the map for 10 seconds upon summoning\n All units caught under its light suffer constant damage and are slowed by 33% \nModifier Type: Leadership \n Allies gain +33% damage, +50% armour, gain immunity to fear and terror, and earn experience 50% faster \nLeft click icon then left click on target area"
+//"Summons the Light of R'hllor \n Reveals stealthed enemies \n Paralyzes all enemies on the map for 10 seconds upon summoning\n All units caught under his light suffer constant damage and are slowed by 33% \nModifier Type: Leadership \n Allies gain +33% damage, +50% armour, gain immunity to fear and terror, and earn experience 50% faster \nLeft click icon then left click on target area"
+"Summons the Light of R'hllor \n Reveals stealthed enemies \n Paralyzes all enemies on the map for 10 seconds upon summoning\n All units caught under his light are slowed by 33% \nModifier Type: Leadership \n Allies gain +33% damage, +50% armour, gain immunity to fear and terror, and earn experience 50% faster \nLeft click icon then left click on target area"
+END
+
+CONTROLBAR:TheKingWhoCared
+"The King Who Cared"
+End
+
+CONTROLBAR:TooltipTheKingWhoCared
+"Temporarily summons a massive\ncavalry army from Dragonstone \n Left click icon then left click on pathable location"
+END
+
+CONTROLBAR:ToolTipBuildBaratheonBatteringRam
+"Requires Level 2 Encampment \nBreaks down castle gates and enemy structures \n \n A battering ram is a basic tool for siege warfare. Easy to make, and simple in use."
 END
 
 END

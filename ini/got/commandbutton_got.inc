@@ -1593,14 +1593,14 @@ CommandButton Command_PurchaseSpellLightOfRhllor
 	Command					 = PURCHASE_SCIENCE
 	ButtonBorderType = UPGRADE
 	ButtonImage			 = BALightOfRhllor
-	Science					 = SCIENCE_EyeofSauronNew
-	TextLabel				 = CONTROLBAR:EyeofSauron
-	DescriptLabel		 = CONTROLBAR:TooltipEyeofSauron
+	Science					 = SCIENCE_LightOfRhllor
+	TextLabel				 = CONTROLBAR:LightOfRhllor
+	DescriptLabel		 = CONTROLBAR:ToolTipLightOfRhllor
 End
 
 CommandButton Command_SpellBookLightOfRhllor
 	Command			 = SPELL_BOOK
-	SpecialPower = SpellBookEyeofSauronNew
+	SpecialPower = SpellBookLightOfRhllor
 	ButtonImage	 = BALightOfRhllor
 	Options			 = NEED_TARGET_POS
 	TextLabel		 = CONTROLBAR:LightOfRhllor
@@ -1626,7 +1626,7 @@ CommandButton Command_SpellBookTheIronBank
 	ButtonImage				= BAIronBank
 	ButtonBorderType	= ACTION
 	DescriptLabel			= CONTROLBAR:TooltipTheIronBank
-	RadiusCursorType	= ThrorsHoard
+	RadiusCursorType	= RhllorRadiusCursor
 	CursorName        = AttackObj
 	InvalidCursorName = GenericInvalid
 End
@@ -1754,4 +1754,40 @@ CommandButton Command_SpellBookShadowbinder
 	TextLabel				 = CONTROLBAR:SpellShadowbinder
 	ButtonBorderType = ACTION
 	DescriptLabel		 = CONTROLBAR:TooltipSpellShadowbinder
+End
+
+CommandButton Command_PurchaseSpellTheKingWhoCared
+	Command					 = PURCHASE_SCIENCE
+	ButtonBorderType = UPGRADE
+	ButtonImage			 = BAHornButton
+	Science					 = SCIENCE_StannisKnights
+	TextLabel				 = CONTROLBAR:TheKingWhoCared
+	DescriptLabel		 = CONTROLBAR:TooltipTheKingWhoCared
+End
+
+CommandButton Command_SpellBookTheKingWhoCared
+	Command						= SPELL_BOOK
+	SpecialPower			= SpellBookStannisKnights
+	ButtonImage				= BAHornButton
+	Options						= NEED_TARGET_POS
+	TextLabel					= CONTROLBAR:TheKingWhoCared
+	ButtonBorderType	= ACTION
+	DescriptLabel		  = CONTROLBAR:TooltipTheKingWhoCared
+	RadiusCursorType  = RhllorRadiusCursor
+	CursorName        = AttackObj
+	InvalidCursorName = GenericInvalid
+End
+
+CommandButton Command_ConstructBaratheonBatteringRam
+	Command					 = UNIT_BUILD
+	Object					 = ArnorBreelandRam
+	Options					 = NEED_UPGRADE CANCELABLE
+	NeededUpgrade		 = Upgrade_ArnorArcheryRangeLevel2
+	TextLabel				 = CONTROLBAR:ConstructArnorBatteringRam
+	ButtonImage			 = uirivram
+	ButtonBorderType = BUILD
+	DescriptLabel		 = CONTROLBAR:ToolTipBuildBaratheonBatteringRam
+	Radial					 = Yes
+	InPalantir	   	 = Yes
+	ShowProductionCount	= Yes
 End
