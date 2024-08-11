@@ -398,7 +398,7 @@ AudioEvent GendryVoiceSelectBattle
   SubmixSlider = voice
 End
 
-AudioEvent GendryVoiceLeave
+AudioEvent GendryVoiceRespawn
   Sounds = gendry_you_sold_me gendry_i_wanted_to_be_one_of_you
   Volume = #ADD( CAMP_ELF_VOLUME 0 )
   MinVolume = #ADD( CAMP_ELF_MINVOLUME 0 )

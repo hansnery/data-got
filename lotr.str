@@ -92138,11 +92138,11 @@ CONTROLBAR:PrincessOfDragonstone
 END
 
 CONTROLBAR:ToolTipPrincessOfDragonstone
-"Shireen Baratheon is protected by her guards \n Allows her to rank up \n Left click to purchase upgrade \n\n Modifier Type: Leadership \n Rank 1: Shireen causes fear to nearby enemies \n Rank 3: Nearby structures gain +30% armour \n Rank 6: Nearby enemy units suffer -15% damage and -10% armour \n Stacks with Buffs and Spells \n Passive ability"
+"Shireen Baratheon can target enemy units \n Allies around the target gain 33% armour \n Passive ability \n Shireen Baratheon is protected by her guards \n Allows her to rank up \n Left click to purchase upgrade \n\n Modifier Type: Leadership \n Rank 1: Shireen causes fear to nearby enemies \n Rank 3: Nearby structures gain +30% armour \n Rank 6: Nearby enemy units suffer -15% damage and -10% armour \n Stacks with Buffs and Spells \n Passive ability"
 End
 
 CONTROLBAR:ToolTipToolTipPrincessOfDragonstoneLvl10
-"Shireen Baratheon is protected by her guards \n Allows her to rank up \n Left click to purchase upgrade \n\n Modifier Type: Leadership \n Rank 1: Shireen causes fear to nearby enemies \n Rank 3: Nearby structures gain +30% armour \n Rank 6: Nearby enemy units suffer -15% damage and -10% armour \n Stacks with Buffs and Spells \n Passive ability"
+"Shireen Baratheon can target enemy units \n Allies around the target gain 33% armour \n Passive ability \n Shireen Baratheon is protected by her guards \n Allows her to rank up \n Left click to purchase upgrade \n\n Modifier Type: Leadership \n Rank 1: Shireen causes fear to nearby enemies \n Rank 3: Nearby structures gain +30% armour \n Rank 6: Nearby enemy units suffer -15% damage and -10% armour \n Stacks with Buffs and Spells \n Passive ability"
 End
 
 CONTROLBAR:ShireenGoodAndKind
