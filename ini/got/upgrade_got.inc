@@ -2,8 +2,17 @@
 // GAME OF THRONES UPGRADES
 //-------------------------------------------------------
 Upgrade Upgrade_Lightbringer
-	Type = PLAYER
-	LocalPlayerGainsUpgradeEvaEvent = UpgradeLightbringer
+	Type 				= PLAYER
+	Tooltip     = TOOLTIP:BaratheonLightbringer
+	DisplayName = UPGRADE:BaratheonLightbringer
+	Type        = PLAYER
+	BuildCost		= 800 ;GONDOR_TECH_FIRE_STONES_BUILDCOST
+	BuildTime		= GONDOR_TECH_FIRE_STONES_BUILDTIME
+	ResearchCompleteEvaEvent	= UpgradeLightbringer
+	; LocalPlayerGainsUpgradeEvaEvent = UpgradeLightbringer
+	SkirmishAIHeuristic 			= AI_UPGRADEHEURISTIC_IMPORTANT
+	StrategicIcon		 					= AptStrategicUnitUpgradeBlade
+	
 End
 Upgrade Upgrade_DefenderOfTheFaith
 	Type = PLAYER

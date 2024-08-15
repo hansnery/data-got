@@ -511,7 +511,8 @@ CommandSet BaratheonArmoryCommandSetLevel1
 	2	= Command_PurchaseTechnologyBaratheonForgedBlades
 	3	= Command_PurchaseTechnologyBaratheonHeavyArmor
 	4	= Command_PurchaseTechnologyBaratheonFireArrows
-	5 = Command_UpgradeBaratheonDragonstoneFoundryLevel2
+	5 = Command_PurchaseTechnologyBaratheonLightbringer
+	7 = Command_UpgradeBaratheonDragonstoneFoundryLevel2
 	6 = Command_Sell
 End
 
@@ -520,7 +521,8 @@ CommandSet BaratheonArmoryCommandSetLevel2
 	2	= Command_PurchaseTechnologyBaratheonForgedBlades
 	3	= Command_PurchaseTechnologyBaratheonHeavyArmor
 	4	= Command_PurchaseTechnologyBaratheonFireArrows
-	5 = Command_UpgradeBaratheonDragonstoneFoundryLevel3
+	5 = Command_PurchaseTechnologyBaratheonLightbringer
+	7 = Command_UpgradeBaratheonDragonstoneFoundryLevel3
 	6 = Command_Sell
 End
 
@@ -529,6 +531,7 @@ CommandSet BaratheonArmoryCommandSetLevel3
 	2	= Command_PurchaseTechnologyBaratheonForgedBlades
 	3	= Command_PurchaseTechnologyBaratheonHeavyArmor
 	4	= Command_PurchaseTechnologyBaratheonFireArrows
+	5 = Command_PurchaseTechnologyBaratheonLightbringer
 	6 = Command_Sell
 End
 

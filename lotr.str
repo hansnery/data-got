@@ -92138,7 +92138,7 @@ CONTROLBAR:PrincessOfDragonstone
 END
 
 CONTROLBAR:ToolTipPrincessOfDragonstone
-"Shireen Baratheon can target enemy units \n Allies around the target gain 33% armour \n Passive ability \n Shireen Baratheon is protected by her guards \n Allows her to rank up \n Left click to purchase upgrade \n\n Modifier Type: Leadership \n Rank 1: Shireen causes fear to nearby enemies \n Rank 3: Nearby structures gain +30% armour \n Rank 6: Nearby enemy units suffer -15% damage and -10% armour \n Stacks with Buffs and Spells \n Passive ability"
+"Shireen Baratheon can target enemy units \n Allies around the target gain 33% armour \n Passive ability \n\n Shireen Baratheon is protected by her guards \n Allows her to rank up \n Left click to purchase upgrade \n\n Modifier Type: Leadership \n Rank 1: Shireen causes fear to nearby enemies \n Rank 3: Nearby structures gain +30% armour \n Rank 6: Nearby enemy units suffer -15% damage and -10% armour \n Stacks with Buffs and Spells \n Passive ability"
 End
 
 CONTROLBAR:ToolTipToolTipPrincessOfDragonstoneLvl10
@@ -92250,7 +92250,7 @@ CONTROLBAR:PurchaseUpgradeBaratheonDefenderOfTheFaith
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeBaratheonDefenderOfTheFaith
-"Melisandre will relentlessly champion the one true faith \n\n Unlocks the Burned Idols structure \n Melisandre's health is increased \n\n Is mutually exclusive with Master of Ships upgrade"
+"Melisandre will relentlessly champion the one true faith \n\n Unlocks Lightbringer, the Red Sword of Heroes \n Unlocks the Burned Idols structure \n Melisandre's health is increased \n\n Is mutually exclusive with Master of Ships upgrade"
 END
 
 Upgrade:DefenderOfTheFaith
@@ -92959,7 +92959,7 @@ OBJECT:BaratheonBurnedIdolsDescription
 END
 
 CONTROLBAR:ConstructBaratheonBurnedIdols
-"Burn Idols (&U)"
+"Burned Idols (&U)"
 END
 
 CONTROLBAR:TooltipConstructBaratheonBurnedIdols
@@ -93025,6 +93025,26 @@ END
 
 CONTROLBAR:ToolTipBuildBaratheonBatteringRam
 "Requires Level 2 Encampment \nBreaks down castle gates and enemy structures \n \n A battering ram is a basic tool for siege warfare. Easy to make, and simple in use."
+END
+
+CONTROLBAR:PurchaseTechnologyBaratheonLightbringer
+"Lightbringer, the Red Sword of Heroes (&S)"
+END
+
+CONTROLBAR:ToolTipPurchaseTechnologyBaratheonLightbringer
+"Forge the Sword of Azor Ahai \n\n Melisandre proclaims that Stannis Baratheon is Azor Ahai come again \n Stannis Baratheon gains +40% magic damage and +50% damage vs Heroes"
+END
+
+TOOLTIP:LackDefenderOfTheFaithUpgrade
+"Requires Level 3 Dragonstone Foundry and \n the Defender of the Faith upgrade"
+END
+
+TOOLTIP:BaratheonLightbringer
+"Lightbringer, the Red Sword of Heroes"
+END
+
+UPGRADE:BaratheonLightbringer
+"Lightbringer"
 END
 
 END

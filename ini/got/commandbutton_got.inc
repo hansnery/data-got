@@ -1791,3 +1791,17 @@ CommandButton Command_ConstructBaratheonBatteringRam
 	InPalantir	   	 = Yes
 	ShowProductionCount	= Yes
 End
+
+CommandButton Command_PurchaseTechnologyBaratheonLightbringer
+	Command					 = PLAYER_UPGRADE
+	Options					 = NEED_UPGRADE CANCELABLE
+	Upgrade					 = Upgrade_Lightbringer
+	NeededUpgrade		 = Upgrade_MordorTavernLevel3 Upgrade_BaratheonDefenderOfTheFaithTrigger
+	TextLabel				 = CONTROLBAR:PurchaseTechnologyBaratheonLightbringer
+	ButtonImage			 = BALightbringer
+	ButtonBorderType = UPGRADE
+	DescriptLabel		 = CONTROLBAR:ToolTipPurchaseTechnologyBaratheonLightbringer
+	Radial					 = Yes
+	InPalantir			 = Yes
+	LacksPrerequisiteLabel = TOOLTIP:LackDefenderOfTheFaithUpgrade
+End

@@ -16,7 +16,7 @@ AudioEvent StannisLastStand
   Priority     = critical
   Limit	       = 1
   Volume       = 120
-  Type         = ui everyone 
+  Type         = ui everyone
   SubmixSlider = SoundFX
 End
 
@@ -67,17 +67,17 @@ AudioEvent BaratheonIronBank
   Volume       = 250
   MinRange     = 400
   MaxRange     = 1000
-  Type         = world everyone 
+  Type         = ui everyone
   SubmixSlider = SoundFX
 End
 
 AudioEvent BaratheonLightbringer
   Sounds       = stannis_lightbringer
   Limit	       = 2
-  Volume       = 200
+  Volume       = 150
   MinRange     = 400
   MaxRange     = 1000
-  Type         = world everyone 
+  Type         = ui everyone
   SubmixSlider = SoundFX
 End
 
