@@ -92494,7 +92494,7 @@ CONTROLBAR:ConstructBaratheonDragonstoneKnightHorde
 END
 
 CONTROLBAR:ToolTipConstructBaratheonDragonstoneKnightHorde
-"Requires Level 3 Barracks and The King Who Cared Spellbook Power \n Strong vs. Archers\nCan stealth near trees\n \n As the vanguard of Stannis Baratheon's forces, the Knights of Dragonstone uphold the honor and glory of their liege lord, ready to defend Dragonstone with their lives."
+"Requires Level 3 Barracks and The King Who Cared Spellbook Power to have been used \n Strong vs. Archers\nCan stealth near trees\n \n As the vanguard of Stannis Baratheon's forces, the Knights of Dragonstone uphold the honor and glory of their liege lord, ready to defend Dragonstone with their lives."
 END
 
 CONTROLBAR:UpgradeBaratheonDragonstoneBarracksLevel2
