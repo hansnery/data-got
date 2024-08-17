@@ -91942,7 +91942,7 @@ CONTROLBAR:MelisandreShadowbinder
 END
 
 CONTROLBAR:ToolTipMelisandreShadowbinder
-"Requires Level 10 \n Requires Shadowbinders Spellbook Power \n Assassinates targeted enemy hero"
+"Requires Level 10 \n Requires Servants of Fire spellbook power and King's Blood Power upgrade \n Assassinates targeted enemy hero \n Left click on icon then left click on target hero"
 END
 
 OBJECT:BaratheonDavos
@@ -92082,7 +92082,7 @@ CONTROLBAR:TooltipGendryOfStormsEnd
 END
 
 CONTROLBAR:GendryLeap
-"Demon's Son (&R)"
+"Son of the Demon (&R)"
 END
 
 CONTROLBAR:ToolTipGendryLeap
@@ -92130,7 +92130,7 @@ CONTROLBAR:PurchaseUpgradeDragonstoneFortressStoneDrum
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDragonstoneFortressStoneDrum
-"Requires the Valyrian Sorcery upgrade\n Allows recruitment of the King's Men\n\nUnlocks the Painted Table:\nAll troops on the battlefield gain 15% speed and +50% damage and +33% armour for 30 seconds"
+"Requires the Valyrian Sorcery upgrade\n Allows recruitment of the King's Men\n\nUnlocks the Painted Table:\nAll troops on the battlefield gain 15% speed and \n +50% damage and +33% armour for 30 seconds"
 END
 
 CONTROLBAR:PrincessOfDragonstone
@@ -92250,7 +92250,7 @@ CONTROLBAR:PurchaseUpgradeBaratheonDefenderOfTheFaith
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeBaratheonDefenderOfTheFaith
-"Melisandre will relentlessly champion the one true faith \n\n Unlocks Lightbringer, the Red Sword of Heroes \n Unlocks the Burned Idols structure \n Melisandre's health is increased \n\n Is mutually exclusive with Master of Ships upgrade"
+"Melisandre will relentlessly champion the one true faith \n\n Unlocks Lightbringer, the Red Sword of Heroes \n Unlocks the Burned Idols structure \n\n Is mutually exclusive with Master of Ships upgrade"
 END
 
 Upgrade:DefenderOfTheFaith
@@ -92282,7 +92282,7 @@ CONTROLBAR:PurchaseUpgradeBaratheonKingsBloodPower
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeBaratheonKingsBloodPower
-"Gendry is acknowledged as the bastard son of Robert Baratheon \nand his blood is used by Melisandre for blood magic \n\n Gendry can be recruited at the Fortress \n Melisandre's health is increased \n\n Is mutually exclusive with Lawful Son upgrade \n Prerequisite for Gendry"
+"Gendry is acknowledged as the bastard son of Robert Baratheon \nand his blood is used by Melisandre for blood magic \n\n Gendry can be recruited at the Fortress \n Prerequisite for Melisandre's Shadowbinder spell \n\n Is mutually exclusive with Lawful Son upgrade \n Prerequisite for Gendry"
 END
 
 Upgrade:KingsBloodPower
@@ -92298,7 +92298,7 @@ CONTROLBAR:PurchaseUpgradeBaratheonLawfulSon
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeBaratheonLawfulSon
-"Gendry is declared heir to Stannis Baratheon and \nis legitimized as the lawful son of Robert Baratheon \n\n Lord Gendry can be recruited at the Fortress \n He is stronger and provides leadership to Stormlander units \n\n Is mutually exclusive with Kings Blood Power upgrade \n Prerequisite for Lord Gendry"
+"Gendry is declared heir to Stannis Baratheon and \nis legitimized as the lawful son of Robert Baratheon \n\n Lord Gendry can be recruited at the Fortress \n Unlocks elite Stormlander units \n\n Is mutually exclusive with Kings Blood Power upgrade \n Prerequisite for Lord Gendry"
 END
 
 Upgrade:LawfulSon
@@ -92314,7 +92314,7 @@ CONTROLBAR:PurchaseUpgradeBaratheonSacrificeShireen
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeBaratheonSacrificeShireen
-"Shireen Baratheon is burned at the stake \n\n Melisandre's attack damage and radius is greatly increased \n Melisandre's health is increased \n\n Is mutually exclusive with Pray Harder upgrade \n Shireen Baratheon dies and can no longer be recruited or revived"
+"Shireen Baratheon is burned at the stake \n\n Melisandre's attack damage and radius is greatly increased \n Melisandre's health is greatly increased \n\n Is mutually exclusive with Pray Harder upgrade \n Shireen Baratheon dies and can no longer be recruited or revived"
 END
 
 Upgrade:SacrificeShireen
@@ -92330,7 +92330,7 @@ CONTROLBAR:PurchaseUpgradeBaratheonPrayHarder
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeBaratheonPrayHarder
-"Stannis Baratheon refuses to cede to religious extremism \n\n Can recruit mercenaries at the Fortress who will fight for a lump sum payment \n Is mutually exclusive with Sacrifice Shireen upgrade"
+"Stannis Baratheon refuses to cede to religious extremism \n\n Stannis Baratheon's health is greatly increased \n\n Is mutually exclusive with Sacrifice Shireen upgrade"
 END
 
 Upgrade:PrayHarder
@@ -92494,7 +92494,7 @@ CONTROLBAR:ConstructBaratheonDragonstoneKnightHorde
 END
 
 CONTROLBAR:ToolTipConstructBaratheonDragonstoneKnightHorde
-"Requires Level 3 Barracks and The King Who Cared Spellbook Power to have been used \n Strong vs. Archers\nCan stealth near trees\n \n As the vanguard of Stannis Baratheon's forces, the Knights of Dragonstone uphold the honor and glory of their liege lord, ready to defend Dragonstone with their lives."
+"Requires Level 3 Barracks and \n The King Who Cared spellbook power to have been used at least once \n Strong vs. Archers\nCan stealth near trees\n \n As the vanguard of Stannis Baratheon's forces, the Knights of Dragonstone uphold the honor and glory of their liege lord, ready to defend Dragonstone with their lives."
 END
 
 CONTROLBAR:UpgradeBaratheonDragonstoneBarracksLevel2
@@ -92786,7 +92786,7 @@ CONTROLBAR:ConstructBaratheonStormlanderEliteGuardHorde
 END
 
 CONTROLBAR:ToolTipConstructBaratheonStormlanderEliteGuardHorde
-"Requires Level 2 Stormlander Encampment \n Strong vs. Cavalry and Heroes \n\n These guardians, entrusted with the safety of Storm's End, are revered for their unwavering loyalty and unmatched skill. They are the embodiment of disciplined might, standing as an impenetrable barrier against the storm of adversaries that seek to breach their lord's domain."
+"Requires Level 2 Stormlander Encampment and Lawful Son upgrade \n Strong vs. Cavalry and Heroes \n\n These guardians, entrusted with the safety of Storm's End, are revered for their unwavering loyalty and unmatched skill. They are the embodiment of disciplined might, standing as an impenetrable barrier against the storm of adversaries that seek to breach their lord's domain."
 END
 
 OBJECT:BaratheonStormlanderGuard
@@ -92818,7 +92818,7 @@ CONTROLBAR:ConstructBaratheonStormlanderHammerHorde
 END
 
 CONTROLBAR:ToolTipConstructBaratheonStormlanderHammerHorde
-"Requires Level 2 Stormlander Encampment \n Strong vs. Spam Infantry \n\n Within the ranks of House Baratheon's formidable army, the Stormlander Hammers stand as a testament to the indomitable spirit and ferocious strength inspired by the legendary Robert Baratheon himself. Embodying the sheer force and tenacity of their late liege lord, they wield massive warhammers with devastating effect, shattering enemy ranks with each thunderous blow."
+"Requires Level 2 Stormlander Encampment and Lawful Son upgrade \n Strong vs. Spam Infantry \n\n Within the ranks of House Baratheon's formidable army, the Stormlander Hammers stand as a testament to the indomitable spirit and ferocious strength inspired by the legendary Robert Baratheon himself. Embodying the sheer force and tenacity of their late liege lord, they wield massive warhammers with devastating effect, shattering enemy ranks with each thunderous blow."
 END
 
 SCRIPT:teamPlayer_1
@@ -92995,11 +92995,11 @@ OBJECT:RedPriestHorde
 End
 
 CONTROLBAR:SpellShadowbinder
-"Shadowbinders"
+"Servants of Fire"
 END
 
 CONTROLBAR:TooltipSpellShadowbinder
-"Unlocks Shadowbinder spell for Melisandre \n Unlocks construction of Red Temple of R'hllor \n Passive power"
+"Unlocks construction of Red Temple of R'hllor \n Prerequisite for Melisandre's Shadowbinder spell \n Passive power"
 END
 
 OBJECT:LightOfRhllor

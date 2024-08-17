@@ -457,7 +457,7 @@ End
 CommandButton Command_SpecialAbilityMelisandreShadowbinder
   Command           = SPECIAL_POWER
   SpecialPower      = SpecialAbilityMelisandreShadowbinder
-	NeededUpgrade		  = Upgrade_GrantDwarvenRiches Upgrade_ObjectLevel10
+	NeededUpgrade		  = Upgrade_GrantDwarvenRiches Upgrade_ObjectLevel10 Upgrade_BaratheonKingsBloodPowerTrigger
   Options           = NEED_TARGET_ENEMY_OBJECT NEED_UPGRADE
   TextLabel         = CONTROLBAR:MelisandreShadowbinder
   CursorName        = EvilAbilityObj
@@ -1412,7 +1412,7 @@ CommandButton Command_ConstructBaratheonStormlanderEliteGuardHorde
 	Command					 = UNIT_BUILD
 	Object					 = BaratheonStormlanderEliteGuardHorde
 	Options					 = NEED_UPGRADE CANCELABLE
-	NeededUpgrade		 = Upgrade_ArnorArcheryRangeLevel2
+	NeededUpgrade		 = Upgrade_ArnorArcheryRangeLevel2 Upgrade_BaratheonLawfulSonTrigger
 	TextLabel				 = CONTROLBAR:ConstructBaratheonStormlanderEliteGuardHorde
 	ButtonImage			 = BAPikemen
 	ButtonBorderType = BUILD
@@ -1426,7 +1426,7 @@ CommandButton Command_ConstructBaratheonStormlanderHammerHorde
 	Command					 = UNIT_BUILD
 	Object					 = BaratheonStormlanderHammerHorde
 	Options					 = NEED_UPGRADE CANCELABLE
-	NeededUpgrade		 = Upgrade_ArnorArcheryRangeLevel2
+	NeededUpgrade		 = Upgrade_ArnorArcheryRangeLevel2 Upgrade_BaratheonLawfulSonTrigger
 	TextLabel				 = CONTROLBAR:ConstructBaratheonStormlanderHammerHorde
 	ButtonImage			 = BAStormlanderHammerButton
 	ButtonBorderType = BUILD
@@ -1794,9 +1794,9 @@ End
 
 CommandButton Command_PurchaseTechnologyBaratheonLightbringer
 	Command					 = PLAYER_UPGRADE
-	Options					 = NEED_UPGRADE CANCELABLE
 	Upgrade					 = Upgrade_Lightbringer
-	NeededUpgrade		 = Upgrade_MordorTavernLevel3 Upgrade_BaratheonDefenderOfTheFaithTrigger
+	Options					 = NEED_UPGRADE CANCELABLE
+	NeededUpgrade		 = Upgrade_StructureLevel3 Upgrade_BaratheonDefenderOfTheFaithTrigger
 	TextLabel				 = CONTROLBAR:PurchaseTechnologyBaratheonLightbringer
 	ButtonImage			 = BALightbringer
 	ButtonBorderType = UPGRADE
