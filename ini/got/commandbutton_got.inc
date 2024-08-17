@@ -995,7 +995,7 @@ End
 CommandButton Command_UpgradeBaratheonDragonstoneBarracksLevel2
 	Command				   = OBJECT_UPGRADE
 	Object				   = MordorOrcPit
-	Upgrade				   = Upgrade_MordorOrcPitLevel2
+	Upgrade				   = Upgrade_ArnorBarracksLevel2
 	Options				   = CANCELABLE
 	TextLabel			   = CONTROLBAR:UpgradeBaratheonDragonstoneBarracksLevel2
 	ButtonImage			 = UpgradeEvilButton ; UCCommon_UpgradeStructureNew
@@ -1008,7 +1008,7 @@ End
 CommandButton Command_UpgradeBaratheonDragonstoneBarracksLevel3
 	Command				   = OBJECT_UPGRADE
 	Object				   = MordorOrcPit
-	Upgrade				   = Upgrade_MordorOrcPitLevel3
+	Upgrade				   = Upgrade_ArnorBarracksLevel3
 	Options				   = CANCELABLE
 	TextLabel			   = CONTROLBAR:UpgradeBaratheonDragonstoneBarracksLevel3
 	ButtonImage			 = UpgradeEvilButton ; UCCommon_UpgradeStructureNew
