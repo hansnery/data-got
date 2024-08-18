@@ -55,7 +55,7 @@ Upgrade Upgrade_BaratheonControlTheNarrowSeaTrigger
 End
 Upgrade Upgrade_BaratheonKingsBloodPowerTrigger
 	Type								= PLAYER
-	BuildCost						= 500
+	BuildCost						= 750
 	BuildTime						= 0
 	DisplayName					= Upgrade:KingsBloodPower
 	UpgradeFX        		= FX_DwarvenFortressUpgrade
@@ -64,7 +64,7 @@ Upgrade Upgrade_BaratheonKingsBloodPowerTrigger
 End
 Upgrade Upgrade_BaratheonLawfulSonTrigger
 	Type								= PLAYER
-	BuildCost						= 1000
+	BuildCost						= 1500
 	BuildTime						= 0
 	DisplayName					= Upgrade:LawfulSon
 	UpgradeFX        		= FX_DwarvenFortressUpgrade
@@ -73,19 +73,22 @@ Upgrade Upgrade_BaratheonLawfulSonTrigger
 End
 Upgrade Upgrade_BaratheonSacrificeShireenTrigger
 	Type								= PLAYER
-	BuildCost						= 500
+	BuildCost						= 1000
 	BuildTime						= 0
 	DisplayName					= Upgrade:SacrificeShireen
 	UpgradeFX        		= FX_DwarvenFortressUpgrade
 	SkirmishAIHeuristic = AI_UPGRADEHEURISTIC_IMPORTANT
-	; ResearchSound 			= UpgradeLawfulSon
+	ResearchSound 			= UpgradeSacrificeShireen
 End
 Upgrade Upgrade_BaratheonPrayHarderTrigger
 	Type								= PLAYER
-	BuildCost						= 1000
+	BuildCost						= 2000
 	BuildTime						= 0
 	DisplayName					= Upgrade:PrayHarder
 	UpgradeFX        		= FX_DwarvenFortressUpgrade
 	SkirmishAIHeuristic = AI_UPGRADEHEURISTIC_IMPORTANT
 	; ResearchSound 			= UpgradeLawfulSon
+End
+Upgrade Upgrade_ShireensAshTrigger
+	Type = PLAYER
 End

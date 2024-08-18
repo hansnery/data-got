@@ -4826,19 +4826,19 @@ GUI:AIDifficulty
 END
 
 GUI:EasyAI
-"Peasant"
+"Smallfolk"
 END
 
 GUI:MediumAI
-"Soldier"
+"Hedge Knight"
 END
 
 GUI:HardAI
-"Captain"
+"Bannerman"
 END
 
 GUI:BrutalAI
-"Death March"
+"Kingsguard"
 END
 
 // context:
@@ -92002,7 +92002,7 @@ CONTROLBAR:DavosUpjumpedSmuggler
 END
 
 CONTROLBAR:TooltipDavosUpjumpedSmuggler
-"Requires Level 8 \n Modifier Type: Leadership \n Stormlander units gain \n +33% Damage, +33% Armor, \n and earn +33% Experience near Davos Seaworth \n Passive ability \n Does not stack \n\n Modifier Type: Spell \n Davos Seaworth’s hard truths fully refreshes \n the special ability timers of a friendly hero \n Cannot cast on Melisandre \n Stacks with Leadership and Spells \n Left click icon then left click on target hero"
+"Requires Level 8 \n Davos Seaworth’s hard truths fully refreshes \n the special ability timers of a friendly hero \n Cannot cast on Melisandre \n Stacks with Leadership and Spells \n Left click icon then left click on target hero"
 End
 
 OBJECT:BaratheonGendry
@@ -92173,6 +92173,15 @@ OBJECT:BaratheonShireen
 "Shireen Baratheon"
 END
 
+OBJECT:BaratheonShireenDead
+"Ashes of Shireen Baratheon"
+END
+
+OBJECT:BaratheonShireenDeadDescription
+"Sacrificed to the Red God"
+END
+
+
 CONTROLBAR:BaratheonShireenRecruit
 "Recruit the Princess of Dragonstone \n\n 'This is the king's true heir. Shireen will one day sit the Iron Throne and rule the Seven Kingdoms.'"
 END
@@ -92314,7 +92323,8 @@ CONTROLBAR:PurchaseUpgradeBaratheonSacrificeShireen
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeBaratheonSacrificeShireen
-"Shireen Baratheon is burned at the stake \n\n Melisandre's attack damage and radius is greatly increased \n Melisandre's health is greatly increased \n\n Is mutually exclusive with Pray Harder upgrade \n Shireen Baratheon dies and can no longer be recruited or revived"
+//"Shireen Baratheon is burned at the stake \n\n Melisandre's attack damage and radius are greatly increased \n Melisandre's health is greatly increased \n\n Is mutually exclusive with Pray Harder upgrade \n Shireen Baratheon dies and can no longer be recruited or revived"
+"Shireen Baratheon is burned at the stake \n\n Melisandre's attack damage and radius are greatly increased \n\n Is mutually exclusive with Pray Harder upgrade \n Shireen Baratheon dies and can no longer be recruited or revived"
 END
 
 Upgrade:SacrificeShireen

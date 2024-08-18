@@ -419,16 +419,16 @@ End
 AudioEvent ShireenVoiceSalute
   Sounds = shireen_salute
   Priority = high
-  Volume = #ADD( UNIT_RESPONSE_VOLUME 85 )
-  MinVolume = #ADD( UNIT_RESPONSE_MINVOLUME 85 )
+  Volume = #ADD( UNIT_RESPONSE_VOLUME 75 )
+  MinVolume = #ADD( UNIT_RESPONSE_MINVOLUME 75 )
   Type = world player voice
   SubmixSlider = voice
 End
 
 AudioEvent ShireenVoiceMove
   Sounds    = shireen_move1 shireen_move2 shireen_move3 shireen_move4 shireen_move5 shireen_move6 shireen_move7 shireen_move8 shireen_move9
-  Volume    = #ADD( UNIT_RESPONSE_VOLUME 85 )
-  MinVolume = #ADD( UNIT_RESPONSE_MINVOLUME 85 )
+  Volume = #ADD( UNIT_RESPONSE_VOLUME 75 )
+  MinVolume = #ADD( UNIT_RESPONSE_MINVOLUME 75 )
   PlayPercent  = VOICE_MOVE_PLAY_PERCENT
   Type         = world player voice
   SubmixSlider = voice
@@ -436,8 +436,8 @@ End
 
 AudioEvent ShireenVoiceDisengage
   Sounds    = shireen_retreat1 shireen_retreat2 shireen_retreat3 shireen_retreat4
-  Volume    = #ADD( UNIT_RESPONSE_VOLUME 85 )
-  MinVolume = #ADD( UNIT_RESPONSE_MINVOLUME 85 )
+  Volume = #ADD( UNIT_RESPONSE_VOLUME 75 )
+  MinVolume = #ADD( UNIT_RESPONSE_MINVOLUME 75 )
   PlayPercent  = VOICE_MOVE_PLAY_PERCENT
   Type         = world player voice
   SubmixSlider = voice
@@ -445,32 +445,32 @@ End
 
 AudioEvent ShireenVoiceSelect
   Sounds    = shireen_select1 shireen_select2 shireen_select3 shireen_select4 shireen_select5 shireen_select6 shireen_select7 shireen_select8 shireen_select9
-  Volume    = #ADD( UNIT_RESPONSE_VOLUME 85 )
-  MinVolume = #ADD( UNIT_RESPONSE_MINVOLUME 85 )
+  Volume = #ADD( UNIT_RESPONSE_VOLUME 75 )
+  MinVolume = #ADD( UNIT_RESPONSE_MINVOLUME 75 )
   Type      = world player voice
   SubmixSlider = voice
 End
 
 AudioEvent ShireenVoiceHelpMe
   Sounds    = shireen_help1 shireen_help2
-  Volume    = #ADD( UNIT_RESPONSE_VOLUME 85 )
-  MinVolume = #ADD( UNIT_RESPONSE_MINVOLUME 85 )
+  Volume = #ADD( UNIT_RESPONSE_VOLUME 75 )
+  MinVolume = #ADD( UNIT_RESPONSE_MINVOLUME 75 )
   Type      = world player voice
   SubmixSlider = voice
 End
 
 AudioEvent ShireenVoiceRespawn
   Sounds    = shireen_respawn
-  Volume    = #ADD( UNIT_RESPONSE_VOLUME 85 )
-  MinVolume = #ADD( UNIT_RESPONSE_MINVOLUME 85 )
+  Volume = #ADD( UNIT_RESPONSE_VOLUME 75 )
+  MinVolume = #ADD( UNIT_RESPONSE_MINVOLUME 75 )
   Type      = world player voice
   SubmixSlider = voice
 End
 
 AudioEvent ShireenVoiceDie
   Sounds    = shireen_dies
-  Volume    = #ADD( UNIT_RESPONSE_VOLUME 85 )
-  MinVolume = #ADD( UNIT_RESPONSE_MINVOLUME 85 )
+  Volume = #ADD( UNIT_RESPONSE_VOLUME 75 )
+  MinVolume = #ADD( UNIT_RESPONSE_MINVOLUME 75 )
   Type      = world player voice
   SubmixSlider = voice
 End

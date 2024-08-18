@@ -111,7 +111,7 @@ CommandSet BaratheonGendryCommandSetLevel1
 	3	 = Command_SpecialAbilityGendrySkilledSmithLevel1
 	4	 = Command_SpecialAbilityGendryStrongSeed
 	5	 = Command_SpecialAbilityGendryTheBull
-	; 6	 = Command_SpecialAbilityGendryKnightOfTheHollowHill
+	6	 = Command_SpecialAbilityGendryKnightOfTheHollowHill
 	12 = Command_CaptureBuilding
 	13 = Command_AttackMove
 	14 = Command_Stop
@@ -126,7 +126,7 @@ CommandSet BaratheonGendryCommandSetLevel3
 	3	 = Command_SpecialAbilityGendrySkilledSmithLevel3
 	4	 = Command_SpecialAbilityGendryStrongSeed
 	5	 = Command_SpecialAbilityGendryTheBull
-	; 6	 = Command_SpecialAbilityGendryKnightOfTheHollowHill
+	6	 = Command_SpecialAbilityGendryKnightOfTheHollowHill
 	12 = Command_CaptureBuilding
 	13 = Command_AttackMove
 	14 = Command_Stop
@@ -141,7 +141,7 @@ CommandSet BaratheonGendryCommandSetLevel5
 	3	 = Command_SpecialAbilityGendrySkilledSmithLevel5
 	4	 = Command_SpecialAbilityGendryStrongSeed
 	5	 = Command_SpecialAbilityGendryTheBull
-	; 6	 = Command_SpecialAbilityGendryKnightOfTheHollowHill
+	6	 = Command_SpecialAbilityGendryKnightOfTheHollowHill
 	12 = Command_CaptureBuilding
 	13 = Command_AttackMove
 	14 = Command_Stop
@@ -156,7 +156,7 @@ CommandSet BaratheonGendryCommandSetLevel8
 	3	 = Command_SpecialAbilityGendrySkilledSmithLevel8
 	4	 = Command_SpecialAbilityGendryStrongSeed
 	5	 = Command_SpecialAbilityGendryTheBull
-	; 6	 = Command_SpecialAbilityGendryKnightOfTheHollowHill
+	6	 = Command_SpecialAbilityGendryKnightOfTheHollowHill
 	12 = Command_CaptureBuilding
 	13 = Command_AttackMove
 	14 = Command_Stop

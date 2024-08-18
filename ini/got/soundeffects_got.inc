@@ -64,7 +64,7 @@ End
 AudioEvent BaratheonIronBank
   Sounds       = stannis_iron_bank
   Limit	       = 2
-  Volume       = 250
+  Volume       = 200
   MinRange     = 400
   MaxRange     = 1000
   Type         = ui everyone
@@ -201,7 +201,7 @@ End
 AudioEvent UpgradeKingsBloodPower
   Sounds       = gendry_bastard_son
   Limit        = 3
-  Volume       = 300
+  Volume       = 200
   Type         = ui everyone ;world shrouded player
   SubmixSlider = SoundFX
 End
@@ -249,8 +249,7 @@ End
 
 AudioEvent SpellSpawnBaratheonWhiteStag
   Sounds       = white_stag
-  Volume       = 160
-  MinVolume    = 140
+  Volume       = 200
   Priority     = critical
   Limit        = 3
   Type         = world everyone
@@ -264,5 +263,13 @@ AudioEvent SpellBleedingStar
   MinRange     = 400
   MaxRange     = 800
   Type         = ui player enemies allies
+  SubmixSlider = SoundFX
+End
+
+AudioEvent UpgradeSacrificeShireen
+  Sounds       = sacrifice_shireen
+  Limit        = 3
+  Volume       = 300
+  Type         = ui everyone ;world shrouded player
   SubmixSlider = SoundFX
 End
