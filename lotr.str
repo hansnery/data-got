@@ -92078,7 +92078,7 @@ CONTROLBAR:GendryOfStormsEnd
 END
 
 CONTROLBAR:TooltipGendryOfStormsEnd
-"Allies near Gendry are inspired to fight beside the son of Robert Baratheon \n	Modifier type: Leadership \n Allies near Gendry gain +33% Damage, Armor, and gain +33% Experience \n Stacks with buffs and spells \n Passive"
+"Stormlander units near Gendry are inspired to fight beside the son of Robert Baratheon and gain +33% Damage, Armor, and gain +33% Experience \n Modifier type: Leadership \n Stacks with buffs and spells \n Passive ability"
 END
 
 CONTROLBAR:GendryLeap

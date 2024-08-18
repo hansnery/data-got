@@ -258,28 +258,28 @@ End
 
 SpecialPower SpecialAbilityGendryLeapLevel1
 	Enum			= SPECIAL_GIMLI_LEAP
-	ReloadTime		= 30000
+	ReloadTime		= 60000
 	RadiusCursorRadius	= 20.0
 	Flags			= PATHABLE_ONLY
 End
 
 SpecialPower SpecialAbilityGendryLeapLevel3
 	Enum			= SPECIAL_GIMLI_LEAP
-	ReloadTime		= 60000
+	ReloadTime		= 90000
 	RadiusCursorRadius	= 30.0
 	Flags			= PATHABLE_ONLY
 End
 
 SpecialPower SpecialAbilityGendryLeapLevel5
 	Enum			= SPECIAL_GIMLI_LEAP
-	ReloadTime		= 90000
+	ReloadTime		= 120000
 	RadiusCursorRadius	= 40.0
 	Flags			= PATHABLE_ONLY
 End
 
 SpecialPower SpecialAbilityGendryLeapLevel8
 	Enum			= SPECIAL_GIMLI_LEAP
-	ReloadTime		= 120000
+	ReloadTime		= 150000
 	RadiusCursorRadius	= 50.0
 	Flags			= PATHABLE_ONLY
 End
@@ -345,5 +345,5 @@ SpecialPower SpecialAbilityDavosSmugglersTricks
 	RadiusCursorRadius = 60.0
 	ReloadTime				 = SPELL_RECHARGE_TIME_TIER_4
 	ObjectFilter			 = ANY	+INFANTRY +CAVALRY +DOZER +HERO -RohanTreeBerd -IsengardBatteringRam -MordorBatteringRam -IsengardBallista -IsengardExplosiveMine -MordorGrond -MordorCatapult -DwarfBatteringRam -DwarvenCatapult -DwarvenDemolisher -DwarvenMangonel -GuldurEntwife -GondorTrebuchet -GondorBigTrebuchet_Summoned -MirkwoodBatteringRam -MirkwoodBallista -ArnorBreelandRam -RohanBatteringRam -RohanMangonel ALLIES
-	InitiateSound			 = DavosSmugglersTricks ;CaH_TeleportPart1
+	InitiateSound			 = CaH_TeleportPart1
 End

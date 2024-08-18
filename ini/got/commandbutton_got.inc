@@ -162,16 +162,17 @@ CommandButton Command_DavosTeleportStoredList
 End
 
 CommandButton Command_SpecialAbilityDavosSmugglersTricks
-	Command			   	 = SPECIAL_POWER
-	SpecialPower	   = SpecialAbilityDavosSmugglersTricks
-	NeededUpgrade	 	 = Upgrade_ObjectLevel5
-	Options			   	 = NEED_TARGET_POS CONTEXTMODE_COMMAND NEED_UPGRADE
-	TextLabel		   	 = CONTROLBAR:DavosSmugglersTricks
-	ButtonImage		   = BADavosSmugglersTricks
-	RadiusCursorType = RhllorRadiusCursor
-	ButtonBorderType = ACTION
-	DescriptLabel	   = CONTROLBAR:ToolTipDavosSmugglersTricks
-	InPalantir		   = Yes
+	Command			   	  = SPECIAL_POWER
+	SpecialPower	    = SpecialAbilityDavosSmugglersTricks
+	NeededUpgrade	 	  = Upgrade_ObjectLevel5
+	Options			   	  = NEED_TARGET_POS CONTEXTMODE_COMMAND NEED_UPGRADE
+	TextLabel		   	  = CONTROLBAR:DavosSmugglersTricks
+	ButtonImage		    = BADavosSmugglersTricks
+	RadiusCursorType  = RhllorRadiusCursor
+	ButtonBorderType  = ACTION
+	DescriptLabel	    = CONTROLBAR:ToolTipDavosSmugglersTricks
+	InPalantir		    = Yes
+	UnitSpecificSound = DavosSmugglersTricks
 End
 
 CommandButton Command_DavosUpjumpedSmuggler
@@ -221,7 +222,7 @@ CommandButton Command_SpecialAbilityGendryLeapLevel1
   Options					 = NEED_TARGET_POS CONTEXTMODE_COMMAND
   TextLabel				 = CONTROLBAR:GendryLeap
   ButtonImage			 = BALordGendryLeap
-  RadiusCursorType = LeapRadiusCursor
+  RadiusCursorType = RhllorRadiusCursor
   CursorName			 = Bombard
   ButtonBorderType = ACTION
   DescriptLabel		 = CONTROLBAR:ToolTipGendryLeap
@@ -235,7 +236,7 @@ CommandButton Command_SpecialAbilityGendryLeapLevel3
   Options					 = NEED_TARGET_POS CONTEXTMODE_COMMAND
   TextLabel				 = CONTROLBAR:GendryLeap
   ButtonImage			 = BALordGendryLeap
-  RadiusCursorType = LeapRadiusCursor
+  RadiusCursorType = RhllorRadiusCursor
   CursorName			 = Bombard
   ButtonBorderType = ACTION
   DescriptLabel		 = CONTROLBAR:ToolTipGendryLeap
@@ -249,7 +250,7 @@ CommandButton Command_SpecialAbilityGendryLeapLevel5
   Options					 = NEED_TARGET_POS CONTEXTMODE_COMMAND
   TextLabel				 = CONTROLBAR:GendryLeap
   ButtonImage			 = BALordGendryLeap
-  RadiusCursorType = LeapRadiusCursor
+  RadiusCursorType = RhllorRadiusCursor
   CursorName			 = Bombard
   ButtonBorderType = ACTION
   DescriptLabel		 = CONTROLBAR:ToolTipGendryLeap
@@ -263,7 +264,7 @@ CommandButton Command_SpecialAbilityGendryLeapLevel8
   Options					 = NEED_TARGET_POS CONTEXTMODE_COMMAND
   TextLabel				 = CONTROLBAR:GendryLeap
   ButtonImage			 = BALordGendryLeap
-  RadiusCursorType = LeapRadiusCursor
+  RadiusCursorType = RhllorRadiusCursor
   CursorName			 = Bombard
   ButtonBorderType = ACTION
   DescriptLabel		 = CONTROLBAR:ToolTipGendryLeap

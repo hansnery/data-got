@@ -193,7 +193,7 @@ End
 AudioEvent UpgradeLawfulSon
   Sounds       = gendry_lawful_son
   Limit        = 3
-  Volume       = 350
+  Volume       = 200
   Type         = ui everyone ;world shrouded player
   SubmixSlider = SoundFX
 End
