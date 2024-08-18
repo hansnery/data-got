@@ -93057,4 +93057,8 @@ UPGRADE:BaratheonLightbringer
 "Lightbringer"
 END
 
+CONTROLBAR:ToolTipDavosSmugglersTricks
+"Requires Level 5 \n Smuggles allied units from one location on the battlefield\nto within a radius of Davos Seaworth\n Does not work on siege units \n Left click on target units"
+END
+
 END

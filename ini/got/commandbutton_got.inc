@@ -161,6 +161,19 @@ CommandButton Command_DavosTeleportStoredList
 	RadiusCursorType = RhllorRadiusCursor	// should be different to the other	power probably.
 End
 
+CommandButton Command_SpecialAbilityDavosSmugglersTricks
+	Command			   	 = SPECIAL_POWER
+	SpecialPower	   = SpecialAbilityDavosSmugglersTricks
+	NeededUpgrade	 	 = Upgrade_ObjectLevel5
+	Options			   	 = NEED_TARGET_POS CONTEXTMODE_COMMAND NEED_UPGRADE
+	TextLabel		   	 = CONTROLBAR:DavosSmugglersTricks
+	ButtonImage		   = BADavosSmugglersTricks
+	RadiusCursorType = RhllorRadiusCursor
+	ButtonBorderType = ACTION
+	DescriptLabel	   = CONTROLBAR:ToolTipDavosSmugglersTricks
+	InPalantir		   = Yes
+End
+
 CommandButton Command_DavosUpjumpedSmuggler
   Command						= SPECIAL_POWER
   SpecialPower			= SpecialAbilityDavosUpjumpedSmuggler

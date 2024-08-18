@@ -339,3 +339,11 @@ SpecialPower SpellBookTheIronBank
 	ForbiddenObjectFilter		= AOTR_NO_STRUCTURE_SUMMON_NEAR_OBJECT_FILTER
 	ForbiddenObjectRange		= 50.0
 End
+
+SpecialPower SpecialAbilityDavosSmugglersTricks
+	Enum							 = SPECIAL_TELEPORT_TEAM_TO_CASTER
+	RadiusCursorRadius = 60.0
+	ReloadTime				 = SPELL_RECHARGE_TIME_TIER_4
+	ObjectFilter			 = ANY	+INFANTRY +CAVALRY +DOZER +HERO -RohanTreeBerd -IsengardBatteringRam -MordorBatteringRam -IsengardBallista -IsengardExplosiveMine -MordorGrond -MordorCatapult -DwarfBatteringRam -DwarvenCatapult -DwarvenDemolisher -DwarvenMangonel -GuldurEntwife -GondorTrebuchet -GondorBigTrebuchet_Summoned -MirkwoodBatteringRam -MirkwoodBallista -ArnorBreelandRam -RohanBatteringRam -RohanMangonel ALLIES
+	InitiateSound			 = DavosSmugglersTricks ;CaH_TeleportPart1
+End

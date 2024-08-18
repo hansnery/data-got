@@ -94,7 +94,7 @@ CommandSet BaratheonDavosCommandSet
 	2	 = Command_DavosStannisBonus
 	3	 = Command_SpecialAbilityDavosOnionBarrels
 	4	 = Command_SpecialAbilityDavosHonestAccounting
-	5	 = Command_Davos_SpecialAbilityTeleportLevel2
+	5	 = Command_SpecialAbilityDavosSmugglersTricks ;Command_Davos_SpecialAbilityTeleportLevel2
 	6	 = Command_DavosUpjumpedSmuggler
 	7  = Command_ToggleBeregondWeapon
 	12 = Command_CaptureBuilding
