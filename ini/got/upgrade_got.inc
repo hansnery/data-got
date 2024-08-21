@@ -42,7 +42,7 @@ Upgrade Upgrade_BaratheonDefenderOfTheFaithTrigger
 	DisplayName					= Upgrade:DefenderOfTheFaith
 	UpgradeFX        		= FX_DwarvenFortressUpgrade
 	SkirmishAIHeuristic = AI_UPGRADEHEURISTIC_IMPORTANT
-	; ResearchSound 			= UpgradeLawfulSon
+	ResearchSound 			= UpgradeBurnIdols
 End
 Upgrade Upgrade_BaratheonControlTheNarrowSeaTrigger
 	Type								= PLAYER
@@ -51,7 +51,7 @@ Upgrade Upgrade_BaratheonControlTheNarrowSeaTrigger
 	DisplayName					= Upgrade:ControlTheNarrowSea
 	UpgradeFX        		= FX_DwarvenFortressUpgrade
 	SkirmishAIHeuristic = AI_UPGRADEHEURISTIC_IMPORTANT
-	; ResearchSound 			= UpgradeLawfulSon
+	ResearchSound 			= UpgradeMasterOfShips
 End
 Upgrade Upgrade_BaratheonKingsBloodPowerTrigger
 	Type								= PLAYER
@@ -87,7 +87,7 @@ Upgrade Upgrade_BaratheonPrayHarderTrigger
 	DisplayName					= Upgrade:PrayHarder
 	UpgradeFX        		= FX_DwarvenFortressUpgrade
 	SkirmishAIHeuristic = AI_UPGRADEHEURISTIC_IMPORTANT
-	; ResearchSound 			= UpgradeLawfulSon
+	ResearchSound 			= UpgradePrayHarder
 End
 Upgrade Upgrade_ShireensAshTrigger
 	Type = PLAYER
