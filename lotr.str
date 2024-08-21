@@ -93075,4 +93075,20 @@ CONTROLBAR:ToolTipDavosSmugglersTricks
 "Requires Level 5 \n Smuggles allied units from one location on the battlefield\nto within a radius of Davos Seaworth\n Does not work on siege units \n Left click on target units"
 END
 
+OBJECT:BaratheonKingsmen
+"Kingsman"
+END
+
+OBJECT:BaratheonKingsmenHorde
+"Kingsmen"
+END
+
+CONTROLBAR:ConstructBaratheonKingsmenHorde
+"Kingsmen (&T)"
+END
+
+CONTROLBAR:ToolTipConstructBaratheonKingsmenHorde
+"Requires Level 3 Barracks and Stannis Baratheon \n Unit Type: Hero Unit \n Strong vs. Infantry and Archers \n\n The Kingsmen of Stannis Baratheon are an elite cavalry unit, renowned for their unwavering loyalty and brutal efficiency in battle. Clad in darkened plate armor adorned, these mounted warriors are handpicked from the most loyal followers of Stannis. Riding powerful destriers, they charge into battle with a ferocity that reflects their king's relentless determination."
+END
+
 END

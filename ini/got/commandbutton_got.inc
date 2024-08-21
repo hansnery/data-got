@@ -1830,3 +1830,17 @@ CommandButton Command_PurchaseTechnologyBaratheonLightbringer
 	InPalantir			 = Yes
 	LacksPrerequisiteLabel = TOOLTIP:LackDefenderOfTheFaithUpgrade
 End
+
+CommandButton Command_ConstructBaratheonKingsmenHorde
+	Command					 = UNIT_BUILD
+	Object					 = BaratheonKingsmenHorde
+	; NeededUpgrade    = Upgrade_MordorOrcPitLevel3 Upgrade_Evilboyos
+	Options			     = CANCELABLE ;NEED_UPGRADE
+	TextLabel				 = CONTROLBAR:ConstructBaratheonKingsmenHorde
+	ButtonImage			 = BARoyalGuard
+	ButtonBorderType = BUILD
+	DescriptLabel		 = CONTROLBAR:ToolTipConstructBaratheonKingsmenHorde
+	Radial					 = Yes
+	InPalantir	   	 = Yes
+	ShowProductionCount	= Yes
+End

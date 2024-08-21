@@ -740,24 +740,24 @@ End
 ;;;;;;;;;;;;;;;;;;;;;
 AudioEvent DragonstoneSoldierVoiceAttack
   Sounds    = dragonstone_soldier_attack1 dragonstone_soldier_attack2 dragonstone_soldier_attack3 dragonstone_soldier_attack4 dragonstone_soldier_attack5 dragonstone_soldier_attack6 dragonstone_soldier_attack7 dragonstone_soldier_attack8 dragonstone_soldier_attack9
-  Volume    = 180
-  MinVolume = 175
+  Volume    = 150
+  MinVolume = 145
   Type      = world player voice
   SubmixSlider = voice
 End
 
 AudioEvent DragonstoneSoldierAttackBuilding
   Sounds    = dragonstone_soldier_attack_building1 dragonstone_soldier_attack_building2 dragonstone_soldier_attack_building3 dragonstone_soldier_attack_building4 dragonstone_soldier_attack_building5
-  Volume    = 180
-  MinVolume = 175
+  Volume    = 150
+  MinVolume = 145
   Type      = world player voice
   SubmixSlider = voice
 End
 
 AudioEvent DragonstoneSoldierVoiceSalute
   Sounds    = dragonstone_soldier_salute1 dragonstone_soldier_salute2 dragonstone_soldier_salute3 dragonstone_soldier_salute4
-  Volume    = 180
-  MinVolume = 175
+  Volume    = 150
+  MinVolume = 145
   Limit     = 1
   Type      = world player voice
   SubmixSlider = voice
@@ -765,8 +765,8 @@ End
 
 AudioEvent DragonstoneSoldierVoiceMove
   Sounds      = dragonstone_soldier_move1 dragonstone_soldier_move2 dragonstone_soldier_move3 dragonstone_soldier_move4 dragonstone_soldier_move5 dragonstone_soldier_move6 dragonstone_soldier_move7 dragonstone_soldier_move8
-  Volume    = 180
-  MinVolume = 175
+  Volume      = 150
+  MinVolume   = 145
   PlayPercent = VOICE_MOVE_PLAY_PERCENT
   Type        = world player voice
   SubmixSlider = voice
@@ -774,32 +774,32 @@ End
 
 AudioEvent DragonstoneSoldierVoiceMoveCamp
   Sounds    = dragonstone_soldier_move_camp1 dragonstone_soldier_move_camp2 dragonstone_soldier_move_camp3 dragonstone_soldier_move_camp4
-  Volume    = 180
-  MinVolume = 175
+  Volume    = 150
+  MinVolume = 145
   Type      = world player voice
   SubmixSlider = voice
 End
 
 AudioEvent  DragonstoneSoldierVoiceDisengage
   Sounds    = dragonstone_soldier_disengage1 dragonstone_soldier_disengage2 dragonstone_soldier_disengage3 dragonstone_soldier_disengage4 dragonstone_soldier_disengage5
-  Volume    = 180
-  MinVolume = 175
+  Volume    = 150
+  MinVolume = 145
   Type      = world player voice
   SubmixSlider = voice
 End
 
 AudioEvent  DragonstoneSoldierVoiceRetreat
   Sounds    = dragonstone_soldier_retreat1 dragonstone_soldier_retreat2
-  Volume    = 180
-  MinVolume = 175
+  Volume    = 150
+  MinVolume = 145
   Type      = world player voice
   SubmixSlider = voice
 End
 
 AudioEvent DragonstoneSoldierVoiceSelect
   Sounds    = dragonstone_soldier_select1 dragonstone_soldier_select2 dragonstone_soldier_select3 dragonstone_soldier_select4 dragonstone_soldier_select5 dragonstone_soldier_select6 dragonstone_soldier_select7
-  Volume    = 180
-  MinVolume = 175
+  Volume    = 150
+  MinVolume = 145
   Type      = world player voice
   SubmixSlider = voice
 End
@@ -810,8 +810,8 @@ End
 
 AudioEvent DragonstoneSoldierVoiceSelectBattle
   Sounds    = dragonstone_soldier_select_battle1 dragonstone_soldier_select_battle2 dragonstone_soldier_select_battle3 dragonstone_soldier_select_battle4 dragonstone_soldier_select_battle5
-  Volume    = 180
-  MinVolume = 175
+  Volume    = 150
+  MinVolume = 145
   Type      = world player voice
   SubmixSlider = voice
 End
@@ -884,16 +884,16 @@ End
 
 AudioEvent DragonstoneSoldierVoiceGarrison
   Sounds    = dragonstone_soldier_garrison1 dragonstone_soldier_garrison2
-  Volume    = 180
-  MinVolume = 175
+  Volume    = 150
+  MinVolume = 145
   Type      = world player voice
   SubmixSlider = voice
 End
 
 AudioEvent DragonstoneSoldierVoiceCapture
   Sounds    = dragonstone_soldier_capture1 dragonstone_soldier_capture2 dragonstone_soldier_capture3
-  Volume    = 180
-  MinVolume = 175
+  Volume    = 150
+  MinVolume = 145
   Type      = world player voice
   SubmixSlider = voice
 End
@@ -901,16 +901,16 @@ End
 AudioEvent DragonstoneSoldierMoveShip
   Sounds    = dragonstone_soldier_ship1
   Priority  = high
-  Volume    = 180
-  MinVolume = 175
+  Volume    = 150
+  MinVolume = 145
   Type      = world player voice
   SubmixSlider = voice
 End
 
 AudioEvent DragonstoneSoldierVoiceMoveTrees
   Sounds       = dragonstone_soldier_trees1 dragonstone_soldier_trees2
-  Volume    = 180
-  MinVolume = 175
+  Volume      = 150
+  MinVolume   = 145
   Type         = world player voice
   SubmixSlider = voice
 End

@@ -487,7 +487,8 @@ CommandSet BaratheonBarracksCommandSet
 	3 = Command_ConstructBaratheonDragonstonePikemanHorde
 	4 = Command_ConstructBaratheonDragonstoneArcherHorde
 	5 = Command_ConstructBaratheonDragonstoneKnightHorde
-	7 = Command_UpgradeBaratheonDragonstoneBarracksLevel2
+	7 = Command_ConstructBaratheonKingsmenHorde
+	8 = Command_UpgradeBaratheonDragonstoneBarracksLevel2
 	6	= Command_Sell
 End
 
@@ -497,7 +498,8 @@ CommandSet BaratheonBarracksCommandSetLvl2
 	3 = Command_ConstructBaratheonDragonstonePikemanHorde
 	4 = Command_ConstructBaratheonDragonstoneArcherHorde
 	5 = Command_ConstructBaratheonDragonstoneKnightHorde
-	7 = Command_UpgradeBaratheonDragonstoneBarracksLevel3
+	7 = Command_ConstructBaratheonKingsmenHorde
+	8 = Command_UpgradeBaratheonDragonstoneBarracksLevel3
 	6	= Command_Sell
 End
 
@@ -507,6 +509,7 @@ CommandSet BaratheonBarracksCommandSetLvl3
 	3 = Command_ConstructBaratheonDragonstonePikemanHorde
 	4 = Command_ConstructBaratheonDragonstoneArcherHorde
 	5 = Command_ConstructBaratheonDragonstoneKnightHorde
+	7 = Command_ConstructBaratheonKingsmenHorde
 	6	= Command_Sell
 End
 
@@ -885,4 +888,19 @@ CommandSet RedTempleCommandSetLevel3
 	4 = Command_PurchaseTechnologySpiritOfZigur
 	5 = Command_SanctumMelkorRuin
 	6 = Command_Sell
+End
+
+CommandSet KingsmenHordeCommandSet
+	1 = Command_ToggleStance
+	2 = Command_ToggleFormationDunedainOutriders
+	3 = Command_SpecialAbilityAppealToTheLordOfLightTrample
+	; 4 = Command_PurchaseUpgradeBaratheonHeavyArmor
+	; 5	= Command_PurchaseUpgradeBaratheonForgedBlades
+	6	= Command_ValorousRecovery
+	12 = Command_CaptureBuilding
+	13 = Command_AttackMove
+	14 = Command_Stop
+	16 = Command_SetStanceBattle
+	17 = Command_SetStanceAggressive
+	18 = Command_SetStanceHoldGround
 End
