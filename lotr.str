@@ -92169,6 +92169,14 @@ CONTROLBAR:ToolTipShireenLearnedChild
 "Requires Level 6\n Modifier Type: Spell \n Shireen teaches valuable knowledge to targeted friendly hero\nTarget hero instantly levels up by one rank\nLeft click icon then left click on target hero"
 END
 
+CONTROLBAR:ShireenSummon
+"Royal Household (&V)"
+END
+
+CONTROLBAR:ToolTipShireenSummon
+"Requires Level 10 \n Summons a temporary battalion of Dragonstone Pikemen \n Left click on icon to activate"
+END
+
 OBJECT:BaratheonShireen
 "Shireen Baratheon"
 END
@@ -92267,7 +92275,8 @@ Upgrade:DefenderOfTheFaith
 END
 
 TOOLTIP:DefenderOfTheFaithIsMutuallyExclusive
-"You have already chosen Master of Ships"
+//"You have already chosen Master of Ships"
+"Is mutually exclusive with Master of Ships upgrade"
 END
 
 CONTROLBAR:PurchaseUpgradeBaratheonControlTheNarrowSea
@@ -92283,7 +92292,8 @@ Upgrade:ControlTheNarrowSea
 END
 
 TOOLTIP:ControlTheNarrowSeaIsMutuallyExclusive
-"You have already chosen Defender of the Faith"
+//"You have already chosen Defender of the Faith"
+"Is mutually exclusive with Defender of the Faith upgrade"
 END
 
 CONTROLBAR:PurchaseUpgradeBaratheonKingsBloodPower
@@ -92291,7 +92301,7 @@ CONTROLBAR:PurchaseUpgradeBaratheonKingsBloodPower
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeBaratheonKingsBloodPower
-"Gendry is acknowledged as the bastard son of Robert Baratheon \nand his blood is used by Melisandre for blood magic \n\n Gendry can be recruited at the Fortress \n Prerequisite for Melisandre's Shadowbinder spell \n\n Is mutually exclusive with Lawful Son upgrade \n Prerequisite for Gendry"
+"Gendry is acknowledged as the bastard son of Robert Baratheon \nand his blood is used by Melisandre for blood magic \n\n Prerequisite for Gendry \n Prerequisite for Melisandre's Shadowbinder spell \n\n Is mutually exclusive with Lawful Son upgrade"
 END
 
 Upgrade:KingsBloodPower
@@ -92299,7 +92309,8 @@ Upgrade:KingsBloodPower
 END
 
 TOOLTIP:KingsBloodPowerIsMutuallyExclusive
-"You have already chosen Lawful Son"
+//"You have already chosen Lawful Son"
+"Is mutually exclusive with Lawful Son upgrade"
 END
 
 CONTROLBAR:PurchaseUpgradeBaratheonLawfulSon
@@ -92307,7 +92318,7 @@ CONTROLBAR:PurchaseUpgradeBaratheonLawfulSon
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeBaratheonLawfulSon
-"Gendry is declared heir to Stannis Baratheon and \nis legitimized as the lawful son of Robert Baratheon \n\n Lord Gendry can be recruited at the Fortress \n Unlocks elite Stormlander units \n\n Is mutually exclusive with Kings Blood Power upgrade \n Prerequisite for Lord Gendry"
+"Gendry is declared heir to Stannis Baratheon and \nis legitimized as the lawful son of Robert Baratheon \n\n Prerequisite for Lord Gendry \n Unlocks elite Stormlander units \n\n Is mutually exclusive with Kings Blood Power upgrade"
 END
 
 Upgrade:LawfulSon
@@ -92315,7 +92326,8 @@ Upgrade:LawfulSon
 END
 
 TOOLTIP:LawfulSonIsMutuallyExclusive
-"You have already chosen Kings Blood Power"
+//"You have already chosen Kings Blood Power"
+"Is mutually exclusive with Kings Blood Power upgrade"
 END
 
 CONTROLBAR:PurchaseUpgradeBaratheonSacrificeShireen
@@ -92324,7 +92336,7 @@ END
 
 CONTROLBAR:ToolTipPurchaseUpgradeBaratheonSacrificeShireen
 //"Shireen Baratheon is burned at the stake \n\n Melisandre's attack damage and radius are greatly increased \n Melisandre's health is greatly increased \n\n Is mutually exclusive with Pray Harder upgrade \n Shireen Baratheon dies and can no longer be recruited or revived"
-"Shireen Baratheon is burned at the stake \n\n Melisandre's attack damage and radius are greatly increased \n\n Is mutually exclusive with Pray Harder upgrade \n Shireen Baratheon dies and can no longer be recruited or revived"
+"Shireen Baratheon is burned at the stake \n\n Shireen Baratheon dies and can no longer be recruited or revived \n Melisandre's attack damage and radius are greatly increased \n\n Is mutually exclusive with Pray Harder upgrade"
 END
 
 Upgrade:SacrificeShireen
@@ -92332,7 +92344,8 @@ Upgrade:SacrificeShireen
 END
 
 TOOLTIP:SacrificeShireenIsMutuallyExclusive
-"You have already chosen Pray Harder"
+//"You have either already chosen Pray Harder"
+"Requires Shireen Baratheon \n Is mutually exclusive with Pray Harder upgrade"
 END
 
 CONTROLBAR:PurchaseUpgradeBaratheonPrayHarder
@@ -92348,7 +92361,8 @@ Upgrade:PrayHarder
 END
 
 TOOLTIP:PrayHarderIsMutuallyExclusive
-"You have already chosen Sacrifice Shireen"
+//"You have already chosen Sacrifice Shireen"
+"Is mutually exclusive with Sacrifice Shireen upgrade"
 END
 
 OBJECT:TargaryenDrogon
@@ -92876,7 +92890,7 @@ CONTROLBAR:FireGazing
 END
 
 CONTROLBAR:WarChantStannis
-"Baratheon Horn"
+"War Drums"
 End
 
 CONTROLBAR:ShaftsOfDragonmont

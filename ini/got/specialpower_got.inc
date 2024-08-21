@@ -190,7 +190,7 @@ SpecialPower SpecialAbilityStoreObjectsForLevel2TeleportDavos
 	RadiusCursorRadius = 100.0
 	ReloadTime				 = 180000						   // Uses chained reload time.
 	ObjectFilter			 = ANY +INFANTRY +CAVALRY +HERO -GondorTrebuchet ALLIES +BaratheonDavos
-	InitiateSound			 = DavosSmugglersTricks
+	; InitiateSound			 = DavosSmugglersTricks
 End
 
 SpecialPower SpecialAbilityTeleportStoredObjectsDavos
@@ -202,7 +202,7 @@ End
 SpecialPower SpecialAbilityDavosUpjumpedSmuggler
 	Enum					= SPECIAL_AT_VISIBLE_OBJECT
 	ReloadTime		= 180000
-	ObjectFilter	= CRIPPLE_STRIKE_202_SPECIAL_OBJECT_FILTER
+	ObjectFilter	= ANY +HERO -AIRCRAFT -BaratheonDavos -BaratheonMelisandre -LightOfRhllor ;CRIPPLE_STRIKE_202_SPECIAL_OBJECT_FILTER
 	InitiateSound	= DavosHardTruths
 End
 

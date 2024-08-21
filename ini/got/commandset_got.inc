@@ -357,6 +357,7 @@ CommandSet ShireenCommandSet
 	3  = Command_SpecialPowerShireenGoodAndKind
 	4  = Command_SpecialPowerShireenGlowOfTheGreyscale
 	5  = Command_SpecialAbilityShireenLearnedChild
+	6  = Command_SpecialAbilityShireenRoyalHousehold
 	12 = Command_CaptureBuilding
 	13 = Command_AttackMove
 	14 = Command_Stop
@@ -371,6 +372,7 @@ CommandSet ShireenCommandSet_Lvl3
 	3  = Command_SpecialPowerShireenGoodAndKind
 	4  = Command_SpecialPowerShireenGlowOfTheGreyscale
 	5  = Command_SpecialAbilityShireenLearnedChild
+	6  = Command_SpecialAbilityShireenRoyalHousehold
 	12 = Command_CaptureBuilding
 	13 = Command_AttackMove
 	14 = Command_Stop
@@ -385,6 +387,7 @@ CommandSet ShireenCommandSet_Lvl6
 	3  = Command_SpecialPowerShireenGoodAndKind
 	4  = Command_SpecialPowerShireenGlowOfTheGreyscale
 	5  = Command_SpecialAbilityShireenLearnedChild
+	6  = Command_SpecialAbilityShireenRoyalHousehold
 	12 = Command_CaptureBuilding
 	13 = Command_AttackMove
 	14 = Command_Stop
@@ -399,6 +402,7 @@ CommandSet ShireenCommandSet_Lvl10
 	3  = Command_SpecialPowerShireenGoodAndKind
 	4  = Command_SpecialPowerShireenGlowOfTheGreyscale
 	5  = Command_SpecialAbilityShireenLearnedChild
+	6  = Command_SpecialAbilityShireenRoyalHousehold
 	12 = Command_CaptureBuilding
 	13 = Command_AttackMove
 	14 = Command_Stop
@@ -587,6 +591,21 @@ CommandSet DragonstonePikemanHordeCommandSet_Lvl2
 	4 = Command_PurchaseUpgradeBaratheonHeavyArmor
 	5 = Command_PurchaseUpgradeBaratheonForgedBlades
 	6 = Command_SpecialAbilityBaratheonFaithfulResolve
+	12 = Command_CaptureBuilding
+	13 = Command_AttackMove
+	14 = Command_Stop
+	16 = Command_SetStanceBattle
+	17 = Command_SetStanceAggressive
+	18 = Command_SetStanceHoldGround
+End
+
+CommandSet DragonstonePikemanHordeCommandSet_Summoned
+	1 = Command_ToggleStance
+	2 = Command_RivendellSentryPorcupineFormation
+	; 3	= Command_SpecialAbilityAppealToTheLordOfLightArmor
+	; 4 = Command_PurchaseUpgradeBaratheonHeavyArmor
+	; 5 = Command_PurchaseUpgradeBaratheonForgedBlades
+	; 6 = Command_PurchaseUpgradeBaratheonBasicTraining
 	12 = Command_CaptureBuilding
 	13 = Command_AttackMove
 	14 = Command_Stop

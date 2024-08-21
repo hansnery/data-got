@@ -43,7 +43,7 @@ End
 
 CommandButton Command_SpecialAbilityStannisRoyalFleet
 	Command			 		 = SPECIAL_POWER
-	SpecialPower	 	 = SpecialAbilityStoreObjectsForLevel2TeleportHaldir
+	SpecialPower	 	 = SpecialAbilityStoreObjectsForLevel2TeleportDavos
 	Options			 		 = CONTEXTMODE_COMMAND NEED_TARGET_POS
 	TextLabel		 		 = CONTROLBAR:StannisRoyalFleet
 	ButtonImage		 	 = BAStannisRoyalFleetButton
@@ -676,6 +676,17 @@ CommandButton Command_SpecialAbilityShireenLearnedChild
   PresetRange				= 200.0
 End
 
+CommandButton Command_SpecialAbilityShireenRoyalHousehold
+	Command					 = SPECIAL_POWER
+	SpecialPower		 = SpecialAbilityDenethorSummon
+	TextLabel				 = CONTROLBAR:ShireenSummon
+	ButtonImage			 = BARoyalHousehold
+	ButtonBorderType = ACTION
+	DescriptLabel		 = CONTROLBAR:ToolTipShireenSummon
+	InPalantir	   	 = Yes
+	AutoAbility			 = Yes
+End
+
 CommandButton Command_SalladhorSaanFakeLeadership
   Command          = SPECIAL_POWER
   SpecialPower     = SpecialAbilityFakeLeadership
@@ -800,7 +811,7 @@ CommandButton Command_SelectBaratheonSacrificeShireen
   Command          = PLAYER_UPGRADE
   Upgrade          = Upgrade_BaratheonSacrificeShireenTrigger
   Options					 = NEED_UPGRADE CANCELABLE
-	NeededUpgrade	   = Upgrade_BaratheonSacrificeShireenAvailableIsTrue
+	NeededUpgrade	   = Upgrade_BaratheonSacrificeShireenAvailableIsTrue Upgrade_SonsOfElrond
   TextLabel        = CONTROLBAR:PurchaseUpgradeBaratheonSacrificeShireen
   ButtonImage      = BASacrificeShireenButton
   ButtonBorderType = UPGRADE
@@ -1488,7 +1499,7 @@ CommandButton Command_SpellBookWarChantStannis
 	ButtonBorderType = ACTION
 	TextLabel				 = CONTROLBAR:WarChantStannis
 	DescriptLabel		 = CONTROLBAR:TooltipWarChantMordor
-	ButtonImage			 = BAHornButton
+	ButtonImage			 = BAWarDrums
 	RadiusCursorType = RhllorRadiusCursor
 End
 
@@ -1524,7 +1535,7 @@ End
 CommandButton Command_PurchaseSpellWarChantStannis
 	Command					 = PURCHASE_SCIENCE
 	ButtonBorderType = UPGRADE
-  ButtonImage			 = BAHornButton
+  ButtonImage			 = BAWarDrums
   Science					 = SCIENCE_WarChantStannis
 	TextLabel				 = CONTROLBAR:WarChantStannis
 	DescriptLabel		 = CONTROLBAR:TooltipWarChantMordor

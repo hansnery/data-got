@@ -201,7 +201,7 @@ End
 AudioEvent UpgradeKingsBloodPower
   Sounds       = gendry_bastard_son
   Limit        = 3
-  Volume       = 200
+  Volume       = 150
   Type         = ui everyone ;world shrouded player
   SubmixSlider = SoundFX
 End
@@ -269,7 +269,31 @@ End
 AudioEvent UpgradeSacrificeShireen
   Sounds       = sacrifice_shireen
   Limit        = 3
-  Volume       = 300
+  Volume       = 200
+  Type         = ui everyone ;world shrouded player
+  SubmixSlider = SoundFX
+End
+
+AudioEvent UpgradePrayHarder
+  Sounds       = pray_harder
+  Limit        = 3
+  Volume       = 150
+  Type         = ui everyone ;world shrouded player
+  SubmixSlider = SoundFX
+End
+
+AudioEvent UpgradeBurnIdols
+  Sounds       = burn_idols
+  Limit        = 3
+  Volume       = 150
+  Type         = ui everyone ;world shrouded player
+  SubmixSlider = SoundFX
+End
+
+AudioEvent UpgradeMasterOfShips
+  Sounds       = master_of_ships
+  Limit        = 3
+  Volume       = 200
   Type         = ui everyone ;world shrouded player
   SubmixSlider = SoundFX
 End
