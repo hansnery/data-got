@@ -1046,7 +1046,7 @@ End
 CommandButton Command_ConstructBaratheonDragonstoneKnightHorde
 	Command					 = UNIT_BUILD
 	Object					 = BaratheonDragonstoneKnightHorde
-	NeededUpgrade    = Upgrade_MordorOrcPitLevel3 Upgrade_Evilboyos
+	NeededUpgrade    = Upgrade_MordorOrcPitLevel3 ;Upgrade_Evilboyos
 	Options			     = CANCELABLE NEED_UPGRADE
 	TextLabel				 = CONTROLBAR:ConstructBaratheonDragonstoneKnightHorde
 	ButtonImage			 = BADragonstoneKnights
