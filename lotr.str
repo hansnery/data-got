@@ -93045,7 +93045,7 @@ CONTROLBAR:TheKingWhoCared
 End
 
 CONTROLBAR:TooltipTheKingWhoCared
-"Temporarily summons a massive\ncavalry army from Dragonstone \n Left click icon then left click on pathable location"
+"Temporarily summons a massive cavalry army from Dragonstone \n that will trample and kill anyone in its path \n Left click icon then left click on pathable location"
 END
 
 CONTROLBAR:ToolTipBuildBaratheonBatteringRam

@@ -16341,7 +16341,7 @@ function OnBaratheonRenlysVanguardFunctionsCreated(self)
 	ObjectHideSubObjectPermanently( self, "HEAD03", true )
 	ObjectHideSubObjectPermanently( self, "HEAD04", true )
 	ObjectHideSubObjectPermanently( self, "MASK", true )
-	-- ObjectHideSubObjectPermanently( self, "HELMET", true )
+	ObjectHideSubObjectPermanently( self, "HELMET", false )
 	;------------------------CLOAKS
 	ObjectHideSubObjectPermanently( self, "CLOAK01", true )
 	ObjectHideSubObjectPermanently( self, "CLOAK02", true )
