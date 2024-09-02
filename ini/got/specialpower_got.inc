@@ -25,7 +25,7 @@ SpecialPower SpellBookWarChantStannis
 	ReloadTime      	 = SPELL_RECHARGE_TIME_TIER_1
 	RadiusCursorRadius = 75.0
 	RequiredSciences	 = SCIENCE_WarChantStannis
-	InitiateAtLocationSound = SpellMordorRallyingCall
+	InitiateAtLocationSound = SpellBaratheonDrums
 End
 
 SpecialPower SpellBookShaftsOfDragonmont

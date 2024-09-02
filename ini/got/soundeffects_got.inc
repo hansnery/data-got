@@ -297,3 +297,15 @@ AudioEvent UpgradeMasterOfShips
   Type         = ui everyone ;world shrouded player
   SubmixSlider = SoundFX
 End
+
+AudioEvent SpellBaratheonDrums
+  Sounds     = baratheon_drums
+  Volume     = 300
+  MinRange   = 300
+  MaxRange   = 1000
+  PitchShift = 0 2
+  Priority   = critical
+  Limit      = 2
+  Type       = world shrouded everyone
+  SubmixSlider = SoundFX
+End

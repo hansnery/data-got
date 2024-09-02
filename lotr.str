@@ -92345,7 +92345,8 @@ END
 
 TOOLTIP:SacrificeShireenIsMutuallyExclusive
 //"You have either already chosen Pray Harder"
-"Requires Shireen Baratheon \n Is mutually exclusive with Pray Harder upgrade"
+//"Requires Shireen Baratheon \n Is mutually exclusive with Pray Harder upgrade"
+""Requires Shireen Baratheon \n Shireen Baratheon is burned at the stake \n\n Shireen Baratheon dies and can no longer be recruited or revived \n Melisandre's attack damage and radius are greatly increased \n\n Is mutually exclusive with Pray Harder upgrade"
 END
 
 CONTROLBAR:PurchaseUpgradeBaratheonPrayHarder
