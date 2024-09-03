@@ -904,3 +904,12 @@ CommandSet KingsmenHordeCommandSet
 	17 = Command_SetStanceAggressive
 	18 = Command_SetStanceHoldGround
 End
+
+CommandSet DragonstoneBattleTowerCommandSetUnupgraded
+	1 = Command_PurchaseBaratheonSentryTowerFireArrowsUpgrade
+	; 2 = Command_PurchaseUpgrade_BTBaradDur
+	; 3 = Command_PurchaseUpgrade_BTCirithUngol
+	; 4 = Command_PurchaseUpgrade_BTMinasMorgul
+	; 5 = Command_PurchaseUpgrade_BTRhun
+	6 = Command_Sell
+End

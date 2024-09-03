@@ -93093,4 +93093,8 @@ CONTROLBAR:ToolTipConstructBaratheonKingsmenHorde
 "Requires Level 3 Barracks and Stannis Baratheon \n Unit Type: Hero Unit \n Strong vs. Infantry and Archers \n\n The Kingsmen of Stannis Baratheon are an elite cavalry unit, renowned for their unwavering loyalty and brutal efficiency in battle. Clad in darkened plate armor adorned, these mounted warriors are handpicked from the most loyal followers of Stannis. Riding powerful destriers, they charge into battle with a ferocity that reflects their king's relentless determination."
 END
 
+OBJECT:DragonstoneBattleTower
+"Tower of Dragonstone"
+End
+
 END

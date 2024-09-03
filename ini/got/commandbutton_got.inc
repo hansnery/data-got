@@ -1287,7 +1287,7 @@ CommandButton Command_PorterConstructDragonstoneMill
 	Command       	 = DOZER_CONSTRUCT
 	Object        	 = DragonstoneMill
 	TextLabel     	 = CONTROLBAR:ConstructMill
-	ButtonImage   	 = uiarthedwindmill
+	ButtonImage   	 = BAFarm
 	ButtonBorderType = BUILD
 	DescriptLabel    = CONTROLBAR:ToolTipConstructArnorMill
 	Radial					 = Yes
@@ -1843,4 +1843,16 @@ CommandButton Command_ConstructBaratheonKingsmenHorde
 	Radial					 = Yes
 	InPalantir	   	 = Yes
 	ShowProductionCount	= Yes
+End
+
+CommandButton Command_PurchaseBaratheonSentryTowerFireArrowsUpgrade
+	Command          = OBJECT_UPGRADE
+	Options			  	 = CANCELABLE
+	Upgrade          = Upgrade_SentryTowerFireArrows
+	TextLabel        = CONTROLBAR:PurchaseUpgradeSentryTowerFireArrows
+	ButtonImage      = uilaketownfirearrows
+	ButtonBorderType = UPGRADE
+	DescriptLabel    = CONTROLBAR:ToolTipPurchaseUpgradeSentryTowerFireArrows
+	Radial           = Yes
+	InPalantir	   	 = Yes
 End
