@@ -1753,7 +1753,7 @@ CommandButton Command_ConstructRedPriestHorde
 	Object					 = BaratheonRedPriestHorde
 	Options					 = CANCELABLE
 	TextLabel				 = CONTROLBAR:ConstructRedPriestHorde
-	ButtonImage			 = UIZigurCultist
+	ButtonImage			 = BARedPriest
 	ButtonBorderType = BUILD
 	DescriptLabel    = CONTROLBAR:TooltipBuildRedPriestHorde
 	Radial					 = Yes
@@ -1855,4 +1855,202 @@ CommandButton Command_PurchaseBaratheonSentryTowerFireArrowsUpgrade
 	DescriptLabel    = CONTROLBAR:ToolTipPurchaseUpgradeSentryTowerFireArrows
 	Radial           = Yes
 	InPalantir	   	 = Yes
+End
+
+CommandButton Command_PurchaseTechnologyRhllorCultistsZealotry
+	Command					 = PLAYER_UPGRADE
+	Options					 = CANCELABLE ; NEED_UPGRADE NONPRESSABLE
+	Upgrade					 = Upgrade_TechnologyAngmarWellOfSouls
+	TextLabel				 = CONTROLBAR:PurchaseTechnologyCultistsZealotry
+	ButtonImage			 = BARedPriestesses
+	ButtonBorderType = UPGRADE
+	DescriptLabel		 = CONTROLBAR:ToolTipPurchaseTechnologyCultistsZealotry
+	PurchasedLabel   = CONTROLBAR:ToolTipPurchaseTechnologyCultistsZealotry
+	Radial					 = Yes
+	InPalantir			 = Yes
+End
+
+CommandButton Command_PurchaseUpgradeRhllorCultistsZealotry
+	Command					 = OBJECT_UPGRADE
+	Options					 = NEED_UPGRADE OK_FOR_MULTI_SELECT CANCELABLE
+	Upgrade					 = Upgrade_AngmarWellOfSouls
+	NeededUpgrade		 = Upgrade_TechnologyAngmarWellOfSouls
+	TextLabel				 = CONTROLBAR:PurchaseUpgradeCultistsZealotry
+	ButtonImage			 = BARedPriestesses
+	ButtonBorderType = UPGRADE
+	DescriptLabel		 = CONTROLBAR:TooltipPurchaseUpgradeCultistsZealotry
+	InPalantir			 = Yes
+	LacksPrerequisiteLabel = TOOLTIP:LackBaratheonHeartsofFire
+End
+
+CommandButton Command_PurchaseTechnologyRhllorHeartsofFire
+	Command					 = PLAYER_UPGRADE
+	Options					 = CANCELABLE
+	Upgrade					 = Upgrade_TechnologyAngmarSoulFreeze
+	TextLabel				 = CONTROLBAR:PurchaseTechnologyCultistsHeartsofFire
+	ButtonImage			 = BAHeartOfFire
+	ButtonBorderType = UPGRADE
+	DescriptLabel		 = CONTROLBAR:ToolTipPurchaseTechnologyCultistsHeartsofFire
+	PurchasedLabel   = CONTROLBAR:ToolTipPurchaseTechnologyCultistsHeartsofFire
+	Radial					 = Yes
+	InPalantir			 = Yes
+End
+
+CommandButton Command_PurchaseUpgradeRhllorHeartsofFire
+	Command					 = OBJECT_UPGRADE
+	Options					 = NEED_UPGRADE OK_FOR_MULTI_SELECT CANCELABLE
+	Upgrade					 = Upgrade_AngmarSoulFreeze
+	NeededUpgrade		 = Upgrade_TechnologyAngmarSoulFreeze
+	TextLabel				 = CONTROLBAR:PurchaseUpgradeHeartsofFire
+	ButtonImage			 = BAHeartOfFire
+	ButtonBorderType = UPGRADE
+	DescriptLabel		 = CONTROLBAR:ToolTipPurchaseUpgradeHeartsofFire
+	InPalantir			 = Yes
+	LacksPrerequisiteLabel = TOOLTIP:LackBaratheonHeartsofFire
+End
+
+CommandButton Command_PurchaseTechnologySpiritOfRhllor
+	Command					 = PLAYER_UPGRADE
+	Options					 = CANCELABLE NEED_UPGRADE ;NONPRESSABLE
+	Upgrade					 = Upgrade_TechnologyAngmarCorpseRain
+	NeededUpgrade		 = Upgrade_AngmarForgeWorksLevel2
+	TextLabel				 = CONTROLBAR:PurchaseTechnologyCultistsSpiritOfRhllor
+	ButtonImage			 = BASpiritOfRhllor
+	ButtonBorderType = UPGRADE
+	DescriptLabel		 = CONTROLBAR:ToolTipPurchaseTechnologyCultistsSpiritOfRhllor
+	PurchasedLabel   = CONTROLBAR:ToolTipPurchaseTechnologyCultistsSpiritOfRhllor
+	Radial					 = Yes
+	InPalantir			 = Yes
+	LacksPrerequisiteLabel = TOOLTIP:LackLevel2RedTempleOfRhllor
+End
+
+CommandButton Command_PurchaseUpgradeSpiritOfRhllor
+	Command					 = OBJECT_UPGRADE
+	Options					 = NEED_UPGRADE OK_FOR_MULTI_SELECT CANCELABLE
+	Upgrade					 = Upgrade_AngmarCorpseRain
+	NeededUpgrade		 = Upgrade_TechnologyAngmarCorpseRain
+	TextLabel				 = CONTROLBAR:PurchaseUpgradeSpiritOfRhllor
+	ButtonImage			 = BASpiritOfRhllor
+	ButtonBorderType = UPGRADE
+	DescriptLabel		 = CONTROLBAR:ToolTipPurchaseUpgradeSpiritOfRhllor
+	InPalantir			 = Yes
+	LacksPrerequisiteLabel = TOOLTIP:LackBaratheonHeartsofFire
+End
+
+CommandButton Command_RhllorCultistsZealotry
+  Command           = SPECIAL_POWER
+  SpecialPower      = SpecialAbilityNecroFellStrength
+  Options						= NEED_TARGET_POS CONTEXTMODE_COMMAND OK_FOR_MULTI_SELECT OK_FOR_MULTI_EXECUTE
+  TextLabel         = CONTROLBAR:CultistsZealotry
+  ButtonImage       = BARedPriestesses
+  CursorName				= EvilAbilityObj
+  RadiusCursorType	= RhllorRadiusCursor ; SCCultistZealotry
+  InvalidCursorName	= GenericInvalid
+  ButtonBorderType  = ACTION
+  DescriptLabel     = CONTROLBAR:TooltipCultistsZealotry
+  InPalantir        = Yes
+  AutoAbility				= No
+End
+
+CommandButton Command_RhllorCultistsHeartsofFire
+  Command           = SPECIAL_POWER
+  SpecialPower      = SpecialAbilityHeartsOfFire
+  Options						= NEED_TARGET_POS CONTEXTMODE_COMMAND OK_FOR_MULTI_SELECT OK_FOR_MULTI_EXECUTE
+  TextLabel         = CONTROLBAR:CultistsHeartsofFire
+  ButtonImage       = BAHeartOfFire
+  CursorName				= Bombard
+  RadiusCursorType	= SCCulsitsHeartsofFire
+  InvalidCursorName	= GenericInvalid
+  ButtonBorderType  = ACTION
+  DescriptLabel     = CONTROLBAR:ToolTipRhllorCultistsHeartsofFire
+  InPalantir        = Yes
+  AutoAbility				= No
+End
+
+CommandButton Command_RhllorCultistsSpiritOfRhllor
+  Command           = SPECIAL_POWER
+  SpecialPower      = SpecialAbilitySpiritOfZigur
+  Options						= NEED_TARGET_POS CONTEXTMODE_COMMAND OK_FOR_MULTI_EXECUTE OK_FOR_MULTI_SELECT
+  TextLabel         = CONTROLBAR:CultistsSpiritOfRhllor
+  ButtonImage       = BASpiritOfRhllor
+  ButtonBorderType  = ACTION
+  DescriptLabel     = CONTROLBAR:ToolTipCultistsSpiritOfRhllor
+  CursorName        = EvilAbilityObj
+	InvalidCursorName = GenericInvalid
+  AutoAbility				= Yes
+  InPalantir				= Yes
+End
+
+CommandButton Command_Upgrade_RedTempleLevel2
+  Command          = OBJECT_UPGRADE
+  Upgrade          = Upgrade_AngmarForgeWorksLevel2
+  Options          = CANCELABLE
+  TextLabel        = CONTROLBAR:ConstructRedTemple2Upgrade
+  ButtonImage      = UpgradeGoodButton
+  ButtonBorderType = UPGRADE
+  DescriptLabel    = CONTROLBAR:ToolTipBuildRedTempleLevel2Upgrade
+  Radial           = Yes
+  InPalantir       = Yes
+End
+
+CommandButton Command_Upgrade_RedTempleLevel3
+  Command          = OBJECT_UPGRADE
+  Upgrade          = Upgrade_AngmarForgeWorksLevel3
+  Options          = CANCELABLE
+  TextLabel        = CONTROLBAR:ConstructRedTemple3Upgrade
+  ButtonImage      = UpgradeGoodButton
+  ButtonBorderType = UPGRADE
+  DescriptLabel    = CONTROLBAR:ToolTipBuildRedTempleLevel3Upgrade
+  Radial           = Yes
+  InPalantir       = Yes
+End
+
+CommandButton Command_RhllorCultistsRhllorPillar
+	Command           = SPECIAL_POWER
+	SpecialPower      = SpecialAbilityMorgothPillar
+	Options						= NEED_TARGET_POS CONTEXTMODE_COMMAND OK_FOR_MULTI_SELECT OK_FOR_MULTI_EXECUTE
+	TextLabel         = CONTROLBAR:CultistsRhllorPillar
+	ButtonImage       = UICultistMorgothPillar
+	CursorName				= Bombard
+	RadiusCursorType	= SCCultistMorgothPillar
+	InvalidCursorName	= GenericInvalid
+	ButtonBorderType  = ACTION
+	DescriptLabel     = CONTROLBAR:TooltipCultistsRhllorPillar
+	InPalantir        = Yes
+	AutoAbility				= No
+End
+
+CommandButton Command_RedTempleRhllorRuinFakeButton
+  Command           = SPECIAL_POWER
+  SpecialPower      = SpecialAbilityFakeLeadership2
+  Options						= NONPRESSABLE
+  TextLabel         = CONTROLBAR:RedTempleRhllorRuin
+  ButtonImage       = uiblessingbelegur
+  CursorName				= Bombard
+  RadiusCursorType	= CorpsRainRadiusCursor
+  InvalidCursorName	= GenericInvalid
+  ButtonBorderType  = ACTION
+  DescriptLabel     = CONTROLBAR:ToolTipRedTempleRhllorRuin
+  Radial 						= Yes
+  InPalantir        = Yes
+  AutoAbility				= No
+End
+
+CommandButton Command_RedTempleRhllorRuin
+  Command           = SPECIAL_POWER
+  SpecialPower      = SpecialAbilityMelkorRuin
+  Options						= NEED_TARGET_POS CONTEXTMODE_COMMAND NEED_UPGRADE
+  NeededUpgrade 		= Upgrade_AngmarForgeWorksLevel3
+  TextLabel         = CONTROLBAR:RedTempleRhllorRuin
+  ButtonImage       = uiblessingbelegur
+  CursorName				= Bombard
+  RadiusCursorType	= SCBlessingBelegur
+  InvalidCursorName	= GenericInvalid
+  ButtonBorderType  = ACTION
+  DescriptLabel     = CONTROLBAR:ToolTipRedTempleRhllorRuin
+  Radial 						= Yes
+  InPalantir        = Yes
+  AutoAbility				= No
+  DisableOnModelCondition = RIDER5
+  PresetRange		    			= 4000.0
 End

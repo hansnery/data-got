@@ -1078,3 +1078,157 @@ AudioEvent DrogonVoiceDie
   Type          = world shrouded everyone voice
   SubmixSlider  = voice
 End
+;;;;;;;;;;;;;;;;;;;;;
+; Red Priest
+;;;;;;;;;;;;;;;;;;;;;
+AudioEvent RedPriestVoiceAttack
+  Sounds       = red_priest_attack1 red_priest_attack2 red_priest_attack3 red_priest_attack4 red_priest_attack5 red_priest_attack6
+  Volume       = M_CULTISTS_RESPONSE_VOLUME
+  MinVolume    = M_CULTISTS_RESPONSE_MINVOLUME
+  Type         = world player voice
+  SubmixSlider = voice
+End
+AudioEvent RedPriestVoiceAttackCharge
+  Sounds       = red_priest_charge1 red_priest_charge2 red_priest_charge3
+  Volume       = M_CULTISTS_RESPONSE_VOLUME
+  MinVolume    = M_CULTISTS_RESPONSE_MINVOLUME
+  Type         = world player voice
+  SubmixSlider = voice
+End
+AudioEvent RedPriestVoiceSalute
+  Sounds       = red_priest_salute1 red_priest_salute2
+  Volume       = M_CULTISTS_RESPONSE_VOLUME
+  MinVolume    = M_CULTISTS_RESPONSE_MINVOLUME
+  Limit        = 1
+  Type         = world player voice
+  SubmixSlider = voice
+End
+AudioEvent RedPriestVoiceMove
+  Sounds       = red_priest_move1 red_priest_move2 red_priest_move3 red_priest_move4 red_priest_move5 red_priest_move6 red_priest_move7 red_priest_move8
+  Volume       = M_CULTISTS_RESPONSE_VOLUME
+  MinVolume    = M_CULTISTS_RESPONSE_MINVOLUME
+  PlayPercent  = VOICE_MOVE_PLAY_PERCENT
+  Type         = world player voice
+  SubmixSlider = voice
+End
+AudioEvent RedPriestVoiceMoveCamp
+  Sounds       = red_priest_move_camp1 red_priest_move_camp2 red_priest_move_camp3 red_priest_move_camp4
+  Volume       = M_CULTISTS_RESPONSE_VOLUME
+  MinVolume    = M_CULTISTS_RESPONSE_MINVOLUME
+  Type         = world player voice
+  SubmixSlider = voice
+End
+AudioEvent RedPriestVoiceDisengage
+  Sounds       = red_priest_disengage1 red_priest_disengage2 red_priest_disengage3 red_priest_disengage4
+  Volume       = M_CULTISTS_RESPONSE_VOLUME
+  MinVolume    = M_CULTISTS_RESPONSE_MINVOLUME
+  Type         = world player voice
+  SubmixSlider = voice
+End
+AudioEvent RedPriestVoiceSelect
+  Sounds       = red_priest_select1 red_priest_select2 red_priest_select3 red_priest_select4 red_priest_select5 red_priest_select6 red_priest_select7
+  Volume       = M_CULTISTS_RESPONSE_VOLUME
+  MinVolume    = M_CULTISTS_RESPONSE_MINVOLUME
+  Type         = world player voice
+  SubmixSlider = voice
+End
+Multisound RedPriestVoiceSelectMS
+	Subsounds = RedPriestVoiceSelect PeasantVoiceSelect2
+End
+AudioEvent RedPriestVoiceSelectBattle
+  Sounds       = red_priest_combat1 red_priest_combat2 red_priest_combat3 red_priest_combat4 red_priest_combat5 red_priest_combat6
+  Volume       = M_CULTISTS_RESPONSE_VOLUME
+  MinVolume    = M_CULTISTS_RESPONSE_MINVOLUME
+  Type         = world player voice
+  SubmixSlider = voice
+End
+AudioEvent RedPriestVoiceEnterStateAttack
+  Sounds       = red_priest_attack1 red_priest_attack2 red_priest_attack3 red_priest_attack4 red_priest_attack5 red_priest_attack6
+  Limit        = 1
+  Volume       = BATTLE_CHATTER_VOLUME
+  MinVolume    = BATTLE_CHATTER_MIN_VOLUME
+  Type         = world allies enemies voice shrouded
+  SubmixSlider = voice
+  MaxRange     = BATTLE_CHATTER_RANGE
+  PlayPercent  = BATTLE_CHATTER_PLAY_PERCENT
+End
+AudioEvent RedPriestVoiceEnterStateAttackCharge
+  Sounds       = red_priest_charge1 red_priest_charge2 red_priest_charge3
+  Limit        = 1
+  Volume       = BATTLE_CHATTER_VOLUME
+  MinVolume    = BATTLE_CHATTER_MIN_VOLUME
+  Type         = world allies enemies voice shrouded
+  SubmixSlider = voice
+  MaxRange     = BATTLE_CHATTER_RANGE
+  PlayPercent  = BATTLE_CHATTER_PLAY_PERCENT
+End
+AudioEvent RedPriestVoiceEnterStateMove
+  Sounds       = red_priest_move1 red_priest_move2 red_priest_move3 red_priest_move4 red_priest_move5 red_priest_move6 red_priest_move7 red_priest_move8
+  Limit        = 1
+  Volume       = BATTLE_CHATTER_VOLUME
+  MinVolume    = BATTLE_CHATTER_MIN_VOLUME
+  Type         = world allies enemies voice shrouded
+  SubmixSlider = voice
+  MaxRange     = BATTLE_CHATTER_RANGE
+  PlayPercent  = BATTLE_CHATTER_PLAY_PERCENT
+End
+AudioEvent RedPriestVoiceEnterStateMoveCamp
+  Sounds       = red_priest_move_camp1 red_priest_move_camp2 red_priest_move_camp3 red_priest_move_camp4
+  Limit        = 1
+  Volume       = BATTLE_CHATTER_VOLUME
+  MinVolume    = BATTLE_CHATTER_MIN_VOLUME
+  Type         = world allies enemies voice shrouded
+  SubmixSlider = voice
+  MaxRange     = BATTLE_CHATTER_RANGE
+End
+AudioEvent RedPriestVoiceEnterStateDisengage
+  Sounds       = red_priest_disengage1 red_priest_disengage2 red_priest_disengage3 red_priest_disengage4
+  Limit        = 1
+  Volume       = BATTLE_CHATTER_VOLUME
+  MinVolume    = BATTLE_CHATTER_MIN_VOLUME
+  Type         = world allies enemies voice shrouded
+  SubmixSlider = voice
+  MaxRange     = BATTLE_CHATTER_RANGE
+  PlayPercent  = BATTLE_CHATTER_PLAY_PERCENT
+End
+AudioEvent RedPriestVoiceGarrison
+  Sounds       = red_priest_garrison1
+  Volume       = M_CULTISTS_RESPONSE_VOLUME
+  MinVolume    = M_CULTISTS_RESPONSE_MINVOLUME
+  Type         = world player voice
+  SubmixSlider = voice
+End
+AudioEvent RedPriestVoiceDie
+  Sounds       = red_priest_death1 red_priest_death2 red_priest_death3 red_priest_death4 red_priest_death5 red_priest_death6 red_priest_death7 red_priest_death8
+  Volume       = M_CULTISTS_RESPONSE_VOLUME
+  Type         = world shrouded everyone voice
+  SubmixSlider = voice
+End
+AudioEvent RedPriestVoiceDesolation
+  Sounds       = red_priest_desolation1
+  Volume       = M_CULTISTS_RESPONSE_VOLUME
+  MinVolume    = M_CULTISTS_RESPONSE_MINVOLUME
+  Type         = world player voice
+  SubmixSlider = voice
+End
+AudioEvent RedPriestVoiceHeartsofFire
+  Sounds       = red_priest_heartsoffire1 red_priest_heartsoffire2
+  Volume       = M_CULTISTS_RESPONSE_VOLUME
+  MinVolume    = M_CULTISTS_RESPONSE_MINVOLUME
+  Type         = world player voice
+  SubmixSlider = voice
+End
+AudioEvent RedPriestVoiceSpiritofRhllor
+  Sounds       = red_priest_spiritofrhllor1 red_priest_spiritofrhllor2
+  Volume       = M_CULTISTS_RESPONSE_VOLUME
+  MinVolume    = M_CULTISTS_RESPONSE_MINVOLUME
+  Type         = world player voice
+  SubmixSlider = voice
+End
+AudioEvent RedPriestVoiceZealotry
+  Sounds       = red_priest_zealotry1 red_priest_zealotry2
+  Volume       = M_CULTISTS_RESPONSE_VOLUME
+  MinVolume    = M_CULTISTS_RESPONSE_MINVOLUME
+  Type         = world player voice
+  SubmixSlider = voice
+End

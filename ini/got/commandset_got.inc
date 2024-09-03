@@ -863,30 +863,30 @@ End
 
 CommandSet RedTempleCommandSet
 	1 = Command_ConstructRedPriestHorde
-	2 = Command_PurchaseTechnologyZigurCultistsZealotry
-	3 = Command_PurchaseTechnologyAngmarHeartsofFire
-	4 = Command_PurchaseTechnologySpiritOfZigur
-	5 = Command_SanctumMelkorRuinFakeButton
+	2 = Command_PurchaseTechnologyRhllorCultistsZealotry
+	3 = Command_PurchaseTechnologyRhllorHeartsofFire
+	4 = Command_PurchaseTechnologySpiritOfRhllor
+	5 = Command_RedTempleRhllorRuinFakeButton
 	6 = Command_Sell
-	7 = Command_Upgrade_SanctumofZigurLevel2
+	7 = Command_Upgrade_RedTempleLevel2
 End
 
 CommandSet RedTempleCommandSetLevel2
 	1 = Command_ConstructRedPriestHorde
-	2 = Command_PurchaseTechnologyZigurCultistsZealotry
-	3 = Command_PurchaseTechnologyAngmarHeartsofFire
-	4 = Command_PurchaseTechnologySpiritOfZigur
-	5 = Command_SanctumMelkorRuinFakeButton
+	2 = Command_PurchaseTechnologyRhllorCultistsZealotry
+	3 = Command_PurchaseTechnologyRhllorHeartsofFire
+	4 = Command_PurchaseTechnologySpiritOfRhllor
+	5 = Command_RedTempleRhllorRuinFakeButton
 	6 = Command_Sell
-	7 = Command_Upgrade_SanctumofZigurLevel3
+	7 = Command_Upgrade_RedTempleLevel3
 End
 
 CommandSet RedTempleCommandSetLevel3
 	1 = Command_ConstructRedPriestHorde
-	2 = Command_PurchaseTechnologyZigurCultistsZealotry
-	3 = Command_PurchaseTechnologyAngmarHeartsofFire
-	4 = Command_PurchaseTechnologySpiritOfZigur
-	5 = Command_SanctumMelkorRuin
+	2 = Command_PurchaseTechnologyRhllorCultistsZealotry
+	3 = Command_PurchaseTechnologyRhllorHeartsofFire
+	4 = Command_PurchaseTechnologySpiritOfRhllor
+	5 = Command_RedTempleRhllorRuin
 	6 = Command_Sell
 End
 
@@ -912,4 +912,63 @@ CommandSet DragonstoneBattleTowerCommandSetUnupgraded
 	; 4 = Command_PurchaseUpgrade_BTMinasMorgul
 	; 5 = Command_PurchaseUpgrade_BTRhun
 	6 = Command_Sell
+End
+
+CommandSet BaratheonRhllorCultistsHordeZealotryCommandSet
+	1 = Command_ToggleStance
+	2	= Command_ZigurCultistsDesolation
+	3	= Command_RhllorCultistsRhllorPillar
+	4	= Command_RhllorCultistsZealotry
+	13 = Command_AttackMove
+	14 = Command_Stop
+	16 = Command_SetStanceBattle
+	17 = Command_SetStanceAggressive
+	18 = Command_SetStanceHoldGround
+	19 = Command_CaptureBuilding
+End
+
+CommandSet BaratheonRhllorCultistsHordeHeartsofFireCommandSet
+	1 = Command_ToggleStance
+	2	= Command_ZigurCultistsDesolation
+	3	= Command_RhllorCultistsRhllorPillar
+	4	= Command_RhllorCultistsHeartsofFire
+	13 = Command_AttackMove
+	14 = Command_Stop
+	16 = Command_SetStanceBattle
+	17 = Command_SetStanceAggressive
+	18 = Command_SetStanceHoldGround
+	19 = Command_CaptureBuilding
+End
+
+CommandSet BaratheonRhllorCultistsHordeSpiritOfRhllorCommandSet
+	1 = Command_ToggleStance
+	2	= Command_ZigurCultistsDesolation
+	3	= Command_RhllorCultistsRhllorPillar
+	4	= Command_RhllorCultistsSpiritOfRhllor
+	12 = Command_NecromancerDeathMask
+	13 = Command_AttackMove
+	14 = Command_Stop
+	16 = Command_SetStanceBattle
+	17 = Command_SetStanceAggressive
+	18 = Command_SetStanceHoldGround
+	19 = Command_CaptureBuilding
+End
+
+CommandSet BaratheonRhllorCultistsHordeCommandSet
+	1 = Command_ToggleStance
+	2	= Command_ZigurCultistsDesolation
+	3	= Command_RhllorCultistsRhllorPillar
+	4	= Command_PurchaseUpgradeRhllorCultistsZealotry
+	5 = Command_PurchaseUpgradeRhllorHeartsofFire
+	6	= Command_PurchaseUpgradeSpiritOfRhllor
+	9	= Command_NecromancerSoulFreeze
+	10 = Command_NecromancerWellOfSouls
+	11 = Command_NecromancerCorpseRain
+	12 = Command_NecromancerDeathMask
+	13 = Command_AttackMove
+	14 = Command_Stop
+	16 = Command_SetStanceBattle
+	17 = Command_SetStanceAggressive
+	18 = Command_SetStanceHoldGround
+	19 = Command_CaptureBuilding
 End

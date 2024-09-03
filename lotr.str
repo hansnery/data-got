@@ -92346,7 +92346,7 @@ END
 TOOLTIP:SacrificeShireenIsMutuallyExclusive
 //"You have either already chosen Pray Harder"
 //"Requires Shireen Baratheon \n Is mutually exclusive with Pray Harder upgrade"
-""Requires Shireen Baratheon \n Shireen Baratheon is burned at the stake \n\n Shireen Baratheon dies and can no longer be recruited or revived \n Melisandre's attack damage and radius are greatly increased \n\n Is mutually exclusive with Pray Harder upgrade"
+"Requires Shireen Baratheon \n Shireen Baratheon is burned at the stake \n\n Shireen Baratheon dies and can no longer be recruited or revived \n Melisandre's attack damage and radius are greatly increased \n\n Is mutually exclusive with Pray Harder upgrade"
 END
 
 CONTROLBAR:PurchaseUpgradeBaratheonPrayHarder
@@ -92993,11 +92993,11 @@ CONTROLBAR:TooltipConstructBaratheonBurnedIdols
 END
 
 CONTROLBAR:ConstructRedTemple
-"Build Red Temple (&N)"
+"Build Red Temple of R'hllor (&N)"
 End
 
 CONTROLBAR:ToolTipConstructRedTemple
-"Trains Red Priests \n Limited to 1 \n\n Red temples are religious buildings of red stone used by followers of R'hllor, the Lord of Light. Red priests light nightfires at sunset, welcome the sun in the morning, and preach to crowds."
+"Trains R'hllor Cultists \n Limited to 1 \n\n Red temples are religious buildings of red stone used by followers of R'hllor, the Lord of Light. Red priests light nightfires at sunset, welcome the sun in the morning, and preach to crowds."
 End
 
 OBJECT:RedTemple
@@ -93095,6 +93095,74 @@ END
 
 OBJECT:DragonstoneBattleTower
 "Tower of Dragonstone"
+End
+
+CONTROLBAR:PurchaseTechnologyCultistsSpiritOfRhllor
+"Dark Worship: Spirit of R'hllor (&T)"
+End
+
+CONTROLBAR:ToolTipPurchaseTechnologyCultistsSpiritOfRhllor
+"Requires Level 2 Red Temple of R'hllor \n\n Allows Cultists to specialize in the Spirit of R'hllor power\n \n Cultists summon the flames of R'hllor which burn everything in their wake"
+End
+
+TOOLTIP:LackLevel2RedTempleOfRhllor
+"Requires Level 2 Sanctum of R'hllor \n \n Allows Cultists to specialize in the Spirit of R'hllor power\n \n Cultists are consumed by a sudden burst of expanding flame"
+End
+
+CONTROLBAR:ToolTipRhllorCultistsHeartsofFire
+"Targeted friendly units permanently deal added fire damage \n with their attacks and to enemies that attack them \n Grants 50% armour against fire as well \nCan only be used on Dragonstone melee units\nDoes not affect heroic units or monsters\nLeft click icon then left click on target units"
+End
+
+CONTROLBAR:CultistsSpiritOfRhllor
+"Spirit of R'hllor (&T)"
+End
+
+CONTROLBAR:ToolTipCultistsSpiritOfRhllor
+"Summons the flames of R'hllor which burn everything in their wake \n Left click and then left click on target enemy"
+End
+
+TOOLTIP:LackBaratheonHeartsofFire
+"Research this upgrade at the Red Temple of R'hllor to enable this power"
+End
+
+CONTROLBAR:PurchaseUpgradeSpiritOfRhllor
+"Specialization: Spirit of R'hllor (&V)"
+End
+
+CONTROLBAR:ToolTipPurchaseUpgradeSpiritOfRhllor
+"Allows Specialization in the Spirit of R'hllor power \n R'hllor Cultists summon the flames of R'hllor which burn everything in their wake\n The Cultists can specialize in one power only"
+End
+
+CONTROLBAR:ConstructRedTemple2Upgrade
+"Upgrade Red Temple of R'hllor to Level 2 (&A)"
+End
+
+CONTROLBAR:ConstructRedTemple3Upgrade
+"Upgrade Red Temple of R'hllor to Level 3 (&A)"
+End
+
+CONTROLBAR:ToolTipBuildRedTempleLevel2Upgrade
+"Allows researching Spirit of R'hllor\n+10% faster build speed"
+End
+
+CONTROLBAR:ToolTipBuildRedTempleLevel3Upgrade
+"Unlocks the Blessing of R'hllor ability \n +25% faster build speed"
+End
+
+CONTROLBAR:CultistsRhllorPillar
+"R'hllor's Wrath (&R)"
+End
+
+CONTROLBAR:TooltipCultistsRhllorPillar
+"Summons Rhllor's Wrath from the ground \n Enemies in targeted area are knocked back and suffer moderate damage \n Left click icon then left click on target area"
+End
+
+CONTROLBAR:RedTempleRhllorRuin
+"Blessing of R'hllor (&D)"
+End
+
+CONTROLBAR:ToolTipRedTempleRhllorRuin
+"Requires Level 3 Red Temple of R'hllor and three full battalions of R'hllor Cultists \n Sacrifice all cultists on the battlefield to summon the wrath of R'hllor\n Left click icon and then left click on target location"
 End
 
 END

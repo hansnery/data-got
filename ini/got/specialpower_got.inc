@@ -347,3 +347,15 @@ SpecialPower SpecialAbilityDavosSmugglersTricks
 	ObjectFilter			 = ANY	+INFANTRY +CAVALRY +DOZER +HERO -RohanTreeBerd -IsengardBatteringRam -MordorBatteringRam -IsengardBallista -IsengardExplosiveMine -MordorGrond -MordorCatapult -DwarfBatteringRam -DwarvenCatapult -DwarvenDemolisher -DwarvenMangonel -GuldurEntwife -GondorTrebuchet -GondorBigTrebuchet_Summoned -MirkwoodBatteringRam -MirkwoodBallista -ArnorBreelandRam -RohanBatteringRam -RohanMangonel ALLIES
 	InitiateSound			 = CaH_TeleportPart1
 End
+
+SpecialPower SpecialAbilityHeartsOfFire
+	Enum							 = SPECIAL_ARROW_STORM
+	ReloadTime				 = 0
+	RadiusCursorRadius = 60
+	InitiateSound 		 = HeartsOfFireCast
+	UnitCost           = 3
+	UnitCostDeathType  = 3
+	Flags							 = NEEDS_OBJECT_FILTER LIMIT_DISTANCE
+	ObjectFilter			 = GOT_HEARTS_OF_FIRE_OBJECTFILTER
+	MaxCastRange			 = ANGMAR_NECRO_SOUL_FREEZE_START_RANGE
+End
