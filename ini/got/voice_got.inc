@@ -400,16 +400,16 @@ End
 
 AudioEvent GendryVoiceRespawn
   Sounds = gendry_you_sold_me gendry_i_wanted_to_be_one_of_you
-  Volume = #ADD( CAMP_ELF_VOLUME 0 )
-  MinVolume = #ADD( CAMP_ELF_MINVOLUME 0 )
+  Volume = NEWUNIT_RESPONSE_VOLUME
+  MinVolume = NEWUNIT_RESPONSE_MINVOLUME
   Type = world player voice
   SubmixSlider = voice
 End
 
 AudioEvent GendryVoiceDie
   Sounds = gendry_scream
-  Volume = #ADD( CAMP_ELF_VOLUME 0 )
-  MinVolume = #ADD( CAMP_ELF_MINVOLUME 0 )
+  Volume = UNIT_RESPONSE_VOLUME
+  MinVolume = UNIT_RESPONSE_MINVOLUME
   Type = world player voice
   SubmixSlider = voice
 End

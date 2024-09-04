@@ -1739,7 +1739,8 @@ End
 CommandButton Command_PorterConstructConstructRedTemple
 	Command          = DOZER_CONSTRUCT
 	Object           = RedTemple
-	NeededUpgrade 	 = Upgrade_GrantDwarvenRiches
+	; NeededUpgrade 	 = Upgrade_GrantDwarvenRiches ; This upgrade represents Servants of Fire spell
+	NeededUpgrade 	 = Upgrade_BaratheonSacrificeShireenTrigger
 	Options					 = NEED_UPGRADE
 	TextLabel        = CONTROLBAR:ConstructRedTemple
 	ButtonImage      = uisanctumzigur

@@ -92078,7 +92078,7 @@ CONTROLBAR:GendryOfStormsEnd
 END
 
 CONTROLBAR:TooltipGendryOfStormsEnd
-"Stormlander units near Gendry are inspired to fight beside the son of Robert Baratheon and gain +33% Damage, Armor, and gain +33% Experience \n Modifier type: Leadership \n Stacks with buffs and spells \n Passive ability"
+"Stormlander units near Gendry are inspired to fight beside \n the son of Robert Baratheon and gain +33% Damage and +25% Armor \n Modifier type: Leadership \n Stacks with buffs and spells \n Passive ability"
 END
 
 CONTROLBAR:GendryLeap
@@ -92335,8 +92335,7 @@ CONTROLBAR:PurchaseUpgradeBaratheonSacrificeShireen
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeBaratheonSacrificeShireen
-//"Shireen Baratheon is burned at the stake \n\n Melisandre's attack damage and radius are greatly increased \n Melisandre's health is greatly increased \n\n Is mutually exclusive with Pray Harder upgrade \n Shireen Baratheon dies and can no longer be recruited or revived"
-"Shireen Baratheon is burned at the stake \n\n Shireen Baratheon dies and can no longer be recruited or revived \n Melisandre's attack damage and radius are greatly increased \n\n Is mutually exclusive with Pray Harder upgrade"
+"Shireen Baratheon is burned at the stake \n\n Shireen Baratheon dies and can no longer be recruited or revived \n Unlocks construction of Red Temple of R'hllor \n\n Is mutually exclusive with Pray Harder upgrade"
 END
 
 Upgrade:SacrificeShireen
@@ -92346,7 +92345,7 @@ END
 TOOLTIP:SacrificeShireenIsMutuallyExclusive
 //"You have either already chosen Pray Harder"
 //"Requires Shireen Baratheon \n Is mutually exclusive with Pray Harder upgrade"
-"Requires Shireen Baratheon \n Shireen Baratheon is burned at the stake \n\n Shireen Baratheon dies and can no longer be recruited or revived \n Melisandre's attack damage and radius are greatly increased \n\n Is mutually exclusive with Pray Harder upgrade"
+"Requires Shireen Baratheon \n Shireen Baratheon is burned at the stake \n\n Shireen Baratheon dies and can no longer be recruited or revived \n Unlocks construction of Red Temple of R'hllor \n\n Is mutually exclusive with Pray Harder upgrade"
 END
 
 CONTROLBAR:PurchaseUpgradeBaratheonPrayHarder
@@ -93025,7 +93024,7 @@ CONTROLBAR:SpellShadowbinder
 END
 
 CONTROLBAR:TooltipSpellShadowbinder
-"Unlocks construction of Red Temple of R'hllor \n Prerequisite for Melisandre's Shadowbinder spell \n Passive power"
+"Melisandre's attack damage and radius are greatly increased \n Prerequisite for Melisandre's Shadowbinder spell \n Passive power"
 END
 
 OBJECT:LightOfRhllor
