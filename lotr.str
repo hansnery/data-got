@@ -92996,7 +92996,7 @@ CONTROLBAR:ConstructRedTemple
 End
 
 CONTROLBAR:ToolTipConstructRedTemple
-"Trains R'hllor Cultists \n Limited to 1 \n\n Red temples are religious buildings of red stone used by followers of R'hllor, the Lord of Light. Red priests light nightfires at sunset, welcome the sun in the morning, and preach to crowds."
+"Requires Servants of Fire spell \n Trains R'hllor Cultists \n Limited to 1 \n\n Red temples are religious buildings of red stone used by followers of R'hllor, the Lord of Light. Red priests light nightfires at sunset, welcome the sun in the morning, and preach to crowds."
 End
 
 OBJECT:RedTemple
