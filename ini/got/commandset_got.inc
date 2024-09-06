@@ -972,3 +972,8 @@ CommandSet BaratheonRhllorCultistsHordeCommandSet
 	18 = Command_SetStanceHoldGround
 	19 = Command_CaptureBuilding
 End
+
+CommandSet GOTLumberMillCommandSet
+  1  = Command_BuildGOTLumberMillWorker
+  6  = Command_Sell
+End

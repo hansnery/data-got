@@ -93164,4 +93164,12 @@ CONTROLBAR:ToolTipRedTempleRhllorRuin
 "Requires Level 3 Red Temple of R'hllor and three full battalions of R'hllor Cultists \n Sacrifice all cultists on the battlefield to summon the wrath of R'hllor\n Left click icon and then left click on target location"
 End
 
+CONTROLBAR:BuildGOTLumberMillWorker
+"Logger (&W)"
+END
+
+OBJECT:GOTLumberMillWorker
+"Logger"
+END
+
 END

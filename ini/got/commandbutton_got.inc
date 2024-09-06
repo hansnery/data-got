@@ -2055,3 +2055,16 @@ CommandButton Command_RedTempleRhllorRuin
   DisableOnModelCondition = RIDER5
   PresetRange		    			= 4000.0
 End
+
+CommandButton Command_BuildGOTLumberMillWorker
+	Command					 = UNIT_BUILD
+	Object					 = MordorWorker
+	Options					 = CANCELABLE
+	TextLabel				 = CONTROLBAR:BuildGOTLumberMillWorker
+	ButtonImage			 = BALumberMillWorker
+	ButtonBorderType = BUILD
+	DescriptLabel		 = CONTROLBAR:ToolTipBuildMordorWorker
+	Radial					 = Yes
+	InPalantir	   	 = Yes
+	ShowProductionCount = Yes
+End
