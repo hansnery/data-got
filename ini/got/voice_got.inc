@@ -1232,3 +1232,134 @@ AudioEvent RedPriestVoiceZealotry
   Type         = world player voice
   SubmixSlider = voice
 End
+;;;;;;;;;;;;;;;;;;;;;
+; Melisandre EVA
+;;;;;;;;;;;;;;;;;;;;;
+AudioEvent MelisandreEVAVoiceCompleteMill
+  Sounds    = melisandre_eva_mill_completed
+  Volume    = 250
+  MinVolume = 245
+  Priority  = high
+  Type      = world player voice
+  SubmixSlider = voice
+End
+AudioEvent MelisandreEVAVoiceCompleteGeneric
+  Sounds    = melisandre_eva_generic1 melisandre_eva_generic2 melisandre_eva_generic3 melisandre_eva_generic4
+  Volume    = 250
+  MinVolume = 245
+  Priority  = high
+  Type      = world player voice
+  SubmixSlider = voice
+End
+AudioEvent MelisandreEVAVoiceCompleteForge
+  Sounds    = melisandre_eva_forge_completed
+  Volume    = 250
+  MinVolume = 245
+  Priority  = high
+  Type      = world player voice
+  SubmixSlider = voice
+End
+AudioEvent MelisandreEVAVoiceCompleteBarracks
+  Sounds    = melisandre_eva_barracks_completed
+  Volume    = 250
+  MinVolume = 245
+  Priority  = high
+  Type      = world player voice
+  SubmixSlider = voice
+End
+AudioEvent MelisandreEVAVoiceCompleteStormlanderEncamptment
+  Sounds    = melisandre_eva_stormlander_encampment_completed
+  Volume    = 250
+  MinVolume = 245
+  Priority  = high
+  Type      = world player voice
+  SubmixSlider = voice
+End
+AudioEvent MelisandreEVAVoiceCompleteBurnedIdols
+  Sounds    = melisandre_eva_burned_idols_completed
+  Volume    = 250
+  MinVolume = 245
+  Priority  = high
+  Type      = world player voice
+  SubmixSlider = voice
+End
+AudioEvent MelisandreEVAVoiceCompleteRedTemple
+  Sounds    = melisandre_eva_red_temple_completed
+  Volume    = 250
+  MinVolume = 245
+  Priority  = high
+  Type      = world player voice
+  SubmixSlider = voice
+End
+AudioEvent MelisandreEVAVoiceCompleteFortress
+  Sounds    = melisandre_eva_fortress_completed1 melisandre_eva_fortress_completed2
+  Volume    = 250
+  MinVolume = 245
+  Priority  = high
+  Type      = world player voice
+  SubmixSlider = voice
+End
+AudioEvent MelisandreEVAVoiceFortressDestroyed
+  Sounds    = melisandre_eva_fortress_destroyed
+  Volume    = 250
+  MinVolume = 245
+  Priority  = high
+  Type      = world player voice
+  SubmixSlider = voice
+End
+AudioEvent MelisandreEVAVoiceAllyFortressDestroyed
+  Sounds    = melisandre_eva_ally_fortress_destroyed
+  Volume    = 250
+  MinVolume = 245
+  Priority  = high
+  Type      = world player voice
+  SubmixSlider = voice
+End
+AudioEvent MelisandreEVAVoiceEnemyFortressDestroyed
+  Sounds    = melisandre_eva_enemy_fortress_destroyed
+  Volume    = 250
+  MinVolume = 245
+  Priority  = high
+  Type      = world player voice
+  SubmixSlider = voice
+End
+AudioEvent MelisandreEVAVoiceEnemyFortressSpotted
+  Sounds    = melisandre_eva_enemy_fortress_spotted1 melisandre_eva_enemy_fortress_spotted2
+  Volume    = 250
+  MinVolume = 245
+  Priority  = high
+  Type      = world player voice
+  SubmixSlider = voice
+End
+AudioEvent MelisandreEVAVoiceCampUnderAttack
+  Sounds    = melisandre_eva_building_under_attack1 melisandre_eva_building_under_attack2
+  Volume    = 250
+  MinVolume = 245
+  Priority  = high
+  Type      = world player voice
+  SubmixSlider = voice
+End
+AudioEvent MelisandreEVAVoiceFoundryUnderAttack
+  Sounds    = melisandre_eva_foundry_under_attack
+  Volume    = 250
+  MinVolume = 245
+  Priority  = high
+  Type      = world player voice
+  SubmixSlider = voice
+End
+AudioEvent MelisandreEVAVoiceBarracksUnderAttack
+  Sounds    = melisandre_eva_barracks_under_attack
+  Volume    = 250
+  MinVolume = 245
+  Priority  = high
+  Type      = world player voice
+  SubmixSlider = voice
+End
+AudioEvent MelisandreEVAVoiceFortressUnderAttack
+  Sounds    = melisandre_eva_fortress_under_attack
+  Volume    = 250
+  MinVolume = 245
+  Priority  = high
+  Type      = world player voice
+  SubmixSlider = voice
+End

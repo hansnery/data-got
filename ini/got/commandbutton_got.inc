@@ -2068,3 +2068,115 @@ CommandButton Command_BuildGOTLumberMillWorker
 	InPalantir	   	 = Yes
 	ShowProductionCount = Yes
 End
+
+CommandButton Command_SelectRevivablesLannisterFortress
+	Command           = PUSH_VISIBLE_COMMAND_RANGE
+	TextLabel         = CONTROLBAR:SelectRevivablesMenFortress
+	ButtonImage       = LALannisterCrownButton
+	ButtonBorderType  = SYSTEM
+	DescriptLabel     = CONTROLBAR:ToolTipCommandSelectRevivablesMenFortress
+	Radial            = Yes
+	CommandRangeStart	= 14	//Starts its counting at 0, so command button 8 is 7
+	CommandRangeCount	= 15
+End
+
+CommandButton Command_SelectUpgradesLannisterFortress
+	Command           = PUSH_VISIBLE_COMMAND_RANGE
+	TextLabel         = CONTROLBAR:SelectUpgradesMenFortress
+	ButtonImage       = LALannisterUpgrades ;UpgradeGoodButton
+	ButtonBorderType  = SYSTEM
+	DescriptLabel     = CONTROLBAR:ToolTipCommandSelectUpgradesMenFortress
+	Radial            = Yes
+	CommandRangeStart	= 7	//Starts its counting at 0, so command button 8 is 7
+	CommandRangeCount	= 7
+End
+
+CommandButton Command_SpecialAbilityGoaldCloaks
+  Command           = SPECIAL_POWER
+  SpecialPower      = SpecialAbilityDenethorFavor
+  TextLabel         = CONTROLBAR:GoldCloaks
+  ButtonImage       = LAGoldCloaks
+  Options           = NEED_TARGET_POS CONTEXTMODE_COMMAND
+  RadiusCursorType  = DenethorFavor
+  CursorName        = Bombard
+  InvalidCursorName = GenericInvalid
+  ButtonBorderType  = ACTION
+  DescriptLabel     = CONTROLBAR:ToolTipGoldCloaks
+  InPalantir	    	= Yes
+  Radial						= Yes
+  AutoAbility				= No
+End
+
+CommandButton Command_PurchaseUpgradeLannisterFortressBanners
+  Command          = OBJECT_UPGRADE
+  Upgrade          = Upgrade_MenFortressBanners
+  Options					 = CANCELABLE
+  TextLabel        = CONTROLBAR:PurchaseUpgradeLannisterFortressBanners
+  ButtonImage      = LAJoffreyBanners
+  ButtonBorderType = UPGRADE
+  DescriptLabel    = CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners
+  Radial           = Yes
+  InPalantir	   	 = No
+End
+
+CommandButton Command_PurchaseUpgradeLannisterFortressGrandMaesterPycelle
+  Command          = OBJECT_UPGRADE
+  Upgrade          = Upgrade_MenFortressHouseOfHealing
+  Options					 = CANCELABLE
+  TextLabel        = CONTROLBAR:PurchaseUpgradeLannisterFortressGrandMaesterPycelle
+  ButtonImage      = LAGrandMaesterPycelle
+  ButtonBorderType = UPGRADE
+  DescriptLabel    = CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
+  Radial           = Yes
+  InPalantir	   	 = No
+End
+
+CommandButton Command_PurchaseUpgradeLannisterFortressCityWatch
+  Command          = OBJECT_UPGRADE
+  Upgrade          = Upgrade_MenFortressBoilingOil
+  Options					 = CANCELABLE
+  TextLabel        = CONTROLBAR:PurchaseUpgradeLannisterFortressCityWatch
+  ButtonImage      = LAGoldCloaks
+  ButtonBorderType = UPGRADE
+  DescriptLabel    = CONTROLBAR:ToolTipPurchaseUpgradeLannisterFortressCityWatch
+  Radial           = Yes
+  InPalantir	   	 = No
+End
+
+CommandButton Command_PurchaseUpgradeLannisterFortressFlamingMunitions
+  Command          = OBJECT_UPGRADE
+  Upgrade          = Upgrade_GoodFortressFlamingMunitionsTrigger
+  Options					 = CANCELABLE
+  TextLabel        = CONTROLBAR:PurchaseUpgradeMenFortressFlamingMunitions
+  ButtonImage      = LAFlamingMunitions
+  ButtonBorderType = UPGRADE
+  DescriptLabel    = CONTROLBAR:ToolTipPurchaseUpgradeMenFortressFlamingMunitions
+  Radial           = Yes
+  InPalantir	   	 = No
+End
+
+CommandButton Command_PurchaseUpgradeLannisterFortressMaegorsHoldfast
+  Command          = OBJECT_UPGRADE
+  Upgrade          = Upgrade_MenFortressNumenorStoneworkTrigger
+  Options					 = CANCELABLE
+  TextLabel        = CONTROLBAR:PurchaseUpgradeLannisterFortressMaegorsHoldfast
+  ButtonImage      = LAMaegorsHoldfast
+  ButtonBorderType = UPGRADE
+  DescriptLabel    = CONTROLBAR:ToolTipPurchaseUpgradeLannisterFortressMaegorsHoldfast
+  Radial           = Yes
+  InPalantir	   	 = No
+End
+
+CommandButton Command_PurchaseUpgradeLannisterFortressIronThrone
+	Command          = OBJECT_UPGRADE
+	Options			  	 = NEED_UPGRADE CANCELABLE
+	Upgrade          = Upgrade_MenFortressIvoryTower
+	NeededUpgrade	   = Upgrade_MenFortressNumenorStonework
+	TextLabel        = CONTROLBAR:PurchaseUpgradeLannisterFortressIronThrone
+	ButtonImage      = LAIronThrone
+	ButtonBorderType = UPGRADE
+	DescriptLabel    = CONTROLBAR:ToolTipPurchaseUpgradeLannisterFortressIronThrone
+	Radial           = Yes
+	InPalantir	   	 = No
+	LacksPrerequisiteLabel = TOOLTIP:LackMaegorsHoldfast
+End

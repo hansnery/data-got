@@ -309,3 +309,60 @@ AudioEvent SpellBaratheonDrums
   Type       = world shrouded everyone
   SubmixSlider = SoundFX
 End
+
+AudioEvent UpgradeBaratheonBanners
+  Sounds    = melisandre_upgrade_banners
+  Volume    = 500
+  MinVolume = 495
+  Limit     = 3
+  Type      = world shrouded player
+  SubmixSlider = SoundFX
+End
+
+AudioEvent UpgradeBaratheonLavaMoat
+  Sounds    = melisandre_upgrade_dragonmont
+  Volume    = 500
+  MinVolume = 495
+  Limit     = 3
+  Type      = world shrouded player
+  SubmixSlider = SoundFX
+End
+
+AudioEvent UpgradeBaratheonSmokeAndBrimstone
+  Sounds    = melisandre_upgrade_smoke
+  Volume    = 500
+  MinVolume = 495
+  Limit     = 3
+  Type      = world shrouded player
+  SubmixSlider = SoundFX
+End
+
+AudioEvent UpgradeBaratheonValyrianSorcery
+  Sounds    = melisandre_upgrade_valyrian_spells
+  Volume    = 500
+  MinVolume = 495
+  Limit     = 3
+  Type      = world shrouded player
+  SubmixSlider = SoundFX
+End
+
+AudioEvent UpgradeBaratheonManTheDrum
+  Sounds    = melisandre_upgrade_man_the_drum
+  Volume    = 500
+  MinVolume = 495
+  Limit     = 3
+  Type      = world shrouded player
+  SubmixSlider = SoundFX
+End
+
+AudioEvent MelisandrePaintedTable
+	Sounds     = melisandre_painted_table
+	Volume     = 500
+  MinVolume  = 495
+	PitchShift = -1 1
+	MinRange   = 400
+	MaxRange   = 1000
+	Limit      = 1
+	Type       = world shrouded everyone
+	SubmixSlider = SoundFX
+End

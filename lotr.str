@@ -5951,7 +5951,7 @@ INI:FactionNeutral
 END
 
 INI:FactionMen
-"Gondor"
+"Lannister"
 END
 
 INI:FactionElves
@@ -93165,11 +93165,55 @@ CONTROLBAR:ToolTipRedTempleRhllorRuin
 End
 
 CONTROLBAR:BuildGOTLumberMillWorker
-"Logger (&W)"
+"Woodcutter (&W)"
 END
 
 OBJECT:GOTLumberMillWorker
-"Logger"
+"Woodcutter"
+END
+
+CONTROLBAR:GoldCloaks
+"Summon the Gold Cloaks (&T)"
+END
+
+CONTROLBAR:ToolTipGoldCloaks
+"Requires the City Watch upgrade \n Summons two battalions of Gold Cloaks \n \n Left click icon then left click on target area"
+END
+
+CONTROLBAR:PurchaseUpgradeLannisterFortressBanners
+"Banners of the Stag and the Lion (&W)"
+END
+
+CONTROLBAR:PurchaseUpgradeLannisterFortressGrandMaesterPycelle
+"Grand Maester's Chambers (&E)"
+END
+
+CONTROLBAR:PurchaseUpgradeLannisterFortressCityWatch
+"City Watch (&R)"
+END
+
+CONTROLBAR:ToolTipPurchaseUpgradeLannisterFortressCityWatch
+"Unlocks the Summon the Gold Cloaks ability \n Can be used to summon two battalions of Gold Cloaks to defend the fortress"
+END
+
+CONTROLBAR:PurchaseUpgradeLannisterFortressMaegorsHoldfast
+"Maegor's Holdfast (&S)"
+END
+
+CONTROLBAR:ToolTipPurchaseUpgradeLannisterFortressMaegorsHoldfast
+"Increases Fortress and Wall armour by 65% \n Prerequisite for Iron Throne"
+END
+
+CONTROLBAR:PurchaseUpgradeLannisterFortressIronThrone
+"Iron Throne (&D)"
+END
+
+CONTROLBAR:ToolTipPurchaseUpgradeLannisterFortressIronThrone
+"Provides Iron Throne Vision Power and allows recruitment of Kingsguard \n Increases Fortress vision range"
+END
+
+TOOLTIP:LackMaegorsHoldfast
+"Requires the Maegor's Holdfast upgrade \n Provides Iron Throne Vision Power and Allows the recruitment of Kingsguard \n Increases Fortress vision range"
 END
 
 END
