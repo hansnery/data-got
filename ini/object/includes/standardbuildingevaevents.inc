@@ -2,4 +2,4 @@
 
 	EvaEventDamagedOwner = StructureUnderAttack_GOT 		; Eva event to trigger when building is damaged
 	
-	EvaEnemyObjectSightedEvent = EnemyCampSighted   ; Normal 'There's their camp' when any enemy building is seen
+	EvaEnemyObjectSightedEvent = EnemyCampSighted_GOT   ; Normal 'There's their camp' when any enemy building is seen
