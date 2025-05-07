@@ -2180,3 +2180,23 @@ CommandButton Command_PurchaseUpgradeLannisterFortressIronThrone
 	InPalantir	   	 = No
 	LacksPrerequisiteLabel = TOOLTIP:LackMaegorsHoldfast
 End
+
+CommandButton Command_PorterConstructKingsLandingMarket
+	Command					 = DOZER_CONSTRUCT
+	Object					 = DorwinionMarket
+	TextLabel				 = CONTROLBAR:ConstructKingsLandingMarket
+	ButtonImage			 = UIDorwinionMarket
+	ButtonBorderType = BUILD
+	DescriptLabel		 = CONTROLBAR:ToolTipConstructKingsLandingMarket
+	Radial					 = Yes
+End
+
+CommandButton Command_PorterConstructLannisterBlacksmith
+	Command					 = DOZER_CONSTRUCT
+	Object					 = LannisterForge
+	TextLabel				 = CONTROLBAR:ConstructMenBlacksmith
+	ButtonImage			 = UIGondorBlacksmith
+	ButtonBorderType = BUILD
+	DescriptLabel		 = CONTROLBAR:ToolTipConstructMenBlacksmith
+	Radial					 = Yes
+End

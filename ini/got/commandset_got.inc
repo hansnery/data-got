@@ -1014,30 +1014,43 @@ CommandSet LannisterFortressCommandSet_AI
 	InitialVisible = 7
 	//Main Menu
 	1	= Command_ConstructMenPorter
-	2   = Command_SelectRevivablesMenFortress
-	3   = Command_SelectUpgradesMenFortress
+	2 = Command_SelectRevivablesMenFortress
+	3 = Command_SelectUpgradesMenFortress
 	4	= Command_SpecialAbilityDenethorFavor_AI
 	5	= Command_ConstructGondorFountainGuardHorde
 	7	= Command_SpecialAbilityIvoryTowerVision
 	6	= Command_Sell
 	//Upgrades Menu
-	8	= Command_PurchaseUpgradeMenFortressBanners
-	9	= Command_PurchaseUpgradeMenFortressHouseOfHealing ;Command_PurchaseUpgradeMenFortressBoilingOil
-	10	= Command_PurchaseUpgradeMenFortressBoilingOil ;Command_PurchaseUpgradeMenFortressHouseOfHealing
-	11	= Command_PurchaseUpgradeMenFortressFlamingMunitions
-	12	= Command_PurchaseUpgradeMenFortressNumenorStonework
-	13	= Command_PurchaseUpgradeMenFortressIvoryTower
-	14	= Command_RadialBack
+	8	 = Command_PurchaseUpgradeMenFortressBanners
+	9	 = Command_PurchaseUpgradeMenFortressHouseOfHealing ;Command_PurchaseUpgradeMenFortressBoilingOil
+	10 = Command_PurchaseUpgradeMenFortressBoilingOil ;Command_PurchaseUpgradeMenFortressHouseOfHealing
+	11 = Command_PurchaseUpgradeMenFortressFlamingMunitions
+	12 = Command_PurchaseUpgradeMenFortressNumenorStonework
+	13 = Command_PurchaseUpgradeMenFortressIvoryTower
+	14 = Command_RadialBack
 	//Hero Menu
-	15	= Command_RingHeroReviveSlot
-	16	= Command_CreateAHeroReviveSlot		// Note we also need an extra slot for the Create A Hero
-	17	= Command_GenericReviveSlot1		//Revives any hero. keep them UNIQUE within the same commandset!
-	18	= Command_GenericReviveSlot2
-	19	= Command_GenericReviveSlot3
-	20	= Command_FakeReviveSlot1
-	21	= Command_GenericReviveSlot4
-	22	= Command_GenericReviveSlot5
-	23	= Command_GenericReviveSlot6
-	24  = Command_GenericReviveSlot7
-	25	= Command_RadialBack
+	15 = Command_RingHeroReviveSlot
+	16 = Command_CreateAHeroReviveSlot		// Note we also need an extra slot for the Create A Hero
+	17 = Command_GenericReviveSlot1		//Revives any hero. keep them UNIQUE within the same commandset!
+	18 = Command_GenericReviveSlot2
+	19 = Command_GenericReviveSlot3
+	20 = Command_FakeReviveSlot1
+	21 = Command_GenericReviveSlot4
+	22 = Command_GenericReviveSlot5
+	23 = Command_GenericReviveSlot6
+	24 = Command_GenericReviveSlot7
+	25 = Command_RadialBack
+End
+
+CommandSet LannisterPorterCommandSet
+	1 = Command_Stop
+	2 = Command_PorterExtinguishFire
+	3 = Command_PorterConstructKingsLandingMarket
+	4 = Command_PorterConstructLannisterBlacksmith
+	5 = Command_ConstructDorwinionBarracks
+	6 = Command_ConstructDorwinionSentryTower
+	7 = Command_ConstructMonumentToElendil
+	8 = Command_PorterConstructMenMarketPlace
+	9 = Command_PorterConstructMenWallHub
+	10 = Command_PorterConstructMenFortress
 End

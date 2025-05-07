@@ -2383,3 +2383,32 @@ ExperienceLevel	GOTNecromancerLevel5
 		MaxSelectedUnits = 40
 	End
 End
+
+ExperienceLevel	GOTForgeLevel1
+	TargetNames            = FORGES_GOT ;GondorForgeFoundation
+	RequiredExperience     = 1
+	ExperienceAward        = GONDOR_FORGE_LVL1_EXP_AWARD
+	Rank                   = 1
+	AttributeModifiers     = BasicLevelUpProduction1
+	Upgrades               = Upgrade_StructureLevel1
+End
+
+ExperienceLevel	GOTForgeLevel2
+	TargetNames            = FORGES_GOT ;GondorForgeFoundation
+	RequiredExperience     = GONDOR_FARM_LVL2_EXP_NEEDED
+	ExperienceAward        = GONDOR_FARM_LVL2_EXP_AWARD
+	Rank                   = 2
+	AttributeModifiers     = GondorForgeLevel2Production GondorForgeHitPointModLvl2
+	Upgrades               = Upgrade_GondorForgeLevel2
+	LevelUpFx              = FX:GondorForgeUpgrade
+End
+
+ExperienceLevel	GOTForgeLevel3
+	TargetNames            = FORGES_GOT ;GondorForgeFoundation
+	RequiredExperience     = GONDOR_FARM_LVL3_EXP_NEEDED
+	ExperienceAward        = GONDOR_FARM_LVL3_EXP_AWARD
+	Rank                   = 3
+	AttributeModifiers     = GondorForgeLevel3Production GondorForgeHitPointModLvl3
+	Upgrades               = Upgrade_GondorForgeLevel3
+	LevelUpFx              = FX:GondorForgeUpgrade
+End

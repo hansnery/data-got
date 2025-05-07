@@ -93216,4 +93216,12 @@ TOOLTIP:LackMaegorsHoldfast
 "Requires the Maegor's Holdfast upgrade \n Provides Iron Throne Vision Power and Allows the recruitment of Kingsguard \n Increases Fortress vision range"
 END
 
+CONTROLBAR:ConstructKingsLandingMarket
+"King's Landing Market (&W)"
+END
+
+CONTROLBAR:ToolTipConstructKingsLandingMarket
+"Provides traded goods as a resource based on available terrain\n Reduces cost of upgrades \n Increases command point limit by 50"
+END
+
 END
