@@ -2200,3 +2200,39 @@ CommandButton Command_PorterConstructLannisterBlacksmith
 	DescriptLabel		 = CONTROLBAR:ToolTipConstructMenBlacksmith
 	Radial					 = Yes
 End
+
+CommandButton Command_ConstructLannisterBarracks
+	Command          	= DOZER_CONSTRUCT
+	Object           	= LannisterBarracks
+	TextLabel        	= CONTROLBAR:ConstructLannisterBarracks
+	ButtonImage      	= BIEreborDaleBarracks
+	ButtonBorderType 	= BUILD
+	DescriptLabel    	= CONTROLBAR:TooltipConstructLannisterBarracks
+	Radial           	= Yes
+End
+
+CommandButton Command_ConstructLannisterFootmanHorde
+	Command					 = UNIT_BUILD
+	Object					 = LannisterFootmanHorde
+	Options					 = CANCELABLE
+	TextLabel				 = CONTROLBAR:ConstructLannisterFootmanHorde
+	ButtonImage			 = LAFootman
+	ButtonBorderType = BUILD
+	DescriptLabel    = CONTROLBAR:ToolTipConstructLannisterFootmanHorde
+	Radial					 = Yes
+	InPalantir			 = Yes
+	ShowProductionCount	= Yes
+End
+
+CommandButton Command_ConstructLannisterSentryHorde
+	Command					 = UNIT_BUILD
+	Object					 = LannisterSentryHorde
+	Options					 = CANCELABLE
+	TextLabel				 = CONTROLBAR:ConstructLannisterSentryHorde
+	ButtonImage			 = LASentry
+	ButtonBorderType = BUILD
+	DescriptLabel    = CONTROLBAR:ToolTipConstructLannisterSentryHorde
+	Radial					 = Yes
+	InPalantir			 = Yes
+	ShowProductionCount		= Yes
+End

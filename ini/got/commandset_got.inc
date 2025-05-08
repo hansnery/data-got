@@ -1047,10 +1047,39 @@ CommandSet LannisterPorterCommandSet
 	2 = Command_PorterExtinguishFire
 	3 = Command_PorterConstructKingsLandingMarket
 	4 = Command_PorterConstructLannisterBlacksmith
-	5 = Command_ConstructDorwinionBarracks
+	5 = Command_ConstructLannisterBarracks
 	6 = Command_ConstructDorwinionSentryTower
 	7 = Command_ConstructMonumentToElendil
 	8 = Command_PorterConstructMenMarketPlace
 	9 = Command_PorterConstructMenWallHub
 	10 = Command_PorterConstructMenFortress
+End
+
+CommandSet LannisterBarracksCommandSet
+	1 = Command_ConstructLannisterFootmanHorde
+	2 = Command_ConstructLannisterSentryHorde
+	3 = Command_ConstructDwarvenMenOfDaleHorde_Dorwinion
+	4 = Command_ConstructDorwinionCaptain
+	5 = Command_ConstructDaleRoyalGuardHorde
+	7 = Command_PurchaseUpgradeDorwinionBarracksLevel2
+	6 = Command_Sell
+End
+
+CommandSet LannisterBarracksCommandSetLevel2
+	1 = Command_ConstructLannisterFootmanHorde
+	2 = Command_ConstructLannisterSentryHorde
+	3 = Command_ConstructDwarvenMenOfDaleHorde_Dorwinion
+	4 = Command_ConstructDorwinionCaptain
+	5 = Command_ConstructDaleRoyalGuardHorde
+	7 = Command_PurchaseUpgradeDorwinionBarracksLevel3
+	6 = Command_Sell
+End
+
+CommandSet LannisterBarracksCommandSetLevel3
+	1 = Command_ConstructLannisterFootmanHorde
+	2 = Command_ConstructLannisterSentryHorde
+	3 = Command_ConstructDwarvenMenOfDaleHorde_Dorwinion
+	4 = Command_ConstructDorwinionCaptain
+	5 = Command_ConstructDaleRoyalGuardHorde
+	6 = Command_Sell
 End

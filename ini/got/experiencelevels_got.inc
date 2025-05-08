@@ -2412,3 +2412,29 @@ ExperienceLevel	GOTForgeLevel3
 	Upgrades               = Upgrade_GondorForgeLevel3
 	LevelUpFx              = FX:GondorForgeUpgrade
 End
+
+ExperienceLevel	GOTBarracksLevel1
+	TargetNames				 = BARRACKS_GOT ;DorwinionBarracksFoundation
+	RequiredExperience = 1
+	ExperienceAward		 = DWARVEN_ARCHERYRANGE_LVL1_EXP_AWARD
+	Rank							 = 1
+	Upgrades					 = Upgrade_StructureLevel1
+End
+ExperienceLevel	GOTBarracksLevel2
+	TargetNames				 = BARRACKS_GOT ;DorwinionBarracksFoundation
+	RequiredExperience = DWARVEN_ARCHERYRANGE_LVL2_EXP_NEEDED
+	ExperienceAward		 = DWARVEN_ARCHERYRANGE_LVL2_EXP_AWARD
+	Rank							 = 2
+	AttributeModifiers = DwarvenArcheryRangeHitPointModLvl2 DwarvenArcheryRangeBuildSpeedModLvl2
+	Upgrades					 = Upgrade_StructureLevel2
+	LevelUpFx					 = FX:DorwinionBarracksUpgrade
+End
+ExperienceLevel	GOTBarracksLevel3
+	TargetNames				 = BARRACKS_GOT ;DorwinionBarracksFoundation
+	RequiredExperience = DWARVEN_ARCHERYRANGE_LVL3_EXP_NEEDED
+	ExperienceAward		 = DWARVEN_ARCHERYRANGE_LVL3_EXP_AWARD
+	Rank							 = 3
+	AttributeModifiers = DwarvenArcheryRangeHitPointModLvl3 DwarvenArcheryRangeBuildSpeedModLvl3
+	Upgrades					 = Upgrade_StructureLevel3
+	LevelUpFx					 = FX:DorwinionBarracksUpgrade
+End

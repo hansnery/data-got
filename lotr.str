@@ -93224,4 +93224,28 @@ CONTROLBAR:ToolTipConstructKingsLandingMarket
 "Provides traded goods as a resource based on available terrain\n Reduces cost of upgrades \n Increases command point limit by 50"
 END
 
+CONTROLBAR:ConstructLannisterBarracks
+"Build Barracks (&T)"
+END
+
+CONTROLBAR:TooltipConstructLannisterBarracks
+"Trains Lannister Footmen and Man-at-Arms"
+END
+
+CONTROLBAR:ConstructLannisterFootmanHorde
+"Lannister Footmen (&W)"
+END
+
+CONTROLBAR:ToolTipConstructLannisterFootmanHorde
+"Strong vs. Pikemen \n \n Hailing from the hills of the Westerlands, these men have long defended their lands from incursions."
+END
+
+CONTROLBAR:ConstructLannisterSentryHorde
+"Lannister Sentries (&E)"
+END
+
+CONTROLBAR:ToolTipConstructLannisterSentryHorde
+"Strong vs. Cavalry and Heroes \n Able to switch formation for improved defensive capabilities \n \n During the last days of the War of Five Kings, the Men of the Westerlands stood valiantly against a combined assault of the Stark and the Baratheon."
+END
+
 END
