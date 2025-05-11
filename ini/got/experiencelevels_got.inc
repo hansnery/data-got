@@ -2438,3 +2438,28 @@ ExperienceLevel	GOTBarracksLevel3
 	Upgrades					 = Upgrade_StructureLevel3
 	LevelUpFx					 = FX:DorwinionBarracksUpgrade
 End
+ExperienceLevel	GOTArcheryRangeLevel1
+	TargetNames				 = ARCHERY_RANGE_GOT GondorArcherRangeFoundation
+	RequiredExperience = 1
+	ExperienceAward		 = GONDOR_ARCHERYRANGE_LVL1_EXP_AWARD
+	Rank							 = 1
+	Upgrades					 = Upgrade_StructureLevel1
+End
+ExperienceLevel	GOTArcheryRangeLevel2
+	TargetNames				 = ARCHERY_RANGE_GOT GondorArcherRangeFoundation
+	RequiredExperience = GONDOR_ARCHERYRANGE_LVL2_EXP_NEEDED
+	ExperienceAward		 = GONDOR_ARCHERYRANGE_LVL2_EXP_AWARD
+	Rank							 = 2
+	AttributeModifiers = GondorArcheryRangeHitPointModLvl2 GondorArcheryRangeBuildSpeedModLvl2
+	Upgrades					 = Upgrade_GondorArcheryRangeLevel2
+	LevelUpFx					 = FX:GondorArcheryRangeUpgrade
+End
+ExperienceLevel	GOTArcheryRangeLevel3
+	TargetNames				 = ARCHERY_RANGE_GOT GondorArcherRangeFoundation
+	RequiredExperience = GONDOR_ARCHERYRANGE_LVL3_EXP_NEEDED
+	ExperienceAward		 = GONDOR_ARCHERYRANGE_LVL3_EXP_AWARD
+	Rank							 = 3
+	AttributeModifiers = GondorArcheryRangeHitPointModLvl3 GondorArcheryRangeBuildSpeedModLvl3
+	Upgrades					 = Upgrade_GondorArcheryRangeLevel3
+	LevelUpFx					 = FX:GondorArcheryRangeUpgrade
+End

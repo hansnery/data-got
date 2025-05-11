@@ -2236,3 +2236,55 @@ CommandButton Command_ConstructLannisterSentryHorde
 	InPalantir			 = Yes
 	ShowProductionCount		= Yes
 End
+
+CommandButton Command_ConstructLannisterManAtArmsHorde
+	Command							= UNIT_BUILD
+	Object							= LannisterManAtArmsHorde
+	Options							= NEED_UPGRADE CANCELABLE
+	NeededUpgrade				= Upgrade_StructureLevel2
+	TextLabel						= CONTROLBAR:ConstructLannisterManAtArmsHorde
+	ButtonImage					= LASoldier
+	ButtonBorderType    = BUILD
+	DescriptLabel       = CONTROLBAR:ToolTipBuildLannisterManAtArmsHorde
+	Radial							= Yes
+	InPalantir					= Yes
+	ShowProductionCount	= Yes
+End
+
+CommandButton Command_ConstructLannisterGuardHorde
+	Command							= UNIT_BUILD
+	Object							= LannisterGuardHorde
+	Options							= CANCELABLE NEED_UPGRADE
+	NeededUpgrade				= Upgrade_StructureLevel2
+	TextLabel						= CONTROLBAR:ConstructLannisterGuardHorde
+	ButtonImage					= LAGuard
+	ButtonBorderType    = BUILD
+	DescriptLabel       = CONTROLBAR:ToolTipConstructLannisterGuardHorde
+	Radial							= Yes
+	InPalantir					= Yes
+	ShowProductionCount	= Yes
+End
+
+CommandButton Command_PorterConstructLannisterArcheryRange
+	Command					 = DOZER_CONSTRUCT
+	Object					 = LannisterArcheryRange
+	TextLabel				 = CONTROLBAR:ConstructLannisterArcheryRange
+	ButtonImage			 = UIGondorArcheryRange
+	ButtonBorderType = BUILD
+	DescriptLabel		 = CONTROLBAR:ToolTipLannisterArcheryRange
+	Radial					 = Yes
+End
+
+CommandButton Command_ConstructLannisterArcherHorde
+	Command							= UNIT_BUILD
+	Object							= LannisterArcherHorde
+	Options							= CANCELABLE
+	TextLabel						= CONTROLBAR:ConstructGondorBlackrootArcherHorde
+	ButtonImage					= UIBlackrootnew
+	ButtonBorderType		= BUILD
+	DescriptLabel				= CONTROLBAR:ToolTipBuildGondorBlackrootArcherHorde
+	Radial							= Yes
+	InPalantir	   			= Yes
+	ShowProductionCount	= Yes
+	UnitSpecificSound   = GondorArcherVoiceBuy
+End

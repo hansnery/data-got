@@ -93245,7 +93245,31 @@ CONTROLBAR:ConstructLannisterSentryHorde
 END
 
 CONTROLBAR:ToolTipConstructLannisterSentryHorde
-"Strong vs. Cavalry and Heroes \n Able to switch formation for improved defensive capabilities \n \n During the last days of the War of Five Kings, the Men of the Westerlands stood valiantly against a combined assault of the Stark and the Baratheon."
+"Strong vs. Cavalry and Heroes \n Able to switch formation for improved defensive capabilities \n \n During the last days of the War of the Five Kings, the men of the Westerlands stood valiantly against a combined assault of the Starks and the Baratheons."
+END
+
+CONTROLBAR:ConstructLannisterArcheryRange
+"Build Archery Range (&C)"
+END
+
+CONTROLBAR:ToolTipLannisterArcheryRange
+"Trains and upgrades Lannister's Archers"
+END
+
+CONTROLBAR:ConstructLannisterManAtArmsHorde
+"Lannister Men-at-Arms (&R)"
+END
+
+CONTROLBAR:ToolTipBuildLannisterManAtArmsHorde
+"Requires Level 2 Barracks \n Strong vs. Pikemen\n Able to switch formation for improved defensive capabilities \n \n At the moment of the death of Robert Baratheon, the Lannisters maintained a sizeable garrison of men-at-arms in King's Landing."
+END
+
+CONTROLBAR:ConstructLannisterGuardHorde
+"Lannister Guards (&T)"
+END
+
+CONTROLBAR:ToolTipConstructLannisterGuardHorde
+"Requires Level 2 Barracks \n Strong vs. Cavalry and Heroes \n \n Maintaining a large regiment of spearmen has proved invaluable during the siege of King's Landing by Stannis Baratheon."
 END
 
 END
