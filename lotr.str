@@ -93272,4 +93272,21 @@ CONTROLBAR:ToolTipConstructLannisterGuardHorde
 "Requires Level 2 Barracks \n Strong vs. Cavalry and Heroes \n \n Maintaining a large regiment of spearmen has proved invaluable during the siege of King's Landing by Stannis Baratheon."
 END
 
+CONTROLBAR:ConstructLannisterBarracksLevel2
+"Upgrade Lannister Barracks to Level 2 (&A)"
+END
+
+CONTROLBAR:ToolTipBuildLannisterBarracksLevel2
+"Allows recruitment of Lannister Men-at-Arms and Lannister Guards \n +10% faster build speed"
+END
+
+CONTROLBAR:ConstructLannisterBarracksLevel3
+"Upgrade Lannister Barracks to Level 3 (&A)"
+END
+
+CONTROLBAR:ToolTipBuildLannisterBarracksLevel3
+//"Allows recruitment of Royal Guard of King Joffrey \n +25% faster build speed"
+"+25% faster build speed"
+END
+
 END

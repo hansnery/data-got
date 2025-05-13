@@ -92,3 +92,14 @@ End
 Upgrade Upgrade_ShireensAshTrigger
 	Type = PLAYER
 End
+Upgrade Upgrade_GOTFireArrows
+	DisplayName       	 = UPGRADE:GondorFireArrowUpgrade
+	Tooltip							 = TOOLTIP:GondorFlamingArrows
+	Type              	 = OBJECT
+	BuildCost						 = GONDOR_PERSONAL_FIRE_ARROWS_BUILDCOST
+	BuildTime						 = GONDOR_PERSONAL_FIRE_ARROWS_BUILDTIME
+	ResearchSound				 = UpgradeFlamingArrows
+	UpgradeFX						 = FX_PorterDeliverFlamingArrows
+	RequiredObjectFilter = ANY +LannisterArcheryRange +LannisterArcheryRangeFoundation +GondorArcherRange +GondorArcherRangeFoundation +MordorArmory +MordorArmory_ForAI
+	StrategicIcon				 = AptStrategicUnitUpgradeArrow
+End

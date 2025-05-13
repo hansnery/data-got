@@ -2288,3 +2288,32 @@ CommandButton Command_ConstructLannisterArcherHorde
 	ShowProductionCount	= Yes
 	UnitSpecificSound   = GondorArcherVoiceBuy
 End
+
+CommandButton Command_PurchaseUpgradeLannisterBarracksLevel2
+   Command          = OBJECT_UPGRADE
+   Upgrade          = Upgrade_DwarvenArcheryRangeLevel2
+   Options          = CANCELABLE
+   TextLabel        = CONTROLBAR:ConstructLannisterBarracksLevel2
+   ButtonImage      = UpgradeGoodButton ;UCCommon_UpgradeStructureNew
+   ButtonBorderType = UPGRADE
+   DescriptLabel    = CONTROLBAR:ToolTipBuildLannisterBarracksLevel2
+   Radial           = Yes
+   InPalantir       = Yes
+   CommandTrigger   = Command_GrantUpgradeStructureLevel2
+End
+CommandButton Command_GrantUpgradeStructureLevel2
+   Command = PLAYER_UPGRADE
+   Upgrade = Upgrade_DwarvenArcheryRangeLevel2
+   Options = CANCELABLE
+End
+CommandButton Command_PurchaseUpgradeLannisterBarracksLevel3
+   Command          = OBJECT_UPGRADE
+   Upgrade          = Upgrade_DwarvenArcheryRangeLevel3
+   Options          = CANCELABLE
+   TextLabel        = CONTROLBAR:ConstructLannisterBarracksLevel3
+   ButtonImage      = UpgradeGoodButton ;UCCommon_UpgradeStructureNew
+   ButtonBorderType = UPGRADE
+   DescriptLabel    = CONTROLBAR:ToolTipBuildLannisterBarracksLevel2
+   Radial           = Yes
+   InPalantir       = Yes
+End

@@ -1061,7 +1061,7 @@ CommandSet LannisterBarracksCommandSet
 	2 = Command_ConstructLannisterSentryHorde
 	3 = Command_ConstructLannisterManAtArmsHorde
 	4 = Command_ConstructLannisterGuardHorde
-	5 = Command_PurchaseUpgradeDorwinionBarracksLevel2
+	5 = Command_PurchaseUpgradeLannisterBarracksLevel2
 	6 = Command_Sell
 End
 
@@ -1070,7 +1070,7 @@ CommandSet LannisterBarracksCommandSetLevel2
 	2 = Command_ConstructLannisterSentryHorde
 	3 = Command_ConstructLannisterManAtArmsHorde
 	4 = Command_ConstructLannisterGuardHorde
-	5 = Command_PurchaseUpgradeDorwinionBarracksLevel3
+	5 = Command_PurchaseUpgradeLannisterBarracksLevel3
 	6 = Command_Sell
 End
 
